@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+
+if [ "$1" = "-h" ] || [ "$1" = "--help" ]; then
+    echo "usage: deadlink [dir(s)]" 1>&2
+    echo "  Remove the broken symlinks within the directory given as arugment" 1>&2
+    echo "  If an argument is ommited, it defaults to the \$HOME(home directory)" 1>&2
+    exit
+fi
+
+# You may pass multiple directory arguments.
+for arg in "${@:-$HOME}"
+do
+    # Remove the hidden files and the regular files
+    for f in "$arg"/.??* "$arg"/*
+    do
+        # -L: check for a symlink; -h is the same flag
+        # -e: check for a validation of symlink;
+        #     -a flag is deprecated
+        if [ -L "$f" ] && ! [ -e "$f" ]; then
+            command rm -vi "$f"
+        fi
+    done
+done

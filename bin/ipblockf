@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+echo "# Blocking incoming connections from $1" >> /etc/sysconfig/iptables
+echo "-A INPUT -s \"$1\" -j DROP" >> /etc/sysconfig/iptables
+service iptables restart 2>&1
+echo "Blocked $1"

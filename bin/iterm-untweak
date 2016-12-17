@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+/usr/libexec/PlistBuddy -c 'Delete :LSUIElement' /Applications/iTerm.app/Contents/Info.plist

@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+sed -i "/# Blocking incoming connections from $1/d" /etc/sysconfig/iptables
+sed -i "/-A INPUT -s \"$1\" -j DROP/d" /etc/sysconfig/iptables
+service iptables restart 2>&1
+echo "Un-blocked $1"

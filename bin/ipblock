@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+iptables -A INPUT -s "$1" -j DROP
+service iptables restart 2>&1
+echo "Blocked $1"

@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+
+function wait_kill_login_shell() {
+    {
+	sleep $1
+	kill -HUP $LOGIN_SHELL
+    }&
+}
+
+# if we are running fbterm then fire off another logout to kill parent shell
+if [[ "$TERM" == fbterm && "$SHLVL" -eq 2 ]] ; then
+    wait_kill_login_shell 2
+    disown -h
+fi
+
+if [ "$SHLVL" = 1 ] ; then
+    [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
+fi

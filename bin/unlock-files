@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+find $1 -flags +uchg -print0 | xargs -0 chflags nouchg

@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+#
+# Cross platform script to find httpd user. Tested on debian-based,
+# RPM-based linux distros as well as OSX.
+#
+# Requires gnu-sed on OSX:
+# brew install gnu-sed --default-names
+#
+ps aux | egrep 'apache|httpd' | awk '{ print $1 }' | sed '1 d' | sort | uniq | awk '{print}' ORS=' ' | sed "s/\b$(whoami)\|root\b//g" | xargs
