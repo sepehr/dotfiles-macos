@@ -7,7 +7,7 @@ export EDITOR="vim"
 export SVN_EDITOR="vim --noplugin"
 export BREW=`brew --prefix`
 export SSH_KEY_PATH="$HOME/.ssh/id_rsa"
-export PATH="./bin:./node_modules/.bin:$HOME/.yarn/bin:$HOME/Bin:$BREW/bin:$BREW/sbin:/usr/bin:$HOME/.composer/vendor/bin:$PATH"
+export PATH="./bin:./node_modules/.bin:$HOME/.yarn/bin:$HOME/.bin:$BREW/bin:$BREW/sbin:/usr/bin:$HOME/.composer/vendor/bin:$PATH"
 
 #
 # Paths
