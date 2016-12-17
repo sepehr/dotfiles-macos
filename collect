@@ -1,0 +1,61 @@
+#!/usr/bin/env bash
+
+source .setup/helpers
+
+# warn
+printf "This script is supposed to be executed only once in order to populate the dotfiles
+repo from the available files across the current system. If you run it after the
+files are symlinked, you're just copying dead symlinks over symlinks. That'd be
+genocide, be warned.\n\n"
+read -p "Press enter to continue..."
+
+# brew
+say 'Collecting brew taps, packages and casks...'
+rm -f brew/brewfile
+brew bundle dump --file=brew/brewfile
+
+# pip
+say 'Collecting pip global packages...'
+pip freeze > python/pipfile
+
+# gem
+say 'Collecting gem global packages...'
+gem list --no-versions | sed '/^*/ d' > ruby/gemfile
+
+# npm
+say 'Collecting npm global packages...'
+npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > node/npmfile
+
+# package managers
+say 'Collecting npm, gem, pip and composer configs, if any...'
+cp -vf ~/.gemrc ruby/
+cp -vf ~/.npmrc node/
+cp -vf ~/.composer/composer.json php/
+
+# shell
+say 'Collecting shell files...'
+cp -vf ~/.profile shell/
+cp -vf ~/.zshrc shell/zsh/
+cp -vf ~/.{bashrc,bash_profile} shell/bash/
+
+# vim
+say 'Collecting vim configs...'
+cp -vf ~/.{vimrc,vundle.vim} vim/
+
+# git
+say 'Collecting git configs...'
+cp -vf ~/.{gitconfig,gitignore,gitignore_global} git/
+
+# ssh/gpg
+say 'Collecting ssh/gpg configs...'
+cp -vf ~/.ssh/config ssh/config
+cp -vf ~/.gnupg/gpg.conf gnupg/gpg.conf
+
+# terminal
+say 'Collecting terminal configs...'
+cp -vf ~/.hyper.js terminal/hyper/
+
+# misc
+say 'Collecting misc configs...'
+cp -vf ~/.{ackrc,axelrc,mongorc.js} etc/
+cp -vf ~/Library/Application\ Support/Google/Chrome/Profile\ 2/databases/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0/1 etc/stylish.sqlite
