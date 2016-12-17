@@ -1,0 +1,8 @@
+#
+# Helper shell functions
+#
+
+say() {
+  local fmt="$1"; shift
+  printf "\n==> $fmt\n" "$@"
+}
