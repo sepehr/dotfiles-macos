@@ -33,9 +33,10 @@
     ~/.gemrc: ruby/.gemrc
     ~/.composer/composer.json: php/composer.json
 
-    # vim:
-    ~/.vimrc: vim/.vimrc
-    ~/.vundle.vim: vim/.vundle.vim
+    # editors:
+    ~/.vimrc: editors/vim/.vimrc
+    ~/.vundle.vim: editors/vim/.vundle.vim
+    "~/Library/Application Support/Sublime Text 3/Packages/User": editors/sublime
 
     # misc:
     ~/.bin: bin

@@ -24,9 +24,10 @@ cp -vf ~/.profile shell/
 cp -vf ~/.zshrc shell/zsh/
 cp -vf ~/.{bashrc,bash_profile} shell/bash/
 
-# vim
-say 'Collecting vim configs...'
-cp -vf ~/.{vimrc,vundle.vim} vim/
+# editors
+say 'Collecting editor configs...'
+cp -vf ~/.{vimrc,vundle.vim} editors/vim/
+cp -vf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/* editors/sublime/
 
 # git
 say 'Collecting git configs...'
