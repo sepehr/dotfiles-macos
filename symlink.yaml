@@ -1,0 +1,47 @@
+- defaults:
+    link:
+        force: true
+        create: true
+        relink: true
+
+- clean: ['~']
+
+- link:
+    #~/.dotfiles: ''
+
+    # shell:
+    ~/.profile: shell/.profile
+    ~/.zshrc: shell/zsh/.zshrc
+    ~/.bashrc: shell/bash/.bashrc
+    ~/.bash_profile: shell/bash/.bash_profile
+
+    # terminals:
+    # iTerm should be configured to read/write its prefs from/to terminal/iterm/ dir
+    ~/.hyper.js: terminal/hyper/.hyper.js
+
+    # ssh/gpg:
+    ~/.ssh/config: ssh/config
+    ~/.gnupg/gpg.conf: gnupg/gpg.conf
+
+    # git:
+    ~/.gitconfig: git/.gitconfig
+    ~/.gitignore: git/.gitignore
+    ~/.gitignore_global: git/.gitignore_global
+
+    # package managers:
+    ~/.npmrc: node/.npmrc
+    ~/.gemrc: ruby/.gemrc
+    ~/.composer/composer.json: php/composer.json
+
+    # vim:
+    ~/.vimrc: vim/.vimrc
+    ~/.vundle.vim: vim/.vundle.vim
+
+    # custom scripts:
+    /usr/local/bin/rmqstr: bin/rmqstr
+
+    # misc:
+    ~/.ackrc: etc/.ackrc
+    ~/.axelrc: etc/.axelrc
+    ~/.mongorc.js: etc/.mongorc.js
+    "~/Library/Application Support/Google/Chrome/Profile 2/databases/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0/1": etc/stylish.sqlite

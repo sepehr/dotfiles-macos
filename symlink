@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+printf "This script symlinks the repo dotfiles over your existing files. Please note that
+the operation deletes all your currently available dotfiles across the system and
+is NOT revertable. Before proceeding with the install, make sure you're fine with
+the symlinking rules defined in the config file.\n\n"
+read -p "Press enter to continue..."
+
+set -e
+
+CONFIG="symlink.yaml"
+DOTBOT_DIR=".setup/dotbot"
+
+DOTBOT_BIN="bin/dotbot"
+BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+cd "${BASEDIR}"
+git submodule update --init --recursive "${DOTBOT_DIR}"
+
+"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"
+
+echo 'Symlinked all the dotfiles as configured. You need to run ./setup if you need to setup the machine as well.'
