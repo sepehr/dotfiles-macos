@@ -62,7 +62,6 @@ fi
 
 # Oh-my-zsh plugins
 zplug "robbyrussell/oh-my-zsh", use:"lib/*.zsh"
-zplug "plugins/git", from:oh-my-zsh
 zplug "plugins/pip", from:oh-my-zsh
 zplug "plugins/python", from:oh-my-zsh
 zplug "plugins/httpie", from:oh-my-zsh
