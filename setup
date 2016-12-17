@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+printf "This script sets up the machine by installing various packages and applications
+from external sources. It will take a shit load of time. You're warned.\n\n"
+read -p "Press enter to continue..."
+
+source .setup/helpers
+
+say 'Setting proper permissions for /usr/local directory...'
+sudo chown -R $(whoami):admin /usr/local
+
+say 'Installing brew, if necessary...'
+if ! command -v brew &> /dev/null; then
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+say 'Tapping & installing brew bundler...'
+brew tap homebrew/bundle
+
+say 'Tapping & installing repos, packages and casks from file...'
+brew bundle --file=brew/brewfile
+
+say 'Setting zsh as the default shell...'
+ZSH_PATH=$(which zsh)
+grep -q "$ZSH_PATH" /etc/shells || sudo sh -c "echo '$ZSH_PATH' >> /etc/shells"
+chsh -s $ZSH_PATH
+
+say 'Installing global pip packages from file...'
+pip install -U -r python/pipfile
+
+say 'Installing global gem packages from file...'
+xargs gem install < ruby/gemfile
+
+say 'Installing global npm packages...'
+xargs npm install --global < node/npmfile
+
+say 'Installing global composer packages...'
+composer global install
