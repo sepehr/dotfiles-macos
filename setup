@@ -11,6 +11,7 @@ sudo chown -R $(whoami):admin /usr/local
 
 say 'Installing brew, if necessary...'
 if ! command -v brew &> /dev/null; then
+    xcode-select --install
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
