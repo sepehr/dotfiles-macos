@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+source .setup/helpers
+
+# brew
+say 'Collecting brew taps, packages and casks...'
+rm -f brew/brewfile
+brew bundle dump --file=brew/brewfile
+
+# pip
+say 'Collecting pip global packages...'
+pip freeze > python/pipfile
+
+# gem
+say 'Collecting gem global packages...'
+gem list --no-versions | sed '/^*/ d' > ruby/gemfile
+
+# npm
+say 'Collecting npm global packages...'
+npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > node/npmfile

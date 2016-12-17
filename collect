@@ -9,22 +9,8 @@ files are symlinked, you're just copying dead symlinks over symlinks. That'd be
 genocide, be warned.\n\n"
 read -p "Press enter to continue..."
 
-# brew
-say 'Collecting brew taps, packages and casks...'
-rm -f brew/brewfile
-brew bundle dump --file=brew/brewfile
-
-# pip
-say 'Collecting pip global packages...'
-pip freeze > python/pipfile
-
-# gem
-say 'Collecting gem global packages...'
-gem list --no-versions | sed '/^*/ d' > ruby/gemfile
-
-# npm
-say 'Collecting npm global packages...'
-npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > node/npmfile
+# collect non-symlinked dotfiles
+./update
 
 # package managers
 say 'Collecting npm, gem, pip and composer configs, if any...'
