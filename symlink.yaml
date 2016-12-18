@@ -7,38 +7,82 @@
 - clean: ['~']
 
 - link:
-    # shell:
+    # shell
     ~/.profile: shell/.profile
     ~/.zshrc: shell/zsh/.zshrc
     ~/.bashrc: shell/bash/.bashrc
     ~/.bash_profile: shell/bash/.bash_profile
 
-    # terminals:
-    # iTerm should be configured to read/write its prefs from/to terminal/iterm/ dir
+    # terminals
+    # iTerm should be configured to read/write its prefs from/to "terminal/iterm/"
     ~/.hyper.js: terminal/hyper/.hyper.js
+    ~/Library/Preferences/com.apple.Terminal.plist: terminal/com.apple.Terminal.plist
 
-    # ssh/gpg:
+    # ssh/gpg
     ~/.ssh/config: ssh/config
     ~/.gnupg/gpg.conf: gnupg/gpg.conf
 
-    # git:
+    # git
     ~/.gitconfig: git/.gitconfig
     ~/.gitignore: git/.gitignore
+    # ~/.git_hooks: git/.git_hooks
     ~/.gitignore_global: git/.gitignore_global
 
-    # package managers:
+    # languages
     ~/.npmrc: node/.npmrc
     ~/.gemrc: ruby/.gemrc
     ~/.composer/composer.json: php/composer.json
 
-    # editors:
+    # editors
+    # vim
     ~/.vimrc: editor/vim/.vimrc
     ~/.vundle.vim: editor/vim/.vundle.vim
+    # sublime
     "~/Library/Application Support/Sublime Text 3/Packages/User": editor/sublime
+    # atom
+    ~/.atom/config.cson: editor/atom/config.cson
+    ~/.atom/keymap.cson: editor/atom/keymap.cson
+    ~/.atom/init.coffee: editor/atom/init.coffee
+    ~/.atom/styles.less: editor/atom/styles.less
+    ~/.atom/snippets.cson: editor/atom/snippets.cson
+    ~/Library/Preferences/com.github.atom.plist: editor/atom/com.github.atom.plist
 
-    # misc:
+    # apps
+    # adium
+    "~/Library/Preferences/com.adiumX.adiumX.plist": app/adium/com.adiumX.adiumX.plist
+    "~/Library/Application Support/Adium 2.0/Sounds": "app/adium/Adium 2.0/Sounds"
+    "~/Library/Application Support/Adium 2.0/Scripts": "app/adium/Adium 2.0/Scripts"
+    "~/Library/Application Support/Adium 2.0/Plugins": "app/adium/Adium 2.0/Plugins"
+    "~/Library/Application Support/Adium 2.0/Emoticons": "app/adium/Adium 2.0/Emoticons"
+    "~/Library/Application Support/Adium 2.0/Dock Icons": "app/adium/Adium 2.0/Dock Icons"
+    "~/Library/Application Support/Adium 2.0/Status Icons": "app/adium/Adium 2.0/Status Icons"
+    "~/Library/Application Support/Adium 2.0/Contact List": "app/adium/Adium 2.0/Contact List"
+    "~/Library/Application Support/Adium 2.0/Service Icons": "app/adium/Adium 2.0/Service Icons"
+    "~/Library/Application Support/Adium 2.0/Menu Bar Icons": "app/adium/Adium 2.0/Menu Bar Icons"
+    "~/Library/Application Support/Adium 2.0/Message Styles": "app/adium/Adium 2.0/Message Styles"
+    # appcleaner
+    ~/Library/Preferences/net.freemacsoft.AppCleaner.plist: app/appcleaner/net.freemacsoft.AppCleaner.plist
+    # bartender
+    ~/Library/Preferences/com.surteesstudios.Bartender.plist: app/bartender/com.surteesstudios.Bartender.plist
+    # dash: it should be configured to store its snippets file in "app/dash/snippets.dash"
+    "~/Library/Application Support/Dash/library.dash": app/dash/library.dash
+    ~/Library/Preferences/com.kapeli.dash.plist: app/dash/com.kapeli.dash.plist
+    ~/Library/Preferences/com.kapeli.dashdoc.plist: app/dash/com.kapeli.dashdoc.plist
+    # littlesnitch
+    ~/Library/Preferences/at.obdev.LittleSnitchNetworkMonitor.plist: app/littlesnitch/at.obdev.LittleSnitchNetworkMonitor.plist
+    "~/Library/Application Support/Little Snitch/configuration.user.xpl": app/littlesnitch/configuration.user.xpl
+    # mplayerx
+    ~/Library/Preferences/org.niltsh.MPlayerX.plist: app/mplayerx/org.niltsh.MPlayerX.plist
+    # transmission
+    "~/Library/Application\ Support/Transmission/blocklists": app/transmission/blocklists
+    ~/Library/Preferences/org.m0k.transmission.plist: app/transmission/org.m0k.transmission.plist
+
+    # misc
     ~/.bin: bin
     ~/.ackrc: etc/.ackrc
     ~/.axelrc: etc/.axelrc
     ~/.mongorc.js: etc/.mongorc.js
+    ~/.ansible.cfg: etc/.ansible.cfg
+    ~/.editorconfig: etc/.editorconfig
+    ~/Library/Preferences/com.apple.symbolichotkeys.plist: etc/com.apple.symbolichotkeys.plist
     "~/Library/Application Support/Google/Chrome/Profile 2/databases/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0/1": etc/stylish.sqlite
