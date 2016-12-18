@@ -27,7 +27,7 @@ cp -vf ~/.{bashrc,bash_profile} shell/bash/
 # editors
 say 'Collecting editor configs...'
 cp -vf ~/.{vimrc,vundle.vim} editors/vim/
-cp -vf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/* editors/sublime/
+cp -vrf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/* editors/sublime/
 git submodule add https://github.com/sepehr/intellij-settings.git editor/intellij
 
 # git
