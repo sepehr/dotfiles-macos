@@ -1,6 +1,12 @@
 [ -f "$HOME/.profile.local" ] && source "$HOME/.profile.local"
 
 #
+# Add SSH keys to the keychain
+# See: http://superuser.com/a/1128836/6841
+#
+ssh-add -A &> /dev/null
+
+#
 # Env vars
 #
 export EDITOR="vim"
@@ -50,12 +56,6 @@ alias itermtweak="/usr/libexec/PlistBuddy -c 'Add :LSUIElement bool true' /Appli
 # RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 export PATH="$HOME/.rvm/bin:$PATH"
-
-# Perl
-PERL_MB_OPT="--install_base \"/Users/Sepehr/perl5\"";
-PERL_MM_OPT="INSTALL_BASE=/Users/Sepehr/perl5";
-export PERL_MB_OPT;
-export PERL_MM_OPT;
 
 # Virtualenv
 export WORKON_HOME=$HOME/Dev/python/venvs
