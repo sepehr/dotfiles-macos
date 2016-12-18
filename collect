@@ -12,7 +12,7 @@ read -p "Press enter to continue..."
 # collect non-symlinked dotfiles
 ./update
 
-# package managers
+# languages
 say 'Collecting npm, gem, pip and composer configs, if any...'
 cp -vf ~/.gemrc ruby/
 cp -vf ~/.npmrc node/
@@ -26,13 +26,49 @@ cp -vf ~/.{bashrc,bash_profile} shell/bash/
 
 # editors
 say 'Collecting editor configs...'
+# vim
 cp -vf ~/.{vimrc,vundle.vim} editors/vim/
+# sublime
 cp -vrf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/* editors/sublime/
+# intellij
 git submodule add https://github.com/sepehr/intellij-settings.git editor/intellij
+# atom
+cp -vf ~/Library/Preferences/com.github.atom.plist editor/atom
+cp -vf ~/.atom/{config.cson,keymap.cson,snippets.cson,init.coffee,styles.less} editor/atom
+
+# apps
+say 'Collecting various app configs...'
+# adium
+cp -vrf ~/Library/Preferences/com.adiumX.adiumX.plist app/adium
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Sounds app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Scripts app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Plugins app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Emoticons app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Dock\ Icons app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Status\ Icons app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Contact\ List app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Service\ Icons app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Menu\ Bar\ Icons app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Message\ Styles app/adium/Adium\ 2.0
+# appcleaner
+cp -vf ~/Library/Preferences/net.freemacsoft.AppCleaner.plist app/appcleaner
+# bartender
+cp -vf ~/Library/Preferences/com.surteesstudios.Bartender.plist app/bartender
+# dash
+cp -vf ~/Library/Application\ Support/Dash/library.dash app/dash
+cp -vf ~/Library/Preferences/{com.kapeli.dash.plist,com.kapeli.dashdoc.plist} app/dash
+# littlesnitch
+cp -vf ~/Library/Preferences/at.obdev.LittleSnitchNetworkMonitor.plist app/littlesnitch
+cp -vf ~/Library/Application\ Support/Little\ Snitch/configuration.user.xpl app/littlesnitch
+# mplayerx
+cp -vf ~/Library/Preferences/org.niltsh.MPlayerX.plist app/mplayerx
+# transmission
+cp -vf ~/Library/Preferences/org.m0k.transmission.plist app/transmission
+cp -vrf ~/Library/Application\ Support/Transmission/blocklists app/transmission
 
 # git
 say 'Collecting git configs...'
-cp -vf ~/.{gitconfig,gitignore,gitignore_global} git/
+cp -vf ~/.{gitconfig,gitignore,gitignore_global,git_hooks} git/
 
 # ssh/gpg
 say 'Collecting ssh/gpg configs...'
@@ -42,8 +78,10 @@ cp -vf ~/.gnupg/gpg.conf gnupg/gpg.conf
 # terminal
 say 'Collecting terminal configs...'
 cp -vf ~/.hyper.js terminal/hyper/
+cp -vf ~/Library/Preferences/com.apple.Terminal.plist terminal/
 
 # misc
 say 'Collecting misc configs...'
-cp -vf ~/.{ackrc,axelrc,mongorc.js} etc/
+cp -vf ~/Library/Preferences/com.apple.symbolichotkeys.plist etc/
+cp -vf ~/.{ackrc,axelrc,mongorc.js,editorconfig,ansible.cfg} etc/
 cp -vf ~/Library/Application\ Support/Google/Chrome/Profile\ 2/databases/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0/1 etc/stylish.sqlite
