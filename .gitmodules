@@ -1,3 +1,6 @@
 [submodule ".setup/dotbot"]
 	path = .setup/dotbot
 	url = https://github.com/anishathalye/dotbot
+[submodule "editor/intellij"]
+	path = editor/intellij
+	url = https://github.com/sepehr/intellij-settings.git
