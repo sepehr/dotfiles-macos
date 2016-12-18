@@ -18,3 +18,7 @@ gem list --no-versions | sed '/^*/ d' > ruby/gemfile
 # npm
 say 'Collecting npm global packages...'
 npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > node/npmfile
+
+# apm
+say 'Collecting apm packages...'
+apm list --installed --bare > editor/atom/apmfile
