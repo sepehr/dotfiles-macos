@@ -37,3 +37,6 @@ xargs npm install --global < node/npmfile
 
 say 'Installing global composer packages...'
 composer global install
+
+say 'Installing apm packages...'
+apm install --packages-file editor/atom/apmfile
