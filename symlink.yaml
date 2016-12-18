@@ -6,9 +6,10 @@
 
 - clean: ['~']
 
-- link:
-    #~/.dotfiles: ''
+- shell:
+    [git submodule update --remote editor/intellij, 'Updating intellij settings submodule...']
 
+- link:
     # shell:
     ~/.profile: shell/.profile
     ~/.zshrc: shell/zsh/.zshrc
