@@ -1,0 +1,88 @@
+body {
+	font-weight: normal;
+	font-family: 'Lucida Grande';
+	font-size: 10pt;
+	color: #222222;
+	background-color: #fff;
+	margin:0; padding: 0;
+}
+
+a { 
+	text-decoration: none; 
+	color: #3366ff;
+    border-bottom: 1px dashed #3366ff;	
+}
+
+p {	
+	margin: 0 1em 0em 1em;	
+	font-family: 'Lucida Grande';
+	padding: 0;
+}
+
+.sender {
+	font-weight: bold;
+	display: block;
+	margin-top: 1em;
+}
+
+.time {
+	color: #999;
+}
+.status {
+	font-family: "HelveticaNeue-Light";
+	margin: 1em;
+	background: #DFEAF5;
+	border: 1px solid #D3DEE8;
+	-webkit-border-radius: 6px;
+	color: #b91309;
+	font-size: 1em;
+	padding: 6px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.status .time {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #8F949C;
+	display: block;
+}
+
+
+#heading { 
+	position: fixed; 
+	top: 0px; 
+	left: 0px; 
+	margin: 0; 
+	padding: 5px;
+	font-weight: regular; 
+	background-color:#eeeeee;
+	z-index: 999;
+	width:100%;
+	height:56px;
+	border-bottom: 1px solid #e0e0e0;
+
+	
+}
+#heading .conversationIncomingIcon {
+	position:absolute;
+	left:5px;
+	top:5px;
+}
+
+#heading .conversationIncomingIcon img {
+	width:50px;
+	height:50px;
+}
+
+#heading .conversationWith {
+	position:relative;
+	left:60px;
+	margin:5px 0 0 0;
+	font-family: Lucida Grande;
+	font-size: 9pt;
+	color: #333333;
+	font-weight: bold;
+	overflow:hide;
+}
+
