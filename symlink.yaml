@@ -6,9 +6,6 @@
 
 - clean: ['~']
 
-- shell:
-    [git submodule update --remote editor/intellij, 'Updating intellij settings submodule...']
-
 - link:
     # shell:
     ~/.profile: shell/.profile
@@ -35,9 +32,9 @@
     ~/.composer/composer.json: php/composer.json
 
     # editors:
-    ~/.vimrc: editors/vim/.vimrc
-    ~/.vundle.vim: editors/vim/.vundle.vim
-    "~/Library/Application Support/Sublime Text 3/Packages/User": editors/sublime
+    ~/.vimrc: editor/vim/.vimrc
+    ~/.vundle.vim: editor/vim/.vundle.vim
+    "~/Library/Application Support/Sublime Text 3/Packages/User": editor/sublime
 
     # misc:
     ~/.bin: bin
