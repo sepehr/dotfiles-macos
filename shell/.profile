@@ -42,18 +42,14 @@ PATH_STYLISH_DB="$HOME/Library/Application Support/Google/Chrome/Profile 2/datab
 alias git=hub
 alias -g ...=../..
 alias mkdir="mkdir -p"
-alias dance="nc rya.nc 1987"
 alias dev="cd $HOME/Dev"
 alias dl="cd $HOME/Downloads"
 alias desk="cd $HOME/Desktop"
 alias srv="brew services"
-alias shellconfup="gist -u 89eba26346266c2da9db $HOME/.zshrc $HOME/.bashrc $HOME/.bash_profile $HOME/.profile"
 alias bpcit="sudo openvpn --config $HOME/cit.ovpn"
 alias phpstorm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
-alias pipupdate="pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U"
 alias selenium3="cd $HOME/Dev/selenium && java -Dwebdriver.chrome.driver=chromedriver -Dwebdriver.gecko.driver=geckodriver -jar selenium3*.jar"
 alias selenium2="cd $HOME/Dev/selenium && java -jar selenium2*.jar"
-alias itermtweak="/usr/libexec/PlistBuddy -c 'Add :LSUIElement bool true' /Applications/iTerm.app/Contents/Info.plist"
 
 # RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
