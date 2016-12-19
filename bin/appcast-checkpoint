@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+curl --silent --compressed --location "$1" | /usr/bin/sed 's|<pubDate>[^<]*</pubDate>||g' | shasum --algorithm 256
