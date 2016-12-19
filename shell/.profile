@@ -65,9 +65,10 @@ source /usr/local/bin/virtualenvwrapper.sh
 [ -f /Users/Sepehr/.travis/travis.sh ] && source /Users/Sepehr/.travis/travis.sh
 
 # Git
-alias gs="git status"
-alias gd="git diff"
 alias gl="git log"
+alias gd="git diff"
+alias ga="git add ."
+alias gs="git status"
 alias gc="git commit -am"
 
 # "ls -l" with octal permissions:
