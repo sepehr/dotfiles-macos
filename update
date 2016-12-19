@@ -3,7 +3,7 @@
 source .setup/helpers
 
 # brew
-say 'Collecting brew taps, packages and casks...'
+say 'Collecting brew taps, packages, casks and mas apps...'
 rm -f brew/brewfile
 brew bundle dump --file=brew/brewfile
 

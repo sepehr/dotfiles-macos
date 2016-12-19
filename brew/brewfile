@@ -81,6 +81,7 @@ brew 'libyaml'
 brew 'lynx'
 brew 'lzo'
 brew 'mariadb', restart_service: true
+brew 'mas'
 brew 'mhash'
 brew 'mcrypt'
 brew 'mercurial'
@@ -248,3 +249,12 @@ cask 'vivaldi'
 cask 'vlc'
 cask 'vox'
 cask 'webpquicklook'
+mas 'Numbers', id: 409203825
+mas 'Annoying File Be-Gone', id: 1031773437
+mas 'Memory Cleaner', id: 748212890
+mas 'Pages', id: 409201541
+mas 'Slack', id: 803453959
+mas 'Persian Calendar', id: 1171425651
+mas 'Keynote', id: 409183694
+mas 'Magnet', id: 441258766
+mas 'Tomato One', id: 907364780
