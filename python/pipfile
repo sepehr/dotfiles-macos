@@ -39,7 +39,6 @@ thrift==0.9.3
 tornado==4.4.2
 traceback2==1.4.0
 unittest2==1.1.0
-vboxapi==1.0
 virtualenv==15.1.0
 virtualenv-clone==0.2.6
 virtualenvwrapper==4.7.2
