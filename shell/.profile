@@ -12,12 +12,14 @@ ssh-add -A &> /dev/null
 export EDITOR="vim"
 export SVN_EDITOR="vim --noplugin"
 export BREW=`brew --prefix`
+export BREW_REPO=`brew --repository`
 export SSH_KEY_PATH="$HOME/.ssh/id_rsa"
 export PATH="./bin:./node_modules/.bin:$HOME/.yarn/bin:$HOME/.bin:$BREW/bin:$BREW/sbin:/usr/bin:$HOME/.composer/vendor/bin:$PATH"
 
 #
 # Paths
 #
+PATH_CASKROOM="$BREW_REPO/Library/Taps/caskroom"
 PATH_LARAVEL="vendor/laravel/framework/src/Illuminate"
 PATH_LARALOG="storage/logs/laravel.log"
 PATH_KONG_CONF="$BREW/etc/kong/kong.yml"
