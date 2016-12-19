@@ -48,6 +48,7 @@ alias desk="cd $HOME/Desktop"
 alias srv="brew services"
 alias bpcit="sudo openvpn --config $HOME/cit.ovpn"
 alias phpstorm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
+alias fontcasker="$PATH_CASKROOM/homebrew-fonts/developer/bin/font_casker"
 alias selenium3="cd $HOME/Dev/selenium && java -Dwebdriver.chrome.driver=chromedriver -Dwebdriver.gecko.driver=geckodriver -jar selenium3*.jar"
 alias selenium2="cd $HOME/Dev/selenium && java -jar selenium2*.jar"
 
