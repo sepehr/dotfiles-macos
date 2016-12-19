@@ -38,7 +38,11 @@
     ~/.vimrc: editor/vim/.vimrc
     ~/.vundle.vim: editor/vim/.vundle.vim
     # sublime
-    "~/Library/Application Support/Sublime Text 3/Packages/User": editor/sublime
+    "~/Library/Application Support/Sublime Text 3/Packages/User/Schemes": editor/sublime/Schemes
+    "~/Library/Application Support/Sublime Text 3/Packages/User/Snippets": editor/sublime/Snippets
+    "~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap": "editor/sublime/Default (OSX).sublime-keymap"
+    "~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings": editor/sublime/Preferences.sublime-settings
+    "~/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings": "editor/sublime/Package Control.sublime-settings"
     # atom
     ~/.atom/config.cson: editor/atom/config.cson
     ~/.atom/keymap.cson: editor/atom/keymap.cson
