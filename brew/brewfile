@@ -1,3 +1,4 @@
+tap 'alehouse/unofficial'
 tap 'beeftornado/rmtree'
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
@@ -9,6 +10,7 @@ tap 'homebrew/dupes'
 tap 'homebrew/php'
 tap 'homebrew/services'
 tap 'homebrew/versions'
+tap 'sepehr/cask'
 tap 'vitorgalvao/tiny-scripts'
 brew 'ack'
 brew 'apr'
@@ -72,6 +74,7 @@ brew 'libtool'
 brew 'imagemagick'
 brew 'oniguruma'
 brew 'jq'
+brew 'lcdf-typetools'
 brew 'libevent'
 brew 'libsodium'
 brew 'libvo-aacenc'
@@ -186,6 +189,7 @@ cask 'font-pt-serif'
 cask 'font-roboto'
 cask 'font-roboto-condensed'
 cask 'font-roboto-mono'
+cask 'font-sansie'
 cask 'font-source-code-pro'
 cask 'font-source-code-pro-for-powerline'
 cask 'font-ubuntu'
@@ -211,6 +215,8 @@ cask 'onionshare'
 cask 'openbazaar'
 cask 'opera'
 cask 'osxfuse'
+cask 'phpstorm'
+cask 'popcorn-time'
 cask 'postman'
 cask 'qlcolorcode'
 cask 'qlimagesize'
@@ -249,7 +255,7 @@ cask 'vivaldi'
 cask 'vlc'
 cask 'vox'
 cask 'webpquicklook'
-mas 'Numbers', id: 409203825
+mas 'Tomato One', id: 907364780
 mas 'Annoying File Be-Gone', id: 1031773437
 mas 'Memory Cleaner', id: 748212890
 mas 'Pages', id: 409201541
@@ -257,4 +263,4 @@ mas 'Slack', id: 803453959
 mas 'Persian Calendar', id: 1171425651
 mas 'Keynote', id: 409183694
 mas 'Magnet', id: 441258766
-mas 'Tomato One', id: 907364780
+mas 'Numbers', id: 409203825
