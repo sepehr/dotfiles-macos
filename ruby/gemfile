@@ -36,6 +36,7 @@ power_assert
 psych
 public_suffix
 pusher-client
+pygments.rb
 rack
 rack-protection
 rake
@@ -51,3 +52,4 @@ travis
 typhoeus
 tzinfo
 websocket
+yajl-ruby
