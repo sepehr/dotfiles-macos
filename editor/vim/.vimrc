@@ -18,6 +18,7 @@ set backspace=indent,eol,start
 let mapleader=','
 set number
 set linespace=15
+set tabstop=4
 
 "// Mappings"
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
