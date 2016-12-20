@@ -44,6 +44,7 @@ alias -g ...=../..
 alias dev="cd $HOME/Dev"
 alias dl="cd $HOME/Downloads"
 alias desk="cd $HOME/Desktop"
+alias dot="cd $HOME/.dotfiles"
 # Executables
 alias git=hub
 alias mkdir="mkdir -p"
