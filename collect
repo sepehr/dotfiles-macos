@@ -83,5 +83,5 @@ cp -vf ~/Library/Preferences/com.apple.Terminal.plist terminal/
 # misc
 say 'Collecting misc configs...'
 cp -vf ~/Library/Preferences/com.apple.symbolichotkeys.plist etc/
-cp -vf ~/.{ackrc,axelrc,mongorc.js,editorconfig,ansible.cfg} etc/
+cp -vf ~/.{ackrc,mongorc.js,editorconfig,ansible.cfg} etc/
 cp -vf ~/Library/Application\ Support/Google/Chrome/Profile\ 2/databases/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0/1 etc/stylish.sqlite
