@@ -68,7 +68,9 @@ source /usr/local/bin/virtualenvwrapper.sh
 alias gl="git log"
 alias gd="git diff"
 alias ga="git add ."
+alias gb="git branch"
 alias gs="git status"
+alias gr="git remote -v"
 alias gc="git commit -am"
 
 # "ls -l" with octal permissions:
