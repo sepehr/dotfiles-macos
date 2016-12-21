@@ -79,12 +79,15 @@
     "~/Library/Application\ Support/Transmission/blocklists": app/transmission/blocklists
     ~/Library/Preferences/org.m0k.transmission.plist: app/transmission/org.m0k.transmission.plist
 
+    # services
+    /usr/local/etc/supervisord.ini: service/supervisor
+    /usr/local/etc/supervisor.d: service/supervisor/supervisor.d
+
     # misc
     ~/.bin: bin
     ~/.ackrc: etc/.ackrc
     ~/.mongorc.js: etc/.mongorc.js
     ~/.ansible.cfg: etc/.ansible.cfg
     ~/.editorconfig: etc/.editorconfig
-    /usr/local/etc/supervisord.conf: etc/supervisord.conf
     ~/Library/Preferences/com.apple.symbolichotkeys.plist: etc/com.apple.symbolichotkeys.plist
     "~/Library/Application Support/Google/Chrome/Profile 2/databases/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0/1": etc/stylish.sqlite
