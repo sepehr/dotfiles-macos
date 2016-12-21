@@ -14,6 +14,7 @@ export EDITOR="vim"
 export SVN_EDITOR="vim --noplugin"
 export SSH_KEY_PATH="$HOME/.ssh/id_rsa"
 # Brew
+export HOMEBREW_NO_ANALYTICS=1
 export BREW=`brew --prefix`
 export BREW_REPO=`brew --repository`
 export BREW_CASKROOM="$BREW_REPO/Library/Taps/caskroom"
