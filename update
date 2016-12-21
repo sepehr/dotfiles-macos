@@ -2,23 +2,23 @@
 
 source .setup/helpers
 
-# brew
+## brew
 say 'Collecting brew taps, packages, casks and mas apps...'
 rm -f brew/brewfile
 brew bundle dump --file=brew/brewfile
 
-# pip
+## pip
 say 'Collecting pip global packages...'
 pip freeze > python/pipfile
 
-# gem
+## gem
 say 'Collecting gem global packages...'
 gem list --no-versions | sed '/^*/ d' > ruby/gemfile
 
-# npm
+## npm
 say 'Collecting npm global packages...'
 npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > node/npmfile
 
-# apm
+## apm
 say 'Collecting apm packages...'
 apm list --installed --bare > editor/atom/apmfile
