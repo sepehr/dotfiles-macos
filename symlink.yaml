@@ -64,8 +64,6 @@
     "~/Library/Application Support/Adium 2.0/Service Icons": "app/adium/Adium 2.0/Service Icons"
     "~/Library/Application Support/Adium 2.0/Menu Bar Icons": "app/adium/Adium 2.0/Menu Bar Icons"
     "~/Library/Application Support/Adium 2.0/Message Styles": "app/adium/Adium 2.0/Message Styles"
-    # appcleaner
-    ~/Library/Preferences/net.freemacsoft.AppCleaner.plist: app/appcleaner/net.freemacsoft.AppCleaner.plist
     # bartender
     ~/Library/Preferences/com.surteesstudios.Bartender.plist: app/bartender/com.surteesstudios.Bartender.plist
     # dash: it should be configured to store its snippets file in "app/dash/snippets.dash"
@@ -84,9 +82,9 @@
     # misc
     ~/.bin: bin
     ~/.ackrc: etc/.ackrc
-    ~/.axelrc: etc/.axelrc
     ~/.mongorc.js: etc/.mongorc.js
     ~/.ansible.cfg: etc/.ansible.cfg
     ~/.editorconfig: etc/.editorconfig
+    /usr/local/etc/supervisord.conf: etc/supervisord.conf
     ~/Library/Preferences/com.apple.symbolichotkeys.plist: etc/com.apple.symbolichotkeys.plist
     "~/Library/Application Support/Google/Chrome/Profile 2/databases/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0/1": etc/stylish.sqlite
