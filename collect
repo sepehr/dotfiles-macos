@@ -12,6 +12,9 @@ read -p "Press enter to continue..."
 ## collect non-symlinked dotfiles
 ./update
 
+## private
+cp -vf /etc/hosts $DROPBOX/dev/dotfiles
+
 ## languages
 say 'Collecting npm, gem, pip and composer configs, if any...'
 cp -vf ~/.gemrc ruby/
@@ -63,6 +66,7 @@ cp -vf ~/Library/Preferences/net.freemacsoft.AppCleaner.plist app/appcleaner
 cp -vf ~/Library/Preferences/com.surteesstudios.Bartender.plist app/bartender
 
 # dash
+cp -vf $DROPBOX/dev/dash/Snippets.dash app/dash/snippets.dash
 cp -vf ~/Library/Application\ Support/Dash/library.dash app/dash
 cp -vf ~/Library/Preferences/{com.kapeli.dash.plist,com.kapeli.dashdoc.plist} app/dash
 

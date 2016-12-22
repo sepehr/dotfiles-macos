@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+source .setup/helpers
+
+## Root symlink
+say 'Symlinking with root privilage...'
+# /etc/hosts file
+mkln ~/Dropbox/dev/dotfiles/hosts /etc/hosts

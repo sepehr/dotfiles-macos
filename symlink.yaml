@@ -71,6 +71,7 @@
     ~/Library/Preferences/com.surteesstudios.Bartender.plist: app/bartender/com.surteesstudios.Bartender.plist
 
     # dash: it should be configured to store its snippets file in "app/dash/snippets.dash"
+    "~/Dropbox/dev/dash/Snippets.dash": app/dash/snippets.dash
     "~/Library/Application Support/Dash/library.dash": app/dash/library.dash
     ~/Library/Preferences/com.kapeli.dash.plist: app/dash/com.kapeli.dash.plist
     ~/Library/Preferences/com.kapeli.dashdoc.plist: app/dash/com.kapeli.dashdoc.plist
@@ -99,3 +100,11 @@
     ~/.editorconfig: etc/.editorconfig
     ~/Library/Preferences/com.apple.symbolichotkeys.plist: etc/com.apple.symbolichotkeys.plist
     "~/Library/Application Support/Google/Chrome/Profile 2/databases/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0/1": etc/stylish.sqlite
+
+- shell:
+    -
+        description: "Running post-symlink script..."
+        command: "./post-symlink"
+        stdout: true
+        stderr: true
+        stdin: true
