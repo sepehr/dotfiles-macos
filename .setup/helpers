@@ -1,8 +1,16 @@
-#
-# Helper shell functions
-#
+DROPBOX="$HOME/Dropbox"
 
 say() {
   local fmt="$1"; shift
   printf "\n==> $fmt\n" "$@"
+}
+
+mkln() {
+    if [ "$(readlink $2)" != $1 ]; then
+        sudo rm -f $2
+        sudo ln -sf $1 $2
+        return $?
+    fi
+
+    return 0
 }
