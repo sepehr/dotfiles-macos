@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-printf "This script sets up the machine by installing various packages and applications
+printf "
+This script sets up the machine by installing various packages and applications
 from external sources. It will take a shit load of time. You're warned.\n\n"
 read -p "Press enter to continue..."
 

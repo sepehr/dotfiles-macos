@@ -3,7 +3,8 @@
 source .setup/helpers
 
 ## warn
-printf "This script is supposed to be executed only once in order to populate the dotfiles
+printf "
+This script is supposed to be executed only once in order to populate the dotfiles
 repo from the available files across the current system. If you run it after the
 files are symlinked, you're just copying dead symlinks over symlinks. That'd be
 genocide, be warned.\n\n"
@@ -12,8 +13,8 @@ read -p "Press enter to continue..."
 ## collect non-symlinked dotfiles
 ./update
 
-## private
-cp -vf /etc/hosts ~/Dropbox/dev/dotfiles
+## privates
+cp -vf /etc/hosts private/
 
 ## languages
 say 'Collecting npm, gem, pip and composer configs, if any...'

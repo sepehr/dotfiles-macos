@@ -1,9 +1,16 @@
 #!/usr/bin/env bash
 
-printf "This script symlinks the repo dotfiles over your existing files. Please note that
+printf "
+This script symlinks the repo dotfiles over your existing files. Please note that
 the operation deletes all your currently available dotfiles across the system and
 is NOT revertable. Before proceeding with the install, make sure you're fine with
-the symlinking rules defined in the config file.\n\n"
+the symlinking rules defined in the config file.
+
+During the setup, you may be asked for your password as the script may try to setup
+symlinks that require root privilage. See post-symlink script.
+
+After this symlinking process, you need to run the ./setup script if you need to
+setup the machine as well.\n\n"
 read -p "Press enter to continue..."
 
 set -e
