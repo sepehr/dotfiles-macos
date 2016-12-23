@@ -6,6 +6,9 @@ read -p "Press enter to continue..."
 
 source .setup/helpers
 
+say 'Setting google dns servers for Wi-Fi interface...'
+sudo networksetup -setdnsservers AirPort 8.8.8.8 8.8.4.4
+
 say 'Setting proper permissions for /usr/local directory...'
 sudo chown -R $(whoami):admin /usr/local
 
