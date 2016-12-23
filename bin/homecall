@@ -117,7 +117,7 @@ start(){
   do
     sudo launchctl unload -w /System/Library/LaunchAgents/${agent}.plist
     launchctl unload -w /System/Library/LaunchAgents/${agent}.plist
-    echo "Agent ${agent} Disabled"
+    echo "Agent ${agent} disabled"
   done
   echo ""
   echo "Specified agents has been disabled"
@@ -126,7 +126,7 @@ start(){
   do
     sudo launchctl unload -w /System/Library/LaunchDaemons/${daemon}.plist
     launchctl unload -w /System/Library/LaunchDaemons/${daemon}.plist
-    echo "Daemon ${daemon} Disabled"
+    echo "Daemon ${daemon} disabled"
   done
   echo ""
   echo "Specified daemons has been disabled"
@@ -143,7 +143,7 @@ restore(){
   do
     sudo launchctl load -w /System/Library/LaunchAgents/${agent}.plist
     launchctl load -w /System/Library/LaunchAgents/${agent}.plist
-    echo "Agent ${agent} Disabled"
+    echo "Agent ${agent} enabled"
   done
   echo ""
   echo "Specified agents has been enabled"
@@ -152,7 +152,7 @@ restore(){
   do
     sudo launchctl load -w /System/Library/LaunchDaemons/${daemon}.plist
     launchctl load -w /System/Library/LaunchDaemons/${daemon}.plist
-    echo "Daemon ${daemon} Disabled"
+    echo "Daemon ${daemon} enabled"
   done
   echo ""
   echo "Specified daemons has been enabled"
