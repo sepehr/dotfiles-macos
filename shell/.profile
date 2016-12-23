@@ -16,7 +16,6 @@ export SSH_KEY_PATH="$HOME/.ssh/id_rsa"
 # Brew
 export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_NO_INSECURE_REDIRECT=1
-export HOMEBREW_CASK_OPTS=--require-sha
 export BREW=`brew --prefix`
 export BREW_REPO=`brew --repository`
 export BREW_CASKROOM="$BREW_REPO/Library/Taps/caskroom"
