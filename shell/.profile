@@ -57,6 +57,7 @@ alias phpstorm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
 # Git
 alias gl="git log"
 alias gd="git diff"
+alias gp="git push"
 alias ga="git add ."
 alias gb="git branch"
 alias gs="git status"
