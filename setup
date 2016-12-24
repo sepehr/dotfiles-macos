@@ -2,13 +2,20 @@
 
 printf "
 This script sets up the machine by installing various packages and applications
-from external sources. It will take a shit load of time. You're warned.\n\n"
+from external sources. It will take a shit load of time. You're warned.
+
+The script will ask your password as it needs to do operations that need root
+privilage...\n\n"
 read -p "Press enter to continue..."
 
 source .setup/helpers
 
 say 'Setting google dns servers for Wi-Fi interface...'
 sudo networksetup -setdnsservers AirPort 8.8.8.8 8.8.4.4
+
+# See: https://github.com/drduh/macOS-Security-and-Privacy-Guide#captive-portal
+say 'Disabling captive portal...'
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -bool false
 
 say 'Setting proper permissions for /usr/local directory...'
 sudo chown -R $(whoami):admin /usr/local
