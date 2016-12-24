@@ -9,6 +9,15 @@
 - link:
     ~/.dotfiles: ''
 
+    ## privates
+    # shells
+    ~/.zshrc.local: ~/.dotfiles/private/shell/.zshrc.local
+    ~/.bashrc.local: ~/.dotfiles/private/shell/.bashrc.local
+    ~/.profile.local: ~/.dotfiles/private/shell/.profile.local
+
+    # adium
+    "~/Library/Application Support/Adium 2.0/Users": "~/.dotfiles/private/app/adium/Adium 2.0/Users"
+
     ## shell
     ~/.profile: ~/.dotfiles/shell/.profile
     ~/.zshrc: ~/.dotfiles/shell/zsh/.zshrc
