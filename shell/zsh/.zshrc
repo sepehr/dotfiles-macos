@@ -1,9 +1,9 @@
+## Sources
 [ -f "$HOME/.zshrc.local" ] && source "$HOME/.zshrc.local"
 [ -f "$HOME/.profile" ] && source "$HOME/.profile"
 
-#
-# Auto-completions
-#
+
+## Auto-completions
 fpath=(/usr/local/share/zsh-completions $fpath)
 autoload -U compinit && compinit
 
@@ -16,33 +16,26 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 # Better killall tab completion
 zstyle ':completion:*:killall:*' command 'ps -u $USER -o cmd'
 
-#
-# Key bindings
-#
+## Key bindings
 bindkey "^L" clear-screen
 bindkey "^[[3~" delete-char
 bindkey "^[f" forward-word
 bindkey "^[b" backward-word
-bindkey "^E" beginning-of-line
-bindkey "^A" end-of-line
+bindkey "^E" end-of-line
+bindkey "^A" beginning-of-line
 
-#
-# ZSH tweaks
-# See: https://askubuntu.com/questions/1577/moving-from-bash-to-zsh
-#
+## ZSH tweaks
+## See: https://askubuntu.com/questions/1577
 
 # Enables all sorts of extended globbing,
 # such as ls */.txt (find all text files)
 setopt extendedglob
 unsetopt caseglob
 
-# Type ".." instead of "cd ..",
-# "/usr/include" instead of "cd /usr/include"
+# Enable auto_cd
 setopt auto_cd
 
-#
-# zplug/oh-my-zsh
-#
+## zplug/oh-my-zsh
 export ZPLUG_HOME=$HOME/.zplug
 export ZSH=$ZPLUG_HOME/repos/robbyrussell/oh-my-zsh
 
@@ -96,10 +89,7 @@ fi
 
 zplug load
 
-#
-# Helpers
-#
-
+## Helpers
 # Confirm helper
 function confirm {
     read -q "response?${1:-Are you sure? [y/N]} "
