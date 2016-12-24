@@ -18,11 +18,18 @@
     # adium
     "~/Library/Application Support/Adium 2.0/Users": "~/.dotfiles/private/app/adium/Adium 2.0/Users"
 
+    # personal content
+    ~/Pictures/Icons: private/personal/pictures/Icons
+    ~/Pictures/Memes: private/personal/pictures/Memes
+    ~/Pictures/Identity: private/personal/pictures/Identity
+    ~/Pictures/Wallpapers: private/personal/pictures/Wallpapers
+    "~/Pictures/Photo Booth Library": "~/.dotfiles/private/personal/pictures/Photo Booth Library"
+
     ## shell
+    ~/.zshrc: ~/.dotfiles/shell/.zshrc
+    ~/.bashrc: ~/.dotfiles/shell/.bashrc
     ~/.profile: ~/.dotfiles/shell/.profile
-    ~/.zshrc: ~/.dotfiles/shell/zsh/.zshrc
-    ~/.bashrc: ~/.dotfiles/shell/bash/.bashrc
-    ~/.bash_profile: ~/.dotfiles/shell/bash/.bash_profile
+    ~/.bash_profile: ~/.dotfiles/shell/.bash_profile
 
     ## terminals
     # iTerm should be configured to read/write its prefs from/to "terminal/iterm/"

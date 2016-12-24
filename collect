@@ -15,13 +15,22 @@ read -p "Press enter to continue..."
 
 ## privates
 # hosts
-cp -vf /etc/hosts private/
+cp -vf /etc/hosts private/var/
+
 # shells
 cp -vf ~/.zshrc.local private/shell
 cp -vf ~/.bashrc.local private/shell
 cp -vf ~/.profile.local private/shell
+
 # apps
 cp -rf ~/Library/Application\ Support/Adium\ 2.0/Users private/app/adium/Adium\ 2.0/Users
+
+# personal content
+cp -rf ~/Pictures/Icons private/personal/pictures
+cp -rf ~/Pictures/Memes private/personal/pictures
+cp -rf ~/Pictures/Identity private/personal/pictures
+cp -rf ~/Pictures/Wallpapers private/personal/pictures
+cp -rf ~/Pictures/Photo\ Booth\ Library private/personal/pictures
 
 ## languages
 say 'Collecting npm, gem, pip and composer configs, if any...'
@@ -31,9 +40,9 @@ cp -vf ~/.composer/composer.json php/
 
 ## shell
 say 'Collecting shell files...'
+cp -vf ~/.zshrc shell/
 cp -vf ~/.profile shell/
-cp -vf ~/.zshrc shell/zsh/
-cp -vf ~/.{bashrc,bash_profile} shell/bash/
+cp -vf ~/.{bashrc,bash_profile} shell/
 
 ## editors
 say 'Collecting editor configs...'
