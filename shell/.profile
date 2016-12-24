@@ -63,8 +63,9 @@ alias gs="git status"
 alias gr="git remote -v"
 alias gc="git commit -m"
 alias gca="git commit -am"
-# IPs
+# Networking
 alias mylocalip="ipconfig getifaddr en0"
+alias macaddr="networksetup -getmacaddress"
 alias myip="curl -s http://queryip.net/ip/ && printf '\n\n'"
 alias ipinfo="curl -s http://ipinfo.io/json && printf '\n\n'"
 # Laravel
