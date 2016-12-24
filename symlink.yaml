@@ -113,6 +113,7 @@
     ## misc
     ~/.bin: ~/.dotfiles/bin
     ~/.ackrc: ~/.dotfiles/etc/.ackrc
+    ~/.curlrc: ~/.dotfiles/etc/.curlrc
     ~/.mongorc.js: ~/.dotfiles/etc/.mongorc.js
     ~/.ansible.cfg: ~/.dotfiles/etc/.ansible.cfg
     ~/.editorconfig: ~/.dotfiles/etc/.editorconfig

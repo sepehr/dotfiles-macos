@@ -119,6 +119,6 @@ cp -vrf /usr/local/etc/supervisor.d service/supervisor/supervisor.d
 
 ## misc
 say 'Collecting misc configs...'
-cp -vf ~/.{ackrc,mongorc.js,editorconfig,ansible.cfg} etc/
+cp -vf ~/.{ackrc,curlrc,mongorc.js,editorconfig,ansible.cfg} etc/
 cp -vf ~/Library/Preferences/com.apple.symbolichotkeys.plist etc/
 cp -vf ~/Library/Application\ Support/Google/Chrome/Profile\ 2/databases/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0/1 etc/stylish.sqlite
