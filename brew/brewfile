@@ -1,5 +1,6 @@
 tap 'alehouse/unofficial'
 tap 'beeftornado/rmtree'
+tap 'buo/cask-upgrade'
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'colindean/fonts-nonfree'
@@ -204,6 +205,7 @@ cask 'font-ubuntu'
 cask 'font-vazir'
 cask 'font-vazir-code'
 cask 'google-chrome'
+cask 'google-chrome-canary'
 cask 'google-photos-backup'
 cask 'handbrake'
 cask 'hyper'
@@ -267,12 +269,12 @@ cask 'vlc'
 cask 'vox'
 cask 'webpquicklook'
 cask 'zeronet'
-mas 'Tomato One', id: 907364780
+mas 'Numbers', id: 409203825
 mas 'Annoying File Be-Gone', id: 1031773437
 mas 'Memory Cleaner', id: 748212890
 mas 'Pages', id: 409201541
 mas 'Slack', id: 803453959
-mas 'Persian Calendar', id: 1171425651
 mas 'Keynote', id: 409183694
+mas 'Persian Calendar', id: 1171425651
+mas 'Tomato One', id: 907364780
 mas 'Magnet', id: 441258766
-mas 'Numbers', id: 409203825
