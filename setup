@@ -17,6 +17,10 @@ sudo networksetup -setdnsservers AirPort 8.8.8.8 8.8.4.4
 say 'Disabling captive portal...'
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -bool false
 
+say 'Downloading keyservers CA certificate for gnupg2...'
+mkdir -p /usr/local/etc/ssl/certs
+wget https://sks-keyservers.net/sks-keyservers.netCA.pem -O /usr/local/etc/ssl/certs/hkps.pool.sks-keyservers.net.pem
+
 say 'Setting proper permissions for /usr/local directory...'
 sudo chown -R $(whoami):admin /usr/local
 
