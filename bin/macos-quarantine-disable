@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+> ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV2
+sudo chflags schg ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV2

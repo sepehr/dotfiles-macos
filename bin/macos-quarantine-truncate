@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+echo 'delete from LSQuarantineEvent;' | sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV2
