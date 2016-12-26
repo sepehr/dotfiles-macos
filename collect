@@ -91,9 +91,6 @@ cp -vf ~/Library/Preferences/{com.kapeli.dash.plist,com.kapeli.dashdoc.plist} ap
 cp -vf ~/Library/Preferences/at.obdev.LittleSnitchNetworkMonitor.plist app/littlesnitch
 cp -vf ~/Library/Application\ Support/Little\ Snitch/configuration.user.xpl app/littlesnitch
 
-# mplayerx
-cp -vf ~/Library/Preferences/org.niltsh.MPlayerX.plist app/mplayerx
-
 # transmission
 cp -vf ~/Library/Preferences/org.m0k.transmission.plist app/transmission
 cp -vrf ~/Library/Application\ Support/Transmission/blocklists app/transmission
@@ -119,6 +116,6 @@ cp -vrf /usr/local/etc/supervisor.d service/supervisor/supervisor.d
 
 ## misc
 say 'Collecting misc configs...'
-cp -vf ~/.{ackrc,curlrc,mongorc.js,editorconfig,ansible.cfg} etc/
 cp -vf ~/Library/Preferences/com.apple.symbolichotkeys.plist etc/
+cp -vf ~/.{ackrc,curlrc,axelrc,mongorc.js,editorconfig,ansible.cfg} etc/
 cp -vf ~/Library/Application\ Support/Google/Chrome/Profile\ 2/databases/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0/1 etc/stylish.sqlite
