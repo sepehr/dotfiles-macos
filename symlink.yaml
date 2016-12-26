@@ -98,9 +98,6 @@
     ~/Library/Preferences/at.obdev.LittleSnitchNetworkMonitor.plist: ~/.dotfiles/app/littlesnitch/at.obdev.LittleSnitchNetworkMonitor.plist
     "~/Library/Application Support/Little Snitch/configuration.user.xpl": ~/.dotfiles/app/littlesnitch/configuration.user.xpl
 
-    # mplayerx
-    ~/Library/Preferences/org.niltsh.MPlayerX.plist: ~/.dotfiles/app/mplayerx/org.niltsh.MPlayerX.plist
-
     # transmission
     "~/Library/Application\ Support/Transmission/blocklists": ~/.dotfiles/app/transmission/blocklists
     ~/Library/Preferences/org.m0k.transmission.plist: ~/.dotfiles/app/transmission/org.m0k.transmission.plist
@@ -113,6 +110,7 @@
     ## misc
     ~/.bin: ~/.dotfiles/bin
     ~/.ackrc: ~/.dotfiles/etc/.ackrc
+    ~/.axelrc: ~/.dotfiles/etc/.axelrc
     ~/.curlrc: ~/.dotfiles/etc/.curlrc
     ~/.mongorc.js: ~/.dotfiles/etc/.mongorc.js
     ~/.ansible.cfg: ~/.dotfiles/etc/.ansible.cfg
