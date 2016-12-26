@@ -77,6 +77,8 @@ alias selenium2="cd $HOME/Dev/selenium && java -jar selenium2*.jar"
 # Misc
 alias tcvb="php $HOME/Dev/valet/tcvb/index.php"
 alias lsl="ls -la | awk '{k=0;for(i=0;i<=8;i++)k+=((substr(\$1,i+2,1)~/[rwx]/)*2^(8-i));if(k)printf(\" %0o \",k);print}'"
+alias urldecode='python -c "import sys, urllib as ul; print ul.unquote_plus(sys.argv[1])"'
+alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1])"'
 
 ## Helpers
 function homestead() {
