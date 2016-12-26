@@ -17,6 +17,7 @@ export SSH_KEY_PATH="$HOME/.ssh/id_rsa"
 export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_NO_INSECURE_REDIRECT=1
 export BREW=`brew --prefix`
+export BREW_CELLAR="$BREW/Cellar"
 export BREW_REPO=`brew --repository`
 export BREW_CASKROOM="$BREW_REPO/Library/Taps/caskroom"
 # Virtualenv
