@@ -49,7 +49,6 @@ alias desk="cd $HOME/Desktop"
 alias dot="cd $HOME/.dotfiles"
 # Executables
 alias git=hub
-alias axel="axel -a"
 alias mkdir="mkdir -p"
 alias bpcit="sudo openvpn --config $HOME/cit.ovpn"
 alias phpstorm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
@@ -66,6 +65,7 @@ alias gca="git commit -am"
 # Networking
 alias mylocalip="ipconfig getifaddr en0"
 alias macaddr="networksetup -getmacaddress"
+alias openports="sudo lsof -Pni | grep -i listen"
 alias myip="curl -s http://queryip.net/ip/ && printf '\n\n'"
 alias ipinfo="curl -s http://ipinfo.io/json && printf '\n\n'"
 # Laravel
@@ -73,10 +73,9 @@ alias a="php ./artisan"
 alias llog="tail -f $PATH_LARALOG"
 # Selenium
 alias selenium3="cd $HOME/Dev/selenium && java -Dwebdriver.chrome.driver=chromedriver -Dwebdriver.gecko.driver=geckodriver -jar selenium3*.jar"
-alias selenium2="cd $HOME/Dev/selenium && java -jar selenium2*.jar"
+alias selenium2="cd $HOME/Dev/selenium && java -jar selenium2.52.0.jar"
 # Misc
 alias tcvb="php $HOME/Dev/valet/tcvb/index.php"
-alias lsl="ls -la | awk '{k=0;for(i=0;i<=8;i++)k+=((substr(\$1,i+2,1)~/[rwx]/)*2^(8-i));if(k)printf(\" %0o \",k);print}'"
 alias urldecode='python -c "import sys, urllib as ul; print ul.unquote_plus(sys.argv[1])"'
 alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1])"'
 
