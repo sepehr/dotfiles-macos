@@ -27,6 +27,9 @@ wget https://sks-keyservers.net/sks-keyservers.netCA.pem -O /usr/local/etc/ssl/c
 say 'Setting proper permissions for /usr/local directory...'
 sudo chown -R $(whoami):admin /usr/local
 
+say 'Accepting XCode license...'
+sudo xcodebuild -license accept
+
 say 'Installing brew, if necessary...'
 if ! command -v brew &> /dev/null; then
     xcode-select --install
