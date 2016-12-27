@@ -52,6 +52,7 @@ alias dot="cd $HOME/.dotfiles"
 # Executables
 alias git=hub
 alias mkdir="mkdir -p"
+alias srv="brew services"
 alias bpcit="sudo openvpn --config $HOME/cit.ovpn"
 alias phpstorm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
 # Git
