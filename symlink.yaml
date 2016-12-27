@@ -102,10 +102,14 @@
     "~/Library/Application\ Support/Transmission/blocklists": ~/.dotfiles/app/transmission/blocklists
     ~/Library/Preferences/org.m0k.transmission.plist: ~/.dotfiles/app/transmission/org.m0k.transmission.plist
 
+    # apptivate
+    "~/Library/Application Support/Apptivate/hotkeys": app/apptivate/hotkeys
+
     ## services
     # supervisor
-    /usr/local/etc/supervisord.ini: ~/.dotfiles/service/supervisor
     /usr/local/etc/supervisor.d: ~/.dotfiles/service/supervisor/supervisor.d
+    /usr/local/etc/supervisord.ini: ~/.dotfiles/service/supervisor/supervisord.ini
+    /usr/local/etc/supervisord.conf: ~/.dotfiles/service/supervisor/supervisord.ini
 
     ## misc
     ~/.bin: ~/.dotfiles/bin

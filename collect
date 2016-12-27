@@ -95,6 +95,9 @@ cp -vf ~/Library/Application\ Support/Little\ Snitch/configuration.user.xpl app/
 cp -vf ~/Library/Preferences/org.m0k.transmission.plist app/transmission
 cp -vrf ~/Library/Application\ Support/Transmission/blocklists app/transmission
 
+# apptivate
+cp -vf ~/Library/Application\ Support/Apptivate/hotkeys app/apptivate
+
 ## git
 say 'Collecting git configs...'
 cp -vf ~/.{gitconfig,gitignore,gitignore_global,git_hooks} git/
