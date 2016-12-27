@@ -20,6 +20,7 @@ export BREW=`brew --prefix`
 export BREW_CELLAR="$BREW/Cellar"
 export BREW_REPO=`brew --repository`
 export BREW_CASKROOM="$BREW_REPO/Library/Taps/caskroom"
+export BREW_FORMULA="$BREW_REPO/Library/Taps/homebrew/homebrew-core/Formula"
 # Virtualenv
 export WORKON_HOME=$HOME/Dev/python/venvs
 export PROJECT_HOME=$HOME/Dev/python/projects
@@ -51,6 +52,7 @@ alias desk="cd $HOME/Desktop"
 alias dot="cd $HOME/.dotfiles"
 # Executables
 alias git=hub
+alias t=todolist
 alias mkdir="mkdir -p"
 alias srv="brew services"
 alias bpcit="sudo openvpn --config $HOME/cit.ovpn"
@@ -59,7 +61,8 @@ alias phpstorm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
 alias gl="git log"
 alias gd="git diff"
 alias gp="git push"
-alias ga="git add ."
+alias ga="git add"
+alias gaa="git add ."
 alias gb="git branch"
 alias gs="git status"
 alias gr="git remote -v"
