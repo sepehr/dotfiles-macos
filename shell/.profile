@@ -28,6 +28,8 @@ export PROJECT_HOME=$HOME/Dev/python/projects
 export PATH="./bin:./node_modules/.bin:$HOME/.bin:$BREW/bin:$BREW/sbin:/usr/bin:$PATH"
 export PATH="$HOME/.rvm/bin:$HOME/.yarn/bin:$HOME/.composer/vendor/bin:$HOME/.gem/ruby/2.4.0/bin:$PATH"
 export PATH="$BREW_CASKROOM/homebrew-fonts/developer/bin:$BREW_CASKROOM/homebrew-cask/developer/bin:$PATH"
+# Misc
+export COMPOSER_ALLOW_XDEBUG=0
 
 ## Paths
 PATH_LARAVEL="vendor/laravel/framework/src/Illuminate"
