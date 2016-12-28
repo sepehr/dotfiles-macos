@@ -81,9 +81,11 @@ alias llog="tail -f $PATH_LARALOG"
 alias selenium3="cd $HOME/Dev/selenium && java -Dwebdriver.chrome.driver=chromedriver -Dwebdriver.gecko.driver=geckodriver -jar selenium3*.jar"
 alias selenium2="cd $HOME/Dev/selenium && java -jar selenium2.52.0.jar"
 # Misc
+alias lastm="gstat --format=%y"
+alias lasta="gstat --format=%x"
 alias tcvb="php $HOME/Dev/valet/tcvb/index.php"
-alias urldecode='python -c "import sys, urllib as ul; print ul.unquote_plus(sys.argv[1])"'
 alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1])"'
+alias urldecode='python -c "import sys, urllib as ul; print ul.unquote_plus(sys.argv[1])"'
 
 ## Helpers
 function homestead() {
