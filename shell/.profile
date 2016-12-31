@@ -43,7 +43,7 @@ PATH_MONGO_CONF="$BREW/etc/mongod.conf"
 PATH_MONGO_DATA="$BREW/var/mongodb"
 PATH_DNSMASQ_CONF="$BREW/etc/dnsmasq.conf"
 PATH_PHPSTORM="$HOME/Library/Preferences/PhpStorm2016.3/"
-PATH_STYLISH_DB="$HOME/Library/Application Support/Google/Chrome/Profile 2/databases/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0/1"
+PATH_STYLISH_DB="$HOME/Library/Application Support/Google/Chrome/Profile 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb"
 
 ## Aliases
 # Dirs
