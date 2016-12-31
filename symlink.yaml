@@ -72,6 +72,9 @@
     ~/Library/Preferences/com.github.atom.plist: ~/.dotfiles/editor/atom/com.github.atom.plist
 
     # apps
+    #chrome's stylish
+    "/Users/Sepehr/Library/Application Support/Google/Chrome/Profile 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb": ~/.dotfiles/app/chrome/stylish.leveldb
+
     # adium
     "~/Library/Preferences/com.adiumX.adiumX.plist": ~/.dotfiles/app/adium/com.adiumX.adiumX.plist
     "~/Library/Application Support/Adium 2.0/Sounds": "~/.dotfiles/app/adium/Adium 2.0/Sounds"
@@ -120,7 +123,6 @@
     ~/.ansible.cfg: ~/.dotfiles/etc/.ansible.cfg
     ~/.editorconfig: ~/.dotfiles/etc/.editorconfig
     ~/Library/Preferences/com.apple.symbolichotkeys.plist: ~/.dotfiles/etc/com.apple.symbolichotkeys.plist
-    "~/Library/Application Support/Google/Chrome/Profile 2/databases/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0/1": ~/.dotfiles/etc/stylish.sqlite
 
 - shell:
     -

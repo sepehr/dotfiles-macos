@@ -63,6 +63,9 @@ cp -vf ~/.atom/{config.cson,keymap.cson,snippets.cson,init.coffee,styles.less} e
 ## apps
 say 'Collecting various app configs...'
 
+# chrome's stylish
+cp -vrf /Users/Sepehr/Library/Application\ Support/Google/Chrome/Profile\ 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/* app/chrome/stylish.leveldb
+
 # adium
 cp -vrf ~/Library/Preferences/com.adiumX.adiumX.plist app/adium
 cp -rf ~/Library/Application\ Support/Adium\ 2.0/Sounds app/adium/Adium\ 2.0
@@ -121,4 +124,3 @@ cp -vrf /usr/local/etc/supervisor.d service/supervisor/supervisor.d
 say 'Collecting misc configs...'
 cp -vf ~/Library/Preferences/com.apple.symbolichotkeys.plist etc/
 cp -vf ~/.{ackrc,curlrc,axelrc,mongorc.js,editorconfig,ansible.cfg} etc/
-cp -vf ~/Library/Application\ Support/Google/Chrome/Profile\ 2/databases/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0/1 etc/stylish.sqlite
