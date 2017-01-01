@@ -53,6 +53,7 @@ alias dl="cd $HOME/Downloads"
 alias desk="cd $HOME/Desktop"
 alias dot="cd $HOME/.dotfiles"
 # Executables
+alias b=brew
 alias git=hub
 alias t=todolist
 alias mkdir="mkdir -p"
