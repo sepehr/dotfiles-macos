@@ -87,6 +87,7 @@ brew 'html2text'
 brew 'httpie'
 brew 'hub'
 brew 'icu4c'
+brew 'perl'
 brew 'imagemagick'
 brew 'ipfs'
 brew 'oniguruma'
@@ -96,7 +97,7 @@ brew 'python'
 brew 'libxml2'
 brew 'lynx'
 brew 'lzo'
-brew 'mariadb'
+brew 'mariadb', restart_service: true
 brew 'mas'
 brew 'mhash'
 brew 'mcrypt'
@@ -121,11 +122,13 @@ brew 'selenium-server-standalone'
 brew 'spoof-mac'
 brew 'ssh-copy-id'
 brew 'subversion'
-brew 'supervisor'
+brew 'supervisor', restart_service: true
 brew 'the_silver_searcher'
+brew 'todolist'
 brew 'tree'
 brew 'unixodbc'
 brew 'unrar'
+brew 'vim'
 brew 'watch'
 brew 'wget'
 brew 'yarn'
@@ -163,10 +166,10 @@ cask 'boot2docker'
 cask 'cakebrew'
 cask 'chromium'
 cask 'cleanmymac'
-cask 'cronnix'
 cask 'dash'
 cask 'disk-drill'
 cask 'dropbox'
+cask 'english-persian-dictionary'
 cask 'filezilla'
 cask 'firefox-47'
 cask 'fluid'
@@ -243,6 +246,7 @@ cask 'operadriver'
 cask 'osxfuse'
 cask 'oversight'
 cask 'patterns'
+cask 'persian-english-dictionary'
 cask 'phpstorm'
 cask 'popcorn-time'
 cask 'postman'
@@ -262,6 +266,7 @@ cask 'sequel-pro'
 cask 'sketch'
 cask 'skype'
 cask 'slack'
+cask 'soundnode'
 cask 'spotify'
 cask 'sqlpro-for-sqlite'
 cask 'sublime-text'
@@ -287,12 +292,13 @@ cask 'vlc'
 cask 'vox'
 cask 'webpquicklook'
 cask 'zeronet'
-mas 'Numbers', id: 409203825
+mas 'Magnet', id: 441258766
 mas 'Annoying File Be-Gone', id: 1031773437
 mas 'Memory Cleaner', id: 748212890
+mas 'Xcode', id: 497799835
 mas 'Pages', id: 409201541
-mas 'Slack', id: 803453959
 mas 'Keynote', id: 409183694
-mas 'Magnet', id: 441258766
-mas 'Persian Calendar', id: 1171425651
+mas 'Slack', id: 803453959
 mas 'Tomato One', id: 907364780
+mas 'Persian Calendar', id: 1171425651
+mas 'Numbers', id: 409203825
