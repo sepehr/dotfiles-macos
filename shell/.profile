@@ -55,9 +55,9 @@ alias dot="cd $HOME/.dotfiles"
 # Executables
 alias b=brew
 alias git=hub
-alias t=todolist
 alias mkdir="mkdir -p"
 alias srv="brew services"
+alias apachectl="/usr/local/bin/apachectl"
 alias bpcit="sudo openvpn --config $HOME/cit.ovpn"
 alias phpstorm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
 # Git
@@ -91,6 +91,13 @@ alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.ar
 alias urldecode='python -c "import sys, urllib as ul; print ul.unquote_plus(sys.argv[1])"'
 
 ## Helpers
+function t() {
+    WDIR=`pwd`
+    cd $HOME
+    todolist $@
+    cd $WDIR
+}
+
 function homestead() {
     ( cd ~/Homestead && vagrant $* )
 }
