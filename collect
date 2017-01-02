@@ -123,6 +123,10 @@ cp -vf ~/Library/Preferences/com.apple.Terminal.plist terminal/
 cp -vf /usr/local/etc/supervisord.ini service/supervisor
 cp -vrf /usr/local/etc/supervisor.d service/supervisor/supervisor.d
 
+# apache httpd
+cp -vf /usr/local/etc/apache2/2.4/httpd.conf service/httpd24/
+cp -vf /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf service/httpd24/
+
 ## misc
 say 'Collecting misc configs...'
 cp -vf ~/Library/Preferences/com.apple.symbolichotkeys.plist etc/

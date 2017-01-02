@@ -117,6 +117,10 @@
     /usr/local/etc/supervisord.ini: ~/.dotfiles/service/supervisor/supervisord.ini
     /usr/local/etc/supervisord.conf: ~/.dotfiles/service/supervisor/supervisord.ini
 
+    # apache httpd
+    /usr/local/etc/apache2/2.4/httpd.conf: service/httpd24/httpd.conf
+    /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf: service/httpd24/httpd-vhosts.conf
+
     ## misc
     ~/.bin: ~/.dotfiles/bin
     ~/.ackrc: ~/.dotfiles/etc/.ackrc
