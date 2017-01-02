@@ -10,6 +10,9 @@
     ~/.dotfiles: ''
 
     ## privates
+    # todos
+    ~/.todos.json: ~/.dotfiles/private/.todos.json
+
     # shells
     ~/.zshrc.local: ~/.dotfiles/private/shell/.zshrc.local
     ~/.bashrc.local: ~/.dotfiles/private/shell/.bashrc.local
