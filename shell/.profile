@@ -43,7 +43,8 @@ PATH_MONGO_CONF="$BREW/etc/mongod.conf"
 PATH_MONGO_DATA="$BREW/var/mongodb"
 PATH_DNSMASQ_CONF="$BREW/etc/dnsmasq.conf"
 PATH_PHPSTORM="$HOME/Library/Preferences/PhpStorm2016.3/"
-PATH_STYLISH_DB="$HOME/Library/Application Support/Google/Chrome/Profile 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb"
+PATH_CHROME_PROFILE="$HOME/Library/Application Support/Google/Chrome/Profile 2"
+PATH_STYLISH_DB="$PATH_CHROME_PROFILE/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb"
 
 ## Aliases
 # Dirs
@@ -55,6 +56,7 @@ alias dot="cd $HOME/.dotfiles"
 # Executables
 alias b=brew
 alias git=hub
+alias ls="ls -a"
 alias mkdir="mkdir -p"
 alias srv="brew services"
 alias apachectl="/usr/local/bin/apachectl"
