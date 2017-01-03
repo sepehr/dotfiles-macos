@@ -92,6 +92,11 @@ alias urldecode='python -c "import sys, urllib as ul; print ul.unquote_plus(sys.
 
 ## Helpers
 function t() {
+    if [[ -f "./.todos.json" || "$1" == "init" ]]; then
+        todolist $@
+        return
+    fi
+
     WDIR=`pwd`
     cd $HOME
     todolist $@
@@ -103,8 +108,7 @@ function homestead() {
 }
 
 function fixperms {
-    if [ -z "$1" ]
-        then
+    if [ -z "$1" ]; then
         echo "Please specify the path to directory."
         return
     fi
