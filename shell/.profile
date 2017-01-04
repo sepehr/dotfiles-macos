@@ -10,12 +10,10 @@
 # See: http://superuser.com/a/1128836/6841
 ssh-add -A &> /dev/null
 
-# Warn about tasks
+# Warn about tasks that due today
 if command -v todolist &> /dev/null; then
-    printf '>> Tasks due today:'
+    printf ">> Get things done and live happier!"
     t list due today
-    printf '>> Overdue tasks:'
-    t list overdue
 fi
 
 ## Env vars
