@@ -57,8 +57,13 @@
 
     ## editors
     # vim
+    ~/.vim: ~/.dotfiles/editor/vim/.vim
     ~/.vimrc: ~/.dotfiles/editor/vim/.vimrc
     ~/.vundle.vim: ~/.dotfiles/editor/vim/.vundle.vim
+
+    # neovim
+    ~/.config/nvim: ~/.dotfiles/editor/vim/.vim
+    ~/.config/nvim/init.vim: ~/.dotfiles/editor/vim/.vimrc
 
     # sublime
     "~/Library/Application Support/Sublime Text 3/Packages/User/Schemes": ~/.dotfiles/editor/sublime/Schemes
