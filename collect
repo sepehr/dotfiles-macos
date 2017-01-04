@@ -43,9 +43,7 @@ cp -vf ~/.composer/composer.json php/
 
 ## shell
 say 'Collecting shell files...'
-cp -vf ~/.zshrc shell/
-cp -vf ~/.profile shell/
-cp -vf ~/.{bashrc,bash_profile} shell/
+cp -vf ~/.{zshrc,profile,profile.helpers,bashrc,bash_profile} shell/
 
 ## editors
 say 'Collecting editor configs...'

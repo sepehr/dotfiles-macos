@@ -33,6 +33,7 @@
     ~/.bashrc: ~/.dotfiles/shell/.bashrc
     ~/.profile: ~/.dotfiles/shell/.profile
     ~/.bash_profile: ~/.dotfiles/shell/.bash_profile
+    ~/.profile.helpers: ~/.dotfiles/shell/.profile.helpers
 
     ## terminals
     # iTerm should be configured to read/write its prefs from/to "terminal/iterm/"

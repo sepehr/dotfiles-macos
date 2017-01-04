@@ -1,0 +1,57 @@
+## Helpers
+function t() {
+    if [[ -f "./.todos.json" || "$1" == "init" ]]; then
+        todolist $@
+        return
+    fi
+
+    WDIR=`pwd`
+    cd $HOME
+    todolist $@
+    cd $WDIR
+}
+
+function homestead() {
+    ( cd ~/Homestead && vagrant $* )
+}
+
+function fixperms {
+    if [ -z "$1" ]; then
+        echo "Please specify the path to directory."
+        return
+    fi
+
+    confirm "Are sure that you want to fix permissions on \"$1\"? [y/N]" || return
+
+    # chmod all files to 644
+    # chmod all dires to 755
+    echo ""
+    echo "== Fixing file permissions..."
+    echo "`find $1 -type f -print -exec chmod u=rw,g=r,o=r {} \; | wc -l` files processed."
+    echo "`find $1 -type d -print -exec chmod u=rwx,g=rx,o=rx {} \; | wc -l` directories processed."
+
+    # Remove "com.apple.quarantine" flag (OSX)
+    echo ""
+    echo "== Removing files from OSX quarantine, if any..."
+    find $1 -exec xattr -d com.apple.quarantine {} 2&>1 /dev/null \;
+    echo "    Done!"
+
+    # Unlock (OSX)
+    echo ""
+    echo "== Unlocking locked files, if any..."
+    echo "    Done!"
+    chflags -R nouchg $1
+    chflags -R noschg $1
+}
+
+function a2mkw {
+    WWW_USER=`ps aux | egrep 'apache|httpd' | awk '{ print $1 }' | sed '1 d' | sort | uniq | awk '{print}' ORS=' ' | sed "s/\b$(whoami)\|root\b//g" | xargs`
+
+    echo ""
+    echo "== Setting up writables..."
+    echo "= Webserver is running by \"$WWW_USER\""
+
+    chgrp -v -R $WWW_USER $1
+    chmod -v -R u=rwx,g=rwx,o=rx $1
+    echo ""
+}

@@ -1,5 +1,6 @@
 ## Sources
 [ -f "$HOME/.profile.local" ] && source "$HOME/.profile.local"
+[ -f "$HOME/.profile.helpers" ] && source "$HOME/.profile.helpers"
 [ -f "$HOME/.rvm/scripts/rvm" ] && source "$HOME/.rvm/scripts/rvm"
 [ -f /Users/Sepehr/.travis/travis.sh ] && source /Users/Sepehr/.travis/travis.sh
 [ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh
@@ -8,6 +9,14 @@
 # Add SSH keys to the keychain
 # See: http://superuser.com/a/1128836/6841
 ssh-add -A &> /dev/null
+
+# Warn about tasks that due today
+if command -v todolist &> /dev/null; then
+    printf '>> Tasks due today:'
+    t list due today
+    printf '>> Overdue tasks:'
+    t list overdue
+fi
 
 ## Env vars
 export EDITOR="vim"
@@ -91,61 +100,3 @@ alias lasta="gstat --format=%x"
 alias tcvb="php $HOME/Dev/valet/tcvb/index.php"
 alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1])"'
 alias urldecode='python -c "import sys, urllib as ul; print ul.unquote_plus(sys.argv[1])"'
-
-## Helpers
-function t() {
-    if [[ -f "./.todos.json" || "$1" == "init" ]]; then
-        todolist $@
-        return
-    fi
-
-    WDIR=`pwd`
-    cd $HOME
-    todolist $@
-    cd $WDIR
-}
-
-function homestead() {
-    ( cd ~/Homestead && vagrant $* )
-}
-
-function fixperms {
-    if [ -z "$1" ]; then
-        echo "Please specify the path to directory."
-        return
-    fi
-
-    confirm "Are sure that you want to fix permissions on \"$1\"? [y/N]" || return
-
-    # chmod all files to 644
-    # chmod all dires to 755
-    echo ""
-    echo "== Fixing file permissions..."
-    echo "`find $1 -type f -print -exec chmod u=rw,g=r,o=r {} \; | wc -l` files processed."
-    echo "`find $1 -type d -print -exec chmod u=rwx,g=rx,o=rx {} \; | wc -l` directories processed."
-
-    # Remove "com.apple.quarantine" flag (OSX)
-    echo ""
-    echo "== Removing files from OSX quarantine, if any..."
-    find $1 -exec xattr -d com.apple.quarantine {} 2&>1 /dev/null \;
-    echo "    Done!"
-
-    # Unlock (OSX)
-    echo ""
-    echo "== Unlocking locked files, if any..."
-    echo "    Done!"
-    chflags -R nouchg $1
-    chflags -R noschg $1
-}
-
-function a2mkw {
-	WWW_USER=`ps aux | egrep 'apache|httpd' | awk '{ print $1 }' | sed '1 d' | sort | uniq | awk '{print}' ORS=' ' | sed "s/\b$(whoami)\|root\b//g" | xargs`
-
-	echo ""
-	echo "== Setting up writables..."
-	echo "= Webserver is running by \"$WWW_USER\""
-
-	chgrp -v -R $WWW_USER $1
-	chmod -v -R u=rwx,g=rwx,o=rx $1
-	echo ""
-}
