@@ -5,6 +5,7 @@ tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'colindean/fonts-nonfree'
+tap 'homebrew/apache'
 tap 'homebrew/bundle'
 tap 'homebrew/completions'
 tap 'homebrew/core'
@@ -12,6 +13,7 @@ tap 'homebrew/dupes'
 tap 'homebrew/php'
 tap 'homebrew/services'
 tap 'homebrew/versions'
+tap 'neovim/neovim'
 tap 'sepehr/caskroom'
 tap 'vitorgalvao/tiny-scripts'
 brew 'ack'
@@ -136,6 +138,8 @@ brew 'youtube-dl'
 brew 'zsh'
 brew 'zsh-completions'
 brew 'beeftornado/rmtree/brew-rmtree'
+brew 'homebrew/dupes/zlib'
+brew 'homebrew/apache/httpd24'
 brew 'homebrew/completions/brew-cask-completion'
 brew 'homebrew/completions/composer-completion'
 brew 'homebrew/completions/django-completion'
@@ -145,7 +149,6 @@ brew 'homebrew/completions/launchctl-completion'
 brew 'homebrew/completions/packer-completion'
 brew 'homebrew/completions/pip-completion'
 brew 'homebrew/completions/vagrant-completion'
-brew 'homebrew/dupes/zlib'
 brew 'homebrew/php/php71', args: ['with-phpdbg']
 brew 'homebrew/php/composer'
 brew 'homebrew/php/php71-apcu'
@@ -166,6 +169,7 @@ cask 'boot2docker'
 cask 'cakebrew'
 cask 'chromium'
 cask 'cleanmymac'
+cask 'daisydisk'
 cask 'dash'
 cask 'disk-drill'
 cask 'dropbox'
@@ -291,13 +295,13 @@ cask 'vlc'
 cask 'vox'
 cask 'webpquicklook'
 cask 'zeronet'
-mas 'Magnet', id: 441258766
+mas 'Tomato One', id: 907364780
 mas 'Annoying File Be-Gone', id: 1031773437
 mas 'Memory Cleaner', id: 748212890
 mas 'Xcode', id: 497799835
 mas 'Pages', id: 409201541
-mas 'Keynote', id: 409183694
-mas 'Slack', id: 803453959
-mas 'Tomato One', id: 907364780
 mas 'Persian Calendar', id: 1171425651
+mas 'Keynote', id: 409183694
+mas 'Magnet', id: 441258766
+mas 'Slack', id: 803453959
 mas 'Numbers', id: 409203825
