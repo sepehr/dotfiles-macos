@@ -1,9 +1,12 @@
+## Early env vars
+export BREW=`brew --prefix`
+
 ## Sources
 [ -f "$HOME/.profile.local" ] && source "$HOME/.profile.local"
 [ -f "$HOME/.profile.helpers" ] && source "$HOME/.profile.helpers"
 [ -f "$HOME/.rvm/scripts/rvm" ] && source "$HOME/.rvm/scripts/rvm"
-[ -f /Users/Sepehr/.travis/travis.sh ] && source /Users/Sepehr/.travis/travis.sh
-[ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh
+[ -f "$HOME/.travis/travis.sh" ] && source "$HOME/.travis/travis.sh"
+[ -f "$BREW/bin/virtualenvwrapper.sh" ] && source "$BREW/bin/virtualenvwrapper.sh"
 
 ## Init
 # Add SSH keys to the keychain
@@ -23,7 +26,6 @@ export SSH_KEY_PATH="$HOME/.ssh/id_rsa"
 # Brew
 export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_NO_INSECURE_REDIRECT=1
-export BREW=`brew --prefix`
 export BREW_CELLAR="$BREW/Cellar"
 export BREW_REPO=`brew --repository`
 export BREW_CASKROOM="$BREW_REPO/Library/Taps/caskroom"
@@ -42,7 +44,7 @@ export COMPOSER_ALLOW_XDEBUG=0
 PATH_LARAVEL="vendor/laravel/framework/src/Illuminate"
 PATH_LARALOG="storage/logs/laravel.log"
 PATH_PHPINI71="$BREW/etc/php/7.1/php.ini"
-PATH_APACHE_CONF="$BREW/etc/apache2/2.2/httpd.conf"
+PATH_APACHE_CONF="$BREW/etc/apache2/2.4/httpd.conf"
 PATH_APACHE_VHOSTS="$BREW/etc/apache2/2.2/extra/httpd-vhosts.conf"
 PATH_APACHE_ERROR="$BREW/var/log/apache2/error_log"
 PATH_MONGO_LOG="$BREW/var/log/mongodb/mongo.log"
@@ -66,7 +68,8 @@ alias git=hub
 alias ls="ls -a"
 alias mkdir="mkdir -p"
 alias srv="brew services"
-alias apachectl="/usr/local/bin/apachectl"
+alias rsync="$BREW/bin/rsync"
+alias apachectl="$BREW/bin/apachectl"
 alias bpcit="sudo openvpn --config $HOME/cit.ovpn"
 alias phpstorm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
 # Git
