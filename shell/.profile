@@ -10,7 +10,7 @@
 # See: http://superuser.com/a/1128836/6841
 ssh-add -A &> /dev/null
 
-# Warn about tasks that due today
+# Warn about tasks
 if command -v todolist &> /dev/null; then
     printf '>> Tasks due today:'
     t list due today
