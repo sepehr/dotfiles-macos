@@ -13,3 +13,7 @@
 	postBuffer = 524288000
 [push]
 	default = simple
+[github]
+	user = sepehr
+[ghi]
+	token = !security find-internet-password -a sepehr -s github.com -l 'ghi token' -w
