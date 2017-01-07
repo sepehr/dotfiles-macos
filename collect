@@ -103,6 +103,9 @@ cp -vrf ~/Library/Application\ Support/Transmission/blocklists app/transmission
 # apptivate
 cp -vf ~/Library/Application\ Support/Apptivate/hotkeys app/apptivate
 
+# magnet
+cp -vf ~/Library/Preferences/com.crowdcafe.windowmagnet.plist app/magnet
+
 ## git
 say 'Collecting git configs...'
 cp -vf ~/.{gitconfig,gitignore,gitignore_global,git_hooks} git/

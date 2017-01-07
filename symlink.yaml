@@ -117,6 +117,9 @@
     # apptivate
     "~/Library/Application Support/Apptivate/hotkeys": app/apptivate/hotkeys
 
+    # magnet
+    ~/Library/Preferences/com.crowdcafe.windowmagnet.plist: app/magnet/com.crowdcafe.windowmagnet.plist
+
     ## services
     # supervisor
     /usr/local/etc/supervisor.d: ~/.dotfiles/service/supervisor/supervisor.d
