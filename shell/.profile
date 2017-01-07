@@ -73,6 +73,7 @@ alias rsync="$BREW/bin/rsync"
 alias apachectl="$BREW/bin/apachectl"
 alias bpcit="sudo openvpn --config $HOME/cit.ovpn"
 alias phpstorm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
+eval "$(thefuck --alias)"
 # Git
 alias gl="git log"
 alias gd="git diff"
