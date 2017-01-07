@@ -2,8 +2,8 @@
 export BREW=`brew --prefix`
 
 ## Sources
-[ -f "$HOME/.profile.local" ] && source "$HOME/.profile.local"
 [ -f "$HOME/.profile.helpers" ] && source "$HOME/.profile.helpers"
+[ -f "$HOME/.profile.local" ] && source "$HOME/.profile.local"
 [ -f "$HOME/.rvm/scripts/rvm" ] && source "$HOME/.rvm/scripts/rvm"
 [ -f "$HOME/.travis/travis.sh" ] && source "$HOME/.travis/travis.sh"
 [ -f "$BREW/bin/virtualenvwrapper.sh" ] && source "$BREW/bin/virtualenvwrapper.sh"
@@ -65,6 +65,7 @@ alias dot="cd $HOME/.dotfiles"
 # Executables
 alias b=brew
 alias git=hub
+alias c=composer
 alias ls="ls -a"
 alias mkdir="mkdir -p"
 alias srv="brew services"
