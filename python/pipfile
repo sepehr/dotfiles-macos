@@ -15,7 +15,7 @@ linecache2==1.0.0
 livereload==2.5.0
 MarkupSafe==0.23
 meld3==1.0.2
-mercurial==4.0.1
+mercurial==4.0.2
 ordereddict==1.1
 pathtools==0.1.2
 pbr==1.10.0
