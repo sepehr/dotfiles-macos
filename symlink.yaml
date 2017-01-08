@@ -18,6 +18,9 @@
     ~/.bashrc.local: ~/.dotfiles/private/conf/shell/.bashrc.local
     ~/.profile.local: ~/.dotfiles/private/conf/shell/.profile.local
 
+    # confs
+    ~/.githubrc: private/conf/.githubrc
+
     # apps
     "~/Library/Application Support/Adium 2.0/Users": "~/.dotfiles/private/conf/app/adium/Adium 2.0/Users"
 

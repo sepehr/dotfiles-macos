@@ -29,6 +29,9 @@ cp -vf ~/.zshrc.local private/conf/shell
 cp -vf ~/.bashrc.local private/conf/shell
 cp -vf ~/.profile.local private/conf/shell
 
+# confs
+cp -vf ~/.githubrc private/conf
+
 # apps
 cp -rf ~/Library/Application\ Support/Adium\ 2.0/Users private/conf/app/adium/Adium\ 2.0/Users
 
