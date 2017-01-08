@@ -545,6 +545,9 @@ apm install --packages-file cellar/apmfile
 ## post-install
 say 'Running post-install scripts...'
 
+# Install sublime package control
+wget -q https://packagecontrol.io/Package%20Control.sublime-package -O $HOME/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
+
 # Downloading keyservers CA certificate for gnupg2
 mkdir -p /usr/local/etc/ssl/certs
 wget https://sks-keyservers.net/sks-keyservers.netCA.pem -O /usr/local/etc/ssl/certs/hkps.pool.sks-keyservers.net.pem
