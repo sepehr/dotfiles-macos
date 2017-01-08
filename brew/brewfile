@@ -16,6 +16,7 @@ tap 'homebrew/versions'
 tap 'neovim/neovim'
 tap 'sepehr/caskroom'
 tap 'vitorgalvao/tiny-scripts'
+cask 'java'
 brew 'ack'
 brew 'apr'
 brew 'openssl'
@@ -51,6 +52,7 @@ brew 'cmake'
 brew 'colordiff'
 brew 'coreutils'
 brew 'curl'
+brew 'dark-mode'
 brew 'libgpg-error'
 brew 'libassuan'
 brew 'libgcrypt'
@@ -144,6 +146,7 @@ brew 'ssh-copy-id'
 brew 'subversion'
 brew 'supervisor', restart_service: true
 brew 'the_silver_searcher'
+brew 'thefuck'
 brew 'todolist'
 brew 'tree'
 brew 'unibilium'
@@ -174,6 +177,8 @@ brew 'homebrew/php/composer'
 brew 'homebrew/php/php71-apcu'
 brew 'homebrew/php/php71-mcrypt'
 brew 'homebrew/php/php71-mongodb'
+brew 'homebrew/php/php71-xdebug'
+brew 'homebrew/php/xdebug-osx'
 brew 'neovim/neovim/neovim'
 cask 'adium-beta'
 cask 'android-file-transfer'
@@ -189,6 +194,7 @@ cask 'boot2docker'
 cask 'cakebrew'
 cask 'chromium'
 cask 'cleanmymac'
+cask 'clion'
 cask 'daisydisk'
 cask 'dash'
 cask 'disk-drill'
@@ -287,6 +293,7 @@ cask 'quicklook-json'
 cask 'ransomwhere'
 cask 'ricochet'
 cask 'robomongo'
+cask 'rubymine'
 cask 'screenflow'
 cask 'sequel-pro'
 cask 'sketch'
@@ -317,12 +324,12 @@ cask 'vlc'
 cask 'vox'
 cask 'webpquicklook'
 cask 'zeronet'
-mas 'Tomato One', id: 907364780
 mas 'Annoying File Be-Gone', id: 1031773437
 mas 'Memory Cleaner', id: 748212890
 mas 'Xcode', id: 497799835
 mas 'Pages', id: 409201541
-mas 'Persian Calendar', id: 1171425651
 mas 'Keynote', id: 409183694
+mas 'Tomato One', id: 907364780
+mas 'Persian Calendar', id: 1171425651
 mas 'Magnet', id: 441258766
 mas 'Numbers', id: 409203825
