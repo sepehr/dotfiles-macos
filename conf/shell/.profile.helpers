@@ -1,4 +1,38 @@
 ## Helpers
+
+# checks if command exists with zero status code
+function exists() {
+    command -v $1 &> /dev/null
+}
+
+# hub wrapper
+# requires piotrmurach/github_cli
+function git() {
+    if [ "$1" != "delete" ]; then
+        hub $@
+        return
+    fi
+
+    if [ -z "$2" ]; then
+        echo "No repo name given."
+        return 1
+    fi
+
+    if ! exists gcli; then
+        echo "gcli is not available. run: gem install github_cli"
+        return 1
+    fi
+
+    GCLI_USER=$(gcli config user.login)
+    if [ -z "$GCLI_USER" ]; then
+        echo "gcli's user.login config is not set. see: gcli help config"
+        return 1
+    fi
+
+    gcli repo delete $GCLI_USER $2
+}
+
+# todolist wrapper
 function t() {
     if [[ -f "./.todos.json" || "$1" == "init" ]]; then
         todolist $@
@@ -11,10 +45,12 @@ function t() {
     cd $WDIR
 }
 
+# vagrant wrapper for homestead
 function homestead() {
     ( cd ~/Homestead && vagrant $* )
 }
 
+# fixes file/dir permissions
 function fixperms {
     if [ -z "$1" ]; then
         echo "Please specify the path to directory."
@@ -44,6 +80,7 @@ function fixperms {
     chflags -R noschg $1
 }
 
+# makes the file/dir apache writeable
 function a2mkw {
     WWW_USER=`ps aux | egrep 'apache|httpd' | awk '{ print $1 }' | sed '1 d' | sort | uniq | awk '{print}' ORS=' ' | sed "s/\b$(whoami)\|root\b//g" | xargs`
 

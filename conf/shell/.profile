@@ -14,7 +14,7 @@ export BREW=`brew --prefix`
 ssh-add -A &> /dev/null
 
 # Warn about tasks that due today
-if command -v todolist &> /dev/null; then
+if exists todolist; then
     printf ">> Get things done and live happier!"
     t list due today
 fi
@@ -64,7 +64,6 @@ alias desk="cd $HOME/Desktop"
 alias dot="cd $HOME/.dotfiles"
 # Executables
 alias b=brew
-alias git=hub
 alias c=composer
 alias ls="ls -a"
 alias mkdir="mkdir -p"
