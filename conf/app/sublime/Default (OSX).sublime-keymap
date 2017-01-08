@@ -1,0 +1,14 @@
+[
+	{ "keys": ["cmd+1"], "command": "toggle_side_bar" },
+	{ "keys": ["ctrl+super+a"], "command": "alignment" },
+	{ "keys": ["ctrl+super+f"], "command": "reindent", "args": {"single_line": false}},
+	{ "keys": ["super+v"], "command": "paste_and_indent" },
+	{ "keys": ["super+shift+v"], "command": "paste" },
+	{ "keys": ["super+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["ctrl+g"], "command": "find_under_expand" },
+	{ "keys": ["f3"], "command": "toggle_bookmark" },
+	{ "keys": ["super+f3"], "command": "next_bookmark" },
+	{ "keys": ["super+d"], "command": "duplicate_line" },
+	{ "keys": ["shift+alt+up"], "command": "swap_line_up" },
+	{ "keys": ["shift+alt+down"], "command": "swap_line_down" },
+]

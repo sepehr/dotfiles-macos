@@ -1,0 +1,37 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"ApacheConf.tmLanguage",
+		"Babel",
+		"DashDoc",
+		"Delete Current File",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"ExpandRegion",
+		"File Rename",
+		"FileDiffs",
+		"Fold Python",
+		"Function Name Display",
+		"HTML-CSS-JS Prettify",
+		"JSX",
+		"Laravel Blade Highlighter",
+		"Markdown Preview",
+		"Modific",
+		"Package Control",
+		"Pretty JSON",
+		"Python Improved",
+		"Python Open Module (New)",
+		"SideBarEnhancements",
+		"SyncedSideBar",
+		"Theme - Spacegray",
+		"ToggleQuotes",
+		"Vue Syntax Highlight"
+	]
+}
