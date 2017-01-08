@@ -17,4 +17,5 @@ Thumbs.db
 
 # IDE
 .idea
-*.sublime-*
+*.sublime-project
+*.sublime-workspace
