@@ -457,7 +457,7 @@ defaults write com.apple.commerce AutoUpdateRestartRequired -bool false
 say 'Tweaking other default apps...'
 
 # iTerm should load its configs from custom location
-defaults write com.googlecode.iterm2 PrefsCustomFolder -string "/Users/Sepehr/.dotfiles/conf/app/iterm"
+defaults write com.googlecode.iterm2 PrefsCustomFolder -string "$HOME/.dotfiles/conf/app/iterm"
 
 # Only use UTF-8 in Terminal
 defaults write com.apple.terminal StringEncodings -array 4

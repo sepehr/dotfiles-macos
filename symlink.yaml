@@ -103,7 +103,7 @@
     ~/.atom/snippets.cson: ~/.dotfiles/conf/app/atom/snippets.cson
 
     # chrome's stylish
-    "/Users/Sepehr/Library/Application Support/Google/Chrome/Profile 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb": ~/.dotfiles/conf/app/chrome/stylish.leveldb
+    "~/Library/Application Support/Google/Chrome/Profile 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb": ~/.dotfiles/conf/app/chrome/stylish.leveldb
 
     # adium
     "~/Library/Application Support/Adium 2.0/Sounds": "~/.dotfiles/conf/app/adium/Adium 2.0/Sounds"
