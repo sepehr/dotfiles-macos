@@ -1,0 +1,24 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7f1432c1-fabe-4f02-b3bc-8546352c7473" name="tcvb.dev" url="http://www.tcvb.dev/">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="cd0faf2a-c24d-4476-970a-d66441d526a1" name="laravel.dev" url="http://laravel.dev/">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="e8402ba1-dbe2-451c-afa3-6304bb1f21b6" name="citcopanel.dev" url="http://citcopanel.dev/">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="26ecb091-7815-4aad-b6ab-f1154670f56a" name="bazapp.dev" url="http://bazapp.dev/">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="7f390e75-1d12-4903-90ff-ba783f9c846c" name="trapbits.dev" url="http://trapbits.dev/">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="bc192a48-7743-419b-89bd-b19ec7d94530" name="tcvs.dev" url="http://tcvs.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>

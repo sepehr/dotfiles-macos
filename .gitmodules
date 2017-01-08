@@ -2,7 +2,7 @@
 	path = .setup/dotbot
 	url = https://github.com/anishathalye/dotbot
     ignore = dirty
-[submodule "editor/intellij"]
-    path = editor/intellij
+[submodule "conf/app/intellij"]
+    path = conf/app/intellij
     url = https://github.com/sepehr/intellij-settings.git
     ignore = dirty

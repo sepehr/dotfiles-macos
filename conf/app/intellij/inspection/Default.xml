@@ -1,0 +1,20 @@
+<inspections profile_name="Default" version="1.0">
+  <option name="myName" value="Default" />
+  <option name="myLocal" value="true" />
+  <inspection_tool class="PhpMissingParentConstructorInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="PhpUndefinedClassInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="DONT_REPORT_MULTI_RESOLVE" value="true" />
+  </inspection_tool>
+  <inspection_tool class="PhpUndefinedMethodInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="DOWNGRADE_SEVERITY" value="true" />
+  </inspection_tool>
+  <inspection_tool class="PhpUnusedParameterInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="DONT_REPORT_ABSTRACT_CLASS" value="true" />
+    <option name="DONT_REPORT_PARAMETERS_COUNT_ACCESS" value="true" />
+  </inspection_tool>
+  <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+    <option name="processCode" value="true" />
+    <option name="processLiterals" value="true" />
+    <option name="processComments" value="true" />
+  </inspection_tool>
+</inspections>

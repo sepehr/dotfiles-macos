@@ -1,0 +1,8 @@
+<application>
+  <component name="CssEmmetOptions">
+    <option name="cssEmmetEnabled" value="false" />
+  </component>
+  <component name="EmmetOptions">
+    <option name="emmetExpandShortcut" value="10" />
+  </component>
+</application>

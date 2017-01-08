@@ -11,134 +11,124 @@
 
     ## privates
     # todos
-    ~/.todos.json: ~/.dotfiles/private/.todos.json
+    ~/.todos.json: ~/.dotfiles/private/conf/.todos.json
 
-    # shells
-    ~/.zshrc.local: ~/.dotfiles/private/shell/.zshrc.local
-    ~/.bashrc.local: ~/.dotfiles/private/shell/.bashrc.local
-    ~/.profile.local: ~/.dotfiles/private/shell/.profile.local
-
-    # adium
-    "~/Library/Application Support/Adium 2.0/Users": "~/.dotfiles/private/app/adium/Adium 2.0/Users"
-
-    # personal content
-    ~/Pictures/Icons: private/personal/pictures/Icons
-    ~/Pictures/Memes: private/personal/pictures/Memes
-    ~/Pictures/Identity: private/personal/pictures/Identity
-    ~/Pictures/Wallpapers: private/personal/pictures/Wallpapers
-    "~/Pictures/Photo Booth Library": "~/.dotfiles/private/personal/pictures/Photo Booth Library"
-
-    ## shell
-    ~/.zshrc: ~/.dotfiles/shell/.zshrc
-    ~/.bashrc: ~/.dotfiles/shell/.bashrc
-    ~/.profile: ~/.dotfiles/shell/.profile
-    ~/.bash_profile: ~/.dotfiles/shell/.bash_profile
-    ~/.profile.helpers: ~/.dotfiles/shell/.profile.helpers
-
-    ## terminals
-    # iTerm should be configured to read/write its prefs from/to "terminal/iterm/"
-    ~/.hyper.js: ~/.dotfiles/terminal/hyper/.hyper.js
-    ~/Library/Preferences/com.apple.Terminal.plist: ~/.dotfiles/terminal/com.apple.Terminal.plist
-
-    ## ssh/gpg
-    ~/.ssh/config: ~/.dotfiles/ssh/config
-    ~/.gnupg/gpg.conf: ~/.dotfiles/gnupg/gpg.conf
-
-    ## git
-    ~/.gitconfig: ~/.dotfiles/git/.gitconfig
-    ~/.gitignore: ~/.dotfiles/git/.gitignore
-    ~/.gitignore_global: ~/.dotfiles/git/.gitignore_global
-    # ~/.git_hooks: ~/.dotfiles/git/.git_hooks
-
-    ## languages
-    ~/.npmrc: ~/.dotfiles/node/.npmrc
-    ~/.gemrc: ~/.dotfiles/ruby/.gemrc
-    ~/.composer/composer.json: ~/.dotfiles/php/composer.json
-
-    ## editors
-    # vim
-    ~/.vim: ~/.dotfiles/editor/vim/.vim
-    ~/.vimrc: ~/.dotfiles/editor/vim/.vimrc
-    ~/.vundle.vim: ~/.dotfiles/editor/vim/.vundle.vim
-
-    # neovim
-    ~/.config/nvim: ~/.dotfiles/editor/vim/.vim
-    ~/.config/nvim/init.vim: ~/.dotfiles/editor/vim/.vimrc
-
-    # sublime
-    "~/Library/Application Support/Sublime Text 3/Packages/User/Schemes": ~/.dotfiles/editor/sublime/Schemes
-    "~/Library/Application Support/Sublime Text 3/Packages/User/Snippets": ~/.dotfiles/editor/sublime/Snippets
-    "~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings": ~/.dotfiles/editor/sublime/Preferences.sublime-settings
-    "~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap": "~/.dotfiles/editor/sublime/Default (OSX).sublime-keymap"
-    "~/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings": "~/.dotfiles/editor/sublime/Package Control.sublime-settings"
-
-    # atom
-    ~/.atom/config.cson: ~/.dotfiles/editor/atom/config.cson
-    ~/.atom/keymap.cson: ~/.dotfiles/editor/atom/keymap.cson
-    ~/.atom/init.coffee: ~/.dotfiles/editor/atom/init.coffee
-    ~/.atom/styles.less: ~/.dotfiles/editor/atom/styles.less
-    ~/.atom/snippets.cson: ~/.dotfiles/editor/atom/snippets.cson
-    ~/Library/Preferences/com.github.atom.plist: ~/.dotfiles/editor/atom/com.github.atom.plist
+    # shell
+    ~/.zshrc.local: ~/.dotfiles/private/conf/shell/.zshrc.local
+    ~/.bashrc.local: ~/.dotfiles/private/conf/shell/.bashrc.local
+    ~/.profile.local: ~/.dotfiles/private/conf/shell/.profile.local
 
     # apps
-    #chrome's stylish
-    "/Users/Sepehr/Library/Application Support/Google/Chrome/Profile 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb": ~/.dotfiles/app/chrome/stylish.leveldb
+    "~/Library/Application Support/Adium 2.0/Users": "~/.dotfiles/private/conf/app/adium/Adium 2.0/Users"
 
-    # adium
-    "~/Library/Preferences/com.adiumX.adiumX.plist": ~/.dotfiles/app/adium/com.adiumX.adiumX.plist
-    "~/Library/Application Support/Adium 2.0/Sounds": "~/.dotfiles/app/adium/Adium 2.0/Sounds"
-    "~/Library/Application Support/Adium 2.0/Scripts": "~/.dotfiles/app/adium/Adium 2.0/Scripts"
-    "~/Library/Application Support/Adium 2.0/Plugins": "~/.dotfiles/app/adium/Adium 2.0/Plugins"
-    "~/Library/Application Support/Adium 2.0/Emoticons": "~/.dotfiles/app/adium/Adium 2.0/Emoticons"
-    "~/Library/Application Support/Adium 2.0/Dock Icons": "~/.dotfiles/app/adium/Adium 2.0/Dock Icons"
-    "~/Library/Application Support/Adium 2.0/Status Icons": "~/.dotfiles/app/adium/Adium 2.0/Status Icons"
-    "~/Library/Application Support/Adium 2.0/Contact List": "~/.dotfiles/app/adium/Adium 2.0/Contact List"
-    "~/Library/Application Support/Adium 2.0/Service Icons": "~/.dotfiles/app/adium/Adium 2.0/Service Icons"
-    "~/Library/Application Support/Adium 2.0/Menu Bar Icons": "~/.dotfiles/app/adium/Adium 2.0/Menu Bar Icons"
-    "~/Library/Application Support/Adium 2.0/Message Styles": "~/.dotfiles/app/adium/Adium 2.0/Message Styles"
+    # personal content
+    ~/Pictures/Etc: ~/.dotfiles/private/var/pictures/Etc
+    ~/Pictures/Icons: ~/.dotfiles/private/var/pictures/Icons
+    ~/Pictures/Memes: ~/.dotfiles/private/var/pictures/Memes
+    ~/Pictures/Photos: ~/.dotfiles/private/var/pictures/Photos
+    ~/Pictures/Identity: ~/.dotfiles/private/var/pictures/Identity
+    ~/Pictures/Wallpapers: ~/.dotfiles/private/var/pictures/Wallpapers
+    "~/Pictures/Photo Booth Library": "~/.dotfiles/private/var/pictures/Photo Booth Library"
 
-    # bartender
-    ~/Library/Preferences/com.surteesstudios.Bartender.plist: ~/.dotfiles/app/bartender/com.surteesstudios.Bartender.plist
 
-    # dash: ~/.dotfiles/it should be configured to store its snippets file in "app/dash/snippets.dash"
-    "~/Dropbox/dev/dash/Snippets.dash": ~/.dotfiles/app/dash/snippets.dash
-    "~/Library/Application Support/Dash/library.dash": ~/.dotfiles/app/dash/library.dash
-    ~/Library/Preferences/com.kapeli.dash.plist: ~/.dotfiles/app/dash/com.kapeli.dash.plist
-    ~/Library/Preferences/com.kapeli.dashdoc.plist: ~/.dotfiles/app/dash/com.kapeli.dashdoc.plist
+    ## shell
+    ~/.zshrc: ~/.dotfiles/conf/shell/.zshrc
+    ~/.bashrc: ~/.dotfiles/conf/shell/.bashrc
+    ~/.profile: ~/.dotfiles/conf/shell/.profile
+    ~/.bash_profile: ~/.dotfiles/conf/shell/.bash_profile
+    ~/.profile.helpers: ~/.dotfiles/conf/shell/.profile.helpers
 
-    # littlesnitch
-    ~/Library/Preferences/at.obdev.LittleSnitchNetworkMonitor.plist: ~/.dotfiles/app/littlesnitch/at.obdev.LittleSnitchNetworkMonitor.plist
-    "~/Library/Application Support/Little Snitch/configuration.user.xpl": ~/.dotfiles/app/littlesnitch/configuration.user.xpl
 
-    # transmission
-    "~/Library/Application\ Support/Transmission/blocklists": ~/.dotfiles/app/transmission/blocklists
-    ~/Library/Preferences/org.m0k.transmission.plist: ~/.dotfiles/app/transmission/org.m0k.transmission.plist
+    ## languages
+    ~/.npmrc: ~/.dotfiles/conf/.npmrc
+    ~/.gemrc: ~/.dotfiles/conf/.gemrc
+    ~/.composer/composer.json: ~/.dotfiles/cellar/composer.json
 
-    # apptivate
-    "~/Library/Application Support/Apptivate/hotkeys": app/apptivate/hotkeys
 
-    # magnet
-    ~/Library/Preferences/com.crowdcafe.windowmagnet.plist: app/magnet/com.crowdcafe.windowmagnet.plist
+    ## git/ssh/gpg
+    ~/.ssh/config: ~/.dotfiles/conf/ssh/config
+    ~/.gnupg/gpg.conf: ~/.dotfiles/conf/gnupg/gpg.conf
+    ~/.gitconfig: ~/.dotfiles/conf/git/.gitconfig
+    ~/.gitignore: ~/.dotfiles/conf/git/.gitignore
+    ~/.gitignore_global: ~/.dotfiles/conf/git/.gitignore_global
+    # ~/.git_hooks: ~/.dotfiles/conf/git/.git_hooks
 
-    ## services
-    # supervisor
-    /usr/local/etc/supervisor.d: ~/.dotfiles/service/supervisor/supervisor.d
-    /usr/local/etc/supervisord.ini: ~/.dotfiles/service/supervisor/supervisord.ini
-    /usr/local/etc/supervisord.conf: ~/.dotfiles/service/supervisor/supervisord.ini
-
-    # apache httpd
-    /usr/local/etc/apache2/2.4/httpd.conf: service/httpd24/httpd.conf
-    /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf: service/httpd24/httpd-vhosts.conf
 
     ## misc
     ~/.bin: ~/.dotfiles/bin
-    ~/.ackrc: ~/.dotfiles/etc/.ackrc
-    ~/.axelrc: ~/.dotfiles/etc/.axelrc
-    ~/.curlrc: ~/.dotfiles/etc/.curlrc
-    ~/.mongorc.js: ~/.dotfiles/etc/.mongorc.js
-    ~/.ansible.cfg: ~/.dotfiles/etc/.ansible.cfg
-    ~/.editorconfig: ~/.dotfiles/etc/.editorconfig
-    ~/Library/Preferences/com.apple.symbolichotkeys.plist: ~/.dotfiles/etc/com.apple.symbolichotkeys.plist
+    ~/.ackrc: ~/.dotfiles/conf/.ackrc
+    ~/.axelrc: ~/.dotfiles/conf/.axelrc
+    ~/.curlrc: ~/.dotfiles/conf/.curlrc
+    ~/.mongorc.js: ~/.dotfiles/conf/.mongorc.js
+    ~/.ansible.cfg: ~/.dotfiles/conf/.ansible.cfg
+    ~/.editorconfig: ~/.dotfiles/conf/.editorconfig
+
+
+    ## services
+    # supervisor
+    /usr/local/etc/supervisor.d: ~/.dotfiles/conf/service/supervisor/supervisor.d
+    /usr/local/etc/supervisord.ini: ~/.dotfiles/conf/service/supervisor/supervisord.ini
+    /usr/local/etc/supervisord.conf: ~/.dotfiles/conf/service/supervisor/supervisord.ini
+
+    # apache httpd
+    /usr/local/etc/apache2/2.4/httpd.conf: ~/.dotfiles/conf/service/httpd24/httpd.conf
+    /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf: ~/.dotfiles/conf/service/httpd24/httpd-vhosts.conf
+
+
+    ## apps
+    # iTerm should be configured to read/write its prefs from/to "conf/app/iterm/"
+    ~/.hyper.js: ~/.dotfiles/conf/app/hyper/.hyper.js
+
+    # vim
+    ~/.vim: ~/.dotfiles/conf/app/vim/.vim
+    ~/.vimrc: ~/.dotfiles/conf/app/vim/.vimrc
+    ~/.vundle.vim: ~/.dotfiles/conf/app/vim/.vundle.vim
+
+    # neovim
+    ~/.config/nvim: ~/.dotfiles/conf/app/vim/.vim
+    ~/.config/nvim/init.vim: ~/.dotfiles/conf/app/vim/.vimrc
+
+    # sublime
+    "~/Library/Application Support/Sublime Text 3/Packages/User/Schemes": ~/.dotfiles/conf/app/sublime/Schemes
+    "~/Library/Application Support/Sublime Text 3/Packages/User/Snippets": ~/.dotfiles/conf/app/sublime/Snippets
+    "~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings": ~/.dotfiles/conf/app/sublime/Preferences.sublime-settings
+    "~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap": "~/.dotfiles/conf/app/sublime/Default (OSX).sublime-keymap"
+    "~/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings": "~/.dotfiles/conf/app/sublime/Package Control.sublime-settings"
+
+    # atom
+    ~/.atom/config.cson: ~/.dotfiles/conf/app/atom/config.cson
+    ~/.atom/keymap.cson: ~/.dotfiles/conf/app/atom/keymap.cson
+    ~/.atom/init.coffee: ~/.dotfiles/conf/app/atom/init.coffee
+    ~/.atom/styles.less: ~/.dotfiles/conf/app/atom/styles.less
+    ~/.atom/snippets.cson: ~/.dotfiles/conf/app/atom/snippets.cson
+
+    # chrome's stylish
+    "/Users/Sepehr/Library/Application Support/Google/Chrome/Profile 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb": ~/.dotfiles/conf/app/chrome/stylish.leveldb
+
+    # adium
+    "~/Library/Application Support/Adium 2.0/Sounds": "~/.dotfiles/conf/app/adium/Adium 2.0/Sounds"
+    "~/Library/Application Support/Adium 2.0/Scripts": "~/.dotfiles/conf/app/adium/Adium 2.0/Scripts"
+    "~/Library/Application Support/Adium 2.0/Plugins": "~/.dotfiles/conf/app/adium/Adium 2.0/Plugins"
+    "~/Library/Application Support/Adium 2.0/Emoticons": "~/.dotfiles/conf/app/adium/Adium 2.0/Emoticons"
+    "~/Library/Application Support/Adium 2.0/Dock Icons": "~/.dotfiles/conf/app/adium/Adium 2.0/Dock Icons"
+    "~/Library/Application Support/Adium 2.0/Status Icons": "~/.dotfiles/conf/app/adium/Adium 2.0/Status Icons"
+    "~/Library/Application Support/Adium 2.0/Contact List": "~/.dotfiles/conf/app/adium/Adium 2.0/Contact List"
+    "~/Library/Application Support/Adium 2.0/Service Icons": "~/.dotfiles/conf/app/adium/Adium 2.0/Service Icons"
+    "~/Library/Application Support/Adium 2.0/Menu Bar Icons": "~/.dotfiles/conf/app/adium/Adium 2.0/Menu Bar Icons"
+    "~/Library/Application Support/Adium 2.0/Message Styles": "~/.dotfiles/conf/app/adium/Adium 2.0/Message Styles"
+
+    # dash: it should be configured to store its snippets file in "conf/app/dash/snippets.dash"
+    "~/Dropbox/dev/dash/Snippets.dash": ~/.dotfiles/conf/app/dash/snippets.dash
+    "~/Library/Application Support/Dash/library.dash": ~/.dotfiles/conf/app/dash/library.dash
+
+    # littlesnitch
+    "~/Library/Application Support/Little Snitch/configuration.user.xpl": ~/.dotfiles/conf/app/littlesnitch/configuration.user.xpl
+
+    # transmission
+    "~/Library/Application\ Support/Transmission/blocklists": ~/.dotfiles/conf/app/transmission/blocklists
+
+    # apptivate
+    "~/Library/Application Support/Apptivate/hotkeys": ~/.dotfiles/conf/app/apptivate/hotkeys
 
 - shell:
     -

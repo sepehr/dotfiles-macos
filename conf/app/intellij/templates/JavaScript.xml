@@ -1,0 +1,8 @@
+<templateSet group="JavaScript">
+  <template name="con" value="console.log($END$);" description="Inserts console.log() call" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="CoffeeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -10,126 +10,118 @@ files are symlinked, you're just copying dead symlinks over symlinks. That'd be
 genocide, be warned.\n\n"
 read -p "Press enter to continue..."
 
+
 ## collect non-symlinked dotfiles
 ./update
 
+
 ## privates
+say 'Collecting privates...'
+
 # todos
-cp -vf ~/.todos.json private/
+cp -vf ~/.todos.json private/conf
 
 # hosts
-cp -vf /etc/hosts private/var/
+cp -vf /etc/hosts private/etc
 
-# shells
-cp -vf ~/.zshrc.local private/shell
-cp -vf ~/.bashrc.local private/shell
-cp -vf ~/.profile.local private/shell
+# shell
+cp -vf ~/.zshrc.local private/conf/shell
+cp -vf ~/.bashrc.local private/conf/shell
+cp -vf ~/.profile.local private/conf/shell
 
 # apps
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Users private/app/adium/Adium\ 2.0/Users
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Users private/conf/app/adium/Adium\ 2.0/Users
 
 # personal content
-cp -rf ~/Pictures/Icons private/personal/pictures
-cp -rf ~/Pictures/Memes private/personal/pictures
-cp -rf ~/Pictures/Identity private/personal/pictures
-cp -rf ~/Pictures/Wallpapers private/personal/pictures
-cp -rf ~/Pictures/Photo\ Booth\ Library private/personal/pictures
+cp -rf ~/Pictures/Icons private/var/pictures
+cp -rf ~/Pictures/Memes private/var/pictures
+cp -rf ~/Pictures/Identity private/var/pictures
+cp -rf ~/Pictures/Wallpapers private/var/pictures
+cp -rf ~/Pictures/Photo\ Booth\ Library private/var/pictures
 
-## languages
-say 'Collecting npm, gem, pip and composer configs, if any...'
-cp -vf ~/.gemrc ruby/
-cp -vf ~/.npmrc node/
-cp -vf ~/.composer/composer.json php/
+# macos prefs
+cp -rf ~/Library/Preferences private/conf/macos
+
 
 ## shell
 say 'Collecting shell files...'
-cp -vf ~/.{zshrc,profile,profile.helpers,bashrc,bash_profile} shell/
+cp -vf ~/.{zshrc,profile,profile.helpers,bashrc,bash_profile} conf/shell/
 
-## editors
-say 'Collecting editor configs...'
 
-# vim
-cp -vf ~/.{vimrc,vundle.vim} editor/vim/
-rsync -rv --exclude=.git ~/.vim editor/vim
+## languages
+say 'Collecting npm, gem, pip and composer configs, if any...'
+cp -vf ~/.gemrc conf/
+cp -vf ~/.npmrc conf/
+cp -vf ~/.composer/composer.json cellar/
 
-# sublime
-cp -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/{Schemes,Snippets,Preferences.sublime-settings,Default\ \(OSX\).sublime-keymap,Package\ Control.sublime-settings} editor/sublime
 
-# intellij
-git submodule add https://github.com/sepehr/intellij-settings.git editor/intellij
+## git/ssh/gpg
+say 'Collecting git, ssh and gpg configs...'
+cp -vf ~/.ssh/config conf/ssh/config
+cp -vf ~/.gnupg/gpg.conf conf/gnupg/gpg.conf
+cp -vf ~/.{gitconfig,gitignore,gitignore_global,git_hooks} conf/git/
 
-# atom
-cp -vf ~/Library/Preferences/com.github.atom.plist editor/atom
-cp -vf ~/.atom/{config.cson,keymap.cson,snippets.cson,init.coffee,styles.less} editor/atom
-
-## apps
-say 'Collecting various app configs...'
-
-# chrome's stylish
-cp -vrf /Users/Sepehr/Library/Application\ Support/Google/Chrome/Profile\ 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/* app/chrome/stylish.leveldb
-
-# adium
-cp -vrf ~/Library/Preferences/com.adiumX.adiumX.plist app/adium
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Sounds app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Scripts app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Plugins app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Emoticons app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Dock\ Icons app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Status\ Icons app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Contact\ List app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Service\ Icons app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Menu\ Bar\ Icons app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Message\ Styles app/adium/Adium\ 2.0
-
-# appcleaner
-cp -vf ~/Library/Preferences/net.freemacsoft.AppCleaner.plist app/appcleaner
-
-# bartender
-cp -vf ~/Library/Preferences/com.surteesstudios.Bartender.plist app/bartender
-
-# dash
-cp -vf ~/Dropbox/dev/dash/Snippets.dash app/dash/snippets.dash
-cp -vf ~/Library/Application\ Support/Dash/library.dash app/dash
-cp -vf ~/Library/Preferences/{com.kapeli.dash.plist,com.kapeli.dashdoc.plist} app/dash
-
-# littlesnitch
-cp -vf ~/Library/Preferences/at.obdev.LittleSnitchNetworkMonitor.plist app/littlesnitch
-cp -vf ~/Library/Application\ Support/Little\ Snitch/configuration.user.xpl app/littlesnitch
-
-# transmission
-cp -vf ~/Library/Preferences/org.m0k.transmission.plist app/transmission
-cp -vrf ~/Library/Application\ Support/Transmission/blocklists app/transmission
-
-# apptivate
-cp -vf ~/Library/Application\ Support/Apptivate/hotkeys app/apptivate
-
-# magnet
-cp -vf ~/Library/Preferences/com.crowdcafe.windowmagnet.plist app/magnet
-
-## git
-say 'Collecting git configs...'
-cp -vf ~/.{gitconfig,gitignore,gitignore_global,git_hooks} git/
-
-## ssh/gpg
-say 'Collecting ssh/gpg configs...'
-cp -vf ~/.ssh/config ssh/config
-cp -vf ~/.gnupg/gpg.conf gnupg/gpg.conf
-
-## terminal
-say 'Collecting terminal configs...'
-cp -vf ~/.hyper.js terminal/hyper/
-cp -vf ~/Library/Preferences/com.apple.Terminal.plist terminal/
-
-## services
-# supervisor
-cp -vf /usr/local/etc/supervisord.ini service/supervisor
-cp -vrf /usr/local/etc/supervisor.d service/supervisor/supervisor.d
-
-# apache httpd
-cp -vf /usr/local/etc/apache2/2.4/httpd.conf service/httpd24/
-cp -vf /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf service/httpd24/
 
 ## misc
 say 'Collecting misc configs...'
-cp -vf ~/Library/Preferences/com.apple.symbolichotkeys.plist etc/
-cp -vf ~/.{ackrc,curlrc,axelrc,mongorc.js,editorconfig,ansible.cfg} etc/
+cp -vf ~/.{ackrc,curlrc,axelrc,mongorc.js,editorconfig,ansible.cfg} conf/
+
+
+## services
+say 'Collecting service configs...'
+
+# supervisor
+cp -vf /usr/local/etc/supervisord.ini conf/service/supervisor
+cp -vrf /usr/local/etc/supervisor.d conf/service/supervisor/supervisor.d
+
+# apache httpd
+cp -vf /usr/local/etc/apache2/2.4/httpd.conf conf/service/httpd24/
+cp -vf /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf conf/service/httpd24/
+
+
+## apps
+say 'Collecting app configs...'
+
+# intellij repo
+git submodule add https://github.com/sepehr/intellij-settings.git conf/app/intellij
+
+# terminal
+cp -vf ~/.hyper.js conf/app/hyper/
+
+# vim
+cp -vf ~/.{vimrc,vundle.vim} conf/app/vim/
+rsync -rv --exclude=.git ~/.vim conf/app/vim
+
+# sublime
+cp -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/{Schemes,Snippets,Preferences.sublime-settings,Default\ \(OSX\).sublime-keymap,Package\ Control.sublime-settings} conf/app/sublime
+
+# atom
+cp -vf ~/.atom/{config.cson,keymap.cson,snippets.cson,init.coffee,styles.less} conf/app/atom
+
+# chrome's stylish
+cp -vrf /Users/Sepehr/Library/Application\ Support/Google/Chrome/Profile\ 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/* conf/app/chrome/stylish.leveldb
+
+# adium
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Sounds conf/app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Scripts conf/app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Plugins conf/app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Emoticons conf/app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Dock\ Icons conf/app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Status\ Icons conf/app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Contact\ List conf/app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Service\ Icons conf/app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Menu\ Bar\ Icons conf/app/adium/Adium\ 2.0
+cp -rf ~/Library/Application\ Support/Adium\ 2.0/Message\ Styles conf/app/adium/Adium\ 2.0
+
+# dash
+cp -vf ~/Dropbox/dev/dash/Snippets.dash conf/app/dash/snippets.dash
+cp -vf ~/Library/Application\ Support/Dash/library.dash conf/app/dash
+
+# littlesnitch
+cp -vf ~/Library/Application\ Support/Little\ Snitch/configuration.user.xpl conf/app/littlesnitch
+
+# transmission
+cp -vrf ~/Library/Application\ Support/Transmission/blocklists conf/app/transmission
+
+# apptivate
+cp -vf ~/Library/Application\ Support/Apptivate/hotkeys conf/app/apptivate

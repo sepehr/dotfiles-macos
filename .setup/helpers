@@ -5,7 +5,7 @@ say() {
 
 mkln() {
     if [ "$(readlink $2)" != $1 ]; then
-        sudo rm -f $2
+        sudo rm -rf $2
         sudo ln -sf $1 $2
         return $?
     fi

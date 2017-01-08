@@ -1,0 +1,12 @@
+@import url("../main.css");
+
+
+.incoming .sender{ color: #b91309;}
+.incoming .time{color: #ff9399;}
+
+.outgoing .sender{color: #2961bc;}
+.outgoing .time{ color: #99bcdf;}
+
+.msg{
+	padding-left: .5em;
+}

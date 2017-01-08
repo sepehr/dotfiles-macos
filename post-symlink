@@ -3,6 +3,11 @@
 source .setup/helpers
 
 ## Root symlink
+# Usage: mkln [existing-source] [target-to-remove-and-symlink]
 say 'Symlinking with root privilage...'
+
 # /etc/hosts file
-mkln ~/.dotfiles/private/var/hosts /etc/hosts
+mkln ~/.dotfiles/private/etc/hosts /etc/hosts
+
+# macos prefs
+mkln ~/.dotfiles/private/conf/macos/Preferences ~/Library/Preferences

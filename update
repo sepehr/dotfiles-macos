@@ -4,21 +4,21 @@ source .setup/helpers
 
 ## brew
 say 'Collecting brew taps, packages, casks and mas apps...'
-rm -f brew/brewfile
-brew bundle dump --file=brew/brewfile
+rm -f cellar/brewfile
+brew bundle dump --file=cellar/brewfile
 
 ## pip
 say 'Collecting pip global packages...'
-pip freeze > python/pipfile
+pip freeze > cellar/pipfile
 
 ## gem
 say 'Collecting gem global packages...'
-gem list --no-versions | sed '/^*/ d' > ruby/gemfile
+gem list --no-versions | sed '/^*/ d' > cellar/gemfile
 
 ## npm
 say 'Collecting npm global packages...'
-npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > node/npmfile
+npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > cellar/npmfile
 
 ## apm
 say 'Collecting apm packages...'
-apm list --installed --bare > editor/atom/apmfile
+apm list --installed --bare > cellar/apmfile

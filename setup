@@ -517,25 +517,26 @@ fi
 brew tap homebrew/bundle
 
 # Tapping & installing repos, packages and casks from file
-brew bundle --file=brew/brewfile
+brew bundle --file=cellar/brewfile
 
 # Cleaning up
 brew cleanup -s
+brew cask cleanup
 
 # Installing global pip packages from file
-pip install -U -r python/pipfile
+pip install -U -r cellar/pipfile
 
 # Installing global gem packages from file
-xargs gem install < ruby/gemfile
+xargs gem install < cellar/gemfile
 
 # Installing global npm packages
-xargs npm install --global < node/npmfile
+xargs npm install --global < cellar/npmfile
 
 # Installing global composer packages
 composer global install
 
 # Installing apm packages
-apm install --packages-file editor/atom/apmfile
+apm install --packages-file cellar/apmfile
 
 
 ## post-install
