@@ -15,8 +15,10 @@ ssh-add -A &> /dev/null
 
 # Warn about tasks that due today
 if exists todolist; then
-    printf ">> Get things done and live happier!"
-    t list due today
+	if [[ $(t list due today | xargs) != "all" ]]; then
+    	printf ">> Get things done and live happier!"
+		t list due today
+	fi
 fi
 
 ## Env vars
