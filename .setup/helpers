@@ -1,3 +1,7 @@
+exists() {
+    command -v $1 &> /dev/null
+}
+
 say() {
   local fmt="$1"; shift
   printf "\n==> $fmt\n" "$@"
