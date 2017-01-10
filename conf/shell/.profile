@@ -24,7 +24,7 @@ fi
 ## Env vars
 export EDITOR="vim"
 export SVN_EDITOR="vim --noplugin"
-export SSH_KEY_PATH="$HOME/.ssh/id_rsa"
+export SSH_KEY_PATH="$HOME/.ssh/id_rsa.pub"
 # Brew
 export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_NO_INSECURE_REDIRECT=1
