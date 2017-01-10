@@ -66,7 +66,7 @@ zplug "$ZSH/custom/plugins/copyzshell", from:local, use:"*.plugin.zsh"
 
 # Other plugins
 zplug "skx/sysadmin-util"
-zplug "horosgrisa/autoenv"
+#zplug "horosgrisa/autoenv"
 zplug "rupa/z", use:"z.sh"
 zplug "akoenig/gulp.plugin.zsh"
 zplug "chrissicool/zsh-256color"
