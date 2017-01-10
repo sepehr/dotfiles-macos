@@ -1,13 +1,13 @@
 ## Helpers
 
 # checks if command exists with zero status code
-function exists() {
+exists() {
     command -v $1 &> /dev/null
 }
 
 # hub wrapper
 # requires piotrmurach/github_cli
-function git() {
+git() {
     if [ "$1" != "delete" ]; then
         hub $@
         return
@@ -33,7 +33,7 @@ function git() {
 }
 
 # todolist wrapper
-function t() {
+t() {
     if [[ -f "./.todos.json" || "$1" == "init" ]]; then
         todolist $@
         return
@@ -46,12 +46,12 @@ function t() {
 }
 
 # vagrant wrapper for homestead
-function homestead() {
+homestead() {
     ( cd ~/Homestead && vagrant $* )
 }
 
 # fixes file/dir permissions
-function fixperms {
+fixperms {
     if [ -z "$1" ]; then
         echo "Please specify the path to directory."
         return
@@ -81,7 +81,7 @@ function fixperms {
 }
 
 # makes the file/dir apache writeable
-function a2mkw {
+a2mkw {
     WWW_USER=`ps aux | egrep 'apache|httpd' | awk '{ print $1 }' | sed '1 d' | sort | uniq | awk '{print}' ORS=' ' | sed "s/\b$(whoami)\|root\b//g" | xargs`
 
     echo ""
