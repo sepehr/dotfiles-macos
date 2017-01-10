@@ -46,7 +46,7 @@
     ~/.npmrc: ~/.dotfiles/conf/.npmrc
     ~/.gemrc: ~/.dotfiles/conf/.gemrc
     ~/.composer/composer.json: ~/.dotfiles/cellar/composer.json
-
+    ~/.valet/config.json: ~/.dotfiles/conf/valet.json
 
     ## git/ssh/gpg
     ~/.ssh/config: ~/.dotfiles/conf/ssh/config
