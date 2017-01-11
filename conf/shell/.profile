@@ -1,5 +1,6 @@
 ## Early env vars
 export BREW=`brew --prefix`
+export BASE16_SHELL=$HOME/.vim/colors/base16-shell/
 
 ## Sources
 [ -f "$HOME/.profile.helpers" ] && source "$HOME/.profile.helpers"
@@ -7,6 +8,7 @@ export BREW=`brew --prefix`
 [ -f "$HOME/.rvm/scripts/rvm" ] && source "$HOME/.rvm/scripts/rvm"
 [ -f "$HOME/.travis/travis.sh" ] && source "$HOME/.travis/travis.sh"
 [ -f "$BREW/bin/virtualenvwrapper.sh" ] && source "$BREW/bin/virtualenvwrapper.sh"
+[ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
 ## Init
 # Add SSH keys to the keychain

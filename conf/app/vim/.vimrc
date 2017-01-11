@@ -1,10 +1,16 @@
-syntax enable 
+syntax enable
 
 "// Vundle plugin manager"
 so ~/.vundle.vim
 
 "// Appearance"
-colorscheme atom-dark
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif
+
+highlight clear LineNr
+highlight clear SignColumn
 set t_Co=256
 set guifont=Hasklig:h15
 

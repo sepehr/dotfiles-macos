@@ -11,7 +11,7 @@
 	"auto_complete_with_fields": true,
 	"auto_indent": true,
 	"bold_folder_labels": false,
-	"color_scheme": "Packages/User/Schemes/base16-ocean.dark (SL).tmTheme",
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_slow_plugins": false,
@@ -28,7 +28,7 @@
 		"dist",
 		".codeintel"
 	],
-	"font_face": "Fira Code",
+	"font_face": "Hasklig",
 	"font_options":
 	[
 		"subpixel_antialias"

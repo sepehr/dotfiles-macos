@@ -3,9 +3,12 @@
   core:
     projectHome: "/Users/Sepehr/Dev/"
     telemetryConsent: "no"
+    themes: [
+      "spacegray-dark-ui"
+      "base16-ocean-dark-spacegray"
+    ]
   editor:
-    fontFamily: "Fira Code"
-    fontSize: 13
+    fontFamily: "Hasklig"
     invisibles: {}
     lineHeight: 2
     preferredLineLength: 99999
