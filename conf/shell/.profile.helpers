@@ -80,6 +80,20 @@ fixperms() {
     chflags -R noschg $1
 }
 
+mkdb() {
+	if ! exists mysql; then
+		echo 'MySQL is not available.'
+		return 1
+	fi
+
+	if [ -z "$1" ]; then
+		echo 'No database name provided.'
+		return 1
+	fi
+
+	mysql -u root -p -e "create database $1 default character set utf8 default collate utf8_general_ci;"
+}
+
 # makes the file/dir apache writeable
 a2mkw() {
     WWW_USER=`ps aux | egrep 'apache|httpd' | awk '{ print $1 }' | sed '1 d' | sort | uniq | awk '{print}' ORS=' ' | sed "s/\b$(whoami)\|root\b//g" | xargs`
