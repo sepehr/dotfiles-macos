@@ -51,7 +51,7 @@ homestead() {
 }
 
 # fixes file/dir permissions
-fixperms {
+fixperms() {
     if [ -z "$1" ]; then
         echo "Please specify the path to directory."
         return
@@ -81,7 +81,7 @@ fixperms {
 }
 
 # makes the file/dir apache writeable
-a2mkw {
+a2mkw() {
     WWW_USER=`ps aux | egrep 'apache|httpd' | awk '{ print $1 }' | sed '1 d' | sort | uniq | awk '{print}' ORS=' ' | sed "s/\b$(whoami)\|root\b//g" | xargs`
 
     echo ""
