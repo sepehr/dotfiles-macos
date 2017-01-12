@@ -70,6 +70,7 @@ alias dot="cd $HOME/.dotfiles"
 alias b=brew
 alias c=composer
 alias ls="ls -a"
+alias pds=pdsskeleton
 alias mkdir="mkdir -p"
 alias srv="brew services"
 alias rsync="$BREW/bin/rsync"
