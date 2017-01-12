@@ -41,8 +41,10 @@ t() {
 
     WDIR=`pwd`
     cd $HOME
-    todolist $@
-    cd $WDIR
+	
+	todolist $@
+	
+	cd $WDIR
 }
 
 # vagrant wrapper for homestead
