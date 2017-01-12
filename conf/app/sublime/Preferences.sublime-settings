@@ -8,6 +8,12 @@
 			"selector": "text.html"
 		}
 	],
+    "index_files": false,
+    "index_workers": 1,
+    "index_exclude_patterns":
+    [
+        "node_modules/*.*"
+    ],
 	"auto_complete_with_fields": true,
 	"auto_indent": true,
 	"bold_folder_labels": false,
@@ -36,6 +42,7 @@
 	"font_size": 13,
 	"gutter": true,
 	"highlight_line": true,
+    "preview_on_click": true,
 	"ignored_packages":
 	[
 		"Anaconda",
