@@ -67,8 +67,8 @@ cp -vf ~/.{gitconfig,gitignore,gitignore_global,git_hooks} conf/git/
 
 ## misc
 say 'Collecting misc configs...'
+cp -vf ~/.translate-shell/init.trans conf/trans.init
 cp -vf ~/.{ackrc,curlrc,axelrc,mongorc.js,editorconfig,ansible.cfg} conf/
-
 
 ## services
 say 'Collecting service configs...'

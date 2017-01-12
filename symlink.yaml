@@ -65,6 +65,7 @@
     ~/.mongorc.js: ~/.dotfiles/conf/.mongorc.js
     ~/.ansible.cfg: ~/.dotfiles/conf/.ansible.cfg
     ~/.editorconfig: ~/.dotfiles/conf/.editorconfig
+    ~/.translate-shell/init.trans: ~/.dotfiles/conf/trans.init
 
 
     ## services
