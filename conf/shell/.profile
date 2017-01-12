@@ -73,6 +73,7 @@ alias ls="ls -a"
 alias pds=pdsskeleton
 alias mkdir="mkdir -p"
 alias srv="brew services"
+alias tt="t list by project"
 alias rsync="$BREW/bin/rsync"
 alias apachectl="$BREW/bin/apachectl"
 alias bpcit="sudo openvpn --config $HOME/cit.ovpn"
