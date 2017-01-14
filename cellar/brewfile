@@ -51,6 +51,7 @@ brew 'chromedriver'
 brew 'cmake'
 brew 'colordiff'
 brew 'coreutils'
+brew 'cpulimit'
 brew 'curl'
 brew 'dark-mode'
 brew 'libgpg-error'
@@ -66,6 +67,7 @@ brew 'lame'
 brew 'x264'
 brew 'xvid'
 brew 'ffmpeg'
+brew 'fribidi'
 brew 'gmp'
 brew 'mpfr'
 brew 'gawk'
@@ -139,6 +141,7 @@ brew 'pyenv'
 brew 'redis'
 brew 'rename'
 brew 'ripgrep'
+brew 'rlwrap'
 brew 'scons'
 brew 'selenium-server-standalone'
 brew 'spoof-mac'
@@ -148,6 +151,7 @@ brew 'supervisor', restart_service: true
 brew 'the_silver_searcher'
 brew 'thefuck'
 brew 'todolist'
+brew 'translate-shell'
 brew 'tree'
 brew 'unibilium'
 brew 'unixodbc'
@@ -159,7 +163,6 @@ brew 'yarn'
 brew 'youtube-dl'
 brew 'zsh'
 brew 'zsh-completions'
-brew 'beeftornado/rmtree/brew-rmtree'
 brew 'homebrew/dupes/zlib'
 brew 'homebrew/apache/httpd24'
 brew 'homebrew/completions/brew-cask-completion'
@@ -188,6 +191,7 @@ cask 'apptivate'
 cask 'atom'
 cask 'bartender'
 cask 'betterzipql'
+cask 'bitbar'
 cask 'blisk'
 cask 'blockblock'
 cask 'boot2docker'
@@ -330,8 +334,8 @@ mas 'Annoying File Be-Gone', id: 1031773437
 mas 'Memory Cleaner', id: 748212890
 mas 'Xcode', id: 497799835
 mas 'Pages', id: 409201541
-mas 'Keynote', id: 409183694
-mas 'Tomato One', id: 907364780
 mas 'Persian Calendar', id: 1171425651
+mas 'Tomato One', id: 907364780
 mas 'Magnet', id: 441258766
+mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
