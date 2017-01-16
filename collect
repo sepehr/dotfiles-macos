@@ -81,6 +81,9 @@ cp -vrf /usr/local/etc/supervisor.d conf/service/supervisor/supervisor.d
 cp -vf /usr/local/etc/apache2/2.4/httpd.conf conf/service/httpd24/
 cp -vf /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf conf/service/httpd24/
 
+# php
+cp -rf /usr/local/etc/php/7.1/conf.d conf/service/php
+cp -vf /usr/local/etc/php/7.1/{php.ini,php-fpm.conf} conf/service/php
 
 ## apps
 say 'Collecting app configs...'

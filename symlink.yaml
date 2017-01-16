@@ -78,6 +78,11 @@
     /usr/local/etc/apache2/2.4/httpd.conf: ~/.dotfiles/conf/service/httpd24/httpd.conf
     /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf: ~/.dotfiles/conf/service/httpd24/httpd-vhosts.conf
 
+    # php
+    /usr/local/etc/php/7.1/conf.d: conf/service/php/conf.d
+    /usr/local/etc/php/7.1/php.ini: conf/service/php/php.ini
+    /usr/local/etc/php/7.1/php-fpm.conf: conf/service/php/php-fpm.conf
+
 
     ## apps
     # iTerm should be configured to read/write its prefs from/to "conf/app/iterm/"
