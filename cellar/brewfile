@@ -175,10 +175,9 @@ brew 'homebrew/completions/packer-completion'
 brew 'homebrew/completions/pip-completion'
 brew 'homebrew/completions/vagrant-completion'
 brew 'homebrew/dupes/rsync'
-brew 'homebrew/php/php71', args: ['with-phpdbg']
+brew 'homebrew/php/php71', args: ['with-httpd24', 'with-phpdbg']
 brew 'homebrew/php/composer'
 brew 'homebrew/php/php71-apcu'
-brew 'homebrew/php/php71-mcrypt'
 brew 'homebrew/php/php71-mongodb'
 brew 'homebrew/php/php71-xdebug'
 brew 'homebrew/php/xdebug-osx'
@@ -262,7 +261,7 @@ cask 'handbrake'
 cask 'hyper'
 cask 'icefloor'
 cask 'iterm2'
-cask 'karabiner'
+cask 'karabiner-elements'
 cask 'keepingyouawake'
 cask 'kerio-control-vpn-client'
 cask 'kindle'
@@ -335,7 +334,7 @@ mas 'Memory Cleaner', id: 748212890
 mas 'Xcode', id: 497799835
 mas 'Pages', id: 409201541
 mas 'Persian Calendar', id: 1171425651
-mas 'Tomato One', id: 907364780
-mas 'Magnet', id: 441258766
 mas 'Keynote', id: 409183694
+mas 'Magnet', id: 441258766
+mas 'Tomato One', id: 907364780
 mas 'Numbers', id: 409203825
