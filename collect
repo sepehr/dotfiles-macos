@@ -96,7 +96,7 @@ git submodule add https://github.com/sepehr/intellij-settings.git conf/app/intel
 cp -vf ~/.hyper.js conf/app/hyper/
 
 # vim
-cp -vf ~/.{vimrc} conf/app/vim/
+cp -vf ~/.{vimrc,gvimrc} conf/app/vim/
 rsync -rv --exclude=.git ~/.vim conf/app/vim
 
 # sublime

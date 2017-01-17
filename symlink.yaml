@@ -91,6 +91,7 @@
     # vim
     ~/.vim: ~/.dotfiles/conf/app/vim/.vim
     ~/.vimrc: ~/.dotfiles/conf/app/vim/.vimrc
+    ~/.gvimrc: ~/.dotfiles/conf/app/vim/.gvimrc
 
     # neovim
     ~/.config/nvim: ~/.dotfiles/conf/app/vim/.vim
