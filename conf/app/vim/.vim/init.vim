@@ -1,1 +1,0 @@
-/Users/Sepehr/.dotfiles/conf/app/vim/.vimrc

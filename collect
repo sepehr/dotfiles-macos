@@ -96,8 +96,9 @@ git submodule add https://github.com/sepehr/intellij-settings.git conf/app/intel
 cp -vf ~/.hyper.js conf/app/hyper/
 
 # vim
+mkdir -p conf/app/vim/.vim
 cp -vf ~/.{vimrc,gvimrc} conf/app/vim/
-rsync -rv --exclude=.git ~/.vim conf/app/vim
+cp -rf ~/.vim/{autoload,colors} conf/app/vim/.vim
 
 # sublime
 cp -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/{Schemes,Snippets,Preferences.sublime-settings,Default\ \(OSX\).sublime-keymap,Package\ Control.sublime-settings} conf/app/sublime

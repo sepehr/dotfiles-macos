@@ -89,13 +89,16 @@
     ~/.hyper.js: ~/.dotfiles/conf/app/hyper/.hyper.js
 
     # vim
-    ~/.vim: ~/.dotfiles/conf/app/vim/.vim
     ~/.vimrc: ~/.dotfiles/conf/app/vim/.vimrc
     ~/.gvimrc: ~/.dotfiles/conf/app/vim/.gvimrc
+    ~/.vim/colors: ~/.dotfiles/conf/app/vim/.vim/colors
+    ~/.vim/autoload: ~/.dotfiles/conf/app/vim/.vim/autoload
 
     # neovim
-    ~/.config/nvim: ~/.dotfiles/conf/app/vim/.vim
+    ~/.config/nvim/bundle: ~/.vim/bundle
     ~/.config/nvim/init.vim: ~/.dotfiles/conf/app/vim/.vimrc
+    ~/.config/nvim/colors: ~/.dotfiles/conf/app/vim/.vim/colors
+    ~/.config/nvim/autoload: ~/.dotfiles/conf/app/vim/.vim/autoload
 
     # sublime
     "~/Library/Application Support/Sublime Text 3/Packages/User/Schemes": ~/.dotfiles/conf/app/sublime/Schemes
