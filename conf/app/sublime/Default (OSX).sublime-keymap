@@ -1,5 +1,5 @@
 [
-	{ "keys": ["cmd+1"], "command": "toggle_side_bar" },
+	{ "keys": ["super+1"], "command": "toggle_side_bar" },
 	{ "keys": ["ctrl+super+a"], "command": "alignment" },
 	{ "keys": ["ctrl+super+f"], "command": "reindent", "args": {"single_line": false}},
 	{ "keys": ["super+v"], "command": "paste_and_indent" },
