@@ -1,6 +1,8 @@
 "Plugins
 call plug#begin('~/.vim/bundle')
     Plug 'tpope/vim-sensible'
+	Plug 'scrooloose/nerdtree'
+	Plug 'junegunn/vim-easy-align'
 call plug#end()
 
 "Appearance
