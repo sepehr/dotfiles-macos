@@ -142,6 +142,9 @@
     # apptivate
     "~/Library/Application Support/Apptivate/hotkeys": ~/.dotfiles/conf/app/apptivate/hotkeys
 
+    # karabiner-elements
+    ~/.config/karabiner/karabiner.json: conf/app/karabiner/karabiner.json
+
 - shell:
     -
         description: "Running post-symlink script..."
