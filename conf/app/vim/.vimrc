@@ -1,9 +1,6 @@
+"Appearance
 syntax enable
 
-"// Vundle plugin manager"
-so ~/.vundle.vim
-
-"// Appearance"
 if filereadable(expand("~/.vimrc_background"))
   let base16colorspace=256
   source ~/.vimrc_background
@@ -19,29 +16,28 @@ set guioptions-=L
 set guioptions-=r
 set guioptions-=R
 
-"// ?"
 set backspace=indent,eol,start
 let mapleader=','
 set number
 set linespace=15
 set tabstop=4
 
-"// Mappings"
+"Mappings
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
 nmap <Leader><space> :nohlsearch<cr>
 nmap <D-1> :NERDTreeToggle<cr>
 
-"// Auto Commands"
+"Auto Commands
 augroup autosourcing
 	autocmd!
 	autocmd BufWritePost .vimrc source %
 augroup END
 
-"// Search"
+"Search
 set hlsearch
 set incsearch
 
-"// Splits"
+"Splits
 set splitbelow
 set splitright
 
