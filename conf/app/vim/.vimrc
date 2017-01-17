@@ -1,7 +1,12 @@
+"Plugins
+call plug#begin('~/.vim/bundle')
+    Plug 'tpope/vim-sensible'
+call plug#end()
+
 "Appearance
 syntax enable
 
-if filereadable(expand("~/.vimrc_background"))
+if filereadable(expand('~/.vimrc_background'))
   let base16colorspace=256
   source ~/.vimrc_background
 endif
