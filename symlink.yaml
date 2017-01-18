@@ -19,9 +19,10 @@
     ~/.profile.local: ~/.dotfiles/private/conf/shell/.profile.local
 
     # confs
-    ~/.githubrc: private/conf/.githubrc
+    ~/.githubrc: ~/.dotfiles/private/conf/.githubrc
 
     # apps
+    ~/.nylas-mail/config.json: ~/.dotfiles/private/conf/app/nylas/config.json
     "~/Library/Application Support/Adium 2.0/Users": "~/.dotfiles/private/conf/app/adium/Adium 2.0/Users"
 
     # personal content
@@ -79,9 +80,9 @@
     /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf: ~/.dotfiles/conf/service/httpd24/httpd-vhosts.conf
 
     # php
-    /usr/local/etc/php/7.1/conf.d: conf/service/php/conf.d
-    /usr/local/etc/php/7.1/php.ini: conf/service/php/php.ini
-    /usr/local/etc/php/7.1/php-fpm.conf: conf/service/php/php-fpm.conf
+    /usr/local/etc/php/7.1/conf.d: ~/.dotfiles/conf/service/php/conf.d
+    /usr/local/etc/php/7.1/php.ini: ~/.dotfiles/conf/service/php/php.ini
+    /usr/local/etc/php/7.1/php-fpm.conf: ~/.dotfiles/conf/service/php/php-fpm.conf
 
 
     ## apps
@@ -143,7 +144,7 @@
     "~/Library/Application Support/Apptivate/hotkeys": ~/.dotfiles/conf/app/apptivate/hotkeys
 
     # karabiner-elements
-    ~/.config/karabiner/karabiner.json: conf/app/karabiner/karabiner.json
+    ~/.config/karabiner/karabiner.json: ~/.dotfiles/conf/app/karabiner/karabiner.json
 
 - shell:
     -
