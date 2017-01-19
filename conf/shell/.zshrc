@@ -91,7 +91,7 @@ zplug load
 
 ## Helpers
 # Confirm helper
-function confirm {
+confirm() {
     read -q "response?${1:-Are you sure? [y/N]} "
 
     case $response in
