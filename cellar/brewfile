@@ -261,7 +261,6 @@ cask 'handbrake'
 cask 'hyper'
 cask 'icefloor'
 cask 'iterm2'
-cask 'karabiner-elements'
 cask 'keepingyouawake'
 cask 'kerio-control-vpn-client'
 cask 'kindle'
@@ -330,6 +329,7 @@ cask 'vlc'
 cask 'vox'
 cask 'webpquicklook'
 cask 'zeronet'
+mas 'Notebook', id: 1173152781
 mas 'Annoying File Be-Gone', id: 1031773437
 mas 'Memory Cleaner', id: 748212890
 mas 'Xcode', id: 497799835
