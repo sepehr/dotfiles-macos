@@ -29,6 +29,11 @@ git() {
         return 1
     fi
 
+    if ! confirm "Deleting $GCLI_USER/$2 repo... sure? (y/N)"; then
+        print "\nPwehhh!"
+        return 1
+    fi
+
     gcli repo delete $GCLI_USER $2
 }
 
@@ -41,9 +46,9 @@ t() {
 
     WDIR=`pwd`
     cd $HOME
-	
+
 	todolist $@
-	
+
 	cd $WDIR
 }
 
