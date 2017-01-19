@@ -35,6 +35,7 @@ set tabstop=4
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
 nmap <Leader><space> :nohlsearch<cr>
 nmap <D-1> :NERDTreeToggle<cr>
+set pastetoggle=<F3>
 
 ""Auto Commands
 augroup autosourcing
