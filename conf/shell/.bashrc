@@ -16,7 +16,7 @@ fi
 
 ## Helpers
 # Confirm helper
-function confirm {
+confirm() {
     read -r -p "${1:-Are you sure? [y/N]} " response
 
     case $response in
