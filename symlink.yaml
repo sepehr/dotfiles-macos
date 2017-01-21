@@ -39,6 +39,7 @@
     ~/.zshrc: ~/.dotfiles/conf/shell/.zshrc
     ~/.bashrc: ~/.dotfiles/conf/shell/.bashrc
     ~/.profile: ~/.dotfiles/conf/shell/.profile
+    ~/.aliases: ~/.dotfiles/conf/shell/.aliases
     ~/.bash_profile: ~/.dotfiles/conf/shell/.bash_profile
     ~/.profile.helpers: ~/.dotfiles/conf/shell/.profile.helpers
 

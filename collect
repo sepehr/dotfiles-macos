@@ -50,7 +50,7 @@ cp -rf ~/Library/Preferences private/conf/macos
 
 ## shell
 say 'Collecting shell files...'
-cp -vf ~/.{zshrc,profile,profile.helpers,bashrc,bash_profile} conf/shell/
+cp -vf ~/.{zshrc,profile,profile.helpers,aliases,bashrc,bash_profile} conf/shell/
 
 
 ## languages

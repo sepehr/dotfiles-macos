@@ -61,51 +61,5 @@ PATH_CHROME_PROFILE="$HOME/Library/Application Support/Google/Chrome/Profile 2"
 PATH_STYLISH_DB="$PATH_CHROME_PROFILE/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb"
 
 ## Aliases
-# Dirs
-alias -g ...=../..
-alias dev="cd $HOME/Dev"
-alias dl="cd $HOME/Downloads"
-alias desk="cd $HOME/Desktop"
-alias dot="cd $HOME/.dotfiles"
-# Executables
-alias b=brew
-alias c=composer
-alias ls="ls -a"
-alias pds=pdsskeleton
-alias mkdir="mkdir -p"
-alias srv="brew services"
-alias tt="t list by project"
-alias rsync="$BREW/bin/rsync"
-alias apachectl="$BREW/bin/apachectl"
-alias bpcit="sudo openvpn --config $HOME/cit.ovpn"
-alias phpstorm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
-eval "$(thefuck --alias)"
-# Git
-alias gl="git log"
-alias gd="git diff"
-alias gp="git push"
-alias ga="git add"
-alias gaa="git add ."
-alias gb="git branch"
-alias gs="git status"
-alias gr="git remote -v"
-alias gc="git commit -m"
-alias gca="git commit -am"
-# Networking
-alias mylocalip="ipconfig getifaddr en0"
-alias macaddr="networksetup -getmacaddress"
-alias openports="sudo lsof -Pni | grep -i listen"
-alias myip="curl -s http://queryip.net/ip/ && printf '\n\n'"
-alias ipinfo="curl -s http://ipinfo.io/json && printf '\n\n'"
-# Laravel
-alias a="php ./artisan"
-alias llog="tail -f $PATH_LARALOG"
-# Selenium
-alias selenium3="cd $HOME/Dev/selenium && java -Dwebdriver.chrome.driver=chromedriver -Dwebdriver.gecko.driver=geckodriver -jar selenium3*.jar"
-alias selenium2="cd $HOME/Dev/selenium && java -jar selenium2.52.0.jar"
-# Misc
-alias lastm="gstat --format=%y"
-alias lasta="gstat --format=%x"
-alias tcvb="php $HOME/Dev/valet/tcvb/index.php"
-alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1])"'
-alias urldecode='python -c "import sys, urllib as ul; print ul.unquote_plus(sys.argv[1])"'
+[[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
+
