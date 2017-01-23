@@ -178,7 +178,7 @@ brew 'homebrew/completions/packer-completion'
 brew 'homebrew/completions/pip-completion'
 brew 'homebrew/completions/vagrant-completion'
 brew 'homebrew/dupes/rsync'
-brew 'homebrew/php/php71', args: ['with-httpd24', 'with-phpdbg']
+brew 'homebrew/php/php71', args: ['with-httpd24', 'with-phpdbg', 'with-postgresql']
 brew 'homebrew/php/composer'
 brew 'homebrew/php/php71-apcu'
 brew 'homebrew/php/php71-mongodb'
