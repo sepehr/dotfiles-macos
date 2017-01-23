@@ -63,10 +63,12 @@ brew 'dirmngr'
 brew 'dnsmasq', restart_service: true
 brew 'dockutil'
 brew 'dos2unix'
+brew 'doxygen'
 brew 'lame'
 brew 'x264'
 brew 'xvid'
 brew 'ffmpeg'
+brew 'figlet'
 brew 'fribidi'
 brew 'gmp'
 brew 'mpfr'
@@ -114,6 +116,7 @@ brew 'ipfs'
 brew 'jemalloc'
 brew 'oniguruma'
 brew 'jq'
+brew 'libevent'
 brew 'libssh2'
 brew 'libtermkey'
 brew 'libuv'
@@ -334,10 +337,10 @@ cask 'zeronet'
 mas 'Notebook', id: 1173152781
 mas 'Annoying File Be-Gone', id: 1031773437
 mas 'Memory Cleaner', id: 748212890
-mas 'Xcode', id: 497799835
 mas 'Pages', id: 409201541
-mas 'Persian Calendar', id: 1171425651
+mas 'Xcode', id: 497799835
 mas 'Keynote', id: 409183694
-mas 'Magnet', id: 441258766
 mas 'Tomato One', id: 907364780
+mas 'Magnet', id: 441258766
+mas 'Persian Calendar', id: 1171425651
 mas 'Numbers', id: 409203825
