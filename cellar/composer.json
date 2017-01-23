@@ -13,6 +13,7 @@
         "squizlabs/php_codesniffer": "^2.7",
         "symfony/symfony-installer": "^1.5",
         "phpstan/phpstan": "^0.5.1",
-        "pds/skeleton": "1.x-dev"
+        "pds/skeleton": "1.x-dev",
+        "producer/producer": "^2.1"
     }
 }
