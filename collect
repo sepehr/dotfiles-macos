@@ -93,9 +93,6 @@ say 'Collecting app configs...'
 # intellij repo
 git submodule add https://github.com/sepehr/intellij-settings.git conf/app/intellij
 
-# terminal
-cp -vf ~/.hyper.js conf/app/hyper/
-
 # vim
 mkdir -p conf/app/vim/.vim
 cp -vf ~/.{vimrc,gvimrc} conf/app/vim/

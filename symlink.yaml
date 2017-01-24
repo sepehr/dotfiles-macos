@@ -88,7 +88,6 @@
 
     ## apps
     # iTerm should be configured to read/write its prefs from/to "conf/app/iterm/"
-    ~/.hyper.js: ~/.dotfiles/conf/app/hyper/.hyper.js
 
     # vim
     ~/.vimrc: ~/.dotfiles/conf/app/vim/.vimrc
