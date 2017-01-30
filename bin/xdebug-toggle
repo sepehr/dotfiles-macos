@@ -1,0 +1,4 @@
+#!/bin/bash
+/usr/local/bin/xdebug-toggle $1 &> /dev/null
+brew services restart php71 &> /dev/null
+php -v
