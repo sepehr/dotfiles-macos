@@ -98,7 +98,7 @@ mkdb() {
 		return 1
 	fi
 
-	mysql -u root -p -e "drop database if exists $1; create database $1 default character set utf8 default collate utf8_general_ci;"
+	mysql -u root -p -e "drop database if exists $1; create database $1 default character set utf8 default collate utf8_unicode_ci;"
 }
 
 # makes the file/dir apache writeable
