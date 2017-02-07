@@ -49,7 +49,7 @@ alias selenium2="cd $HOME/Dev/selenium && java -jar selenium2.52.0.jar"
 # Misc
 alias lastm="gstat --format=%y"
 alias lasta="gstat --format=%x"
-alias tcvb="php $HOME/Dev/valet/tcvb/index.php"
+alias tcvb="php $HOME/Dev/www/projects/tcvb/index.php"
 alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1])"'
 alias urldecode='python -c "import sys, urllib as ul; print ul.unquote_plus(sys.argv[1])"'
 
