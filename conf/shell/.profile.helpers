@@ -87,6 +87,7 @@ fixperms() {
     chflags -R noschg $1
 }
 
+# makes a mysql database
 mkdb() {
 	if ! exists mysql; then
 		echo 'MySQL is not available.'
@@ -99,6 +100,21 @@ mkdb() {
 	fi
 
 	mysql -u root -p -e "drop database if exists $1; create database $1 default character set utf8 default collate utf8_unicode_ci;"
+}
+
+# drops a mysql database
+rmdb() {
+	if ! exists mysql; then
+		echo 'MySQL is not available.'
+		return 1
+	fi
+
+	if [ -z "$1" ]; then
+		echo 'No database name provided.'
+		return 1
+	fi
+
+	mysql -u root -p -e "drop database if exists $1;"
 }
 
 # makes the file/dir apache writeable
