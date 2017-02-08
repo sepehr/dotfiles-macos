@@ -153,8 +153,8 @@ sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator (
 # 12: Notification Center
 #
 # Top left screen corner => Launchpad
-defaults write com.apple.dock wvous-tl-corner -int 11
-defaults write com.apple.dock wvous-tl-modifier -int 0
+# defaults write com.apple.dock wvous-tl-corner -int 11
+# defaults write com.apple.dock wvous-tl-modifier -int 0
 
 # Bottom left screen corner => App windows
 defaults write com.apple.dock wvous-bl-corner -int 3
