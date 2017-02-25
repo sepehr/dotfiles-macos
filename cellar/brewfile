@@ -75,6 +75,7 @@ brew 'xvid'
 brew 'ffmpeg'
 brew 'figlet'
 brew 'fribidi'
+brew 'fzf'
 brew 'gmp'
 brew 'mpfr'
 brew 'gawk'
@@ -163,6 +164,7 @@ brew 'spoof-mac'
 brew 'ssh-copy-id'
 brew 'subversion'
 brew 'supervisor', restart_service: true
+brew 'texi2html'
 brew 'the_silver_searcher'
 brew 'thefuck'
 brew 'tmux'
@@ -177,6 +179,7 @@ brew 'vim'
 brew 'watch'
 brew 'wget'
 brew 'yarn'
+brew 'yasm'
 brew 'youtube-dl'
 brew 'zsh'
 brew 'zsh-completions'
@@ -347,8 +350,8 @@ cask 'webpquicklook'
 cask 'zeronet'
 mas 'Notebook', id: 1173152781
 mas 'Annoying File Be-Gone', id: 1031773437
-mas 'Pages', id: 409201541
 mas 'Xcode', id: 497799835
+mas 'Pages', id: 409201541
 mas 'Persian Calendar', id: 1171425651
 mas 'Tomato One', id: 907364780
 mas 'Keynote', id: 409183694
