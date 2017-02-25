@@ -1,6 +1,7 @@
 ## Sources
 [ -f "$HOME/.bashrc.local" ] && source "$HOME/.bashrc.local"
 [ -f "$HOME/.profile" ] && source "$HOME/.profile"
+[ -f "$HOME/.fzf.zsh" ] && source "$HOME/.fzf.zsh"
 
 ## Auto-completions
 if [ -f `brew --prefix`/etc/bash_completion ]; then
@@ -28,3 +29,4 @@ confirm() {
             ;;
     esac
 }
+
