@@ -8,7 +8,8 @@
 	color = true
 [alias]
 	st = status
-	ls = ls-files
+    ls = ls-files
+    forget = update-index --assume-unchanged
 [http]
 	postBuffer = 524288000
 [push]
