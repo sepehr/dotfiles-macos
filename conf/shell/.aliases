@@ -30,6 +30,7 @@ alias gs="git status"
 alias gr="git remote -v"
 alias gc="git commit -m"
 alias gca="git commit -am"
+alias gf="git update-index --assume-unchanged"
 
 # Networking
 alias mylocalip="ipconfig getifaddr en0"
