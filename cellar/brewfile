@@ -352,6 +352,7 @@ cask 'webpquicklook'
 cask 'zeronet'
 mas 'Notebook', id: 1173152781
 mas 'Annoying File Be-Gone', id: 1031773437
+mas 'Heartbeat', id: 1199498204
 mas 'Xcode', id: 497799835
 mas 'Pages', id: 409201541
 mas 'Persian Calendar', id: 1171425651
