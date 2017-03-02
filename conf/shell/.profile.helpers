@@ -5,6 +5,12 @@ exists() {
     command -v $1 &> /dev/null
 }
 
+# makes a directory and cd to it
+mkcd() {
+    mkdir -p $1
+	cd $1
+}
+
 # hub wrapper
 # requires piotrmurach/github_cli
 git() {
