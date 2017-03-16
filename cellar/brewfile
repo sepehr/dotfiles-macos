@@ -210,6 +210,7 @@ cask 'blisk'
 cask 'blockblock'
 cask 'boot2docker'
 cask 'cakebrew'
+cask 'caption'
 cask 'chromium'
 cask 'cleanmymac'
 cask 'clion'
@@ -351,13 +352,13 @@ cask 'vlc'
 cask 'vox'
 cask 'webpquicklook'
 cask 'zeronet'
-mas 'Notebook', id: 1173152781
-mas 'Heartbeat', id: 1199498204
 mas 'Annoying File Be-Gone', id: 1031773437
-mas 'Pages', id: 409201541
-mas 'Pixiu', id: 1195433805
+mas 'Heartbeat', id: 1199498204
 mas 'Keynote', id: 409183694
+mas 'Notebook', id: 1173152781
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
 mas 'Persian Calendar', id: 1171425651
+mas 'Pixiu', id: 1195433805
 mas 'Tomato One', id: 907364780
 mas 'Xcode', id: 497799835
-mas 'Numbers', id: 409203825
