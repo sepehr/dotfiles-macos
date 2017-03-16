@@ -144,6 +144,9 @@
     # apptivate
     "~/Library/Application Support/Apptivate/hotkeys": ~/.dotfiles/conf/app/apptivate/hotkeys
 
+    # cerebro
+    "~/Library/Application Support/Cerebro": ~/.dotfiles/conf/app/cerebro
+
 - shell:
     -
         description: "Running post-symlink script..."
