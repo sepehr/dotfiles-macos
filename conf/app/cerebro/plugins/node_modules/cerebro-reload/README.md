@@ -1,6 +1,10 @@
-# Cerebro Reload
+# [Moved to Core] Cerebro Reload
 
 > Reload Cerebro using Cerebro
+
+As of [cerebro#241](https://github.com/KELiON/cerebro/pull/241/) this plugins belongs to Cerebro core plugins.
+
+![](http://i.imgur.com/DxYLrzR.jpg?1)
 
 Why? Neither <kbd>F5</kbd> or <kbd>cmd+r</kbd> can reload Cerebro unless you're
 at Developer Tools and I'm a Vim user... That means I don't want to move my
