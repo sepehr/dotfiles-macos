@@ -35,25 +35,21 @@ unsetopt caseglob
 # Enable auto_cd
 setopt auto_cd
 
-## zplug/oh-my-zsh
+## Zplug
 export ZPLUG_HOME=$HOME/.zplug
 export ZSH=$ZPLUG_HOME/repos/robbyrussell/oh-my-zsh
 
 # Install zplug, if not available
 if [[ ! -d $ZPLUG_HOME ]]; then
+    print "Installing zplug..."
     git clone https://github.com/zplug/zplug $ZPLUG_HOME
-    source $ZPLUG_HOME/init.zsh && zplug update --self
-else
-    source $ZPLUG_HOME/init.zsh
 fi
 
-# Install zplug-incompatible plugins
-if [[ ! -d $ZSH/custom/plugins/copyzshell ]]; then
-    echo 'Installing copyzshell plugin...'
-    git clone https://github.com/rutchkiwi/copyzshell $ZSH/custom/plugins/copyzshell
-fi
+# Init zplug and let it manage itself
+source $ZPLUG_HOME/init.zsh
+# zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 
-# Oh-my-zsh plugins
+# Register oh-my-zsh plugins
 zplug "robbyrussell/oh-my-zsh", use:"lib/*.zsh"
 zplug "plugins/pip", from:oh-my-zsh
 zplug "plugins/python", from:oh-my-zsh
@@ -61,14 +57,11 @@ zplug "plugins/httpie", from:oh-my-zsh
 zplug "plugins/vagrant", from:oh-my-zsh
 zplug "plugins/redis-cli", from:oh-my-zsh
 zplug "plugins/supervisor", from:oh-my-zsh
-zplug "plugins/web-search", from:oh-my-zsh
-zplug "$ZSH/custom/plugins/copyzshell", from:local, use:"*.plugin.zsh"
 
-# Other plugins
+# Register other plugins
+zplug "supercrabtree/k"
 zplug "skx/sysadmin-util"
-#zplug "horosgrisa/autoenv"
 zplug "rupa/z", use:"z.sh"
-zplug "akoenig/gulp.plugin.zsh"
 zplug "chrissicool/zsh-256color"
 zplug "unixorn/tumult.plugin.zsh"
 zplug "horosgrisa/mysql-colorize"
@@ -79,17 +72,18 @@ zplug "shengyou/codeception-zsh-plugin"
 zplug "psprint/history-search-multi-word"
 zplug "zsh-users/zsh-syntax-highlighting"
 
-# Theme
-zplug "sepehr/sepshell", use:sepshell.zsh-theme
+# Register the theme plugin
+zplug "sepehr/sepshell", use:"sepshell.zsh-theme", on:"robbyrussell/oh-my-zsh"
 
-# Install the not-installed
+# Install new plugins
 if ! zplug check; then
     zplug install
 fi
 
+# Load registered plugins
 zplug load
 
-## Helpers
+## Zsh-specific Helpers
 # Confirm helper
 confirm() {
     read -q "response?${1:-Are you sure? [y/N]} "
@@ -103,4 +97,3 @@ confirm() {
             ;;
     esac
 }
-
