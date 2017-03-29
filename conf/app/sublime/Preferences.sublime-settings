@@ -61,6 +61,7 @@
 		120
 	],
 	"scroll_speed": 1.0,
+	"show_definitions": false,
 	"show_full_path": true,
 	"show_line_endings": true,
 	"show_tab_close_buttons": true,
