@@ -1,3 +1,4 @@
 private/*
 !private/.gitkeep
-conf/app/cerebro/Cache/
+conf/app/cerebro/Cache
+conf/app/cerebro/GPUCache
