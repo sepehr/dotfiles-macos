@@ -1,4 +1,5 @@
 private/*
 !private/.gitkeep
 conf/app/cerebro/Cache
+conf/app/cerebro/Cookies
 conf/app/cerebro/GPUCache
