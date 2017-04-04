@@ -48,7 +48,6 @@
     ~/.npmrc: ~/.dotfiles/conf/.npmrc
     ~/.gemrc: ~/.dotfiles/conf/.gemrc
     ~/.composer/composer.json: ~/.dotfiles/cellar/composer.json
-    ~/.valet/config.json: ~/.dotfiles/conf/valet.json
 
 
     ## git/ssh/gpg
@@ -85,6 +84,9 @@
     /usr/local/etc/php/7.1/conf.d: ~/.dotfiles/conf/service/php/conf.d
     /usr/local/etc/php/7.1/php.ini: ~/.dotfiles/conf/service/php/php.ini
     /usr/local/etc/php/7.1/php-fpm.conf: ~/.dotfiles/conf/service/php/php-fpm.conf
+
+    # valet
+    ~/.valet: ~/.dotfiles/conf/service/valet
 
 
     ## apps

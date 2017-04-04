@@ -58,7 +58,7 @@ say 'Collecting npm, gem, pip and composer configs, if any...'
 cp -vf ~/.gemrc conf/
 cp -vf ~/.npmrc conf/
 cp -vf ~/.composer/composer.json cellar/
-cp -vf ~/.valet/config.json conf/valet.json
+
 
 ## git/ssh/gpg
 say 'Collecting git, ssh and gpg configs...'
@@ -71,6 +71,7 @@ cp -vf ~/.{gitconfig,gitignore,gitignore_global,git_hooks} conf/git/
 say 'Collecting misc configs...'
 cp -vf ~/.translate-shell/init.trans conf/trans.init
 cp -vf ~/.{ackrc,curlrc,axelrc,mongorc.js,editorconfig,ansible.cfg} conf/
+
 
 ## services
 say 'Collecting service configs...'
@@ -86,6 +87,10 @@ cp -vf /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf conf/service/httpd24/
 # php
 cp -rf /usr/local/etc/php/7.1/conf.d conf/service/php
 cp -vf /usr/local/etc/php/7.1/{php.ini,php-fpm.conf} conf/service/php
+
+# valet
+cp -rf ~/.valet conf/service
+mv conf/service/{.valet,valet}
 
 ## apps
 say 'Collecting app configs...'
@@ -135,4 +140,3 @@ cp -vf ~/Library/Application\ Support/Apptivate/hotkeys conf/app/apptivate
 # cerebro
 cp -rf ~/Library/Application\ Support/Cerebro conf/app
 mv conf/app/{Cerebro,cerebro}
-

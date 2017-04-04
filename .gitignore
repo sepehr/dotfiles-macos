@@ -1,5 +1,6 @@
 private/*
 !private/.gitkeep
+conf/service/valet/Log
 conf/app/cerebro/Cache
 conf/app/cerebro/Cookies
 conf/app/cerebro/GPUCache
