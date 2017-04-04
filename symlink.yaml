@@ -88,6 +88,11 @@
     # valet
     ~/.valet: ~/.dotfiles/conf/service/valet
 
+    # nginx
+    /usr/local/etc/nginx/valet: ~/.dotfiles/conf/service/nginx/valet
+    /usr/local/etc/nginx/servers: ~/.dotfiles/conf/service/nginx/servers
+    /usr/local/etc/nginx/nginx.conf: ~/.dotfiles/conf/service/nginx/nginx.conf
+
 
     ## apps
     # iTerm should be configured to read/write its prefs from/to "conf/app/iterm/"
