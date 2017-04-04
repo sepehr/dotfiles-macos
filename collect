@@ -86,6 +86,7 @@ cp -vf /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf conf/service/httpd24/
 
 # php
 cp -rf /usr/local/etc/php/7.1/conf.d conf/service/php
+cp -rf /usr/local/etc/php/7.1/php-fpm.d conf/service/php
 cp -vf /usr/local/etc/php/7.1/{php.ini,php-fpm.conf} conf/service/php
 
 # valet
