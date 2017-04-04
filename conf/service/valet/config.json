@@ -1,1 +1,10 @@
-/Users/Sepehr/.dotfiles/conf/valet.json
+{
+    "domain": "dev",
+    "paths": [
+        "/Users/Sepehr/.valet/Sites",
+        "/Users/Sepehr/Dev/www/sandbox",
+        "/Users/Sepehr/Dev/www/projects",
+        "/Users/Sepehr/Dev/www/apps"
+    ]
+}
+
