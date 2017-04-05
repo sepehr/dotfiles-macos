@@ -1,12 +1,12 @@
 server {
     listen 80;
-    server_name sweetface.dev;
+    server_name sweetface.dev www.sweetface.dev *.sweetface.dev;
     return 301 https://$host$request_uri;
 }
 
 server {
     listen 443 ssl http2;
-    server_name sweetface.dev;
+    server_name sweetface.dev www.sweetface.dev *.sweetface.dev;
     root /;
     charset utf-8;
 
@@ -20,7 +20,7 @@ server {
     ssl_certificate_key /Users/Sepehr/.valet/Certificates/sweetface.dev.key;
 
     location / {
-        rewrite ^ /Users/Sepehr/.composer/vendor/laravel/valet/server.php?$query_string last;
+        rewrite ^ /Users/Sepehr/.composer/vendor/laravel/valet/server.php last;
     }
 
     location = /favicon.ico { access_log off; log_not_found off; }
