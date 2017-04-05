@@ -4,3 +4,5 @@ conf/service/valet/Log
 conf/app/cerebro/Cache
 conf/app/cerebro/Cookies
 conf/app/cerebro/GPUCache
+conf/app/cerebro/Preferences
+conf/app/cerebro/Local Storage
