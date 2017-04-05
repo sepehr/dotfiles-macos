@@ -11,8 +11,8 @@ syntax enable
 "Base16 scheme
 "See: chriskempson/base16-vim
 if filereadable(expand('~/.vimrc_background'))
-  let base16colorspace=256
-  source ~/.vimrc_background
+    let base16colorspace=256
+    source ~/.vimrc_background
 endif
 
 highlight clear LineNr
@@ -29,7 +29,12 @@ set backspace=indent,eol,start
 let mapleader=','
 set number
 set linespace=15
+set autoindent
 set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set smarttab
 
 ""Mappings
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
@@ -39,8 +44,8 @@ set pastetoggle=<F3>
 
 ""Auto Commands
 augroup autosourcing
-	autocmd!
-	autocmd BufWritePost .vimrc source %
+    autocmd!
+    autocmd BufWritePost .vimrc source %
 augroup END
 
 ""Search
