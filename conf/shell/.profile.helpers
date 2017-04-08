@@ -138,25 +138,23 @@ a2mkw() {
 
 # php switcher
 phpsw() {
-    PHP_VERSIONS=('56' '70' '71') 
+    PHP_VERSIONS=('56' '70' '71')
 
     print "Switching to php$1, it may take a few moments..."
 
     if exists valet; then
-        valet stop > /dev/null 2>&1
+        valet stop
     fi
 
     for version in "${PHP_VERSIONS[@]}"; do
-        brew services stop "php$version" > /dev/null 2>&1
+        sudo brew services stop "php$version" > /dev/null 2>&1
         brew unlink "php$version" > /dev/null 2>&1
     done
 
     brew link "php$1" > /dev/null 2>&1
-    brew services start "php$1" > /dev/null 2>&1
 
     if exists valet; then
-        valet install > /dev/null 2>&1
-        valet start > /dev/null 2>&1
+        valet start
     fi
 
     php -v
