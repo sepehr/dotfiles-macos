@@ -3,6 +3,7 @@ bigdecimal
 daemons
 descendants_tracker
 did_you_mean
+diff-lcs
 equatable
 eventmachine
 faraday
@@ -13,7 +14,6 @@ io-console
 json
 jwt
 mail
-mailcatcher
 mime-types
 mime-types-data
 minitest
@@ -43,6 +43,8 @@ tty
 tty-color
 tty-command
 tty-cursor
+tty-editor
+tty-file
 tty-pager
 tty-platform
 tty-progressbar
@@ -51,6 +53,7 @@ tty-screen
 tty-spinner
 tty-table
 tty-which
+unicode-display_width
 unicode_utils
 verse
 wisper
