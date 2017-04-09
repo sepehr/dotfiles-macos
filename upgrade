@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+
+source .setup/helpers
+
+## mas apps
+say 'Upgrading mas apps...'
+mas upgrade
+
+## brew
+say 'Upgrading brew formulaes...'
+brew upgrade
+
+## brew cask
+say 'Upgrading essential brew casks...'
+brew cask reinstall appcleaner cerebro dropbox filezilla firefox google-chrome google-chrome-canary iina iterm2 kap macpass postman skype spotify vlc
+
+## composer
+say 'Upgrading global composer packages...'
+composer global update
+
+## npm
+say 'Upgrading global npm packages...'
+npm -g upgrade
+
+## apm
+say 'Upgrading apm packages...'
+apm upgrade -y
+
+## gem
+say 'Upgrading global gems...'
+gem update
+
+## pip
+say 'Upgrading global pip packages...'
+./bin/pip-update
+
+## recollect
+say 'Now, recollecting everything for you...'
+./update
