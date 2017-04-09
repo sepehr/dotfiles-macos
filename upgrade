@@ -36,4 +36,4 @@ say 'Upgrading global pip packages...'
 
 ## recollect
 say 'Now, recollecting everything for you...'
-./update
+./update > /dev/null 2>&1
