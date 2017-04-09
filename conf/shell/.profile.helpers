@@ -1,5 +1,22 @@
 ## Helpers
 
+# colors
+NORMAL=$(tput sgr0)
+BRIGHT=$(tput bold)
+BLINK=$(tput blink)
+REVERSE=$(tput smso)
+UNDERLINE=$(tput smul)
+RED=$(tput setaf 1)
+BLUE=$(tput setaf 4)
+CYAN=$(tput setaf 6)
+BLACK=$(tput setaf 0)
+GREEN=$(tput setaf 2)
+WHITE=$(tput setaf 7)
+YELLOW=$(tput setaf 3)
+MAGENTA=$(tput setaf 5)
+LIME_YELLOW=$(tput setaf 190)
+POWDER_BLUE=$(tput setaf 153)
+
 # checks if command exists with zero status code
 exists() {
     command -v $1 &> /dev/null
