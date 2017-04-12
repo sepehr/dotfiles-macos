@@ -1,8 +1,11 @@
 private/*
 !private/.keep
 conf/service/valet/Log
+conf/app/cerebro/SS
 conf/app/cerebro/Cache
 conf/app/cerebro/Cookies
 conf/app/cerebro/GPUCache
 conf/app/cerebro/Preferences
 conf/app/cerebro/Local Storage
+conf/app/cerebro/SingletonLock
+conf/app/cerebro/SingletonCookie
