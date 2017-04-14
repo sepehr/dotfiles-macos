@@ -1,20 +1,21 @@
 [user]
-	name = Sepehr Lajevardi
-	email = lajevardi@gmail.com
+    name = Sepehr Lajevardi
+    email = lajevardi@gmail.com
 [core]
-	excludesfile = ~/.gitignore
-	autocrlf = input
+    excludesfile = ~/.gitignore
+    autocrlf = input
+    pager = sed 's/\t/.       /g' | less -R
 [ui]
-	color = true
+    color = true
 [alias]
-	st = status
+    st = status
     ls = ls-files
     forget = update-index --assume-unchanged
 [http]
-	postBuffer = 524288000
+    postBuffer = 524288000
 [push]
-	default = simple
+    default = simple
 [github]
-	user = sepehr
+    user = sepehr
 [ghi]
-	token = !security find-internet-password -a sepehr -s github.com -l 'ghi token' -w
+    token = !security find-internet-password -a sepehr -s github.com -l 'ghi token' -w
