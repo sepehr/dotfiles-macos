@@ -19,3 +19,5 @@
     user = sepehr
 [ghi]
     token = !security find-internet-password -a sepehr -s github.com -l 'ghi token' -w
+[color "diff"]
+	whitespace = red reverse
