@@ -39,7 +39,6 @@ cp -rf ~/Library/Application\ Support/Adium\ 2.0/Users private/conf/app/adium/Ad
 
 # personal content
 cp -rf ~/Pictures/Icons private/var/pictures
-cp -rf ~/Pictures/Memes private/var/pictures
 cp -rf ~/Pictures/Identity private/var/pictures
 cp -rf ~/Pictures/Wallpapers private/var/pictures
 cp -rf ~/Pictures/Photo\ Booth\ Library private/var/pictures

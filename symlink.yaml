@@ -28,7 +28,6 @@
     # personal content
     ~/Pictures/Etc: ~/.dotfiles/private/var/pictures/Etc
     ~/Pictures/Icons: ~/.dotfiles/private/var/pictures/Icons
-    ~/Pictures/Memes: ~/.dotfiles/private/var/pictures/Memes
     ~/Pictures/Photos: ~/.dotfiles/private/var/pictures/Photos
     ~/Pictures/Identity: ~/.dotfiles/private/var/pictures/Identity
     ~/Pictures/Wallpapers: ~/.dotfiles/private/var/pictures/Wallpapers
