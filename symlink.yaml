@@ -96,6 +96,7 @@
 
     ## apps
     # iTerm should be configured to read/write its prefs from/to "conf/app/iterm/"
+    # Alfred should be configured to read/write its prefs from/to "conf/app/alfred/"
 
     # vim
     ~/.vimrc: ~/.dotfiles/conf/app/vim/.vimrc
@@ -150,9 +151,6 @@
 
     # apptivate
     "~/Library/Application Support/Apptivate/hotkeys": ~/.dotfiles/conf/app/apptivate/hotkeys
-
-    # cerebro
-    "~/Library/Application Support/Cerebro": ~/.dotfiles/conf/app/cerebro
 
 - shell:
     -

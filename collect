@@ -140,7 +140,3 @@ cp -vrf ~/Library/Application\ Support/Transmission/blocklists conf/app/transmis
 
 # apptivate
 cp -vf ~/Library/Application\ Support/Apptivate/hotkeys conf/app/apptivate
-
-# cerebro
-cp -rf ~/Library/Application\ Support/Cerebro conf/app
-mv conf/app/{Cerebro,cerebro}
