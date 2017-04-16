@@ -10,6 +10,8 @@
 [alias]
     st = status
     ls = ls-files
+    unstage = reset
+    stage-rm = rm --cached
     forget = update-index --assume-unchanged
 [http]
     postBuffer = 524288000
