@@ -32,7 +32,7 @@
       "text" : {
         "size" : 36,
         "colorSelected" : "#000000FF",
-        "font" : "System",
+        "font" : "System Light",
         "color" : "#ECEFF2FF"
       },
       "backgroundSelected" : "#B2D7FFFF"
