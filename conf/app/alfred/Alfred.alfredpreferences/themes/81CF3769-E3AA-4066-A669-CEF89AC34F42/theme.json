@@ -18,7 +18,7 @@
       "text" : {
         "size" : 16,
         "colorSelected" : "#ECEFF2FF",
-        "font" : "System Light",
+        "font" : "IRANSans",
         "color" : "#ECEFF266"
       },
       "iconPaddingHorizontal" : 5,
@@ -32,13 +32,13 @@
       "text" : {
         "size" : 36,
         "colorSelected" : "#000000FF",
-        "font" : "System Light",
+        "font" : "System",
         "color" : "#ECEFF2FF"
       },
       "backgroundSelected" : "#B2D7FFFF"
     },
     "window" : {
-      "color" : "#263239BF",
+      "color" : "#1B2429F1",
       "paddingHorizontal" : 10,
       "width" : 560,
       "borderPadding" : 10,
