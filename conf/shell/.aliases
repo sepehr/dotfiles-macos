@@ -20,6 +20,7 @@ alias phpstorm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
 eval "$(thefuck --alias)"
 
 # Git
+alias k="k -h"
 alias gl="git log"
 alias gd="git diff"
 alias gp="git push"
