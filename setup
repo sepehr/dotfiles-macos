@@ -572,3 +572,8 @@ fi
 ZSH_PATH=$(which zsh)
 grep -q "$ZSH_PATH" /etc/shells || sudo sh -c "echo '$ZSH_PATH' >> /etc/shells"
 chsh -s $ZSH_PATH
+
+# Disable iTunes
+killall iTunes
+killall "iTunes Helper"
+sudo mv /Applications/{iTunes.app,iTunes.app.disabled}
