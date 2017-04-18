@@ -12,7 +12,7 @@ brew upgrade
 
 ## brew cask
 say 'Upgrading essential brew casks...'
-brew cask reinstall appcleaner cerebro dropbox filezilla firefox google-chrome google-chrome-canary iina iterm2 kap macpass postman skype spotify vlc
+brew cask reinstall appcleaner dropbox filezilla firefox google-chrome google-chrome-canary iina iterm2 kap macpass postman skype spotify vlc
 
 ## composer
 say 'Upgrading global composer packages...'
@@ -24,7 +24,7 @@ npm -g upgrade
 
 ## apm
 say 'Upgrading apm packages...'
-apm upgrade -y
+apm upgrade --no-confirm
 
 ## gem
 say 'Upgrading global gems...'
