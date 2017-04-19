@@ -4,6 +4,7 @@ alias dev="cd $HOME/Dev"
 alias dl="cd $HOME/Downloads"
 alias desk="cd $HOME/Desktop"
 alias dot="cd $HOME/.dotfiles"
+alias mvs="cd $HOME/Movies"
 
 # Executables
 alias b=brew
