@@ -83,6 +83,9 @@ fi
 # Load registered plugins
 zplug load
 
+# Temporary theme workaround
+source $ZPLUG_HOME/repos/sepehr/sepshell/sepshell.zsh-theme
+
 ## Zsh-specific Helpers
 # Confirm helper
 confirm() {
