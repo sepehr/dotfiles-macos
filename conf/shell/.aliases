@@ -10,6 +10,7 @@ alias mvs="cd $HOME/Movies"
 alias b=brew
 alias c=composer
 alias ls="ls -a"
+alias yd="youtube-dl"
 alias pds=pds-skeleton
 alias mkdir="mkdir -p"
 alias srv="brew services"
@@ -23,6 +24,7 @@ eval "$(thefuck --alias)"
 # Git
 alias k="k -h"
 alias gl="git log"
+alias gll="git log --oneline"
 alias gd="git diff"
 alias gp="git push"
 alias ga="git add"
