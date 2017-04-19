@@ -38,6 +38,7 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"0_package_control_loader",
 		"Anaconda",
 		"EasyDiff",
 		"Vintage"
@@ -61,7 +62,7 @@
 		120
 	],
 	"scroll_speed": 1.0,
-	"show_definitions": false,
+	"show_definitions": true,
 	"show_full_path": true,
 	"show_line_endings": true,
 	"show_tab_close_buttons": true,
