@@ -41,3 +41,5 @@ say 'Now, recollecting everything for you...'
 ## cleanup
 brew cleanup -s
 brew cask cleanup
+sudo purge
+
