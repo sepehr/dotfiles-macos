@@ -37,3 +37,7 @@ say 'Upgrading global pip packages...'
 ## recollect
 say 'Now, recollecting everything for you...'
 ./update > /dev/null 2>&1
+
+## cleanup
+brew cleanup -s
+brew cask cleanup
