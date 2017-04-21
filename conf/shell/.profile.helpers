@@ -60,6 +60,16 @@ git() {
     gcli repo delete $GCLI_USER $2
 }
 
+# git prev commit
+git-prev() {
+    git checkout HEAD~
+}
+
+# git next commit
+git-next() {
+    git log --reverse --pretty=%H master | grep -A 1 $(git rev-parse HEAD) | tail -n1 | xargs git checkout
+}
+
 # todolist wrapper
 t() {
     if [[ -f "./.todos.json" || "$1" == "init" ]]; then
