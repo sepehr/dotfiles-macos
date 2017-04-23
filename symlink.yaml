@@ -10,6 +10,8 @@
     ~/.dotfiles: ''
 
     ## privates
+    # Alfred should be configured to read/write its prefs from/to "private/conf/app/alfred/"
+
     # todos
     ~/.todos.json: ~/.dotfiles/private/conf/.todos.json
 
@@ -96,7 +98,6 @@
 
     ## apps
     # iTerm should be configured to read/write its prefs from/to "conf/app/iterm/"
-    # Alfred should be configured to read/write its prefs from/to "conf/app/alfred/"
 
     # vim
     ~/.vimrc: ~/.dotfiles/conf/app/vim/.vimrc
