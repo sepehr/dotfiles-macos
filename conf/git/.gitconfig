@@ -12,7 +12,7 @@
     ls = ls-files
     unstage = reset
     stage-rm = rm --cached
-    forget = update-index --assume-unchanged
+    forget = "!git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch $1' --prune-empty --tag-name-filter cat -- --all; git rm -r $1"
     prev = checkout HEAD~
     next = "!git log --reverse --pretty=%H master | grep -A 1 $(git rev-parse HEAD) | tail -n1 | xargs git checkout"
 [http]
