@@ -138,6 +138,7 @@ brew 'openssl@1.1'
 brew 'nginx', args: ['with-http2'], restart_service: true
 brew 'nmap'
 brew 'node'
+brew 'ntfs-3g'
 brew 'openvpn'
 brew 'packer'
 brew 'packer-completion'
@@ -178,7 +179,6 @@ brew 'zlib'
 brew 'zsh'
 brew 'zsh-completions'
 brew 'homebrew/apache/httpd24'
-brew 'homebrew/fuse/ntfs-3g'
 brew 'homebrew/php/php71'
 brew 'homebrew/php/composer'
 brew 'homebrew/php/php56'
@@ -334,6 +334,7 @@ cask 'sublime-text'
 cask 'suspicious-package'
 cask 'tagger'
 cask 'tanki-online'
+cask 'teamspeak-client'
 cask 'teamviewer'
 cask 'torbrowser'
 cask 'tormessenger'
@@ -354,13 +355,3 @@ cask 'vox'
 cask 'webpquicklook'
 cask 'windscribe'
 cask 'zeronet'
-mas 'Annoying File Be-Gone', id: 1031773437
-mas 'Heartbeat', id: 1199498204
-mas 'Keynote', id: 409183694
-mas 'Notebook', id: 1173152781
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
-mas 'Persian Calendar', id: 1171425651
-mas 'Pixiu', id: 1195433805
-mas 'Tomato One', id: 907364780
-mas 'Xcode', id: 497799835
