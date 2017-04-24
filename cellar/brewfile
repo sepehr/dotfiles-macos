@@ -282,6 +282,7 @@ cask 'jadengeller-helium'
 cask 'kap'
 cask 'keepingyouawake'
 cask 'kerio-control-vpn-client'
+cask 'kextviewr'
 cask 'kindle'
 cask 'kitematic'
 cask 'knockknock'
@@ -321,6 +322,7 @@ cask 'reggy'
 cask 'ricochet'
 cask 'robomongo'
 cask 'rubymine'
+cask 'screenflow'
 cask 'sequel-pro'
 cask 'shadowsocksx-ng'
 cask 'sigil'
@@ -355,3 +357,13 @@ cask 'vox'
 cask 'webpquicklook'
 cask 'windscribe'
 cask 'zeronet'
+mas 'Annoying File Be-Gone', id: 1031773437
+mas 'Heartbeat', id: 1199498204
+mas 'Keynote', id: 409183694
+mas 'Notebook', id: 1173152781
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+mas 'Persian Calendar', id: 1171425651
+mas 'Pixiu', id: 1195433805
+mas 'Tomato One', id: 907364780
+mas 'Xcode', id: 497799835
