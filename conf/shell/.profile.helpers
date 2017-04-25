@@ -28,6 +28,11 @@ mkcd() {
 	cd $1
 }
 
+# generates a random password and stores it in the clipboard
+passgen() {
+    pwgen -Bs $1 | pbcopy | pbpaste
+}
+
 # hub wrapper
 # requires piotrmurach/github_cli
 git() {
