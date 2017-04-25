@@ -45,6 +45,8 @@ brew 'axel'
 brew 'bash'
 brew 'bash-completion'
 brew 'brew-cask-completion'
+brew 'brightness'
+brew 'ccrypt'
 brew 'chromedriver'
 brew 'cliclick'
 brew 'cmake'
@@ -89,6 +91,7 @@ brew 'libyaml'
 brew 'ruby'
 brew 'ghi'
 brew 'gist'
+brew 'git-crypt'
 brew 'gnu-sed'
 brew 'gnu-tar'
 brew 'gnu-which'
@@ -149,6 +152,7 @@ brew 'pip-completion'
 brew 'postgresql'
 brew 'pre-commit'
 brew 'progress'
+brew 'pwgen'
 brew 'pyenv'
 brew 'redis'
 brew 'rename'
@@ -364,7 +368,6 @@ cask 'windscribe'
 cask 'zeronet'
 mas 'Annoying File Be-Gone', id: 1031773437
 mas 'Heartbeat', id: 1199498204
-mas 'Keynote', id: 409183694
 mas 'Notebook', id: 1173152781
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
