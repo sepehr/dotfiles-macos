@@ -57,6 +57,12 @@ defaults write com.apple.CrashReporter DialogType -string "none"
 # Setting to restart automatically if the machine freezes
 sudo systemsetup -setrestartfreeze on
 
+# Turn off automatic backlight in low light
+defaults write com.apple.BezelServices kDim -bool false
+
+# Turn off keyboard illumination after 5 seconds
+defaults write com.apple.BezelServices kDimTime -int 5
+
 # Increasing sound quality for Bluetooth headphones/headsets
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
