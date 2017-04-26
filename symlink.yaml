@@ -25,6 +25,7 @@
 
     # apps
     ~/.nylas-mail/config.json: ~/.dotfiles/private/conf/app/nylas/config.json
+    "~/Library/Application Support/Rocket": ~/.dotfiles/private/conf/app/rocket
     "~/Library/Application Support/Adium 2.0/Users": "~/.dotfiles/private/conf/app/adium/Adium 2.0/Users"
 
     # personal content
@@ -152,6 +153,7 @@
 
     # apptivate
     "~/Library/Application Support/Apptivate/hotkeys": ~/.dotfiles/conf/app/apptivate/hotkeys
+
 
 - shell:
     -

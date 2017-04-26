@@ -36,6 +36,7 @@ cp -vf ~/.githubrc private/conf
 # apps
 cp -vf ~/.nylas-mail/config.json private/conf/app/nylas
 cp -rf ~/Library/Application\ Support/Adium\ 2.0/Users private/conf/app/adium/Adium\ 2.0/Users
+cp -rvf ~/Library/Application\ Support/Rocket private/conf/app && mv private/conf/app/{Rocket,rocket}
 
 # personal content
 cp -rf ~/Pictures/Icons private/var/pictures
