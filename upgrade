@@ -12,7 +12,7 @@ brew upgrade
 
 ## brew cask
 say 'Upgrading essential brew casks...'
-brew cask reinstall appcleaner dropbox filezilla firefox google-chrome google-chrome-canary iina iterm2 kap macpass postman skype spotify vlc knockknock blockblock oversight ransomwhere kextviewr
+brew cask reinstall appcleaner dropbox filezilla firefox google-chrome google-chrome-canary iina iterm2 kap macpass postman skype spotify torbrowser vlc knockknock blockblock oversight ransomwhere kextviewr
 
 ## composer
 say 'Upgrading global composer packages...'
