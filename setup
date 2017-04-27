@@ -49,6 +49,9 @@ sudo spctl --master-disable
 # Disabling the crash reporter
 defaults write com.apple.CrashReporter DialogType -string "none"
 
+# change screenshot filename pattern
+defaults write com.apple.screencapture name ''
+
 # See: https://apple.stackexchange.com/questions/212393
 # # Disabling the notification center
 # launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
