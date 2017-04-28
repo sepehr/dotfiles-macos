@@ -192,3 +192,8 @@ phpsw() {
     php -v
 }
 
+# dock icon hider
+nodock() {
+    defaults write "$1Contents/Info" LSUIElement 1
+}
+
