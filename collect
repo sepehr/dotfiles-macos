@@ -130,7 +130,6 @@ cp -rf ~/Library/Application\ Support/Adium\ 2.0/Menu\ Bar\ Icons conf/app/adium
 cp -rf ~/Library/Application\ Support/Adium\ 2.0/Message\ Styles conf/app/adium/Adium\ 2.0
 
 # dash
-cp -vf ~/Dropbox/dev/dash/Snippets.dash conf/app/dash/snippets.dash
 cp -vf ~/Library/Application\ Support/Dash/library.dash conf/app/dash
 
 # littlesnitch

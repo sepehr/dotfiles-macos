@@ -10,7 +10,7 @@
     ~/.dotfiles: ''
 
     ## privates
-    # Alfred should be configured to read/write its prefs from/to "private/conf/app/alfred/"
+    # manual: Alfred should be configured to read/write its prefs from/to "private/conf/app/alfred/"
 
     # todos
     ~/.todos.json: ~/.dotfiles/private/conf/.todos.json
@@ -98,7 +98,7 @@
 
 
     ## apps
-    # iTerm should be configured to read/write its prefs from/to "conf/app/iterm/"
+    # manual: iterm should be configured to read/write its prefs from/to "conf/app/iterm/"
 
     # vim
     ~/.vimrc: ~/.dotfiles/conf/app/vim/.vimrc
@@ -141,8 +141,8 @@
     "~/Library/Application Support/Adium 2.0/Menu Bar Icons": "~/.dotfiles/conf/app/adium/Adium 2.0/Menu Bar Icons"
     "~/Library/Application Support/Adium 2.0/Message Styles": "~/.dotfiles/conf/app/adium/Adium 2.0/Message Styles"
 
-    # dash: it should be configured to store its snippets file in "conf/app/dash/snippets.dash"
-    "~/Dropbox/dev/dash/Snippets.dash": ~/.dotfiles/conf/app/dash/snippets.dash
+    # dash
+    # manual: it should be configured to store its snippets file in "conf/app/dash/snippets.dash"
     "~/Library/Application Support/Dash/library.dash": ~/.dotfiles/conf/app/dash/library.dash
 
     # littlesnitch
