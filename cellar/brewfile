@@ -186,12 +186,12 @@ brew 'zlib'
 brew 'zsh'
 brew 'zsh-completions'
 brew 'homebrew/apache/httpd24'
-brew 'homebrew/php/php71'
 brew 'homebrew/php/composer'
 brew 'homebrew/php/php56'
 brew 'homebrew/php/php56-apcu'
 brew 'homebrew/php/php56-mongo'
 brew 'homebrew/php/php56-xdebug'
+brew 'homebrew/php/php71'
 brew 'homebrew/php/php71-apcu'
 brew 'homebrew/php/php71-ast'
 brew 'homebrew/php/php71-mongodb'
@@ -206,9 +206,11 @@ cask 'appcleaner'
 cask 'apptivate'
 cask 'atom'
 cask 'bartender'
+cask 'bee'
 cask 'betterzipql'
 cask 'blisk'
 cask 'blockblock'
+cask 'boom'
 cask 'boot2docker'
 cask 'cakebrew'
 cask 'caption'
@@ -216,6 +218,7 @@ cask 'chromium'
 cask 'cleanmymac'
 cask 'clion'
 cask 'command-tab-plus'
+cask 'cryptomator'
 cask 'daisydisk'
 cask 'dash'
 cask 'devcolor'
@@ -274,9 +277,11 @@ cask 'font-roboto-slab'
 cask 'font-sansie'
 cask 'font-source-code-pro'
 cask 'font-source-code-pro-for-powerline'
+cask 'font-twitter-color-emoji'
 cask 'font-ubuntu'
 cask 'font-vazir'
 cask 'font-vazir-code'
+cask 'gifrocket'
 cask 'go2shell'
 cask 'google-chrome'
 cask 'google-drive'
@@ -366,9 +371,11 @@ cask 'vlc'
 cask 'vox'
 cask 'webpquicklook'
 cask 'windscribe'
+cask 'xact'
 cask 'zeronet'
 mas 'Annoying File Be-Gone', id: 1031773437
 mas 'GIF Brewery 3', id: 1081413713
+mas 'GIFHunter', id: 1031163338
 mas 'Heartbeat', id: 1199498204
 mas 'Keynote', id: 409183694
 mas 'Notebook', id: 1173152781
@@ -376,6 +383,5 @@ mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'Persian Calendar', id: 1171425651
 mas 'Pixiu', id: 1195433805
-mas 'Tenor', id: 1043270657
 mas 'Tomato One', id: 907364780
 mas 'Xcode', id: 497799835
