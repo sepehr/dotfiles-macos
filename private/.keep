@@ -1,1 +1,2 @@
-/private contents can be gitignored when using public repos. You can move your repo to Dropbox for example to have this synced.
+/private contents can be gitignored when used with public repos.
+You can use a syncing solution like Google Drive to have this directory backed up and synced.
