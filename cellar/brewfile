@@ -374,6 +374,7 @@ cask 'windscribe'
 cask 'xact'
 cask 'zeronet'
 mas 'Annoying File Be-Gone', id: 1031773437
+mas 'Entry', id: 998722423
 mas 'GIF Brewery 3', id: 1081413713
 mas 'GIFHunter', id: 1031163338
 mas 'Heartbeat', id: 1199498204
