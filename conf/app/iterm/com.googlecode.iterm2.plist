@@ -1179,11 +1179,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 139 606 456 0 0 1440 878 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>521 261 796 473 0 0 1440 878 </string>
+	<string>439 310 796 473 0 0 1440 900 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>553 213 592 584 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>155 73 730 648 0 0 1440 878 </string>
+	<string>0 0 1440 900 0 0 1440 878 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1394,13 +1394,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.17562949657440186</real>
+				<real>0.089510053396224976</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.14036396145820618</real>
+				<real>0.089508526027202606</real>
 				<key>Red Component</key>
-				<real>0.12669175863265991</real>
+				<real>0.089511200785636902</real>
 			</dict>
 			<key>Background Image Is Tiled</key>
 			<false/>
@@ -1426,9 +1426,9 @@
 			<key>Blinking Cursor</key>
 			<true/>
 			<key>Blur</key>
-			<false/>
+			<true/>
 			<key>Blur Radius</key>
-			<real>0.10000000149011612</real>
+			<real>5.7387319711538449</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -1719,7 +1719,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.098645525147928986</real>
+			<real>0.18185558431952659</real>
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
@@ -1902,12 +1902,16 @@
 			<true/>
 			<key>Background Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.070649586617946625</real>
+				<real>0.089510053396224976</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.069956943392753601</real>
+				<real>0.089508526027202606</real>
 				<key>Red Component</key>
-				<real>0.070303268730640411</real>
+				<real>0.089511200785636902</real>
 			</dict>
 			<key>Background Image Is Tiled</key>
 			<false/>
@@ -2881,7 +2885,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-04-21T14:58:11Z</date>
+	<date>2017-05-11T09:35:31Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -2911,7 +2915,7 @@
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
 	<key>UKCrashReporterLastCrashReportDate</key>
-	<real>1492786688</real>
+	<real>1493543936</real>
 	<key>URLHandlersByGuid</key>
 	<dict/>
 	<key>UseBorder</key>
