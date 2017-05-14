@@ -5,6 +5,7 @@ grunt
 gulp
 kong-dashboard
 npm
+slack-keep-presence
 typescript
 vue-cli
 webpack

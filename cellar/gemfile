@@ -20,6 +20,7 @@ minitest
 multi_json
 multi_xml
 multipart-post
+mustermann
 necromancer
 net-telnet
 oauth2
