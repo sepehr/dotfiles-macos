@@ -9,7 +9,7 @@
     <option name="ADDED_LINES_COLOR" value="" />
     <option name="CARET_COLOR" value="49483e" />
     <option name="CARET_ROW_COLOR" value="4f5b66" />
-    <option name="GUTTER_BACKGROUND" value="2b303b" />
+    <option name="GUTTER_BACKGROUND" value="1d1d1d" />
     <option name="INDENT_GUIDE" value="414651" />
     <option name="LINE_NUMBERS_COLOR" value="757a84" />
     <option name="METHOD_SEPARATORS_COLOR" value="" />
@@ -619,7 +619,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="c0c5ce" />
-        <option name="BACKGROUND" value="2b303b" />
+        <option name="BACKGROUND" value="1d1d1d" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

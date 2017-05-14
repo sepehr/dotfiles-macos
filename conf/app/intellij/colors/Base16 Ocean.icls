@@ -6,7 +6,7 @@
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="CARET_COLOR" value="bbbbbb" />
     <option name="CARET_ROW_COLOR" value="343d46" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="2b303b" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="1d1d1d" />
     <option name="FILESTATUS_ADDED" value="629755" />
     <option name="FILESTATUS_DELETED" value="6c6c6c" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="6c6c6c" />
@@ -22,7 +22,7 @@
     <option name="FILESTATUS_addedOutside" value="629755" />
     <option name="FILESTATUS_changelistConflict" value="d5756c" />
     <option name="FILESTATUS_modifiedOutside" value="6897bb" />
-    <option name="GUTTER_BACKGROUND" value="2b303b" />
+    <option name="GUTTER_BACKGROUND" value="1d1d1d" />
     <option name="INDENT_GUIDE" value="4f5b66" />
     <option name="LINE_NUMBERS_COLOR" value="eff1f5" />
     <option name="METHOD_SEPARATORS_COLOR" value="343d46" />
@@ -108,7 +108,7 @@
     <option name="CONSOLE_NORMAL_OUTPUT">
       <value>
         <option name="FOREGROUND" value="eff1f5" />
-        <option name="BACKGROUND" value="2b303b" />
+        <option name="BACKGROUND" value="1d1d1d" />
       </value>
     </option>
     <option name="CONSOLE_RED_OUTPUT">
@@ -385,7 +385,7 @@
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="2b303b" />
+        <option name="FOREGROUND" value="1d1d1d" />
         <option name="BACKGROUND" value="eff1f5" />
       </value>
     </option>
@@ -572,7 +572,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="eff1f5" />
-        <option name="BACKGROUND" value="2b303b" />
+        <option name="BACKGROUND" value="1d1d1d" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
