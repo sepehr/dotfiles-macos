@@ -154,6 +154,9 @@
     # apptivate
     "~/Library/Application Support/Apptivate/hotkeys": ~/.dotfiles/conf/app/apptivate/hotkeys
 
+    # gifhunter: doesn't work with symlinks :|
+    #"~/Library/Containers/io.madebyw.GIFHunter/Data/Library/Application Support/io.madebyw.GIFHunter/archive.data": conf/app/gifhunter/archive.data
+
 
 - shell:
     -
