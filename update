@@ -22,3 +22,7 @@ npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1);
 ## apm
 say 'Collecting apm packages...'
 apm list --installed --bare > cellar/apmfile
+
+## etc
+say 'Collecting apptivate hotkeys...'
+cp -vf ~/Library/Application\ Support/Apptivate/hotkeys conf/app/apptivate
