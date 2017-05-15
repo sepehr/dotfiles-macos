@@ -3,43 +3,63 @@
 source .setup/helpers
 
 ## mas apps
-say 'Upgrading mas apps...'
-mas upgrade
+if [[ "$@" != *"--no-mas"* ]]; then
+    say 'Upgrading mas apps...'
+    mas upgrade
+fi
 
 ## brew
-say 'Upgrading brew formulaes...'
-brew upgrade
+if [[ "$@" != *"--no-brew"* ]]; then
+    say 'Upgrading brew formulaes...'
+    brew upgrade
+fi
 
 ## brew cask
-say 'Upgrading essential brew casks...'
-brew cask reinstall appcleaner filezilla firefox google-chrome google-chrome-canary iina iterm2 kap macpass postman skype spotify torbrowser vlc knockknock blockblock oversight ransomwhere kextviewr
+if [[ "$@" != *"--no-cask"* ]]; then
+    say 'Upgrading essential brew casks...'
+    brew cask reinstall appcleaner filezilla firefox google-chrome google-chrome-canary iina iterm2 kap macpass postman skype spotify torbrowser vlc knockknock blockblock oversight ransomwhere kextviewr vagrant virtualbox
+fi
 
 ## composer
-say 'Upgrading global composer packages...'
-composer global update
+if [[ "$@" != *"--no-composer"* ]]; then
+    say 'Upgrading global composer packages...'
+    composer global update
+fi
 
 ## npm
-say 'Upgrading global npm packages...'
-npm -g upgrade
+if [[ "$@" != *"--no-npm"* ]]; then
+    say 'Upgrading global npm packages...'
+    npm -g upgrade
+fi
 
 ## apm
-say 'Upgrading apm packages...'
-apm upgrade --no-confirm
+if [[ "$@" != *"--no-apm"* ]]; then
+    say 'Upgrading apm packages...'
+    apm upgrade --no-confirm
+fi
 
 ## gem
-say 'Upgrading global gems...'
-gem update
+if [[ "$@" != *"--no-gem"* ]]; then
+    say 'Upgrading global gems...'
+    gem update
+fi
 
 ## pip
-say 'Upgrading global pip packages...'
-./bin/pip-update
+if [[ "$@" != *"--no-pip"* ]]; then
+    say 'Upgrading global pip packages...'
+    ./bin/pip-update
+fi
 
 ## recollect
-say 'Now, recollecting everything for you...'
-./update > /dev/null 2>&1
+if [[ "$@" != *"--no-recollect"* ]]; then
+    say 'Now, recollecting everything for you...'
+    ./update > /dev/null 2>&1
+fi
 
 ## cleanup
-brew cleanup -s
-brew cask cleanup
-sudo purge
-
+if [[ "$@" != *"--no-cleanup"* ]]; then
+    say 'Cleaning up...'
+    brew cleanup -s
+    brew cask cleanup
+    sudo purge
+fi
