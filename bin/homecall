@@ -1,9 +1,10 @@
 #!/usr/bin/env sh
+# https://github.com/karek314/macOS-home-call-drop/blob/master/homecall.sh
 
 DAEMONS=()
 DAEMONS+=('com.apple.netbiosd') #Netbiosd is microsoft's networking service. used to share files between mac and windows
-DAEMONS+=('com.apple.preferences.timezone.admintool') #Time setting daemon
-DAEMONS+=('com.apple.preferences.timezone.auto') #Time setting daemon
+#DAEMONS+=('com.apple.preferences.timezone.admintool') #Time setting daemon
+#DAEMONS+=('com.apple.preferences.timezone.auto') #Time setting daemon
 #DAEMONS+=('com.apple.remotepairtool') #Pairing devices remotely
 #DAEMONS+=('com.apple.rpmuxd') #daemon for remote debugging of mobile devices.
 #DAEMONS+=('com.apple.security.FDERecoveryAgent') #Full Disk Ecnryption - Related to File Vault https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man8/FDERecoveryAgent.8.html
@@ -15,18 +16,18 @@ DAEMONS+=('com.apple.familycontrols') #Parent control
 DAEMONS+=('com.apple.SubmitDiagInfo') #Feedback - most likely it submits your computer data when click 'About this mac'
 DAEMONS+=('com.apple.screensharing') #Screensharing daemon
 DAEMONS+=('com.apple.appleseed.fbahelperd') #Related to feedback
-DAEMONS+=('com.apple.apsd') #Apple Push Notification Service (apsd) - it's calling home quite often + used by Facetime and Messages
+#DAEMONS+=('com.apple.apsd') #Apple Push Notification Service (apsd) - it's calling home quite often + used by Facetime and Messages
 DAEMONS+=('com.apple.AOSNotificationOSX') #Notifications
-#DAEMONS+=('com.apple.FileSyncAgent.sshd') #Mostlikely sshd on this machine
+DAEMONS+=('com.apple.FileSyncAgent.sshd') #Mostlikely sshd on this machine
 #DAEMONS+=('com.apple.ManagedClient.cloudconfigurationd') #Related to manage current macOS user iCloud
 #DAEMONS+=('com.apple.ManagedClient.enroll') #Related to manage current macOS user
 #DAEMONS+=('com.apple.ManagedClient') #Related to manage current macOS user
 #DAEMONS+=('com.apple.ManagedClient.startup') #Related to manage current macOS user
-DAEMONS+=('com.apple.iCloudStats') #Related to iCloud
-DAEMONS+=('com.apple.locationd') #Propably reading current location
+#DAEMONS+=('com.apple.iCloudStats') #Related to iCloud
+#DAEMONS+=('com.apple.locationd') #Propably reading current location
 #DAEMONS+=('com.apple.mbicloudsetupd') #iCloud Settings
-DAEMONS+=('com.apple.laterscheduler') #Schedule something?
-DAEMONS+=('com.apple.awacsd') #Apple Wide Area Connectivity Service daemon - Back to My Mac Feature
+#DAEMONS+=('com.apple.laterscheduler') #Schedule something?
+#DAEMONS+=('com.apple.awacsd') #Apple Wide Area Connectivity Service daemon - Back to My Mac Feature
 #DAEMONS+=('com.apple.eapolcfg_auth') #perform privileged operations required by certain EAPOLClientConfiguration.h APIs
 DAEMONS+=('com.apple.awdd') #Sending out diagnostics & usage
 DAEMONS+=('com.apple.CrashReporterSupportHelper') #Crash reporter
@@ -47,7 +48,7 @@ AGENTS+=('com.apple.gamed') #GameCenter
 #AGENTS+=('com.apple.icloud.fmfd') #Find my device ?
 AGENTS+=('com.apple.imagent') #Facetime & Messages
 AGENTS+=('com.apple.cloudfamilyrestrictionsd-mac') #iCloud Family restrictions
-#AGENTS+=('com.apple.cloudpaird') #Related to iCloud
+AGENTS+=('com.apple.cloudpaird') #Related to iCloud
 AGENTS+=('com.apple.cloudphotosd') #Propably syncing your photos to icloud
 AGENTS+=('com.apple.DictationIM') #Dictation
 AGENTS+=('com.apple.assistant_service') #Siri
@@ -62,7 +63,7 @@ AGENTS+=('com.apple.geodMachServiceBridge') #Located in GeoServices.framework, r
 #AGENTS+=('com.apple.security.keychain-circle-notification') #Related to keychain
 #AGENTS+=('com.apple.sharingd') #Airdrop, Remote Disks, Shared Directories, Handoff
 AGENTS+=('com.apple.appleseed.seedusaged') #Feedback assistant
-AGENTS+=('com.apple.cloudd') #Related to sync data to iCloud, most likely used by iMessage,Mail,iCloud drive, etc...
+#AGENTS+=('com.apple.cloudd') #Related to sync data to iCloud, most likely used by iMessage,Mail,iCloud drive, etc...
 #AGENTS+=('com.apple.assistant') #Keychain
 AGENTS+=('com.apple.parentalcontrols.check') #Related to parental control
 AGENTS+=('com.apple.parsecd') #Used by spotlight and/or siri, propably some suggestions - CoreParsec.framework
@@ -80,7 +81,7 @@ help_msg(){
   echo "version 1.0"
   echo ""
   echo "Available commands"
-  echo "fixmacos - fix your macOS to stop/limit invade your privacy"
+  echo "fix - fix your macOS to stop/limit invade your privacy"
   echo "restore - restore to default settings"
   echo "help - help message"
 }
@@ -163,7 +164,7 @@ restore(){
 
 
 case $1 in
-"fixmacos")
+"fix")
   start
   ;;
 "help")
