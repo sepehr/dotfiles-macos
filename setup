@@ -31,7 +31,7 @@ sudo xcodebuild -license accept
 say 'System tweaks...'
 
 # Disabling macOs to call the mamma home
-./bin/homecall fixmacos
+./bin/homecall fix
 
 # Disabling file quarantine
 # Disable “Are you sure you want to open this application?”
