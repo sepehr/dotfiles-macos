@@ -114,7 +114,7 @@ cp -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/{Schemes,Sn
 cp -vf ~/.atom/{config.cson,keymap.cson,snippets.cson,init.coffee,styles.less} conf/app/atom
 
 # chrome's stylish
-cp -vrf ~/Library/Application\ Support/Google/Chrome/Profile\ 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/* conf/app/chrome/stylish.leveldb
+cp -vrf ~/Library/Application\ Support/Google/Chrome/Profile\ 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/* conf/app/chrome/stylish/leveldb
 
 # adium
 cp -rf ~/Library/Application\ Support/Adium\ 2.0/Sounds conf/app/adium/Adium\ 2.0
