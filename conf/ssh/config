@@ -1,5 +1,5 @@
 Host *
-    UseKeyChain no
+    UseKeyChain yes
     HashKnownHosts yes
     ServerAliveInterval 60
     ChallengeResponseAuthentication no
