@@ -578,6 +578,11 @@ if [[ "$@" != *"--no-install"* ]]; then
         dark-mode on
     fi
 
+    # Set screen resolution
+    if exists screenresolution; then
+        screenresolution set 1680x1050x32@0
+    fi
+
     # Install sublime package control
     wget -q https://packagecontrol.io/Package%20Control.sublime-package -O $HOME/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
 
