@@ -566,10 +566,9 @@ if [[ "$@" != *"--no-install"* ]]; then
 
     # Installing apm packages
     apm install --packages-file cellar/apmfile
-fi
 
-## post-install
-if [[ "$@" != *"--no-post-install"* ]]; then
+
+    ## post-install
     say 'Running post-install scripts...'
 
     # Install sublime package control
