@@ -573,6 +573,11 @@ if [[ "$@" != *"--no-install"* ]]; then
     ## post-install
     say 'Running post-install scripts...'
 
+    # Enable the dark mode
+    if exists dark-mode; then
+        dark-mode on
+    fi
+
     # Install sublime package control
     wget -q https://packagecontrol.io/Package%20Control.sublime-package -O $HOME/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
 
