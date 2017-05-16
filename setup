@@ -32,7 +32,9 @@ if [[ "$@" != *"--no-system-tweaks"* ]]; then
     say 'System tweaks...'
 
     # Disabling macOs to call the mamma home
-    ./bin/homecall fix
+    if [[ "$@" != *"--no-homecall-fix"* ]]; then
+        ./bin/homecall fix
+    fi
 
     # Disabling file quarantine
     # Disable “Are you sure you want to open this application?”
