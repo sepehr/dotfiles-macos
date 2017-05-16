@@ -127,8 +127,8 @@ if [[ "$@" != *"--no-ui-tweaks"* ]]; then
     defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
     defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
 
-    # Set the icon size of Dock items to 36 pixels
-    defaults write com.apple.dock tilesize -int 49
+    # Set the icon size of Dock items
+    defaults write com.apple.dock tilesize -int 58
 
     # Change minimize/maximize window effect
     defaults write com.apple.dock mineffect -string "scale"
