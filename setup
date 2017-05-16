@@ -11,7 +11,6 @@ The script will ask your password as it needs to do operations that need root
 privilage...\n\n"
 read -p "Press enter to continue..."
 
-
 ## init
 source .setup/helpers
 
@@ -21,6 +20,11 @@ osascript -e 'tell application "System Preferences" to quit'
 # Maintain administration-ship!
 sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
+
+## xcode
+xcode-select --install
+sudo xcodebuild -license accept
 
 
 ## system
@@ -514,15 +518,11 @@ done
 ## installation
 say 'Running installation scripts...'
 
-# Accepting XCode license
-sudo xcodebuild -license accept
-
 # Setting proper permissions for /usr/local directory
 sudo chown -R $(whoami):admin /usr/local
 
 # Installing brew, if necessary
 if ! exists brew; then
-    xcode-select --install
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
@@ -564,7 +564,7 @@ wget https://sks-keyservers.net/sks-keyservers.netCA.pem -O /usr/local/etc/ssl/c
 
 # Create ~/Dev directory structure, if necessary
 if [ ! -d "$HOME/Dev" ]; then
-    mkdir -p $HOME/Dev/{brew,c,chrome,docs,etc,go,homestead,java,node,php,python,ruby,selenium,vagrant,vm,www,workspaces}
+    mkdir -p $HOME/Dev/{brew,c,chrome,docs,etc,go,homestead,java,node,php,python,ruby,selenium,vagrant,www,workspaces}
     mkdir -p $HOME/Dev/workspaces/sublime
     mkdir -p $HOME/Dev/php/{packages,sandbox}
     mkdir -p $HOME/Dev/python/{projects,venvs,sandbox}
@@ -586,3 +586,9 @@ chsh -s $ZSH_PATH
 killall iTunes
 killall "iTunes Helper"
 sudo mv /Applications/{iTunes.app,iTunes.app.disabled}
+
+# List remaining tasks
+say "Remaining tasks that need to be done manually:"
+printf "1. Remove spotlight menubar icon\n"
+printf "2. Customize dock appearance using the cDock app\n\n"
+printf "Reboot in recovery mode (Cmd+R), open terminal, type 'csrutil disable', reboot, remove spotlight menubar using Bartender, then customize the dock look and feel, reboot in recovery mode, issue 'csrutil enable', reboot and you're done."
