@@ -587,6 +587,9 @@ killall iTunes
 killall "iTunes Helper"
 sudo mv /Applications/{iTunes.app,iTunes.app.disabled}
 
+# Add ssh key passphrase to the keychain
+ssh-add -K
+
 # List remaining tasks
 say "Remaining tasks that need to be done manually:"
 printf "1. Remove spotlight menubar icon\n"
