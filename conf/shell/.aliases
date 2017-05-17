@@ -1,5 +1,4 @@
 # Dirs
-alias -g ...=../..
 alias dev="cd $HOME/Dev"
 alias dl="cd $HOME/Downloads"
 alias desk="cd $HOME/Desktop"
