@@ -92,7 +92,7 @@ t() {
 
 # vagrant wrapper for homestead
 hms() {
-    cd ~/Dev/homestead
+    cd ~/.homestead
     vagrant $*
 }
 

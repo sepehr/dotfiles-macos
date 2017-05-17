@@ -92,6 +92,9 @@ cp -vf /usr/local/etc/php/7.1/{php.ini,php-fpm.conf} conf/service/php
 cp -rf ~/.valet conf/service
 mv conf/service/{.valet,valet}
 
+# homestead
+cp -vf ~/.homestead/Homestead.yaml conf/service/homestead
+
 # nginx
 cp -vf /usr/local/etc/nginx/nginx.conf conf/service/nginx
 cp -rf /usr/local/etc/nginx/{valet,servers} conf/service/nginx

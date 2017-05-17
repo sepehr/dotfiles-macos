@@ -91,6 +91,9 @@
     # valet
     ~/.valet: ~/.dotfiles/conf/service/valet
 
+    # homestead
+    ~/.homestead/Homestead.yaml: ~/.dotfiles/conf/service/homestead/Homestead.yaml
+
     # nginx
     /usr/local/etc/nginx/valet: ~/.dotfiles/conf/service/nginx/valet
     /usr/local/etc/nginx/servers: ~/.dotfiles/conf/service/nginx/servers
