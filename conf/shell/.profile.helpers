@@ -153,7 +153,7 @@ dbmkusr() {
         return 1
     fi
 
-    mysql -uroot -p -e "drop user '$1'@'%' if exists; create user '$1'@'%' identified by '$2'"
+    mysql -uroot -p -e "drop user '$1'@'%'; create user '$1'@'%' identified by '$2'"
 }
 
 # removes database user
@@ -163,7 +163,7 @@ dbrmusr() {
         return 1
     fi
 
-    mysql -uroot -p -e "drop user '$1'@'%' if exists"
+    mysql -uroot -p -e "drop user '$1'@'%'"
 }
 
 # grants database permissions to a user
