@@ -177,7 +177,7 @@ dbgrant() {
 }
 
 # create a user and grant database permissions to it
-dbmkgrant() {
+dbmkusrgrant() {
     if [ -z "$3" ]; then
         echo 'Usage: dbmkgrant [user] [password] [database]'
         return 1
