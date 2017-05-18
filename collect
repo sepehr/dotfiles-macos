@@ -93,7 +93,7 @@ cp -rf ~/.valet conf/service
 mv conf/service/{.valet,valet}
 
 # homestead
-cp -vf ~/.homestead/Homestead.yaml conf/service/homestead
+cp -vf ~/.homestead/{Homestead.yaml,Vagrantfile} conf/service/homestead
 
 # nginx
 cp -vf /usr/local/etc/nginx/nginx.conf conf/service/nginx
