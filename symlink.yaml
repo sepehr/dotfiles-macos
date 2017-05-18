@@ -100,6 +100,8 @@
     /usr/local/etc/nginx/servers: ~/.dotfiles/conf/service/nginx/servers
     /usr/local/etc/nginx/nginx.conf: ~/.dotfiles/conf/service/nginx/nginx.conf
 
+    # dnsmasq
+    /usr/local/etc/dnsmasq.conf: conf/service/dnsmasq/dnsmasq.conf
 
     ## apps
     # manual: iterm should be configured to read/write its prefs from/to "conf/app/iterm/"

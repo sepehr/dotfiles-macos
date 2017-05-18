@@ -99,6 +99,9 @@ cp -vf ~/.homestead/{Homestead.yaml,Vagrantfile} conf/service/homestead
 cp -vf /usr/local/etc/nginx/nginx.conf conf/service/nginx
 cp -rf /usr/local/etc/nginx/{valet,servers} conf/service/nginx
 
+# dnsmasq
+cp -vf /usr/local/etc/dnsmasq.conf conf/service/dnsmasq
+
 ## apps
 say 'Collecting app configs...'
 
