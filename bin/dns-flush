@@ -1,2 +1,4 @@
 #!/usr/bin/env sh
-sudo discoveryutil udnsflushcaches
+sudo dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+
