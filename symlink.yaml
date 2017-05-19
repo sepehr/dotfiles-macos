@@ -92,6 +92,7 @@
     ~/.valet: ~/.dotfiles/conf/service/valet
 
     # homestead
+    ~/.homestead/after.sh: ~/.dotfiles/conf/service/homestead/after.sh
     ~/.homestead/Vagrantfile: ~/.dotfiles/conf/service/homestead/Vagrantfile
     ~/.homestead/Homestead.yaml: ~/.dotfiles/conf/service/homestead/Homestead.yaml
 
