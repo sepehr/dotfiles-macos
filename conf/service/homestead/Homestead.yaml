@@ -14,7 +14,7 @@ folders:
       to: /home/vagrant/projects
 
 sites:
-    - map: testony.webapp
+    - map: testony.app
       to: /home/vagrant/projects/testony/public
 
 databases:
