@@ -24,5 +24,8 @@ say 'Collecting apm packages...'
 apm list --installed --bare > cellar/apmfile
 
 ## etc
+say 'Collecting /etc/hosts file...'
+cp -vf /etc/hosts private/etc
+
 say 'Collecting apptivate hotkeys...'
 cp -vf ~/Library/Application\ Support/Apptivate/hotkeys conf/app/apptivate

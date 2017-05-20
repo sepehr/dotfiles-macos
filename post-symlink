@@ -7,7 +7,8 @@ source .setup/helpers
 say 'Symlinking with root privilage...'
 
 # /etc/hosts file
-mkln ~/.dotfiles/private/etc/hosts /etc/hosts
+# WARNING: dnsmasq will fail to load a symlinked hosts file
+# mkln ~/.dotfiles/private/etc/hosts /etc/hosts
 
 # macos prefs
 mkln ~/.dotfiles/private/conf/macos/Preferences ~/Library/Preferences
