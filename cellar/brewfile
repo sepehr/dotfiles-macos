@@ -303,7 +303,6 @@ cask "noti"
 cask "ntfsmounter"
 cask "nylas-mail"
 cask "opera"
-cask "paste"
 cask "patterns"
 cask "persian-english-dictionary"
 cask "phpstorm"
@@ -347,7 +346,6 @@ cask "unified-remote"
 cask "uninstallpkg"
 cask "unrarx"
 cask "vagrant"
-cask "vagrant-manager"
 cask "veracrypt"
 cask "virtualbox"
 cask "visual-studio-code"
@@ -357,6 +355,7 @@ cask "webpquicklook"
 cask "windscribe"
 cask "xact"
 mas "Annoying File Be-Gone", id: 1031773437
+mas "Battery Monitor", id: 836505650
 mas "Entry", id: 998722423
 mas "GarageBand", id: 682658836
 mas "GIF Brewery 3", id: 1081413713
