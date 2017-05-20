@@ -273,6 +273,7 @@ cask "font-ubuntu"
 cask "font-vazir"
 cask "font-vazir-code"
 cask "gifrocket"
+cask "github-desktop"
 cask "go2shell"
 cask "google-chrome"
 cask "google-drive"
@@ -362,6 +363,7 @@ mas "GIF Brewery 3", id: 1081413713
 mas "GIFHunter", id: 1031163338
 mas "Heartbeat", id: 1199498204
 mas "iMovie", id: 408981434
+mas "Keyboard Pilot", id: 402670023
 mas "Keynote", id: 409183694
 mas "Notebook", id: 1173152781
 mas "Numbers", id: 409203825
