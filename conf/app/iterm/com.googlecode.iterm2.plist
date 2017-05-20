@@ -1022,7 +1022,7 @@
 	<key>DeleteProfile_selection</key>
 	<integer>0</integer>
 	<key>DimBackgroundWindows</key>
-	<true/>
+	<false/>
 	<key>DimInactiveSplitPanes</key>
 	<true/>
 	<key>DimOnlyText</key>
@@ -1169,7 +1169,7 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>909 187 445 77 0 0 1680 1028 </string>
+	<string>1141 332 445 77 0 0 1680 1028 </string>
 	<key>NSWindow Frame Preferences</key>
 	<string>287 435 606 456 0 0 1440 900 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
@@ -1177,11 +1177,11 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 382 620 392 0 0 1440 900 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>269 139 606 456 0 0 1440 878 </string>
+	<string>1039 277 606 456 0 0 1680 1028 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>504 336 796 473 0 0 1680 1050 </string>
+	<string>762 510 796 473 0 0 1680 1050 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
-	<string>845 227 592 584 0 0 1440 878 </string>
+	<string>1084 343 592 584 0 0 1680 1028 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 1680 1050 0 0 1680 1028 </string>
 	<key>New Bookmarks</key>
@@ -1559,7 +1559,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Hasklig-Regular 13</string>
+			<string>FiraCode-Regular 13</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<false/>
 			<key>Option Key Sends</key>
@@ -2885,7 +2885,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-05-16T12:39:50Z</date>
+	<date>2017-05-20T03:58:09Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -2915,7 +2915,7 @@
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
 	<key>UKCrashReporterLastCrashReportDate</key>
-	<real>1494900736</real>
+	<real>1495252736</real>
 	<key>URLHandlersByGuid</key>
 	<dict/>
 	<key>UseBorder</key>
