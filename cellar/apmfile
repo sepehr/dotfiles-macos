@@ -4,7 +4,8 @@ autocomplete-php@0.3.7
 base16-ocean-dark-spacegray@0.13.0
 base16-ocean-dark-syntax-theme@0.1.10
 dash@1.7.1
-docblockr@0.9.4
+docblockr@0.10.3
+dracula-syntax@2.0.5
 dracula-theme@2.0.3
 editorconfig@2.2.2
 emmet@2.4.3

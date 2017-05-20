@@ -137,7 +137,7 @@ brew "mongodb"
 brew "msgpack"
 brew "mycli"
 brew "openssl@1.1"
-brew "nginx", args: ["with-http2"], restart_service: true
+brew "nginx", restart_service: true
 brew "nmap"
 brew "node"
 brew "ntfs-3g"
