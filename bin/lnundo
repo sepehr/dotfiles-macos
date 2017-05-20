@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+
+if [[ -z $1 ]]; then
+    echo 'Usage: lnundo path/to/symlink'
+    exit 1
+fi
+
+if [[ ! -L $1 ]]; then
+    echo 'Error: Given path is not a symlink.'
+    exit 1
+fi
+
+SYMLINK=`echo "$(cd "$(dirname "$1")"; pwd)/$(basename "$1")"`
+TARGET=`readlink "$SYMLINK"`
+
+if [[ ! -e "$TARGET" ]]; then
+    echo 'Error: Your symlink is dead, my condolences. --signed lnundo'
+    exit 1
+fi
+
+rm -rf "$SYMLINK"
+cp -rf "$TARGET" "$SYMLINK"
+
