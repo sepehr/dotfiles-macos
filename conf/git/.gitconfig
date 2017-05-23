@@ -27,3 +27,10 @@
     token = !security find-internet-password -a sepehr -s github.com -l 'ghi token' -w
 [color "diff"]
 	whitespace = red reverse
+[merge]
+	tool = p4merge
+[mergetool]
+	keepTemporaries = false
+	prompt = false
+[diff]
+	tool = p4merge
