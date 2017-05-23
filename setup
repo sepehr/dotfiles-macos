@@ -62,7 +62,7 @@ if [[ "$@" != *"--no-system-tweaks"* ]]; then
     # See: https://apple.stackexchange.com/questions/212393
     # # Disabling the notification center
     # launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
-    # killall NotificationCenter
+    # pkill NotificationCenter
 
     # Setting to restart automatically if the machine freezes
     sudo systemsetup -setrestartfreeze on
@@ -112,7 +112,7 @@ if [[ "$@" != *"--no-ui-tweaks"* ]]; then
     defaults write com.apple.dock springboard-columns -int 9
     defaults write com.apple.dock springboard-rows -int 7
     defaults write com.apple.dock ResetLaunchPad -bool TRUE
-    killall Dock
+    pkill Dock
 
     # Automatic scrollbars based on the mouse or trackpad
     # Possible values: "WhenScrolling", "Automatic" and "Always"
@@ -145,18 +145,19 @@ if [[ "$@" != *"--no-ui-tweaks"* ]]; then
     # Don’t animate opening applications from the Dock
     defaults write com.apple.dock launchanim -bool false
 
-    # Speed up Mission Control animations
+    # Speed up Mission Control animations, works only before Sierra
     defaults write com.apple.dock expose-animation-duration -float 0.1
 
-    # Don’t group windows by application in Mission Control
-    # (i.e. use the old Exposé behavior instead)
-    defaults write com.apple.dock expose-group-by-app -bool false
+    # Enable "reduce motion", works as of Sierra
+    defaults write com.apple.universalaccess reduceMotion -bool true
 
-    # Disabling that ugly useless dashboard
+    # Group windows by application in Mission Control
+    defaults write com.apple.dock expose-group-by-app -bool true
+
+    # Disable that ugly useless dashboard
     # To restore in case you're insane:
-    # defaults write com.apple.dashboard mcx-disabled -boolean NO; killall Dock
+    #     defaults write com.apple.dashboard mcx-disabled -boolean NO; pkill Dock
     defaults write com.apple.dashboard mcx-disabled -boolean YES
-    killall Dock
 
     # Don’t show Dashboard as a Space
     defaults write com.apple.dock dashboard-in-overlay -bool true
@@ -168,7 +169,7 @@ if [[ "$@" != *"--no-ui-tweaks"* ]]; then
     defaults write com.apple.dock autohide -bool true
 
     # Make Dock icons of hidden applications translucent
-    defaults write com.apple.dock showhidden -bool true
+    defaults write com.apple.dock showhidden -bool false
 
     # Reset Launchpad, but keep the desktop wallpaper intact
     #find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete
@@ -195,12 +196,15 @@ if [[ "$@" != *"--no-ui-tweaks"* ]]; then
     # defaults write com.apple.dock wvous-tl-modifier -int 0
 
     # Bottom left screen corner => App windows
-    defaults write com.apple.dock wvous-bl-corner -int 3
-    defaults write com.apple.dock wvous-bl-modifier -int 0
+    # defaults write com.apple.dock wvous-bl-corner -int 3
+    # defaults write com.apple.dock wvous-bl-modifier -int 0
 
     # Bottom right screen corner => Mission Control
-    defaults write com.apple.dock wvous-br-corner -int 2
-    defaults write com.apple.dock wvous-br-modifier -int 0
+    # defaults write com.apple.dock wvous-br-corner -int 2
+    # defaults write com.apple.dock wvous-br-modifier -int 0
+
+    # Kill the dock, how sad.
+    pkill Dock
 fi
 
 ## input
@@ -527,7 +531,7 @@ if [[ "$@" != *"--no-apps-tweaks"* ]]; then
 
     # Kill the affected apps
     for app in "Activity Monitor" "cfprefsd" "Dock" "Finder" "Photos" "Safari" "SystemUIServer" "Terminal"; do
-        killall "${app}" &> /dev/null
+        pkill "${app}" &> /dev/null
     done
 fi
 
@@ -611,8 +615,8 @@ if [[ "$@" != *"--no-install"* ]]; then
     chsh -s $ZSH_PATH
 
     # Disable iTunes
-    killall iTunes
-    killall "iTunes Helper"
+    pkill iTunes
+    pkill "iTunes Helper"
     sudo mv /Applications/{iTunes.app,iTunes.app.disabled}
 
     # Add ssh key passphrase to the keychain
