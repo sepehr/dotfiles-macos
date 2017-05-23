@@ -94,6 +94,7 @@ t() {
 hms() {
     cd ~/.homestead
     vagrant $*
+    cd -
 }
 
 # fixes file/dir permissions
