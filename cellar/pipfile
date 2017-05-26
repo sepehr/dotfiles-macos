@@ -59,3 +59,4 @@ virtualenv==15.1.0
 virtualenv-clone==0.2.6
 virtualenvwrapper==4.7.2
 watchdog==0.8.3
+yasm==0.0
