@@ -617,6 +617,7 @@ if [[ "$@" != *"--no-install"* ]]; then
     # Disable iTunes
     pkill iTunes
     pkill "iTunes Helper"
+    sudo rm -rf /Applications/iTunes.app.disabled
     sudo mv /Applications/{iTunes.app,iTunes.app.disabled}
 
     # Add ssh key passphrase to the keychain
