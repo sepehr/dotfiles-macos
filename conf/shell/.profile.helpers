@@ -188,6 +188,11 @@ dbmkusrgrant() {
     dbgrant $1 $3
 }
 
+# list databases
+dbls() {
+    mysql -uroot -p -e "show databases;"
+}
+
 # makes the file/dir apache writeable
 a2mkw() {
     WWW_USER=`ps aux | egrep 'apache|httpd' | awk '{ print $1 }' | sed '1 d' | sort | uniq | awk '{print}' ORS=' ' | sed "s/\b$(whoami)\|root\b//g" | xargs`
