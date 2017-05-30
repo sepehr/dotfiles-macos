@@ -17,7 +17,9 @@
     unhide = update-index --no-assume-unchanged
     prev = checkout HEAD~
     next = "!git log --reverse --pretty=%H master | grep -A 1 $(git rev-parse HEAD) | tail -n1 | xargs git checkout"
-    filesof = "diff-tree -r --no-commit-id --name-only --diff-filter=ACMRTUXB"
+    filesof = diff-tree -r --no-commit-id --name-only --diff-filter=ACMRTUXB
+    conflicts = diff --name-only --diff-filter=U
+    authors = "!git log --format='%aN <%aE>' | sort -u"
 [http]
     postBuffer = 524288000
 [push]
@@ -30,6 +32,7 @@
 	whitespace = red reverse
 [merge]
 	tool = p4merge
+    conflictstyle=diff3
 [mergetool]
 	keepTemporaries = false
 	prompt = false
