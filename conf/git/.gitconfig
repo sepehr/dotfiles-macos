@@ -17,6 +17,7 @@
     unhide = update-index --no-assume-unchanged
     prev = checkout HEAD~
     next = "!git log --reverse --pretty=%H master | grep -A 1 $(git rev-parse HEAD) | tail -n1 | xargs git checkout"
+    filesof = "diff-tree -r --no-commit-id --name-only --diff-filter=ACMRTUXB"
 [http]
     postBuffer = 524288000
 [push]
