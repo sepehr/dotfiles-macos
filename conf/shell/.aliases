@@ -41,6 +41,7 @@ alias gnx="git next"
 alias gbs="git bisect"
 alias gmd="git merge --no-commit --no-ff"
 alias gma="git merge --abort"
+alias gmt="git mergetool"
 
 # Networking
 alias mylocalip="ipconfig getifaddr en0"
