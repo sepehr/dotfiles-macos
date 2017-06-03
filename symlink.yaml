@@ -55,6 +55,7 @@
     ## git/ssh/gpg
     ~/.ssh/config: ~/.dotfiles/conf/ssh/config
     ~/.gnupg/gpg.conf: ~/.dotfiles/conf/gnupg/gpg.conf
+    ~/.gnupg/gpg-agent.conf: ~/.dotfiles/conf/gnupg/gpg-agent.conf
     ~/.gitconfig: ~/.dotfiles/conf/git/.gitconfig
     ~/.gitignore: ~/.dotfiles/conf/git/.gitignore
     ~/.gitignore_global: ~/.dotfiles/conf/git/.gitignore_global

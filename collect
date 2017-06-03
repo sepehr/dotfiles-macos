@@ -63,6 +63,7 @@ cp -vf ~/.composer/composer.json cellar/
 say 'Collecting git, ssh and gpg configs...'
 cp -vf ~/.ssh/config conf/ssh/config
 cp -vf ~/.gnupg/gpg.conf conf/gnupg/gpg.conf
+cp -vf ~/.gnupg/gpg-agent.conf conf/gnupg/gpg-agent.conf
 cp -vf ~/.{gitconfig,gitignore,gitignore_global,git_hooks} conf/git/
 
 
