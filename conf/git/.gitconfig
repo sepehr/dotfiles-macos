@@ -1,6 +1,7 @@
 [user]
     name = Sepehr Lajevardi
     email = lajevardi@gmail.com
+    signningkey = 59ED63FFF9C3014D
 [core]
     excludesfile = ~/.gitignore
     autocrlf = input
@@ -29,12 +30,16 @@
 [ghi]
     token = !security find-internet-password -a sepehr -s github.com -l 'ghi token' -w
 [color "diff"]
-	whitespace = red reverse
+    whitespace = red reverse
 [merge]
-	tool = p4merge
+    tool = p4merge
     conflictstyle=diff3
 [mergetool]
-	keepTemporaries = false
-	prompt = false
+    keepTemporaries = false
+    prompt = false
 [diff]
-	tool = p4merge
+    tool = p4merge
+[commit]
+    gpgsign = false
+[gpg]
+    program = gpg
