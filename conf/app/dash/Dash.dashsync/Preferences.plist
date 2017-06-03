@@ -381,20 +381,20 @@
 	<dict>
 		<key>installed</key>
 		<dict>
-			<key>http://kapeli.com/feeds/Ansible.xml</key>
+			<key>http://kapeli.com/feeds/Apple_API_Reference.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2017-01-25T08:49:06Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/BackboneJS.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2017-01-25T08:49:01Z</date>
+				<date>2017-06-02T11:31:29Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Bash.xml</key>
 			<dict>
 				<key>date</key>
 				<date>2017-01-08T11:59:31Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Bootstrap_3.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2017-06-02T11:29:20Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Bootstrap_4.xml</key>
 			<dict>
@@ -426,6 +426,11 @@
 				<key>date</key>
 				<date>2016-09-15T09:02:44Z</date>
 			</dict>
+			<key>http://kapeli.com/feeds/JavaScript.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2017-06-02T11:34:57Z</date>
+			</dict>
 			<key>http://kapeli.com/feeds/Laravel.xml</key>
 			<dict>
 				<key>date</key>
@@ -440,6 +445,11 @@
 			<dict>
 				<key>date</key>
 				<date>2017-01-08T12:01:05Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/OpenCV_Python.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2017-06-02T11:31:55Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/PHP.xml</key>
 			<dict>
@@ -488,7 +498,18 @@
 			</dict>
 		</dict>
 		<key>uninstalled</key>
-		<dict/>
+		<dict>
+			<key>http://kapeli.com/feeds/Ansible.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2017-06-02T11:28:53Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/BackboneJS.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2017-06-02T11:28:59Z</date>
+			</dict>
+		</dict>
 	</dict>
 	<key>isPinned</key>
 	<true/>
@@ -529,9 +550,9 @@
 	<key>searchUsingSelectedTextKey</key>
 	<dict>
 		<key>keyCode</key>
-		<integer>-1</integer>
+		<integer>4</integer>
 		<key>modifiers</key>
-		<integer>8395520</integer>
+		<integer>4096</integer>
 	</dict>
 	<key>shouldRestoreTabs</key>
 	<true/>
