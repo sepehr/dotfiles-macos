@@ -147,6 +147,7 @@ brew "packer"
 brew "packer-completion"
 brew "peco"
 brew "phantomjs"
+brew "pinentry-mac"
 brew "pip-completion"
 brew "postgresql"
 brew "pre-commit"
@@ -210,12 +211,14 @@ cask "bartender"
 cask "bee"
 cask "betterzipql"
 cask "blockblock"
+cask "canary"
 cask "cdock"
 cask "cleanmymac"
 cask "command-tab-plus"
 cask "daisydisk"
 cask "dash"
 cask "devcolor"
+cask "dictater"
 cask "disk-drill"
 cask "easysimbl"
 cask "english-persian-dictionary"
@@ -290,7 +293,6 @@ cask "iterm2"
 cask "kap"
 cask "kdiff3"
 cask "keepingyouawake"
-cask "kerio-control-vpn-client"
 cask "kextviewr"
 cask "kindle"
 cask "kitematic"
@@ -368,7 +370,6 @@ mas "Entry", id: 998722423
 mas "GarageBand", id: 682658836
 mas "GIF Brewery 3", id: 1081413713
 mas "GIFHunter", id: 1031163338
-mas "Heartbeat", id: 1199498204
 mas "iMovie", id: 408981434
 mas "Keyboard Pilot", id: 402670023
 mas "Keynote", id: 409183694

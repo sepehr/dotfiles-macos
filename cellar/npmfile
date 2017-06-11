@@ -4,6 +4,7 @@ browserify
 grunt
 gulp
 kong-dashboard
+node-sass
 npm
 slack-keep-presence
 typescript
