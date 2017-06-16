@@ -363,6 +363,16 @@
 	<array>
 		<dict>
 			<key>path</key>
+			<string>file://~/Library/Application%20Support/Dash/DocSets/PHP/PHP.docset/Contents/Resources/Documents/php.net/manual/en/language.operators.precedence.html</string>
+			<key>platformImagePath</key>
+			<string>php</string>
+			<key>title</key>
+			<string>Operator Precedence</string>
+			<key>typeImagePath</key>
+			<string>Guide</string>
+		</dict>
+		<dict>
+			<key>path</key>
 			<string>file://~/Library/Application%20Support/Dash/DocSets/Laravel/Laravel.docset/Contents/Resources/Documents/laravel.com/docs/5.3/facades.html#//apple_ref/Section/Facade%2520Class%2520Reference</string>
 			<key>platformImagePath</key>
 			<string>laravel</string>
