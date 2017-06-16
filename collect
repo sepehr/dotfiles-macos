@@ -103,6 +103,9 @@ cp -rf /usr/local/etc/nginx/{valet,servers} conf/service/nginx
 # dnsmasq
 cp -vf /usr/local/etc/dnsmasq.conf conf/service/dnsmasq
 
+# mysql/mariadb
+cp -vf /usr/local/etc/my.cnf conf/service/mysql
+
 ## apps
 say 'Collecting app configs...'
 

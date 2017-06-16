@@ -105,6 +105,9 @@
     # dnsmasq
     /usr/local/etc/dnsmasq.conf: conf/service/dnsmasq/dnsmasq.conf
 
+    # mysql/mariadb
+    /usr/local/etc/my.cnf: conf/service/mysql/my.cnf
+
     ## apps
     # manual: iterm should be configured to read/write its prefs from/to "conf/app/iterm/"
 
