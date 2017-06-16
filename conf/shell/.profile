@@ -27,6 +27,10 @@ fi
 export EDITOR="vim"
 export SVN_EDITOR="vim --noplugin"
 export SSH_KEY_PATH="$HOME/.ssh/id_rsa.pub"
+# Go
+export GOPATH="$HOME/Dev/.go"
+export GOBIN="$GOPATH/bin"
+export PATH="$GOBIN:$PATH"
 # Brew
 export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_NO_INSECURE_REDIRECT=1
@@ -37,7 +41,7 @@ export BREW_FORMULA="$BREW_REPO/Library/Taps/homebrew/homebrew-core/Formula"
 # Virtualenv
 export WORKON_HOME=$HOME/Dev/python/venvs
 export PROJECT_HOME=$HOME/Dev/python/projects
-# Path
+# The PATH
 export PATH="./bin:./node_modules/.bin:$HOME/.bin:$BREW/bin:$BREW/sbin:/usr/bin:$PATH"
 export PATH="$HOME/.rvm/bin:$HOME/.yarn/bin:$HOME/.composer/vendor/bin:$HOME/.gem/ruby/2.4.0/bin:$PATH"
 export PATH="$BREW_CASKROOM/homebrew-fonts/developer/bin:$BREW_CASKROOM/homebrew-cask/developer/bin:$PATH"
