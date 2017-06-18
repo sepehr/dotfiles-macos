@@ -1179,7 +1179,7 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>1039 277 606 456 0 0 1680 1028 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>762 510 796 473 0 0 1680 1050 </string>
+	<string>762 460 796 473 0 0 1680 1050 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>1084 343 592 584 0 0 1680 1028 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
@@ -1428,7 +1428,7 @@
 			<key>Blur</key>
 			<true/>
 			<key>Blur Radius</key>
-			<real>5.7387319711538449</real>
+			<real>4.2259014423076922</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -2885,7 +2885,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-05-20T03:58:09Z</date>
+	<date>2017-06-17T14:58:27Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -2915,7 +2915,7 @@
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
 	<key>UKCrashReporterLastCrashReportDate</key>
-	<real>1495252736</real>
+	<real>1496479488</real>
 	<key>URLHandlersByGuid</key>
 	<dict/>
 	<key>UseBorder</key>
