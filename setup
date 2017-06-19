@@ -609,10 +609,11 @@ if [[ "$@" != *"--no-install"* ]]; then
         valet restart
     fi
 
-    # Setting zsh as the default shell
-    ZSH_PATH=$(which zsh)
-    grep -q "$ZSH_PATH" /etc/shells || sudo sh -c "echo '$ZSH_PATH' >> /etc/shells"
-    chsh -s $ZSH_PATH
+    # Setup docker
+    if exists docker-machine; then
+        docker-machine create --driver virtualbox default
+        docker-machine regenerate-certs default --force
+    fi
 
     # Disable iTunes
     pkill iTunes
@@ -622,6 +623,11 @@ if [[ "$@" != *"--no-install"* ]]; then
 
     # Add ssh key passphrase to the keychain
     ssh-add -K
+
+    # Setup zsh
+    ZSH_PATH=$(which zsh)
+    grep -q "$ZSH_PATH" /etc/shells || sudo sh -c "echo '$ZSH_PATH' >> /etc/shells"
+    chsh -s $ZSH_PATH
 fi
 
 

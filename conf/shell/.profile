@@ -23,6 +23,11 @@ if exists todolist; then
 	fi
 fi
 
+# Register docker env
+if exists docker-machine; then
+    eval $(docker-machine env default)
+fi
+
 ## Env vars
 export EDITOR="vim"
 export SVN_EDITOR="vim --noplugin"
