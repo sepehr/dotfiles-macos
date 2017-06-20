@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+if [ -z "$2" ]; then
+	echo 'Usage: mp4compress input.mp4 output.mp4'
+	return 1
+fi
+
+ffmpeg -i $1 -vcodec h264 -b:v 1000k -acodec mp2 $2
+
