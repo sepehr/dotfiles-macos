@@ -551,10 +551,8 @@ if [[ "$@" != *"--no-install"* ]]; then
     # Tapping & installing brew bundler
     brew tap homebrew/bundle
 
-    # Tapping & installing repos, packages and casks from file
+    # Tapping & installing repos, packages and casks from the cellar file
     brew bundle --file=cellar/brewfile
-
-    # Cleaning up
     brew cleanup -s
     brew cask cleanup
 
@@ -573,6 +571,13 @@ if [[ "$@" != *"--no-install"* ]]; then
     # Installing apm packages
     apm install --packages-file cellar/apmfile
 
+    # Custom installations
+    # memprof
+    git -C "$(brew --repo homebrew/core)" checkout 1f390568f2~1 Formula/judy.rb
+    brew install judy
+    git -C "$(brew --repo homebrew/core)" reset --hard
+    pecl install memprof
+    echo "extension=$(find /usr/local/Cellar -name 'memprof.so' -print)" | tee /usr/local/etc/php/7.1/conf.d/ext-memprof.ini
 
     ## post-install
     say 'Running post-install scripts...'
