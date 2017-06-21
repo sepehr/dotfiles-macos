@@ -382,6 +382,8 @@
 			<string>Section</string>
 		</dict>
 	</array>
+	<key>dateFormat</key>
+	<string>MMddy</string>
 	<key>docsets</key>
 	<dict>
 		<key>keywords</key>
@@ -582,6 +584,8 @@
 	<false/>
 	<key>snippetEditorFontSize</key>
 	<real>12</real>
+	<key>timeFormat</key>
+	<string>hhmmss</string>
 	<key>versionedDHCheatRepo</key>
 	<dict>
 		<key>installed</key>
