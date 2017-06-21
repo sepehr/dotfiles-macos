@@ -93,7 +93,13 @@ t() {
 # vagrant wrapper for homestead
 hms() {
     cd ~/.homestead
-    vagrant $*
+
+    if [[ "$1" == "ssh" ]]; then
+        vagrant ssh -- -t "cd projects/${2:-}; /bin/bash"
+    else
+        vagrant $*
+    fi
+
     cd -
 }
 
