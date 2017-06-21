@@ -11,6 +11,9 @@ HOMESTEAD_SHARED='/home/vagrant/projects'
 HOMESTEAD_CERTS="$HOMESTEAD_SHARED/.shared/certs"
 mkdir -p $HOMESTEAD_CERTS > /dev/null 2>&1
 
+## aliases
+sed -i 's/alias art=artisan/alias a=artisan/g' /home/vagrant/.bash_aliases
+
 ## memprof
 sudo apt-get install libjudy-dev -y
 sudo pecl install memprof
