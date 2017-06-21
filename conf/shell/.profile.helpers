@@ -22,6 +22,13 @@ exists() {
     command -v $1 &> /dev/null
 }
 
+# checks whether pv is installed or not
+haspv() {
+    $(hash pv 2>/dev/null);
+
+    return $?
+}
+
 # makes a directory and cd to it
 mkcd() {
     mkdir -p $1
@@ -136,7 +143,7 @@ fixperms() {
 # makes a mysql database
 dbmk() {
 	if [[ -z "$1" ]]; then
-		echo 'Usage: dbmk [database]'
+		echo 'Usage: dbmk {database}'
 		return 1
 	fi
 
@@ -146,7 +153,7 @@ dbmk() {
 # drops a mysql database
 dbrm() {
 	if [[ -z "$1" ]]; then
-        echo 'Usage: dbrm [database]'
+        echo 'Usage: dbrm {database}'
         return 1
     fi
 
@@ -156,7 +163,7 @@ dbrm() {
 # creates database user
 dbmkusr() {
     if [[ -z "$2" ]]; then
-        echo 'Usage: dbmkusr [user] [password]'
+        echo 'Usage: dbmkusr {user} {password}'
         return 1
     fi
 
@@ -166,7 +173,7 @@ dbmkusr() {
 # removes database user
 dbrmusr() {
     if [[ -z "$1" ]]; then
-        echo 'Usage: dbrmusr [user]'
+        echo 'Usage: dbrmusr {user}'
         return 1
     fi
 
@@ -176,7 +183,7 @@ dbrmusr() {
 # grants database permissions to a user
 dbgrant() {
     if [[ -z "$2" ]]; then
-        echo 'Usage: dbgrant [user] [database]'
+        echo 'Usage: dbgrant {user} {database}'
         return 1
     fi
 
@@ -186,7 +193,7 @@ dbgrant() {
 # create a user and grant database permissions to it
 dbmkusrgrant() {
     if [[ -z "$3" ]]; then
-        echo 'Usage: dbmkgrant [user] [password] [database]'
+        echo 'Usage: dbmkgrant {user} {password} {database}'
         return 1
     fi
 
@@ -197,6 +204,60 @@ dbmkusrgrant() {
 # list databases
 dbls() {
     mysql -uroot -p -e "show databases;"
+}
+
+# database exporter
+dbexport() {
+    if [[ -z "$2" ]]; then
+        echo 'Usage: dbexport {user} {password} [{database}] [{filepath}]'
+        return 1
+    fi
+
+    DUMP=${3:-"mysqldump"}
+    DB=${3:-"--all-databases"}
+    FILE=${4:-"$HOME/Downloads/$DUMP.sql.gz"}
+
+    echo "Exporting database(s) to '$FILE'"
+
+    if [[ -z "$3" ]]; then
+        SIZE_QUERY="select ceil(sum(data_length) * 0.8) as size from information_schema.tables"
+    else
+        SIZE_QUERY="select ceil(sum(data_length) * 0.8) as size from information_schema.tables where TABLE_SCHEMA = \"$DB\""
+    fi
+
+    if exists pv; then
+        ADJUSTED_SIZE=$(mysql --vertical -u$1 -p$2 -e "$SIZE_QUERY" 2>/dev/null | grep 'size' | awk '{print $2}')
+        HUMAN_READABLE_SIZE=$(gnumfmt --to=iec-i --suffix=B --format="%.3f" $ADJUSTED_SIZE)
+
+        echo "Estimated uncompressed size: $HUMAN_READABLE_SIZE"
+        mysqldump -u$1 -p$2 $DB --skip-lock-tables 2>/dev/null | pv --size=$ADJUSTED_SIZE | gzip > "$FILE"
+    else
+        mysqldump -u$1 -p$2 $DB --skip-lock-tables 2>/dev/null | gzip > "$FILE"
+    fi
+
+    echo "Done."
+}
+
+# database importer
+dbimport() {
+    if [[ -z "$2" ]]; then
+        echo 'Usage: dbimport {user} {password} [{database}] [{filepath}]'
+        return 1
+    fi
+
+    DUMP=${3:-"mysqldump"}
+    DB=${3:-""}
+    FILE=${4:-"$HOME/Downloads/$DUMP.sql.gz"}
+
+    echo "Importing databases from '$FILE'"
+
+    if exists pv; then
+        pv "$FILE" --progress --eta | zcat | mysql -u$1 -p$2 $DB 2>/dev/null
+    else
+        cat "$FILE" | zcat | mysql -u$1 -p$2 $DB 2>/dev/null
+    fi
+
+    echo "Done."
 }
 
 # makes the file/dir apache writeable
