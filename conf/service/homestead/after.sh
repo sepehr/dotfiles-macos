@@ -11,6 +11,12 @@ HOMESTEAD_SHARED='/home/vagrant/projects'
 HOMESTEAD_CERTS="$HOMESTEAD_SHARED/.shared/certs"
 mkdir -p $HOMESTEAD_CERTS > /dev/null 2>&1
 
+## memprof
+sudo apt-get install libjudy-dev -y
+sudo pecl install memprof
+echo 'extension=memprof.so' | sudo tee -a /etc/php/7.1/cli/php.ini
+echo 'extension=memprof.so' | sudo tee -a /etc/php/7.1/fpm/php.ini
+
 ## testony.app
 # install system dependencies
 sudo apt-get install kg-config libmagickwand-dev -y
