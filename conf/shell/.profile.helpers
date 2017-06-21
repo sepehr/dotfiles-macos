@@ -36,12 +36,12 @@ passgen() {
 # hub wrapper
 # requires piotrmurach/github_cli
 git() {
-    if [ "$1" != "delete" ]; then
+    if [[ "$1" != "delete" ]]; then
         hub $@
         return
     fi
 
-    if [ -z "$2" ]; then
+    if [[ -z "$2" ]]; then
         echo "No repo name given."
         return 1
     fi
@@ -52,7 +52,7 @@ git() {
     fi
 
     GCLI_USER=$(gcli config user.login)
-    if [ -z "$GCLI_USER" ]; then
+    if [[ -z "$GCLI_USER" ]]; then
         echo "gcli's user.login config is not set. see: gcli help config"
         return 1
     fi
@@ -105,7 +105,7 @@ hms() {
 
 # fixes file/dir permissions
 fixperms() {
-    if [ -z "$1" ]; then
+    if [[ -z "$1" ]]; then
         echo "Please specify the path to directory."
         return
     fi
@@ -135,7 +135,7 @@ fixperms() {
 
 # makes a mysql database
 dbmk() {
-	if [ -z "$1" ]; then
+	if [[ -z "$1" ]]; then
 		echo 'Usage: dbmk [database]'
 		return 1
 	fi
@@ -145,7 +145,7 @@ dbmk() {
 
 # drops a mysql database
 dbrm() {
-	if [ -z "$1" ]; then
+	if [[ -z "$1" ]]; then
         echo 'Usage: dbrm [database]'
         return 1
     fi
@@ -155,7 +155,7 @@ dbrm() {
 
 # creates database user
 dbmkusr() {
-    if [ -z "$2" ]; then
+    if [[ -z "$2" ]]; then
         echo 'Usage: dbmkusr [user] [password]'
         return 1
     fi
@@ -165,7 +165,7 @@ dbmkusr() {
 
 # removes database user
 dbrmusr() {
-    if [ -z "$1" ]; then
+    if [[ -z "$1" ]]; then
         echo 'Usage: dbrmusr [user]'
         return 1
     fi
@@ -175,7 +175,7 @@ dbrmusr() {
 
 # grants database permissions to a user
 dbgrant() {
-    if [ -z "$2" ]; then
+    if [[ -z "$2" ]]; then
         echo 'Usage: dbgrant [user] [database]'
         return 1
     fi
@@ -185,7 +185,7 @@ dbgrant() {
 
 # create a user and grant database permissions to it
 dbmkusrgrant() {
-    if [ -z "$3" ]; then
+    if [[ -z "$3" ]]; then
         echo 'Usage: dbmkgrant [user] [password] [database]'
         return 1
     fi
