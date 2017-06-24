@@ -14,6 +14,7 @@ alias pds=pds-skeleton
 alias mkdir="mkdir -p"
 alias srv="brew services"
 alias tt="t list by project"
+alias imgur="imgur-uploader"
 alias rsync="$BREW/bin/rsync"
 alias kcachegrind="qcachegrind"
 alias apachectl="$BREW/bin/apachectl"
