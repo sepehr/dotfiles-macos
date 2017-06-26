@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+# Stopp iTunes from responding to the keyboard media keys
+launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
+
+pkill iTunes
+pkill "iTunes Helper"
+
+sudo rm -rf /Applications/iTunes.app.disabled
+sudo mv /Applications/{iTunes.app,iTunes.app.disabled}
+
