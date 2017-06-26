@@ -25,6 +25,10 @@ fi
 
 # Register docker env
 if exists docker-machine; then
+    if [[ $(docker-machine status) == "Stopped" ]]; then
+        docker-machine start default
+    fi
+
     eval $(docker-machine env default)
 fi
 
