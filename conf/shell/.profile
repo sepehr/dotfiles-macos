@@ -69,7 +69,7 @@ PATH_MONGO_LOG="$BREW/var/log/mongodb/mongo.log"
 PATH_MONGO_CONF="$BREW/etc/mongod.conf"
 PATH_MONGO_DATA="$BREW/var/mongodb"
 PATH_DNSMASQ_CONF="$BREW/etc/dnsmasq.conf"
-PATH_PHPSTORM="$HOME/Library/Preferences/PhpStorm2016.3/"
+PATH_PHPSTORM="$HOME/Library/Preferences/PhpStorm2017.1/"
 PATH_CHROME_PROFILE="$HOME/Library/Application Support/Google/Chrome/Profile 2"
 PATH_STYLISH_DB="$PATH_CHROME_PROFILE/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb"
 
