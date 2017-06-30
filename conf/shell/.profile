@@ -3,6 +3,7 @@ export BREW=`brew --prefix`
 export BASE16_SHELL=$HOME/.vim/colors/base16-shell/
 
 ## Sources
+[ -f "$HOME/.fzf.zsh" ] && source "$HOME/.fzf.zsh"
 [ -f "$HOME/.profile.helpers" ] && source "$HOME/.profile.helpers"
 [ -f "$HOME/.profile.local" ] && source "$HOME/.profile.local"
 [ -f "$HOME/.rvm/scripts/rvm" ] && source "$HOME/.rvm/scripts/rvm"
@@ -25,7 +26,7 @@ fi
 
 # Register docker env
 if exists docker-machine; then
-    if [[ $(docker-machine status default) == "Stopped" ]]; then
+    if [[ $(docker-machine status default) != "Running" ]]; then
         echo "Starting the default docker machine..."
         docker-machine start default > /dev/null 2>&1
     fi
@@ -76,4 +77,3 @@ PATH_STYLISH_DB="$PATH_CHROME_PROFILE/IndexedDB/chrome-extension_fjnbnpbmkenffdn
 
 ## Aliases
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
-

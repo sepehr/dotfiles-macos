@@ -12,6 +12,7 @@ alias ls="ls -a"
 alias yd="youtube-dl"
 alias pds=pds-skeleton
 alias mkdir="mkdir -p"
+alias fzf="fzf --preview"
 alias srv="brew services"
 alias tt="t list by project"
 alias imgur="imgur-uploader"
