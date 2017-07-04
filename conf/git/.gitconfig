@@ -21,7 +21,7 @@
     filesof = diff-tree -r --no-commit-id --name-only --diff-filter=ACMRTUXB
     conflicts = diff --name-only --diff-filter=U
     authors = "!git log --format='%aN <%aE>' | sort -u"
-    history = log --follow -p
+    history = log --follow --reverse --patch
 [http]
     postBuffer = 524288000
 [push]
