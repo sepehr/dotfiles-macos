@@ -20,3 +20,4 @@ Thumbs.db
 .idea
 *.sublime-project
 *.sublime-workspace
+_ide_helper_models.php
