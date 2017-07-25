@@ -57,7 +57,7 @@ if [[ "$@" != *"--no-system-tweaks"* ]]; then
     defaults write com.apple.CrashReporter DialogType -string "none"
 
     # change screenshot filename pattern
-    defaults write com.apple.screencapture name ''
+    defaults write com.apple.screencapture name 'Shot'
 
     # See: https://apple.stackexchange.com/questions/212393
     # # Disabling the notification center
