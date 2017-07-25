@@ -363,6 +363,16 @@
 	<array>
 		<dict>
 			<key>path</key>
+			<string>file://~/Library/Application%20Support/Dash/DocSets/Bash/Bash.docset/Contents/Resources/Documents/bash/Bash-Conditional-Expressions.html</string>
+			<key>platformImagePath</key>
+			<string>bash</string>
+			<key>title</key>
+			<string>Bash Conditional Expressions</string>
+			<key>typeImagePath</key>
+			<string>Guide</string>
+		</dict>
+		<dict>
+			<key>path</key>
 			<string>file://~/Library/Application%20Support/Dash/DocSets/PHP/PHP.docset/Contents/Resources/Documents/php.net/manual/en/language.operators.precedence.html</string>
 			<key>platformImagePath</key>
 			<string>php</string>
