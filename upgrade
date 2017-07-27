@@ -17,7 +17,7 @@ fi
 ## brew cask
 if [[ "$@" != *"--no-cask"* ]]; then
     say 'Upgrading essential brew casks...'
-    brew cask reinstall appcleaner filezilla firefox google-chrome google-chrome-canary iina iterm2 kap macpass postman skype spotify torbrowser vlc knockknock blockblock ransomwhere kextviewr vagrant virtualbox
+    brew cask reinstall appcleaner filezilla firefox google-chrome google-chrome-canary iina iterm2-nightly kap macpass postman skype spotify torbrowser vlc knockknock blockblock ransomwhere kextviewr tunnelblick vagrant virtualbox
 fi
 
 ## composer
