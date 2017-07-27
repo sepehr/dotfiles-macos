@@ -4,13 +4,13 @@ autocomplete-php@0.3.7
 base16-ocean-dark-spacegray@0.13.0
 base16-ocean-dark-syntax-theme@0.1.10
 dash@1.7.1
-docblockr@0.10.3
+docblockr@0.11.0
 dracula-syntax@2.0.5
 dracula-theme@2.0.3
 editorconfig@2.2.2
 emmet@2.4.3
 language-apache@1.7.0
-language-blade@0.31.0
+language-blade@0.34.0
 language-mongodb@0.3.1
 oceanic-next@1.0.0
 save-session@0.16.0

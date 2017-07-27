@@ -1,6 +1,7 @@
 addressable
 backports
 bigdecimal
+connection_pool
 daemons
 descendants_tracker
 did_you_mean
