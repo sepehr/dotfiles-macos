@@ -1436,7 +1436,7 @@
 			<key>Blur</key>
 			<true/>
 			<key>Blur Radius</key>
-			<real>4.2259014423076922</real>
+			<real>3.4189951129929725</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -1897,7 +1897,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-07-26T12:45:19Z</date>
+	<date>2017-07-31T21:15:13Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
