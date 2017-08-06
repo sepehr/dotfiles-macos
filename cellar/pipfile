@@ -17,6 +17,7 @@ docopt==0.6.2
 docutils==0.13.1
 functools32==3.2.3.post2
 futures==3.1.1
+git-rewrite-author==1.0
 git-up==1.4.5
 gitdb2==2.0.2
 GitPython==2.1.5
