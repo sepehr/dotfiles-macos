@@ -25,7 +25,10 @@ apm list --installed --bare > cellar/apmfile
 
 ## etc
 say 'Collecting /etc/hosts file...'
-cp -vf /etc/hosts private/etc
+cp -f /etc/hosts private/etc
 
 say 'Collecting apptivate hotkeys...'
-cp -vf ~/Library/Application\ Support/Apptivate/hotkeys conf/app/apptivate
+cp -f ~/Library/Application\ Support/Apptivate/hotkeys conf/app/apptivate
+
+say 'Syncing macOS preferences...'
+sudo rsync -au --delete ~/Library/Preferences/ private/conf/macos/Preferences/

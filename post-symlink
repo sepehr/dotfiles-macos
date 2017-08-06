@@ -11,4 +11,5 @@ say 'Symlinking with root privilage...'
 # mkln ~/.dotfiles/private/etc/hosts /etc/hosts
 
 # macos prefs
-mkln ~/.dotfiles/private/conf/macos/Preferences ~/Library/Preferences
+# NOTE: ~/Library/Preferences will be synced manually as part of ./update script to avoid high CPU usage
+# mkln ~/.dotfiles/private/conf/macos/Preferences ~/Library/Preferences
