@@ -122,8 +122,8 @@ if [[ "$@" != *"--no-system-tweaks"* ]]; then
     defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 
     # Setting keyboard repeat rate
-    defaults write NSGlobalDomain KeyRepeat -int 1
-    defaults write NSGlobalDomain InitialKeyRepeat -int 2
+    defaults write NSGlobalDomain KeyRepeat -int 2
+    defaults write NSGlobalDomain InitialKeyRepeat -int 25
 
     # Setting language and text formats
     defaults write NSGlobalDomain AppleLanguages -array "en-US" "fa-US"
