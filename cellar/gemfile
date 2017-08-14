@@ -17,6 +17,7 @@ github_api
 github_cli
 hashie
 highline
+hitimes
 io-console
 json
 jwt
@@ -51,6 +52,7 @@ test-unit
 thin
 thread_safe
 tilt
+timers
 travis
 tty
 tty-color
