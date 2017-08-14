@@ -556,7 +556,8 @@ if [[ "$@" != *"--no-install"* ]]; then
     brew cask cleanup
 
     # Installing global pip packages from file
-    pip install -U -r cellar/pipfile
+    pip2 install -U -r cellar/pip2file
+    pip3 install -U -r cellar/pip3file
 
     # Installing global gem packages from file
     xargs gem install < cellar/gemfile

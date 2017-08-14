@@ -9,7 +9,8 @@ brew bundle dump --file=cellar/brewfile
 
 ## pip
 say 'Collecting pip global packages...'
-pip freeze > cellar/pipfile
+pip2 freeze > cellar/pip2file
+pip3 freeze > cellar/pip3file
 
 ## gem
 say 'Collecting gem global packages...'
