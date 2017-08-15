@@ -43,6 +43,7 @@
     ~/.profile: ~/.dotfiles/conf/shell/.profile
     ~/.aliases: ~/.dotfiles/conf/shell/.aliases
     ~/.bash_profile: ~/.dotfiles/conf/shell/.bash_profile
+    ~/.profile.path: ~/.dotfiles/conf/shell/.profile.path
     ~/.profile.helpers: ~/.dotfiles/conf/shell/.profile.helpers
 
 

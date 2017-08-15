@@ -7,7 +7,6 @@ alias dotf="cd $HOME/.dotfiles; gc 'Stylish update.' conf/app/chrome/stylish > /
 
 # Executables
 alias b=brew
-alias pip=pip2
 alias ls="ls -a"
 alias yd="youtube-dl"
 alias pds=pds-skeleton
