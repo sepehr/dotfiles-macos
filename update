@@ -32,7 +32,7 @@ say 'Collecting apptivate hotkeys...'
 cp -f ~/Library/Application\ Support/Apptivate/hotkeys conf/app/apptivate
 
 say 'Syncing macOS preferences...'
-sudo rsync -au --delete ~/Library/Preferences/ private/conf/macos/Preferences/
+rsync -au --delete ~/Library/Preferences/ private/conf/macos/Preferences/
 
 say 'Cleaning up...'
 rm -f private/conf/app/adium/Adium\ 2.0/Users/Default/libpurple/telegram-purple/+19706737347/downloads/*
