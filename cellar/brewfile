@@ -205,7 +205,6 @@ brew "homebrew/php/php56-xdebug"
 brew "homebrew/php/php71", args: ["with-httpd24", "with-pear", "with-phpdbg", "with-postgresql"]
 brew "homebrew/php/php71-apcu"
 brew "homebrew/php/php71-ast"
-brew "homebrew/php/php71-imagick"
 brew "homebrew/php/php71-memcached"
 brew "homebrew/php/php71-mongodb"
 brew "homebrew/php/php71-xdebug"
