@@ -551,28 +551,28 @@ if [[ "$@" != *"--no-install"* ]]; then
     brew tap homebrew/bundle
 
     # Tapping & installing repos, packages and casks from the cellar file
-    brew bundle --file=cellar/brewfile
+    brew bundle --file=cellar/brew
     brew cleanup -s
     brew cask cleanup
 
     # Installing global pip packages from file
-    pip2 install -U -r cellar/pip2file
-    pip3 install -U -r cellar/pip3file
+    pip2 install -U -r cellar/pip2
+    pip3 install -U -r cellar/pip3
 
     # Installing global gem packages from file
-    xargs gem install < cellar/gemfile
+    xargs gem install < cellar/gem
 
     # Installing global npm packages
-    xargs npm install --global < cellar/npmfile
+    xargs npm install --global < cellar/npm
 
     # Installing global composer packages
     composer global install
 
     # Installing apm packages
-    apm install --packages-file cellar/apmfile
+    apm install --packages-file cellar/apm
 
     # Installing vagrant plugins
-    xargs vagrant install < cellar/vagrantpluginfile
+    xargs vagrant install < cellar/vagrant
 
     # Custom installations
     # memprof

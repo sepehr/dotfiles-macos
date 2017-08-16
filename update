@@ -4,29 +4,29 @@ source .setup/helpers
 
 ## brew
 say 'Collecting brew taps, packages, casks and mas apps...'
-rm -f cellar/brewfile
-brew bundle dump --file=cellar/brewfile
+rm -f cellar/brew
+brew bundle dump --file=cellar/brew
 
 ## pip
 say 'Collecting pip global packages...'
-pip2 freeze > cellar/pip2file
-pip3 freeze > cellar/pip3file
+pip2 freeze > cellar/pip2
+pip3 freeze > cellar/pip3
 
 ## gem
 say 'Collecting gem global packages...'
-gem list --no-versions | sed '/^*/ d' > cellar/gemfile
+gem list --no-versions | sed '/^*/ d' > cellar/gem
 
 ## npm
 say 'Collecting npm global packages...'
-npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > cellar/npmfile
+npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > cellar/npm
 
 ## apm
 say 'Collecting apm packages...'
-apm list --installed --bare > cellar/apmfile
+apm list --installed --bare > cellar/apm
 
 ## vagrant
 say 'Collecting vagrant plugins...'
-vagrant plugin list | sed '/^ /d' | sed 's/(.*)//g' > cellar/vagrantpluginfile
+vagrant plugin list | sed '/^ /d' | sed 's/(.*)//g' > cellar/vagrant
 
 ## etc
 say 'Collecting /etc/hosts file...'
