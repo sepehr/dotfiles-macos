@@ -50,6 +50,12 @@ if [[ "$@" != *"--no-pip"* ]]; then
     ./bin/pip-update
 fi
 
+## vagrant
+if [[ "$@" != *"--no-vagrant"* ]]; then
+    say 'Upgrading vagrant plugins...'
+    vagrant plugin update
+fi
+
 ## recollect
 if [[ "$@" != *"--no-recollect"* ]]; then
     say 'Now, recollecting everything for you...'

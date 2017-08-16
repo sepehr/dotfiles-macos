@@ -571,6 +571,9 @@ if [[ "$@" != *"--no-install"* ]]; then
     # Installing apm packages
     apm install --packages-file cellar/apmfile
 
+    # Installing vagrant plugins
+    xargs vagrant install < cellar/vagrantpluginfile
+
     # Custom installations
     # memprof
     git -C "$(brew --repo homebrew/core)" checkout 1f390568f2~1 Formula/judy.rb

@@ -24,6 +24,10 @@ npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1);
 say 'Collecting apm packages...'
 apm list --installed --bare > cellar/apmfile
 
+## vagrant
+say 'Collecting vagrant plugins...'
+vagrant plugin list | sed '/^ /d' | sed 's/(.*)//g' > cellar/vagrantpluginfile
+
 ## etc
 say 'Collecting /etc/hosts file...'
 cp -f /etc/hosts private/etc
