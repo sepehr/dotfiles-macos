@@ -4,6 +4,10 @@
 require 'json'
 require 'yaml'
 
+# Fix high CPU usage:
+# See: https://github.com/Varying-Vagrant-Vagrants/VVV/issues/694
+$enable_serial_logging = false
+
 VAGRANTFILE_API_VERSION ||= "2"
 confDir = $confDir ||= File.expand_path(File.dirname(__FILE__))
 
