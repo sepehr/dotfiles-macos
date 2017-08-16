@@ -3,7 +3,7 @@
 source .setup/helpers
 
 ## brew
-say 'Collecting brew taps, packages, casks and mas apps...'
+say 'Collecting brew taps, formulas, casks and mas apps...'
 rm -f cellar/brew
 brew bundle dump --file=cellar/brew
 

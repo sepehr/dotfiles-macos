@@ -4,7 +4,7 @@ exists() {
 
 say() {
   local fmt="$1"; shift
-  printf "\n$(tput setaf 5)==> $fmt$(tput sgr0)\n" "$@"
+  printf "$(tput setaf 5) → $fmt$(tput sgr0)\n" "$@"
 }
 
 mkln() {
