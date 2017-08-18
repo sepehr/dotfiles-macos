@@ -598,6 +598,9 @@ if [[ "$@" != *"--no-install"* ]]; then
     # Install sublime package control
     wget -q https://packagecontrol.io/Package%20Control.sublime-package -O $HOME/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
 
+    # Restore apptivate hotkeys
+    cp -f conf/app/apptivate/hotkeys $HOME/Library/Application\ Support/Apptivate
+
     # Downloading keyservers CA certificate for gnupg2
     mkdir -p /usr/local/etc/ssl/certs
     wget https://sks-keyservers.net/sks-keyservers.netCA.pem -O /usr/local/etc/ssl/certs/hkps.pool.sks-keyservers.net.pem
