@@ -20,6 +20,7 @@
             "cgr phploc/phploc",
             "cgr squizlabs/php_codesniffer",
 
+            "cgr wp-cli/wp-cli",
             "cgr laravel/installer",
             "cgr certly/spark-installer",
             "cgr laravel/lumen-installer",
