@@ -534,7 +534,7 @@
 		</dict>
 	</dict>
 	<key>isPinned</key>
-	<false/>
+	<true/>
 	<key>menuIconBehavior</key>
 	<integer>1</integer>
 	<key>placeholderDelimiter</key>
