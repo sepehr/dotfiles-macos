@@ -17,7 +17,21 @@ fi
 ## brew cask
 if [[ "$@" != *"--no-cask"* ]]; then
     say 'Upgrading essential brew casks...'
-    brew cask reinstall appcleaner devrantron filezilla firefox google-chrome google-chrome-canary iina iterm2-nightly kap macpass postman skype spotify torbrowser vlc knockknock blockblock ransomwhere kextviewr tunnelblick vagrant virtualbox
+
+    brew cask reinstall appcleaner devrantron filezilla firefox google-chrome google-chrome-canary iina iterm2-nightly kap macpass postman skype spotify torbrowser vlc knockknock blockblock ransomwhere kextviewr tunnelblick
+fi
+
+## virtualbox/vagrant
+if [[ "$@" != *"--no-virtualbox"* ]]; then
+    say 'Upgrading virtualbox/vagrant and the plugins...'
+
+    vagrant halt all
+    pkill VBox
+
+    brew cask reinstall virtualbox vagrant
+
+    # `vagrant plugin update` might not work in case of vagrant upgrades
+    vagrant plugin expunge --reinstall
 fi
 
 ## composer
@@ -50,16 +64,14 @@ if [[ "$@" != *"--no-pip"* ]]; then
     ./bin/pip-update
 fi
 
-## vagrant
-if [[ "$@" != *"--no-vagrant"* ]]; then
-    say 'Upgrading vagrant plugins...'
-    vagrant plugin update
-fi
-
 ## zplug
 if [[ "$@" != *"--no-zplug"* ]]; then
     say 'Upgrading zplug plugins...'
     zplug update
+    zplug clean
+
+    say 'Upgrading zplug itself...'
+    git -C $ZPLUG_HOME pull origin master > /dev/null 2>&1
 fi
 
 ## recollect
