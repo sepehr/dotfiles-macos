@@ -25,7 +25,7 @@ eval "$(thefuck --alias)"
 
 # Git
 alias k="k -a -h"
-alias gl="git log --full-history show-signature"
+alias gl="git log --full-history --show-signature"
 alias gll="git log --full-history --oneline --graph --decorate"
 alias gp="git push"
 alias gd="git diff"
