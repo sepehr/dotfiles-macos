@@ -44,8 +44,9 @@ if [[ ! -d $ZPLUG_HOME ]]; then
     git clone https://github.com/zplug/zplug $ZPLUG_HOME
 fi
 
-# Init zplug and let it manage itself
+# Init zplug
 source $ZPLUG_HOME/init.zsh
+# And let it manage itself
 # zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 
 # Register oh-my-zsh plugins
