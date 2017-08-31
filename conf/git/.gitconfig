@@ -11,6 +11,7 @@
 [alias]
     st = status
     ls = ls-files
+    pr = pull-request
     unstage = reset
     stage-rm = rm --cached
     forget = "!git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch $1' --prune-empty --tag-name-filter cat -- --all; git rm -r $1"
