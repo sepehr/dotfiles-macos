@@ -130,6 +130,7 @@
     "~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings": ~/.dotfiles/conf/app/sublime/Preferences.sublime-settings
     "~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap": "~/.dotfiles/conf/app/sublime/Default (OSX).sublime-keymap"
     "~/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings": "~/.dotfiles/conf/app/sublime/Package Control.sublime-settings"
+    "~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-mousemap": "~/.dotfiles/conf/app/sublime/Default (OSX).sublime-mousemap"
 
     # atom
     ~/.atom/config.cson: ~/.dotfiles/conf/app/atom/config.cson

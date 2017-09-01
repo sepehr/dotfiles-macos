@@ -118,7 +118,7 @@ cp -vf ~/.{vimrc,gvimrc} conf/app/vim/
 cp -rf ~/.vim/{autoload,colors} conf/app/vim/.vim
 
 # sublime
-cp -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/{Schemes,Snippets,Preferences.sublime-settings,Default\ \(OSX\).sublime-keymap,Package\ Control.sublime-settings} conf/app/sublime
+cp -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/{Schemes,Snippets,Preferences.sublime-settings,Default\ \(OSX\).sublime-keymap,Package\ Control.sublime-settings,Default\ \(OSX\).sublime-mousemap} conf/app/sublime
 
 # atom
 cp -vf ~/.atom/{config.cson,keymap.cson,snippets.cson,init.coffee,styles.less} conf/app/atom
