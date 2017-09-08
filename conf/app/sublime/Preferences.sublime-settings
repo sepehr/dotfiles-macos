@@ -72,7 +72,6 @@
     "theme": "Spacegray.sublime-theme",
     "translate_tabs_to_spaces": false,
     "trim_trailing_white_space_on_save": true,
-    "expand_tabs_on_save": false,
     "use_tab_stops": true,
     "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
     "word_wrap": true
