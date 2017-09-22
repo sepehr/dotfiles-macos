@@ -1,6 +1,7 @@
 api-designer
 bower
 browserify
+create-react-app
 grunt
 gulp
 kong-dashboard
