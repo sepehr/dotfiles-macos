@@ -1,0 +1,5 @@
+{
+    "require": {
+        "pds/skeleton": "^1.0"
+    }
+}

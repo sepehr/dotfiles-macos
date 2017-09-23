@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+cp -f $HOME/.composer/composer.json ~/.dotfiles/cellar/composer/composer.json
+rsync -au --delete --exclude 'vendor' --exclude 'composer.lock' $HOME/.composer/vendor-bin/ ~/.dotfiles/cellar/composer/vendor-bin/

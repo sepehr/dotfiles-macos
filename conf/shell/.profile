@@ -56,6 +56,7 @@ export WORKON_HOME=$HOME/Dev/python/venvs
 export PROJECT_HOME=$HOME/Dev/python/projects
 # Misc
 export COMPOSER_ALLOW_XDEBUG=0
+export COMPOSER_PROCESS_TIMEOUT=900
 export XDEBUG_CONFIG="cli_color=1 remote_enable=1 remote_port=9001 remote_host=127.0.0.1 remote_connect_back=0 idekey=PHPSTORM"
 
 ## Paths

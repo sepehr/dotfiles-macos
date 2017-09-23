@@ -1,0 +1,5 @@
+{
+    "require": {
+        "sven/forge-cli": "^0.2.0"
+    }
+}

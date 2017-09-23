@@ -56,7 +56,7 @@ cp -vf ~/.{zshrc,profile,profile.helpers,profile.path,aliases,bashrc,bash_profil
 say 'Collecting npm, gem, pip and composer configs, if any...'
 cp -vf ~/.gemrc conf/
 cp -vf ~/.npmrc conf/
-cp -vf ~/.composer/composer.json cellar/
+./bin/composer-global-collect
 
 
 ## git/ssh/gpg

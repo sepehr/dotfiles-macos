@@ -50,7 +50,6 @@
     ## languages
     ~/.npmrc: ~/.dotfiles/conf/.npmrc
     ~/.gemrc: ~/.dotfiles/conf/.gemrc
-    ~/.composer/composer.json: ~/.dotfiles/cellar/composer.json
 
 
     ## git/ssh/gpg

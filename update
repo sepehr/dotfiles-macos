@@ -12,6 +12,10 @@ say 'Collecting pip global packages...'
 pip2 freeze > cellar/pip2
 pip3 freeze > cellar/pip3
 
+## composer
+say 'Collecting composer global packages...'
+./bin/composer-global-collect
+
 ## gem
 say 'Collecting gem global packages...'
 gem list --no-versions | sed '/^*/ d' > cellar/gem
@@ -33,10 +37,10 @@ say 'Collecting /etc/hosts file...'
 cp -f /etc/hosts private/etc
 
 say 'Collecting apptivate hotkeys...'
-cp -f ~/Library/Application\ Support/Apptivate/hotkeys conf/app/apptivate
+cp -f $HOME/Library/Application\ Support/Apptivate/hotkeys conf/app/apptivate
 
 say 'Syncing macOS preferences...'
-rsync -au --delete ~/Library/Preferences/ private/conf/macos/Preferences/
+rsync -au --delete $HOME/Library/Preferences/ private/conf/macos/Preferences/
 
 say 'Cleaning up...'
 rm -f private/conf/app/adium/Adium\ 2.0/Users/Default/libpurple/telegram-purple/+19706737347/downloads/*
