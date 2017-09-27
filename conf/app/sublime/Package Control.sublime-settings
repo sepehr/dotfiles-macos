@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"0_package_control_loader"
 	],
 	"installed_packages":
 	[
@@ -15,7 +16,7 @@
 		"DashDoc",
 		"Delete Current File",
 		"DocBlockr",
-		"Dracula Color Scheme",
+		"DotENV",
 		"EditorConfig",
 		"Emmet",
 		"ExpandRegion",
@@ -34,11 +35,14 @@
 		"Modific",
 		"Oceanic Next Color Scheme",
 		"Package Control",
+		"PHP Companion",
 		"Pretty JSON",
 		"Python Improved",
 		"Python Open Module (New)",
 		"React IDE",
 		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-php",
 		"SyncedSideBar",
 		"Theme - Spacegray",
 		"ToggleQuotes",
