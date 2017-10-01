@@ -2,7 +2,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@gitlab.com:makeweb/wordpress-plugin-development/optimus-divi-cli.git"
+            "url": "git@gitlab.com:makeweb/optimus-divi/optimus-divi-cli.git"
         }
     ],
     "require": {
