@@ -1,79 +1,78 @@
 {
-    "auto_complete": false,
-    "auto_complete_delay": 250,
-    "auto_complete_triggers":
-    [
-        {
-            "characters": "<$",
-            "selector": "text.html"
-        }
-    ],
-    "auto_complete_with_fields": true,
-    "auto_indent": true,
-    "bold_folder_labels": false,
-    "color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
-    "default_encoding": "UTF-8",
-    "default_line_ending": "unix",
-    "detect_slow_plugins": false,
-    "drag_text": false,
-    "draw_white_space": "selection",
-    "ensure_newline_at_eof_on_save": false,
-    "folder_exclude_patterns":
-    [
-        ".svn",
-        ".git",
-        ".hg",
-        "CVS",
-        "build",
-        "dist",
-        ".codeintel"
-    ],
-    "font_face": "Hasklig",
-    "font_options":
-    [
-        "subpixel_antialias"
-    ],
-    "font_size": 14,
-    "gutter": true,
-    "highlight_line": true,
-    "ignored_packages":
-    [
-        "0_package_control_loader",
-        "Anaconda",
-        "EasyDiff",
-        "Vintage"
-    ],
-    "index_exclude_patterns":
-    [
-        "node_modules/*.*"
-    ],
-    "index_files": true,
-    "index_workers": 1,
-    "jsdocs_extend_double_slash": false,
-    "jsdocs_spacer_between_sections": true,
-    "line_numbers": true,
-    "line_padding_bottom": 5,
-    "line_padding_top": 5,
-    "margin": 4,
-    "overlay_scroll_bars": "enabled",
-    "preview_on_click": true,
-    "rulers":
-    [
-        120
-    ],
-    "scroll_speed": 1.0,
-    "show_definitions": true,
-    "show_full_path": true,
-    "show_line_endings": true,
-    "show_tab_close_buttons": true,
-    "smart_indent": true,
-    "spacegray_fileicons": true,
-    "tab_completion": true,
-    "tab_size": 4,
-    "theme": "Spacegray.sublime-theme",
-    "translate_tabs_to_spaces": false,
-    "trim_trailing_white_space_on_save": true,
-    "use_tab_stops": true,
-    "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
-    "word_wrap": true
+	"auto_complete": false,
+	"auto_complete_delay": 250,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<$",
+			"selector": "text.html"
+		}
+	],
+	"auto_complete_with_fields": true,
+	"auto_indent": true,
+	"bold_folder_labels": false,
+	"color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
+	"default_encoding": "UTF-8",
+	"default_line_ending": "unix",
+	"detect_slow_plugins": false,
+	"drag_text": false,
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"build",
+		"dist",
+		".codeintel"
+	],
+	"font_face": "Hasklig",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 14,
+	"gutter": true,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Anaconda",
+		"EasyDiff",
+		"Vintage"
+	],
+	"index_exclude_patterns":
+	[
+		"node_modules/*.*"
+	],
+	"index_files": true,
+	"index_workers": 1,
+	"jsdocs_extend_double_slash": false,
+	"jsdocs_spacer_between_sections": true,
+	"line_numbers": true,
+	"line_padding_bottom": 5,
+	"line_padding_top": 5,
+	"margin": 4,
+	"overlay_scroll_bars": "enabled",
+	"preview_on_click": true,
+	"rulers":
+	[
+		120
+	],
+	"scroll_speed": 1.0,
+	"show_definitions": true,
+	"show_full_path": true,
+	"show_line_endings": true,
+	"show_tab_close_buttons": true,
+	"smart_indent": true,
+	"spacegray_fileicons": true,
+	"tab_completion": true,
+	"tab_size": 4,
+	"theme": "Spacegray.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true,
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+	"word_wrap": true
 }
