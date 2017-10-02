@@ -8,7 +8,6 @@ export BASE16_SHELL=$HOME/.vim/colors/base16-shell/
 [ -f "$HOME/.profile.local" ] && source "$HOME/.profile.local"
 
 [ -f "$HOME/.fzf.zsh" ] && source "$HOME/.fzf.zsh"
-[ -f "$HOME/.rvm/scripts/rvm" ] && source "$HOME/.rvm/scripts/rvm"
 [ -f "$HOME/.travis/travis.sh" ] && source "$HOME/.travis/travis.sh"
 [ -f "$BREW/bin/virtualenvwrapper.sh" ] && source "$BREW/bin/virtualenvwrapper.sh"
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
@@ -24,6 +23,11 @@ if exists todolist; then
     	printf ">> To write the story of your life, you need to be an active agent, not a passive participant."
 		t list due today
 	fi
+fi
+
+# Register rbenv
+if exists rbenv; then
+    eval "$(rbenv init -)"
 fi
 
 # Register docker env

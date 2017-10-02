@@ -1,6 +1,7 @@
 addressable
 backports
 bigdecimal
+bundler
 connection_pool
 daemons
 descendants_tracker
@@ -44,11 +45,9 @@ pusher-client
 rack
 rack-protection
 rake
-rdoc
 sinatra
 skinny
 sqlite3
-test-unit
 thin
 thread_safe
 tilt
