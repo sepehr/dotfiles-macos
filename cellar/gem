@@ -45,9 +45,11 @@ pusher-client
 rack
 rack-protection
 rake
+rdoc
 sinatra
 skinny
 sqlite3
+test-unit
 thin
 thread_safe
 tilt
@@ -63,6 +65,7 @@ tty-pager
 tty-platform
 tty-progressbar
 tty-prompt
+tty-reader
 tty-screen
 tty-spinner
 tty-table
