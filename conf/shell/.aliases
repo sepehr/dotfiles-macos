@@ -6,6 +6,7 @@ alias mvs="cd $HOME/Movies"
 alias dotf="cd $HOME/.dotfiles; gc 'Stylish update.' conf/app/chrome/stylish > /dev/null 2>&1; gc 'Dash snippets.' conf/app/dash/snippets.dash > /dev/null 2>&1; gc 'LS rules.' conf/app/littlesnitch/configuration.user.xpl > /dev/null 2>&1; return 0"
 
 # Executables
+alias g=git
 alias b=brew
 alias ls="ls -a"
 alias yd="youtube-dl"
