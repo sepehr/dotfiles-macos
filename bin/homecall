@@ -2,7 +2,7 @@
 # https://github.com/karek314/macOS-home-call-drop/blob/master/homecall.sh
 
 DAEMONS=()
-DAEMONS+=('com.apple.netbiosd') #Netbiosd is microsoft's networking service. used to share files between mac and windows
+#DAEMONS+=('com.apple.netbiosd') #Netbiosd is microsoft's networking service. used to share files between mac and windows
 #DAEMONS+=('com.apple.preferences.timezone.admintool') #Time setting daemon
 #DAEMONS+=('com.apple.preferences.timezone.auto') #Time setting daemon
 #DAEMONS+=('com.apple.remotepairtool') #Pairing devices remotely
@@ -18,7 +18,7 @@ DAEMONS+=('com.apple.screensharing') #Screensharing daemon
 DAEMONS+=('com.apple.appleseed.fbahelperd') #Related to feedback
 #DAEMONS+=('com.apple.apsd') #Apple Push Notification Service (apsd) - it's calling home quite often + used by Facetime and Messages
 DAEMONS+=('com.apple.AOSNotificationOSX') #Notifications
-DAEMONS+=('com.apple.FileSyncAgent.sshd') #Mostlikely sshd on this machine
+DAEMONS+=('com.apple.FileSyncAgent.sshd') #Most likely sshd on this machine
 #DAEMONS+=('com.apple.ManagedClient.cloudconfigurationd') #Related to manage current macOS user iCloud
 #DAEMONS+=('com.apple.ManagedClient.enroll') #Related to manage current macOS user
 #DAEMONS+=('com.apple.ManagedClient') #Related to manage current macOS user
@@ -35,21 +35,21 @@ DAEMONS+=('com.apple.CrashReporterSupportHelper') #Crash reporter
 
 AGENTS=()
 AGENTS+=('com.apple.photoanalysisd') #Apple AI to analyse photos stored in Photos.app, most likely to match faces and scenery but it happens to make requests to Apple during process, i have not checked what are those requestes i have just blocked it with Little Snitch
-AGENTS+=('com.apple.telephonyutilities.callservicesd') #Handling phone and facetime calls
+#AGENTS+=('com.apple.telephonyutilities.callservicesd') #Handling phone and facetime calls
 #AGENTS+=('com.apple.AirPlayUIAgent') #Related Airport
 #AGENTS+=('com.apple.AirPortBaseStationAgent') #Related Airport
-AGENTS+=('com.apple.CalendarAgent') #Calendar events related to iCloud
-AGENTS+=('com.apple.iCloudUserNotifications') #iCloud notifications, like reminders
-AGENTS+=('com.apple.familycircled') #Family notifications, like reminders
-AGENTS+=('com.apple.familycontrols.useragent') #Family notifications, like reminders
-AGENTS+=('com.apple.familynotificationd') #Family notifications, like reminders
+#AGENTS+=('com.apple.CalendarAgent') #Calendar events related to iCloud
+#AGENTS+=('com.apple.iCloudUserNotifications') #iCloud notifications, like reminders
+#AGENTS+=('com.apple.familycircled') #Family notifications, like reminders
+#AGENTS+=('com.apple.familynotificationd') #Family notifications, like reminders
+#AGENTS+=('com.apple.familycontrols.useragent') #Family notifications, like reminders
 AGENTS+=('com.apple.gamed') #GameCenter
 #AGENTS+=('com.apple.icloud.findmydeviced.findmydevice-user-agent') #Find my device ?
 #AGENTS+=('com.apple.icloud.fmfd') #Find my device ?
-AGENTS+=('com.apple.imagent') #Facetime & Messages
+#AGENTS+=('com.apple.imagent') #Facetime & Messages
 AGENTS+=('com.apple.cloudfamilyrestrictionsd-mac') #iCloud Family restrictions
 AGENTS+=('com.apple.cloudpaird') #Related to iCloud
-AGENTS+=('com.apple.cloudphotosd') #Propably syncing your photos to icloud
+#AGENTS+=('com.apple.cloudphotosd') #Propably syncing your photos to icloud
 AGENTS+=('com.apple.DictationIM') #Dictation
 AGENTS+=('com.apple.assistant_service') #Siri
 AGENTS+=('com.apple.CallHistorySyncHelper') #Related to call history syncing (iCloud)
