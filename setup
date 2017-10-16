@@ -66,9 +66,9 @@ if [[ "$@" != *"--no-system-tweaks"* ]]; then
     # Setting to restart automatically if the machine freezes
     sudo systemsetup -setrestartfreeze on
 
+    # WARNING: DOES NOT WORK ON SIERRA
     # Turn off automatic backlight in low light
     defaults write com.apple.BezelServices kDim -bool false
-
     # Turn off keyboard illumination after 5 seconds
     defaults write com.apple.BezelServices kDimTime -int 5
 
@@ -627,10 +627,10 @@ if [[ "$@" != *"--no-install"* ]]; then
     fi
 
     # Disable iTunes
-    pkill iTunes
-    pkill "iTunes Helper"
-    sudo rm -rf /Applications/iTunes.app.disabled
-    sudo mv /Applications/{iTunes.app,iTunes.app.disabled}
+    # pkill iTunes
+    # pkill "iTunes Helper"
+    # sudo rm -rf /Applications/iTunes.app.disabled
+    # sudo mv /Applications/{iTunes.app,iTunes.app.disabled}
 
     # Add ssh key passphrase to the keychain
     ssh-add -K
@@ -643,7 +643,11 @@ fi
 
 
 ## Remainings
-say "Remaining tasks that need to be done manually:"
-printf "1. Remove spotlight menubar icon\n"
-printf "2. Customize dock appearance using the cDock app\n\n"
-printf "Reboot in recovery mode (Cmd+R), open terminal, type 'csrutil disable', reboot, remove spotlight menubar using Bartender, then customize the dock look and feel, reboot in recovery mode, issue 'csrutil enable', reboot and you're done."
+say "Remaining tasks that need to be done manually with SYSTEM PROTECTION DISABLED:"
+printf "Reboot in recovery mode (Cmd+R), open terminal, type 'csrutil disable', reboot, complete the following tasks, reboot in recovery mode again, issue 'csrutil enable', reboot and you're done:\n\n"
+printf "- Install mySIMBL cask: brew cask install mysimbl\n"
+printf "- Remove spotlight menubar icon using Bartender\n"
+printf "- Customize dock appearance using the cDock app\n"
+# https://apple.stackexchange.com/questions/212393
+# https://www.macbartender.com/b3_knowledge/notification-center/
+printf "- Remove notifications menubar icon\n"
