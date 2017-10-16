@@ -8,6 +8,7 @@ kong-dashboard
 node-sass
 npm
 slack-keep-presence
+speed-test
 typescript
 vue-cli
 webpack
