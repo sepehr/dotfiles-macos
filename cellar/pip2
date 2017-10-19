@@ -31,7 +31,7 @@ linecache2==1.0.0
 livereload==2.5.1
 MarkupSafe==1.0
 meld3==1.0.2
-mercurial==4.3.2
+mercurial==4.3.3
 ordereddict==1.1
 packaging==16.8
 pathtools==0.1.2
@@ -55,7 +55,7 @@ sphinx-autobuild==0.7.1
 sphinx-rtd-theme==0.2.4
 sphinxcontrib-websupport==1.0.1
 SpoofMAC==2.1.1
-stevedore==1.27.0
+stevedore==1.27.1
 termcolor==1.1.0
 thrift==0.10.0
 tornado==4.5.2
