@@ -53,6 +53,9 @@ alias gmd="git merge --no-commit --no-ff"
 alias gma="git merge --abort"
 alias gmt="git mergetool"
 alias gst="git add . && git stash"
+alias gcp="git cherry-pick"
+alias gsh="git show"
+alias grs="git reset"
 
 # Networking
 alias mylocalip="ipconfig getifaddr en0"

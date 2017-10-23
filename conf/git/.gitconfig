@@ -13,6 +13,7 @@
     ls = ls-files
     pr = pull-request
     unstage = reset
+    undelete = "!git checkout $(git rev-list -n 1 HEAD -- $1)~1 -- $1"
     stage-rm = rm --cached
     forget = "!git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch $1' --prune-empty --tag-name-filter cat -- --all; git rm -r $1"
     hide = update-index --assume-unchanged
