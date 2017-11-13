@@ -1,3 +1,3 @@
-2017/11/13-12:31:30.491 332339 Reusing MANIFEST /Users/Sepehr/Library/Application Support/Google/Chrome/Profile 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/MANIFEST-000001
-2017/11/13-12:31:30.491 332339 Recovering log #3
-2017/11/13-12:31:30.504 332339 Reusing old log /Users/Sepehr/Library/Application Support/Google/Chrome/Profile 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/000003.log 
+2017/11/13-19:12:50.363 3895 Reusing MANIFEST /Users/Sepehr/Library/Application Support/Google/Chrome/Profile 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/MANIFEST-000001
+2017/11/13-19:12:50.363 3895 Recovering log #3
+2017/11/13-19:12:50.370 3895 Reusing old log /Users/Sepehr/Library/Application Support/Google/Chrome/Profile 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/000003.log 
