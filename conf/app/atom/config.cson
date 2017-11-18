@@ -29,6 +29,7 @@
     dataSaveFolder: "/Users/Sepehr/.atom/packages/save-session/projects"
   "sync-settings":
     _analyticsUserId: "5b5db146-9fea-450a-860c-a14379bd1001"
+  teletype: {}
   welcome:
     showOnStartup: false
   whitespace: {}
