@@ -4,7 +4,7 @@
     projectHome: "/Users/Sepehr/Dev/"
     telemetryConsent: "no"
     themes: [
-      "spacegray-dark-ui"
+      "one-dark-ui"
       "base16-ocean-dark-spacegray"
     ]
   editor:
@@ -23,8 +23,7 @@
     phpmdExecutablePath: "/Users/Sepehr/.composer/vendor/bin/phpmd"
   minimap: {}
   notifications: {}
-  "one-dark-ui":
-    layoutMode: "Compact"
+  "one-dark-ui": {}
   "save-session":
     dataSaveFolder: "/Users/Sepehr/.atom/packages/save-session/projects"
   "sync-settings":
