@@ -306,6 +306,16 @@ vagrant() {
     fi
 }
 
+# scp continue through rsync
+scpcontinue() {
+    if [[ -z "$2" ]]; then
+        echo 'Usage: scpcontinue {local-file} {remote-file}'
+        return 1
+    fi
+
+    rsync --partial --progress --rsh=ssh $1 $2
+}
+
 # dock icon hider
 nodock() {
     defaults write "$1Contents/Info" LSUIElement 1
