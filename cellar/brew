@@ -275,7 +275,6 @@ cask "noti"
 cask "ntfsmounter"
 cask "opera"
 cask "p4merge"
-cask "phoneclean"
 cask "phpstorm"
 cask "pinegrow"
 cask "pingendo"
@@ -301,6 +300,7 @@ cask "rubymine"
 cask "sequel-pro"
 cask "shadowsocksx-ng"
 cask "sigil"
+cask "signal"
 cask "skype"
 cask "slack"
 cask "smcfancontrol"
@@ -315,7 +315,6 @@ cask "tagger"
 cask "tanki-online"
 cask "teamviewer"
 cask "tenor"
-cask "tidal"
 cask "toggldesktop-beta"
 cask "torbrowser"
 cask "tormessenger"
@@ -409,5 +408,4 @@ mas "Pages", id: 409201541
 mas "Persian Calendar", id: 1171425651
 mas "Spark", id: 1176895641
 mas "Twitter", id: 409789998
-mas "Unsplash Wallpapers", id: 1284863847
 mas "Xcode", id: 497799835
