@@ -37,7 +37,9 @@ mkcd() {
 
 # generates a random password and stores it in the clipboard
 passgen() {
-    pwgen -Bs $1 | pbcopy | pbpaste
+    PASSGEN=`pwgen -s -1 ${1:-12}`
+    echo $PASSGEN
+    echo $PASSGEN | pbcopy
 }
 
 # hub wrapper
