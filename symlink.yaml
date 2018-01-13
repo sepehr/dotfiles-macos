@@ -24,9 +24,7 @@
     ~/.githubrc: ~/.dotfiles/private/conf/.githubrc
 
     # apps
-    ~/.nylas-mail/config.json: ~/.dotfiles/private/conf/app/nylas/config.json
     "~/Library/Application Support/Rocket": ~/.dotfiles/private/conf/app/rocket
-    "~/Library/Application Support/Adium 2.0/Users": "~/.dotfiles/private/conf/app/adium/Adium 2.0/Users"
 
     # personal content
     ~/Pictures/Etc: ~/.dotfiles/private/var/pictures/Etc
@@ -140,18 +138,6 @@
 
     # chrome's stylish
     "~/Library/Application Support/Google/Chrome/Profile 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb": ~/.dotfiles/conf/app/chrome/stylish/leveldb
-
-    # adium
-    "~/Library/Application Support/Adium 2.0/Sounds": "~/.dotfiles/conf/app/adium/Adium 2.0/Sounds"
-    "~/Library/Application Support/Adium 2.0/Scripts": "~/.dotfiles/conf/app/adium/Adium 2.0/Scripts"
-    "~/Library/Application Support/Adium 2.0/Plugins": "~/.dotfiles/conf/app/adium/Adium 2.0/Plugins"
-    "~/Library/Application Support/Adium 2.0/Emoticons": "~/.dotfiles/conf/app/adium/Adium 2.0/Emoticons"
-    "~/Library/Application Support/Adium 2.0/Dock Icons": "~/.dotfiles/conf/app/adium/Adium 2.0/Dock Icons"
-    "~/Library/Application Support/Adium 2.0/Status Icons": "~/.dotfiles/conf/app/adium/Adium 2.0/Status Icons"
-    "~/Library/Application Support/Adium 2.0/Contact List": "~/.dotfiles/conf/app/adium/Adium 2.0/Contact List"
-    "~/Library/Application Support/Adium 2.0/Service Icons": "~/.dotfiles/conf/app/adium/Adium 2.0/Service Icons"
-    "~/Library/Application Support/Adium 2.0/Menu Bar Icons": "~/.dotfiles/conf/app/adium/Adium 2.0/Menu Bar Icons"
-    "~/Library/Application Support/Adium 2.0/Message Styles": "~/.dotfiles/conf/app/adium/Adium 2.0/Message Styles"
 
     # dash
     # manual: it should be configured to store its snippets file in "conf/app/dash/snippets.dash"

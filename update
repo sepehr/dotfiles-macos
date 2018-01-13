@@ -43,4 +43,4 @@ say 'Syncing macOS preferences...'
 rsync -au --delete $HOME/Library/Preferences/ private/conf/macos/Preferences/
 
 say 'Cleaning up...'
-rm -f private/conf/app/adium/Adium\ 2.0/Users/Default/libpurple/telegram-purple/+19706737347/downloads/*
+

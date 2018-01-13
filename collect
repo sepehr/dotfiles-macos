@@ -34,7 +34,6 @@ cp -vf ~/.githubrc private/conf
 
 # apps
 cp -vf ~/.nylas-mail/config.json private/conf/app/nylas
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Users private/conf/app/adium/Adium\ 2.0/Users
 cp -rvf ~/Library/Application\ Support/Rocket private/conf/app && mv private/conf/app/{Rocket,rocket}
 
 # personal content
@@ -125,18 +124,6 @@ cp -vf ~/.atom/{config.cson,keymap.cson,snippets.cson,init.coffee,styles.less} c
 
 # chrome's stylish
 cp -vrf ~/Library/Application\ Support/Google/Chrome/Profile\ 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb/* conf/app/chrome/stylish/leveldb
-
-# adium
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Sounds conf/app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Scripts conf/app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Plugins conf/app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Emoticons conf/app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Dock\ Icons conf/app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Status\ Icons conf/app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Contact\ List conf/app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Service\ Icons conf/app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Menu\ Bar\ Icons conf/app/adium/Adium\ 2.0
-cp -rf ~/Library/Application\ Support/Adium\ 2.0/Message\ Styles conf/app/adium/Adium\ 2.0
 
 # dash
 cp -vf ~/Library/Application\ Support/Dash/library.dash conf/app/dash
