@@ -24,6 +24,7 @@
     conflicts = diff --name-only --diff-filter=U
     authors = "!git log --format='%aN <%aE>' | sort -u"
     history = log --follow --reverse --patch
+    chlg = "!git --no-pager log ${1:-$(git describe --tags --abbrev=0)}..HEAD --format='%h %s'"
 [http]
     postBuffer = 524288000
 [push]
