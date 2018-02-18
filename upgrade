@@ -31,7 +31,9 @@ if [[ "$@" != *"--no-virtualbox"* ]]; then
     brew cask reinstall virtualbox vagrant
 
     # `vagrant plugin update` might not work in case of vagrant upgrades
-    vagrant plugin expunge --reinstall
+    # In case of failed reinstallation, look into cellar/vagrant for missing plugins
+    # The minimum requirements are: vagrant-share, vagrant-vbguest
+    vagrant plugin expunge --reinstall --force
 fi
 
 ## composer
