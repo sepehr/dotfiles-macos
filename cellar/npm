@@ -3,6 +3,7 @@ bower
 browserify
 create-react-app
 cross-env
+git-semver-tags
 grunt
 gulp
 kong-dashboard

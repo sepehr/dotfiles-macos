@@ -26,6 +26,7 @@ launchy
 mail
 mime-types
 mime-types-data
+mini_mime
 minitest
 multi_json
 multi_xml
