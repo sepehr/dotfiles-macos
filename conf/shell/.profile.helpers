@@ -162,6 +162,20 @@ dbrm() {
 	mysql -uroot -p -e "drop database if exists $1"
 }
 
+# truncates all tables in a mysql database
+dbtruncate() {
+    if [[ -z "$3" ]]; then
+        echo 'Usage: dbtruncate {database} {user} {password}'
+        return 1
+    fi
+
+    mysql -u$2 -p$3 -Nse 'show tables' $1 | \
+        while read table; do
+            mysql -u$2 -p$3 \
+                -e "SET FOREIGN_KEY_CHECKS = 0; truncate table $table; SET FOREIGN_KEY_CHECKS = 1;" $1 > /dev/null 2>&1;
+        done
+}
+
 # creates database user
 dbmkusr() {
     if [[ -z "$2" ]]; then
