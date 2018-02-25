@@ -38,18 +38,13 @@ setopt auto_cd
 export ZPLUG_HOME=$HOME/.zplug
 export ZSH=$ZPLUG_HOME/repos/robbyrussell/oh-my-zsh
 
-# Install zplug, if not available
 if [[ ! -d $ZPLUG_HOME ]]; then
     print "Installing zplug..."
     git clone https://github.com/zplug/zplug $ZPLUG_HOME
 fi
 
-# Init zplug
 source $ZPLUG_HOME/init.zsh
-# And let it manage itself
-# zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 
-# Register oh-my-zsh plugins
 zplug "robbyrussell/oh-my-zsh", use:"lib/*.zsh"
 zplug "plugins/pip", from:oh-my-zsh
 zplug "plugins/python", from:oh-my-zsh
@@ -58,7 +53,6 @@ zplug "plugins/vagrant", from:oh-my-zsh
 zplug "plugins/redis-cli", from:oh-my-zsh
 zplug "plugins/supervisor", from:oh-my-zsh
 
-# Register other plugins
 zplug "supercrabtree/k"
 zplug "skx/sysadmin-util"
 zplug "rupa/z", use:"z.sh"
@@ -72,15 +66,12 @@ zplug "shengyou/codeception-zsh-plugin"
 zplug "psprint/history-search-multi-word"
 zplug "zsh-users/zsh-syntax-highlighting"
 
-# Register the theme plugin
 zplug "sepehr/sepshell", use:"sepshell.zsh-theme", on:"robbyrussell/oh-my-zsh"
 
-# Install new plugins
 if ! zplug check; then
     zplug install
 fi
 
-# Load registered plugins
 zplug load
 
 # Temporary theme workaround
