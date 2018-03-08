@@ -25,7 +25,6 @@ alias apachectl="$BREW/bin/apachectl"
 alias prettyjson="python -mjson.tool"
 alias phpstorm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
 alias dictater="/Applications/Dictater.app/Contents/MacOS/Dictater"
-eval "$(thefuck --alias)"
 
 # Git
 alias kk="k -a -h"
