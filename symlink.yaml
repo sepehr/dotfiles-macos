@@ -48,6 +48,8 @@
     ## languages
     ~/.npmrc: ~/.dotfiles/conf/.npmrc
     ~/.gemrc: ~/.dotfiles/conf/.gemrc
+    ~/.pyenv: ~/.dotfiles/cellar/pyenv
+    ~/.rbenv: ~/.dotfiles/cellar/rbenv
 
 
     ## git/ssh/gpg

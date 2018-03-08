@@ -1,6 +1,7 @@
 ## Early env vars
 export BREW=`brew --prefix`
-export BASE16_SHELL=$HOME/.vim/colors/base16-shell/
+export NVM_DIR="$HOME/.nvm"
+export BASE16_SHELL="$HOME/.vim/colors/base16-shell/"
 
 ## Sources
 [ -f "$HOME/.profile.path" ] && source "$HOME/.profile.path"
@@ -9,7 +10,7 @@ export BASE16_SHELL=$HOME/.vim/colors/base16-shell/
 
 [ -f "$HOME/.fzf.zsh" ] && source "$HOME/.fzf.zsh"
 [ -f "$HOME/.travis/travis.sh" ] && source "$HOME/.travis/travis.sh"
-[ -f "$BREW/bin/virtualenvwrapper.sh" ] && source "$BREW/bin/virtualenvwrapper.sh"
+[ -f "/usr/local/opt/nvm/nvm.sh" ] && source "/usr/local/opt/nvm/nvm.sh"
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
 ## Init
@@ -28,6 +29,16 @@ fi
 # Register rbenv
 if exists rbenv; then
     eval "$(rbenv init -)"
+fi
+
+# Register pyenv
+if exists pyenv; then
+    eval "$(pyenv init -)"
+
+    if exists pyenv-virtualenv-init; then
+        eval "$(pyenv virtualenv-init -)"
+        export PYENV_VIRTUALENV_DISABLE_PROMPT=0
+    fi
 fi
 
 # Register docker env
@@ -55,9 +66,6 @@ export BREW_CELLAR="$BREW/Cellar"
 export BREW_REPO=`brew --repository`
 export BREW_CASKROOM="$BREW_REPO/Library/Taps/caskroom"
 export BREW_FORMULA="$BREW_REPO/Library/Taps/homebrew/homebrew-core/Formula"
-# Virtualenv
-export WORKON_HOME=$HOME/Dev/python/venvs
-export PROJECT_HOME=$HOME/Dev/python/projects
 # Misc
 export COMPOSER_ALLOW_XDEBUG=0
 export COMPOSER_PROCESS_TIMEOUT=900
