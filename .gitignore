@@ -2,4 +2,3 @@ private/*
 !private/.keep
 conf/service/valet/Log
 conf/service/valet/Certificates
-cellar/pyenv/versions/venv-*

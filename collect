@@ -55,8 +55,6 @@ cp -vf ~/.{zshrc,profile,profile.helpers,profile.path,aliases,bashrc,bash_profil
 say 'Collecting npm, gem, pip, pyenv, rbenv and composer configs, if any...'
 cp -vf ~/.gemrc conf/
 cp -vf ~/.npmrc conf/
-cp -rf ~/.pyenv cellar/ && mv cellar/{.pyenv,pyenv}
-cp -rf ~/.rbenv cellar/ && mv cellar/{.rbenv,rbenv}
 ./bin/composer-global-collect
 
 
