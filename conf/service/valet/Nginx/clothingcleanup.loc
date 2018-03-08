@@ -1,12 +1,12 @@
 server {
     listen 80;
-    server_name de.testony.dev www.de.testony.dev *.de.testony.dev;
+    server_name clothingcleanup.loc www.clothingcleanup.loc *.clothingcleanup.loc;
     return 301 https://$host$request_uri;
 }
 
 server {
     listen 443 ssl http2;
-    server_name de.testony.dev www.de.testony.dev *.de.testony.dev;
+    server_name clothingcleanup.loc www.clothingcleanup.loc *.clothingcleanup.loc;
     root /;
     charset utf-8;
     client_max_body_size 128M;
@@ -17,8 +17,8 @@ server {
         try_files $uri $uri/;
     }
 
-    ssl_certificate /Users/Sepehr/.valet/Certificates/de.testony.dev.crt;
-    ssl_certificate_key /Users/Sepehr/.valet/Certificates/de.testony.dev.key;
+    ssl_certificate /Users/Sepehr/.valet/Certificates/clothingcleanup.loc.crt;
+    ssl_certificate_key /Users/Sepehr/.valet/Certificates/clothingcleanup.loc.key;
 
     location / {
         rewrite ^ /Users/Sepehr/.composer/vendor-bin/valet/vendor/laravel/valet/server.php last;

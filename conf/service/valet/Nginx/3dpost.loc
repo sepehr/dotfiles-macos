@@ -1,12 +1,12 @@
 server {
     listen 80;
-    server_name en.testony.dev www.en.testony.dev *.en.testony.dev;
+    server_name 3dpost.loc www.3dpost.loc *.3dpost.loc;
     return 301 https://$host$request_uri;
 }
 
 server {
     listen 443 ssl http2;
-    server_name en.testony.dev www.en.testony.dev *.en.testony.dev;
+    server_name 3dpost.loc www.3dpost.loc *.3dpost.loc;
     root /;
     charset utf-8;
     client_max_body_size 128M;
@@ -17,8 +17,8 @@ server {
         try_files $uri $uri/;
     }
 
-    ssl_certificate /Users/Sepehr/.valet/Certificates/en.testony.dev.crt;
-    ssl_certificate_key /Users/Sepehr/.valet/Certificates/en.testony.dev.key;
+    ssl_certificate /Users/Sepehr/.valet/Certificates/3dpost.loc.crt;
+    ssl_certificate_key /Users/Sepehr/.valet/Certificates/3dpost.loc.key;
 
     location / {
         rewrite ^ /Users/Sepehr/.composer/vendor-bin/valet/vendor/laravel/valet/server.php last;
