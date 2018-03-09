@@ -1189,7 +1189,7 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>1039 277 606 456 0 0 1680 1028 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>775 236 796 473 0 0 1680 1050 </string>
+	<string>752 392 796 473 0 0 1680 1050 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>1084 343 592 584 0 0 1680 1028 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
@@ -1607,7 +1607,7 @@
 			<key>Rows</key>
 			<integer>25</integer>
 			<key>Screen</key>
-			<integer>-1</integer>
+			<integer>-2</integer>
 			<key>Scrollback Lines</key>
 			<integer>0</integer>
 			<key>Scrollback With Status Bar</key>
@@ -1899,7 +1899,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-02-22T20:26:05Z</date>
+	<date>2018-03-08T14:35:19Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>

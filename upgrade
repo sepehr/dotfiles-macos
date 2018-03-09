@@ -88,5 +88,6 @@ if [[ "$@" != *"--no-cleanup"* ]]; then
     say 'Cleaning up...'
     brew cleanup -s
     brew cask cleanup
+    yarn cache clean
     sudo purge
 fi
