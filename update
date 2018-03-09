@@ -44,4 +44,4 @@ rsync -au --delete $HOME/Library/Preferences/ private/conf/macos/Preferences/
 
 say 'Cleaning up...'
 rm -f default.profraw cellar/composer/vendor-bin/optimusdivi-cli/.env
-yarn cache clean
+yarn cache clean > /dev/null 2>&1
