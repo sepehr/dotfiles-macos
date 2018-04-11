@@ -17,15 +17,16 @@ sed -i 's/alias art=artisan/alias a=artisan/g' /home/vagrant/.bash_aliases
 ## memprof
 sudo apt-get install libjudy-dev -y
 sudo pecl install memprof
-echo 'extension=memprof.so' | sudo tee -a /etc/php/7.1/cli/php.ini
-echo 'extension=memprof.so' | sudo tee -a /etc/php/7.1/fpm/php.ini
+echo 'extension=memprof.so' | sudo tee -a /etc/php/7.1/cli/conf.d/25-memprof.ini
+echo 'extension=memprof.so' | sudo tee -a /etc/php/7.1/fpm/conf.d/25-memprof.ini
 
-## testony.app
+## testony.tes
 # install system dependencies
 sudo apt-get install kg-config libmagickwand-dev -y
 sudo pecl install imagick-beta
 sudo apt-get install imagemagick php-imagick -y
 sudo service php7.1-fpm restart
+sudo service php7.2-fpm restart
 
 # install project dependencies
 cd "$HOMESTEAD_SHARED/testony"
@@ -36,13 +37,14 @@ yarn --no-lockfile # npm install, if you wish
 php artisan migrate:refresh --seed
 
 # build the assets
-gulp
+npm install
+npm run dev
 
 # wildcard SAN-enabled (Chrome 58+) self-signed certificate
 sudo service nginx stop
-sudo rm -f /etc/nginx/ssl/testony.app.*
+sudo rm -f /etc/nginx/ssl/testony.tes.*
 
-sudo su -c "cat > /etc/nginx/ssl/testony.app.conf <<TestonyCertConfig
+sudo su -c "cat > /etc/nginx/ssl/testony.tes.conf <<TestonyCertConfig
 [req]
 distinguished_name = req_distinguished_name
 req_extensions = v3_req
@@ -56,36 +58,36 @@ keyUsage = nonRepudiation, digitalSignature, keyEncipherment
 subjectAltName = @alt_names
 
 [alt_names]
-DNS.1 = testony.app
-DNS.2 = *.testony.app
+DNS.1 = testony.tes
+DNS.2 = *.testony.tes
 TestonyCertConfig"
 
-sudo openssl genrsa -out /etc/nginx/ssl/testony.app.key 2048
+sudo openssl genrsa -out /etc/nginx/ssl/testony.tes.key 2048
 
 sudo su -c "openssl req -new \
-    -key /etc/nginx/ssl/testony.app.key \
-    -out /etc/nginx/ssl/testony.app.csr \
-    -subj '/C=UN/O=Vagrant/commonName=*.testony.app/' \
-    -config /etc/nginx/ssl/testony.app.conf"
+    -key /etc/nginx/ssl/testony.tes.key \
+    -out /etc/nginx/ssl/testony.tes.csr \
+    -subj '/C=UN/O=Vagrant/commonName=*.testony.tes/' \
+    -config /etc/nginx/ssl/testony.tes.conf"
 
 sudo su -c "openssl x509 \
     -req \
     -days 3650 \
     -extensions v3_req \
-    -in /etc/nginx/ssl/testony.app.csr \
-    -signkey /etc/nginx/ssl/testony.app.key \
-    -out /etc/nginx/ssl/testony.app.crt \
-    -extfile /etc/nginx/ssl/testony.app.conf"
+    -in /etc/nginx/ssl/testony.tes.csr \
+    -signkey /etc/nginx/ssl/testony.tes.key \
+    -out /etc/nginx/ssl/testony.tes.crt \
+    -extfile /etc/nginx/ssl/testony.tes.conf"
 
 # share generated self-signed certs, so that we can import & trust them locally later;
 # you can import these certificates to the System keychain and "Always trust them" to
 # get rid of Chrome's certificate warning in the local env.
 #
 # Either use the keychain UI or:
-#   sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain /path/to/testony.app.crt
+#   sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain /path/to/testony.tes.crt
 #
 # You can also integrate this to homestead's Vagrantfile (see: emyl/vagrant-triggers) to fully automate the process
 # on the host machine.
-cp -vf /etc/nginx/ssl/testony.app.crt $HOMESTEAD_CERTS
+cp -vf /etc/nginx/ssl/testony.tes.crt $HOMESTEAD_CERTS
 
 sudo service nginx start
