@@ -16,6 +16,10 @@ pip3 freeze > cellar/pip3
 say 'Collecting composer global packages...'
 ./bin/composer-global-collect
 
+## pecl
+say 'Collecting pecl global packages...'
+pecl list | sed '1,3d' | cut -d' ' -f1 > cellar/pecl
+
 ## gem
 say 'Collecting gem global packages...'
 gem list --no-versions | sed '/^*/ d' > cellar/gem

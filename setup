@@ -555,6 +555,9 @@ if [[ "$@" != *"--no-install"* ]]; then
     brew cleanup -s
     brew cask cleanup
 
+    # Brew force linkage
+    brew link --force php@7.1
+
     # Installing global pip packages from file
     pip2 install -U -r cellar/pip2
     pip3 install -U -r cellar/pip3
@@ -564,6 +567,9 @@ if [[ "$@" != *"--no-install"* ]]; then
 
     # Installing global npm packages
     xargs npm install --global < cellar/npm
+
+    # Installing pecl packages
+    xargs pecl install < cellar/pecl
 
     # Installing global composer packages
     composer global install
@@ -641,6 +647,10 @@ if [[ "$@" != *"--no-install"* ]]; then
     chsh -s $ZSH_PATH
 fi
 
+## FileVault on APFS
+if [[ "$@" != *"--no-filevault"* ]]; then
+    sudo sysadminctl interactive -secureTokenOn $USER -password -
+fi
 
 ## Remainings
 say "Remaining tasks that need to be done manually with SYSTEM PROTECTION DISABLED:"
