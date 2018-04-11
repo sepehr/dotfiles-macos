@@ -12,7 +12,6 @@ alias p="ping g.co"
 alias ls="ls -a"
 alias yd="youtube-dl"
 alias pds=pds-skeleton
-alias mkdir="mkdir -p"
 alias fzf="fzf --preview"
 alias srv="brew services"
 alias tt="t list by project"
@@ -25,6 +24,7 @@ alias apachectl="$BREW/bin/apachectl"
 alias prettyjson="python -mjson.tool"
 alias phpstorm="/Applications/PhpStorm.app/Contents/MacOS/phpstorm"
 alias dictater="/Applications/Dictater.app/Contents/MacOS/Dictater"
+alias lidlog="(pmset -g log|grep -e " Sleep  " -e " Wake  "; log show | grep -e "System Sleep" -e " Wake reason:") | more"
 
 # Git
 alias kk="k -a -h"
