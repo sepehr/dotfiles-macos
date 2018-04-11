@@ -403,6 +403,11 @@
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>http://kapeli.com/feeds/AWS_JavaScript.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2018-03-22T11:01:03Z</date>
+			</dict>
 			<key>http://kapeli.com/feeds/Apple_API_Reference.xml</key>
 			<dict>
 				<key>date</key>
@@ -468,10 +473,10 @@
 				<key>date</key>
 				<date>2017-01-08T12:01:05Z</date>
 			</dict>
-			<key>http://kapeli.com/feeds/OpenCV_Python.xml</key>
+			<key>http://kapeli.com/feeds/NodeJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2017-06-02T11:31:55Z</date>
+				<date>2018-03-15T17:13:26Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/PHP.xml</key>
 			<dict>
