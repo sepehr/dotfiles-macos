@@ -1,6 +1,5 @@
 ## Early env vars
 export BREW=`brew --prefix`
-export NVM_DIR="$HOME/.nvm"
 export BASE16_SHELL="$HOME/.vim/colors/base16-shell/"
 
 ## Sources
@@ -10,7 +9,6 @@ export BASE16_SHELL="$HOME/.vim/colors/base16-shell/"
 
 [ -f "$HOME/.fzf.zsh" ] && source "$HOME/.fzf.zsh"
 [ -f "$HOME/.travis/travis.sh" ] && source "$HOME/.travis/travis.sh"
-[ -f "/usr/local/opt/nvm/nvm.sh" ] && source "/usr/local/opt/nvm/nvm.sh"
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
 ## Init
@@ -19,16 +17,20 @@ export BASE16_SHELL="$HOME/.vim/colors/base16-shell/"
 ssh-add -A &> /dev/null
 
 # Warn about tasks that due today
-if exists todolist; then
-	if [[ $(t list due today | xargs) != "all" ]]; then
-    	printf ">> To write the story of your life, you need to be an active agent, not a passive participant."
-		t list due today
-	fi
-fi
+# if exists todolist; then
+# 	if [[ $(t list due today | xargs) != "all" ]]; then
+# 		t list due today
+# 	fi
+# fi
 
 # Register rbenv
 if exists rbenv; then
     eval "$(rbenv init -)"
+fi
+
+# Register nodenv
+if exists nodenv; then
+    eval "$(nodenv init -)"
 fi
 
 # Register pyenv
@@ -42,14 +44,16 @@ if exists pyenv; then
 fi
 
 # Register docker env
-# if exists docker-machine; then
-#     if [[ $(docker-machine status default) != "Running" ]]; then
-#         echo "Starting the default docker machine..."
-#         docker-machine start default > /dev/null 2>&1
-#     fi
+# Creating the default machine?
+# docker-machine create --driver virtualbox default
+if exists docker-machine; then
+    if [[ $(docker-machine status default) != "Running" ]]; then
+        echo "Starting the default docker machine..."
+        docker-machine start default > /dev/null 2>&1
+    fi
 
-#     eval $(docker-machine env default)
-# fi
+    eval $(docker-machine env default)
+fi
 
 ## Env vars
 export EDITOR="vim"
@@ -67,7 +71,7 @@ export BREW_REPO=`brew --repository`
 export BREW_CASKROOM="$BREW_REPO/Library/Taps/caskroom"
 export BREW_FORMULA="$BREW_REPO/Library/Taps/homebrew/homebrew-core/Formula"
 # Misc
-export COMPOSER_ALLOW_XDEBUG=0
+export COMPOSER_ALLOW_XDEBUG=1
 export COMPOSER_PROCESS_TIMEOUT=900
 export XDEBUG_CONFIG="cli_color=1 remote_enable=1 remote_port=9001 remote_host=127.0.0.1 remote_connect_back=0 idekey=PHPSTORM"
 
