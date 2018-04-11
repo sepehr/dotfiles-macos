@@ -25,7 +25,6 @@ echo 'extension=memprof.so' | sudo tee -a /etc/php/7.1/fpm/conf.d/25-memprof.ini
 sudo apt-get install kg-config libmagickwand-dev -y
 sudo pecl install imagick-beta
 sudo apt-get install imagemagick php-imagick -y
-sudo service php7.1-fpm restart
 sudo service php7.2-fpm restart
 
 # install project dependencies
