@@ -2,6 +2,10 @@
     name = Sepehr Lajevardi
     email = lajevardi@gmail.com
     signningkey = 59ED63FFF9C3014D
+[commit]
+    gpgsign = false
+[gpg]
+    program = gpg
 [core]
     excludesfile = ~/.gitignore
     autocrlf = input
@@ -25,6 +29,7 @@
     authors = "!git log --format='%aN <%aE>' | sort -u"
     history = log --follow --reverse --patch
     chlg = "!git --no-pager log ${1:-$(git describe --tags --abbrev=0)}..HEAD --format='%h %s'"
+    signall = "!git filter-branch --commit-filter 'git commit-tree -S "$@";' -- --all"
 [http]
     postBuffer = 524288000
 [push]
@@ -43,10 +48,6 @@
     prompt = false
 [diff]
     tool = p4merge
-[commit]
-    gpgsign = false
-[gpg]
-    program = gpg
 [filter "lfs"]
     clean = git-lfs clean -- %f
     smudge = git-lfs smudge -- %f
