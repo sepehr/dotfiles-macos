@@ -1,9 +1,13 @@
 create-react-app
 cross-env
+generator-serverless-policy
 git-semver-tags
+glbutils
+lambda-shearer
 node-sass
 npm
 prettier
+serverless
 speed-test
 standard
 yo
