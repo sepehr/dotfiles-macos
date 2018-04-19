@@ -33,6 +33,15 @@ if exists nodenv; then
     eval "$(nodenv init -)"
 fi
 
+# Register goenv
+if exists goenv; then
+    export GOENV_ROOT="$HOME/.goenv"
+    export PATH="$GOENV_ROOT/bin:$PATH"
+
+    eval "$(goenv init -)"
+    export GOROOT=`goenv prefix`
+fi
+
 # Register pyenv
 if exists pyenv; then
     eval "$(pyenv init -)"
@@ -58,10 +67,9 @@ fi
 ## Env vars
 export EDITOR="vim"
 export SVN_EDITOR="vim --noplugin"
-export SSH_KEY_PATH="$HOME/.ssh/id_rsa.pub"
 # Go
-export GOPATH="$HOME/Dev/.go"
-export GOBIN="$GOPATH/bin"
+export GOPATH="$HOME/Dev/go"
+export GOBIN="${GOPATH//://bin:}/bin"
 export PATH="$GOBIN:$PATH"
 # Brew
 export HOMEBREW_NO_ANALYTICS=1
