@@ -1,8 +1,75 @@
 #!/bin/sh
 
-# If you would like to do some extra provisioning you may
-# add any commands you wish to this file and they will
-# be run after the Homestead machine is provisioned.
+## helpers
+laravel_deps() {
+    cd "$HOMESTEAD_SHARED/$1"
+
+    composer install
+    yarn --no-lockfile
+
+    npm install
+    npm run dev
+}
+
+laravel_migrate() {
+    cd "$HOMESTEAD_SHARED/$1"
+
+    php artisan migrate:refresh --seed
+}
+
+# wildcard SAN-enabled (Chrome 58+) self-signed certificate
+ssl_cert() {
+    sudo service nginx stop
+    sudo rm -f "/etc/nginx/ssl/$1.*"
+
+    Whadava -c "cat > /etc/nginx/ssl/$1.conf <<TestonyCertConfig
+    [req]
+    distinguished_name = req_distinguished_name
+    req_extensions = v3_req
+
+    [req_distinguished_name]
+    commonName = Whadava
+
+    [v3_req]
+    basicConstraints = CA:FALSE
+    keyUsage = nonRepudiation, digitalSignature, keyEncipherment
+    subjectAltName = @alt_names
+
+    [alt_names]
+    DNS.1 = $1
+    DNS.2 = *.$1
+    WhadavaCertConfig"
+
+    sudo openssl genrsa -out "/etc/nginx/ssl/$1.key" 2048
+
+    sudo su -c "openssl req -new \
+        -key /etc/nginx/ssl/$1.key \
+        -out /etc/nginx/ssl/$1.csr \
+        -subj '/C=UN/O=Vagrant/commonName=*.$1/' \
+        -config /etc/nginx/ssl/$1.conf"
+
+    sudo su -c "openssl x509 \
+        -req \
+        -days 3650 \
+        -extensions v3_req \
+        -in /etc/nginx/ssl/$1.csr \
+        -signkey /etc/nginx/ssl/$1.key \
+        -out /etc/nginx/ssl/$1.crt \
+        -extfile /etc/nginx/ssl/$1.conf"
+
+    # share generated self-signed certs, so that we can import & trust them locally later;
+    # you can import these certificates to the System keychain and "Always trust them" to
+    # get rid of Chrome's certificate warning in the local env.
+    #
+    # Either use the keychain UI or:
+    #   sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain /path/to/testony.tes.crt
+    #
+    # You can also integrate this to homestead's Vagrantfile (see: emyl/vagrant-triggers) to fully automate the process
+    # on the host machine.
+    cp -vf "/etc/nginx/ssl/$1.crt" $HOMESTEAD_CERTS
+
+    sudo service nginx start
+}
 
 ## init
 # feel free to change HOMESTEAD_SHARED path according to the Homestead.yaml,
@@ -14,79 +81,24 @@ mkdir -p $HOMESTEAD_CERTS > /dev/null 2>&1
 ## aliases
 sed -i 's/alias art=artisan/alias a=artisan/g' /home/vagrant/.bash_aliases
 
-## memprof
-sudo apt-get install libjudy-dev -y
-sudo pecl install memprof
-echo 'extension=memprof.so' | sudo tee -a /etc/php/7.1/cli/conf.d/25-memprof.ini
-echo 'extension=memprof.so' | sudo tee -a /etc/php/7.1/fpm/conf.d/25-memprof.ini
-
-## testony.tes
-# install system dependencies
+## system dependencies
 sudo apt-get install kg-config libmagickwand-dev -y
 sudo pecl install imagick-beta
 sudo apt-get install imagemagick php-imagick -y
 sudo service php7.2-fpm restart
 
-# install project dependencies
-cd "$HOMESTEAD_SHARED/testony"
-composer install
-yarn --no-lockfile # npm install, if you wish
+sudo systemctl enable mailhog
+sudo systemctl start mailhog
 
-# prepare the database
-php artisan migrate:refresh --seed
+## memprof
+# sudo apt-get install libjudy-dev -y
+# sudo pecl install memprof
+# echo 'extension=memprof.so' | sudo tee -a /etc/php/7.1/cli/conf.d/25-memprof.ini
+# echo 'extension=memprof.so' | sudo tee -a /etc/php/7.1/fpm/conf.d/25-memprof.ini
 
-# build the assets
-npm install
-npm run dev
+## sites
+# laravel_deps testony
+# ssl_cert "testony.tes"
 
-# wildcard SAN-enabled (Chrome 58+) self-signed certificate
-sudo service nginx stop
-sudo rm -f /etc/nginx/ssl/testony.tes.*
-
-sudo su -c "cat > /etc/nginx/ssl/testony.tes.conf <<TestonyCertConfig
-[req]
-distinguished_name = req_distinguished_name
-req_extensions = v3_req
-
-[req_distinguished_name]
-commonName = Testony
-
-[v3_req]
-basicConstraints = CA:FALSE
-keyUsage = nonRepudiation, digitalSignature, keyEncipherment
-subjectAltName = @alt_names
-
-[alt_names]
-DNS.1 = testony.tes
-DNS.2 = *.testony.tes
-TestonyCertConfig"
-
-sudo openssl genrsa -out /etc/nginx/ssl/testony.tes.key 2048
-
-sudo su -c "openssl req -new \
-    -key /etc/nginx/ssl/testony.tes.key \
-    -out /etc/nginx/ssl/testony.tes.csr \
-    -subj '/C=UN/O=Vagrant/commonName=*.testony.tes/' \
-    -config /etc/nginx/ssl/testony.tes.conf"
-
-sudo su -c "openssl x509 \
-    -req \
-    -days 3650 \
-    -extensions v3_req \
-    -in /etc/nginx/ssl/testony.tes.csr \
-    -signkey /etc/nginx/ssl/testony.tes.key \
-    -out /etc/nginx/ssl/testony.tes.crt \
-    -extfile /etc/nginx/ssl/testony.tes.conf"
-
-# share generated self-signed certs, so that we can import & trust them locally later;
-# you can import these certificates to the System keychain and "Always trust them" to
-# get rid of Chrome's certificate warning in the local env.
-#
-# Either use the keychain UI or:
-#   sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain /path/to/testony.tes.crt
-#
-# You can also integrate this to homestead's Vagrantfile (see: emyl/vagrant-triggers) to fully automate the process
-# on the host machine.
-cp -vf /etc/nginx/ssl/testony.tes.crt $HOMESTEAD_CERTS
-
-sudo service nginx start
+# laravel_deps reversetests
+# ssl_cert "reverse.tes"
