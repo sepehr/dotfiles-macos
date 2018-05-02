@@ -16,19 +16,30 @@ folders:
 sites:
     - map: testony.tes
       to: /home/vagrant/projects/testony/public
+      php: '7.1'
+
+    - map: reverse.tes
+      to: /home/vagrant/projects/reversetests/public
+      php: '7.1'
+      # params:
+      #   - key: fastcgi_read_timeout
+      #     value: 3000 # Long debugging sessions.
 
 databases:
     - testony
+    - reverse
+
+ports:
+    - send: 8026
+      to: 8025
+#     - send: 50000
+#       to: 5000
+#     - send: 7777
+#       to: 777
+#       protocol: udp
 
 # blackfire:
 #     - id: foo
 #       token: bar
 #       client-id: foo
 #       client-token: bar
-
-# ports:
-#     - send: 50000
-#       to: 5000
-#     - send: 7777
-#       to: 777
-#       protocol: udp
