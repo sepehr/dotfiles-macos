@@ -43,7 +43,7 @@ cp -rf ~/Pictures/Wallpapers private/var/pictures
 cp -rf ~/Pictures/Photo\ Booth\ Library private/var/pictures
 
 # macos prefs
-cp -rf ~/Library/Preferences private/conf/macos
+#cp -rf ~/Library/Preferences private/conf/macos
 
 
 ## shell
