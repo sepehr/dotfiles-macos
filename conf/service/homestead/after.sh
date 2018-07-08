@@ -100,5 +100,5 @@ sudo systemctl start mailhog
 # laravel_deps testony
 # ssl_cert "testony.tes"
 
-# laravel_deps reversetests
-# ssl_cert "reverse.tes"
+# laravel_deps socialfeedbacks
+# ssl_cert "socialfeedbacks.tes"

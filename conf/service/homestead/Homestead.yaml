@@ -14,20 +14,22 @@ folders:
       to: /home/vagrant/projects
 
 sites:
-    - map: testony.tes
-      to: /home/vagrant/projects/testony/public
-      php: '7.1'
+    - map: dailybroccoli.app
+      to: /home/vagrant/projects/dailybroccoli/public
+      php: '7.2'
 
-    - map: reverse.tes
-      to: /home/vagrant/projects/reversetests/public
-      php: '7.1'
-      # params:
-      #   - key: fastcgi_read_timeout
-      #     value: 3000 # Long debugging sessions.
+    # - map: testony.tes
+    #   to: /home/vagrant/projects/testony/public
+    #   php: '7.1'
+
+    # - map: socialfeedbacks.tes
+    #   to: /home/vagrant/projects/socialfeedbacks/public
+    #   php: '7.1'
 
 databases:
-    - testony
-    - reverse
+    - dailybroccoli
+    # - testony
+    # - socialfeedbacks
 
 ports:
     - send: 8026
