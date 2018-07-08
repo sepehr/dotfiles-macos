@@ -3,7 +3,7 @@
     email = lajevardi@gmail.com
     signningkey = 59ED63FFF9C3014D
 [commit]
-    gpgsign = false
+    gpgsign = true
 [gpg]
     program = gpg
 [core]
@@ -30,6 +30,8 @@
     history = log --follow --reverse --patch
     chlg = "!git --no-pager log ${1:-$(git describe --tags --abbrev=0)}..HEAD --format='%h %s'"
     signall = "!git filter-branch --commit-filter 'git commit-tree -S "$@";' -- --all"
+    branch-diff="!git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative $1..$2"
+
 [http]
     postBuffer = 524288000
 [push]
