@@ -42,11 +42,12 @@ passgen() {
     echo $PASSGEN | pbcopy
 }
 
-# hub wrapper
+# hub/lab wrapper
 # requires piotrmurach/github_cli
 git() {
     if [[ "$1" != "delete" ]]; then
-        hub $@
+        lab $@
+        # hub $@
         return
     fi
 
