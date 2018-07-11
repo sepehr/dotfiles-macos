@@ -53,16 +53,20 @@ if exists pyenv; then
 fi
 
 # Register docker env
-# Creating the default machine?
-# docker-machine create --driver virtualbox default
-# if exists docker-machine; then
-#     if [[ $(docker-machine status default) != "Running" ]]; then
-#         echo "Starting the default docker machine..."
-#         docker-machine start default > /dev/null 2>&1
-#     fi
+# Creating the default machine with virtualbox?
+#     docker-machine create default --driver virtualbox
+#
+# Or with native macOS virtualization driver?
+#     docker-machine create default --driver xhyve --xhyve-experimental-nfs-share
+#
+if exists docker-machine; then
+    if [[ $(docker-machine status default) != *"Running"* ]]; then
+        echo "Starting the default docker machine..."
+        docker-machine start default > /dev/null 2>&1
+    fi
 
-#     eval $(docker-machine env default)
-# fi
+    eval $(docker-machine env default)
+fi
 
 ## Env vars
 export EDITOR="vim"
