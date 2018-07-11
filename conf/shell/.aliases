@@ -27,6 +27,7 @@ alias dictater="/Applications/Dictater.app/Contents/MacOS/Dictater"
 alias lidlog="(pmset -g log|grep -e " Sleep  " -e " Wake  "; log show | grep -e "System Sleep" -e " Wake reason:") | more"
 alias dc="docker"
 alias dcc="docker-compose"
+alias dcm="docker-machine"
 
 # Git
 alias kk="k -a -h"
