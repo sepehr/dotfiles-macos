@@ -85,6 +85,11 @@ git-next() {
     git log --reverse --pretty=%H master | grep -A 1 $(git rev-parse HEAD) | tail -n1 | xargs git checkout
 }
 
+# drop remote merged branches
+git-cleanup() {
+    git branch -r --merged | grep -v 'master' | grep -v 'dev' | sed 's/origin\///' | xargs -n 1 git push --delete origin
+}
+
 # todolist wrapper
 t() {
     if [[ -f "./.todos.json" || "$1" == "init" ]]; then
