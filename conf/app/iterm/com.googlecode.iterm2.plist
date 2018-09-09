@@ -1179,7 +1179,7 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>1141 332 445 77 0 0 1680 1028 </string>
+	<string>1141 198 445 77 0 0 1680 1050 </string>
 	<key>NSWindow Frame Preferences</key>
 	<string>287 435 606 456 0 0 1440 900 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
@@ -1189,7 +1189,7 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>1039 277 606 456 0 0 1680 1028 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>752 392 796 473 0 0 1680 1050 </string>
+	<string>1007 387 796 473 0 0 1680 1050 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>1084 343 592 584 0 0 1680 1028 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
@@ -1549,7 +1549,7 @@
 			<key>HotKey Window Animates</key>
 			<true/>
 			<key>HotKey Window AutoHides</key>
-			<true/>
+			<false/>
 			<key>HotKey Window Dock Click Action</key>
 			<integer>1</integer>
 			<key>HotKey Window Floats</key>
@@ -1899,7 +1899,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-03-08T14:35:19Z</date>
+	<date>2018-07-23T18:08:46Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
