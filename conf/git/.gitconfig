@@ -12,6 +12,8 @@
     pager = sed 's/\t/.       /g' | less -R
 [ui]
     color = true
+[rebase]
+    instructionFormat = %s — Authored: %an, Committed: %cn
 [alias]
     st = status
     ls = ls-files
@@ -31,7 +33,10 @@
     chlg = "!git --no-pager log ${1:-$(git describe --tags --abbrev=0)}..HEAD --format='%h %s'"
     signall = "!git filter-branch --commit-filter 'git commit-tree -S "$@";' -- --all"
     branch-diff="!git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative $1..$2"
-
+    tags="for-each-ref --sort=taggerdate --format='%(color:green)%(subject)%(color:reset), tagged: %(color:yellow)%(refname:short)%(color:reset)\n%(taggerdate)\n%(taggername) %(taggeremail)\n\n%(contents:body)\n' refs/tags"
+    ignore="update-index --assume-unchanged"
+    unignore="update-index --no-assume-unchanged"
+    news="!git log $(git describe --tags --abbrev=0)..HEAD --oneline"
 [http]
     postBuffer = 524288000
 [push]
@@ -55,3 +60,9 @@
     smudge = git-lfs smudge -- %f
     process = git-lfs filter-process
     required = true
+[difftool "sourcetree"]
+    cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$LOCAL\" \"$REMOTE\"
+    path =
+[mergetool "sourcetree"]
+    cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+    trustExitCode = true
