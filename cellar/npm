@@ -4,6 +4,7 @@ cross-env
 generator-serverless-policy
 git-semver-tags
 glbutils
+gulp
 lambda-shearer
 node-sass
 npm
