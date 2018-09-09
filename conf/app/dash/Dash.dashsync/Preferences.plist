@@ -393,7 +393,7 @@
 		</dict>
 	</array>
 	<key>dateFormat</key>
-	<string>Y-MM-dd</string>
+	<string>dd.MM.Y</string>
 	<key>docsets</key>
 	<dict>
 		<key>keywords</key>
@@ -600,7 +600,7 @@
 	<key>snippetEditorFontSize</key>
 	<real>12</real>
 	<key>timeFormat</key>
-	<string>hh-mm-ss</string>
+	<string>hh:mm:ss</string>
 	<key>versionedDHCheatRepo</key>
 	<dict>
 		<key>installed</key>
