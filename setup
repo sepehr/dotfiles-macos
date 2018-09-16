@@ -33,6 +33,9 @@ fi
 if [[ "$@" != *"--no-system-tweaks"* ]]; then
     say 'System tweaks...'
 
+    # Manually increase the font weight on Mojave to fill in the gap for antialiasing
+    defaults write NSGlobalDomain AppleFontSmoothing -int 3
+
     # Disabling macOs to call the mamma home
     if [[ "$@" != *"--no-homecall-fix"* ]]; then
         ./bin/homecall fix
@@ -52,7 +55,7 @@ if [[ "$@" != *"--no-system-tweaks"* ]]; then
     # Disabling boot sound
     sudo nvram SystemAudioVolume=" "
 
-    # Allow installing apps from anywhere
+    # Allow installing apps from anywhere disabling the gatekeeper
     sudo spctl --master-disable
 
     # Disabling the crash reporter
