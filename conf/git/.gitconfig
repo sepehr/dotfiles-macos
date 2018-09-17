@@ -48,19 +48,25 @@
 [color "diff"]
     whitespace = red reverse
 [diff]
-    tool = p4merge
-[difftool.p4merge]
-    cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $LOCAL $REMOTE
+    tool = meld
+[difftool]
+    prompt = false
+[difftool "meld"]
+    cmd = open -W -a Meld --args \"$LOCAL\" \"$REMOTE\"
+[difftool "p4merge"]
+    cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge \"$LOCAL\" \"$REMOTE\"
 [merge]
-    tool = p4merge
+    tool = meld
     conflictstyle = diff3
 [mergetool]
     prompt = false
     keepBackup = false
     trustExitCode = true
     keepTemporaries = false
-[mergetool.p4merge]
-    cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge $PWD/$BASE $PWD/$REMOTE $PWD/$LOCAL $PWD/$MERGED
+[mergetool "meld"]
+    cmd = open -W -a Meld --args --auto-merge \"$LOCAL\" \"$BASE\" \"$REMOTE\" --output=\"$MERGED\"
+[mergetool "p4merge"]
+    cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge \"$PWD/$BASE\" \"$PWD/$REMOTE\" \"$PWD/$LOCAL\" \"$PWD/$MERGED\"
 [filter "lfs"]
     clean = git-lfs clean -- %f
     smudge = git-lfs smudge -- %f
