@@ -47,16 +47,23 @@
     token = !security find-internet-password -a sepehr -s github.com -l 'ghi token' -w
 [color "diff"]
     whitespace = red reverse
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+
 [diff]
-    tool = meld
+    tool = p4merge
 [difftool]
     prompt = false
 [difftool "meld"]
     cmd = open -W -a Meld --args \"$LOCAL\" \"$REMOTE\"
 [difftool "p4merge"]
-    cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge \"$LOCAL\" \"$REMOTE\"
+    cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$LOCAL\" \"$REMOTE\"
+
 [merge]
-    tool = meld
+    tool = p4merge
     conflictstyle = diff3
 [mergetool]
     prompt = false
@@ -66,9 +73,4 @@
 [mergetool "meld"]
     cmd = open -W -a Meld --args --auto-merge \"$LOCAL\" \"$BASE\" \"$REMOTE\" --output=\"$MERGED\"
 [mergetool "p4merge"]
-    cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge \"$PWD/$BASE\" \"$PWD/$REMOTE\" \"$PWD/$LOCAL\" \"$PWD/$MERGED\"
-[filter "lfs"]
-    clean = git-lfs clean -- %f
-    smudge = git-lfs smudge -- %f
-    process = git-lfs filter-process
-    required = true
+    cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$PWD/$BASE\" \"$PWD/$REMOTE\" \"$PWD/$LOCAL\" \"$PWD/$MERGED\"
