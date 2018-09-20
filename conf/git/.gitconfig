@@ -26,13 +26,15 @@
 [difftool "bcomp"]
     cmd = /Applications/Beyond\\ Compare.app/Contents/MacOS/bcomp \"$REMOTE\" \"$LOCAL\"
 [merge]
-    tool = vimdiff
-    conflictstyle = diff3
+    tool = diffconflicts
+    # conflictstyle = diff3
 [mergetool]
     prompt = false
     keepBackup = false
     trustExitCode = true
     keepTemporaries = false
+[mergetool "diffconflicts"]
+    cmd = vim -c DiffConflicts \"$MERGED\" \"$BASE\" \"$LOCAL\" \"$REMOTE\"
 [mergetool "meld"]
     cmd = open -W -a Meld --args --auto-merge \"$LOCAL\" \"$BASE\" \"$REMOTE\" --output=\"$MERGED\"
 [mergetool "p4merge"]
