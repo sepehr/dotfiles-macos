@@ -14,6 +14,29 @@
     color = true
 [rebase]
     instructionFormat = %s — Authored: %an, Committed: %cn
+[diff]
+    tool = vimdiff
+[difftool]
+    prompt = false
+    trustExitCode = true
+[difftool "meld"]
+    cmd = open -W -a Meld --args \"$REMOTE\" \"$LOCAL\"
+[difftool "p4merge"]
+    cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$REMOTE\" \"$LOCAL\"
+[difftool "bcomp"]
+    cmd = /Applications/Beyond\\ Compare.app/Contents/MacOS/bcomp \"$REMOTE\" \"$LOCAL\"
+[merge]
+    tool = vimdiff
+    conflictstyle = diff3
+[mergetool]
+    prompt = false
+    keepBackup = false
+    trustExitCode = true
+    keepTemporaries = false
+[mergetool "meld"]
+    cmd = open -W -a Meld --args --auto-merge \"$LOCAL\" \"$BASE\" \"$REMOTE\" --output=\"$MERGED\"
+[mergetool "p4merge"]
+    cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$PWD/$BASE\" \"$PWD/$REMOTE\" \"$PWD/$LOCAL\" \"$PWD/$MERGED\"
 [alias]
     st = status
     ls = ls-files
@@ -53,24 +76,3 @@
     process = git-lfs filter-process
     required = true
 
-[diff]
-    tool = p4merge
-[difftool]
-    prompt = false
-[difftool "meld"]
-    cmd = open -W -a Meld --args \"$LOCAL\" \"$REMOTE\"
-[difftool "p4merge"]
-    cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$LOCAL\" \"$REMOTE\"
-
-[merge]
-    tool = p4merge
-    conflictstyle = diff3
-[mergetool]
-    prompt = false
-    keepBackup = false
-    trustExitCode = true
-    keepTemporaries = false
-[mergetool "meld"]
-    cmd = open -W -a Meld --args --auto-merge \"$LOCAL\" \"$BASE\" \"$REMOTE\" --output=\"$MERGED\"
-[mergetool "p4merge"]
-    cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$PWD/$BASE\" \"$PWD/$REMOTE\" \"$PWD/$LOCAL\" \"$PWD/$MERGED\"
