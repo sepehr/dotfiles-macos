@@ -10,6 +10,7 @@ from external sources. It will take a shit load of time. You're warned.
 The script will ask your password as it needs to do operations that need root
 privilage...\n\n"
 read -p "Press enter to continue..."
+read -p "You sure?"
 
 ## init
 source .setup/helpers
@@ -559,7 +560,7 @@ if [[ "$@" != *"--no-install"* ]]; then
     brew cask cleanup
 
     # Brew force linkage
-    brew link --force php@7.1
+    brew link --force php@7.2
 
     # Installing global pip packages from file
     pip2 install -U -r cellar/pip2
@@ -589,7 +590,7 @@ if [[ "$@" != *"--no-install"* ]]; then
     brew install judy
     git -C "$(brew --repo homebrew/core)" reset --hard
     pecl install memprof
-    echo "extension=$(find /usr/local/Cellar -name 'memprof.so' -print)" | tee /usr/local/etc/php/7.1/conf.d/ext-memprof.ini
+    echo "extension=$(find /usr/local/Cellar -name 'memprof.so' -print)" | tee /usr/local/etc/php/7.2/conf.d/ext-memprof.ini
 
     ## post-install
     say 'Running post-install scripts...'

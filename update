@@ -17,6 +17,7 @@ say 'Collecting composer global packages...'
 ./bin/composer-global-collect
 
 ## pecl
+# homebrew fucked up all pecl packages; well, back to hell.
 say 'Collecting pecl global packages...'
 pecl list | sed '1,3d' | cut -d' ' -f1 > cellar/pecl
 

@@ -10,7 +10,9 @@
     ~/.dotfiles: ''
 
     ## privates
-    # manual: Alfred should be configured to read/write its prefs from/to "private/conf/app/alfred/"
+    # manual:
+    # 1. Alfred should be configured to read/write its prefs from/to "private/conf/app/alfred/"
+    #    This should be possible by manipulating its configuration plist which I don't feel like looking into it now.
 
     # todos
     ~/.todos.json: ~/.dotfiles/private/conf/.todos.json
@@ -111,6 +113,7 @@
 
     # vim
     ~/.vimrc: ~/.dotfiles/conf/app/vim/.vimrc
+    ~/.vimrc_background: ~/.dotfiles/conf/app/vim/.vimrc_background
     ~/.gvimrc: ~/.dotfiles/conf/app/vim/.gvimrc
     ~/.vim/colors: ~/.dotfiles/conf/app/vim/.vim/colors
     ~/.vim/autoload: ~/.dotfiles/conf/app/vim/.vim/autoload
@@ -136,18 +139,12 @@
     ~/.atom/styles.less: ~/.dotfiles/conf/app/atom/styles.less
     ~/.atom/snippets.cson: ~/.dotfiles/conf/app/atom/snippets.cson
 
-    # chrome's stylish
-    "~/Library/Application Support/Google/Chrome/Profile 2/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb": ~/.dotfiles/conf/app/chrome/stylish/leveldb
-
     # dash
     # manual: it should be configured to store its snippets file in "conf/app/dash/snippets.dash"
     "~/Library/Application Support/Dash/library.dash": ~/.dotfiles/conf/app/dash/library.dash
 
     # littlesnitch
     "~/Library/Application Support/Little Snitch/configuration.user.xpl": ~/.dotfiles/conf/app/littlesnitch/configuration.user.xpl
-
-    # transmission
-    "~/Library/Application\ Support/Transmission/blocklists": ~/.dotfiles/conf/app/transmission/blocklists
 
     # gifhunter: doesn't work with symlinks :|
     #"~/Library/Containers/io.madebyw.GIFHunter/Data/Library/Application Support/io.madebyw.GIFHunter/archive.data": conf/app/gifhunter/archive.data

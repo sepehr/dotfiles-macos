@@ -9,6 +9,7 @@ if [[ "$@" != *"--no-mas"* ]]; then
 fi
 
 ## brew
+# this can cause incompatibility issues, watch out.
 if [[ "$@" != *"--no-brew"* ]]; then
     say 'Upgrading brew formulaes...'
     brew upgrade
@@ -18,7 +19,7 @@ fi
 if [[ "$@" != *"--no-cask"* ]]; then
     say 'Upgrading essential brew casks...'
 
-    brew cask reinstall appcleaner devrantron filezilla firefox google-chrome google-chrome-canary iina iterm2-nightly kap macpass postman skype torbrowser vlc knockknock blockblock ransomwhere kextviewr tunnelblick lionshare
+    brew cask reinstall appcleaner devrantron filezilla firefox google-chrome google-chrome-canary iina iterm2-nightly kap macpass postman skype torbrowser transmission vlc knockknock blockblock ransomwhere kextviewr tunnelblick
 fi
 
 ## virtualbox/vagrant
