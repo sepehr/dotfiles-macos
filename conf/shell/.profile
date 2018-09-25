@@ -101,7 +101,7 @@ PATH_MONGO_DATA="$BREW/var/mongodb"
 PATH_DNSMASQ_CONF="$BREW/etc/dnsmasq.conf"
 PATH_PHPSTORM="$HOME/Library/Preferences/PhpStorm2017.2/"
 PATH_CHROME_PROFILE="$HOME/Library/Application Support/Google/Chrome/Profile 2"
-PATH_STYLISH_DB="$PATH_CHROME_PROFILE/IndexedDB/chrome-extension_fjnbnpbmkenffdnngjfgmeleoegfcffe_0.indexeddb.leveldb"
+PATH_IBOOKS="$HOME/Library/Mobile Documents/iCloud~com~apple~iBooks/Documents"
 
 ## Aliases
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
