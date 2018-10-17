@@ -297,23 +297,62 @@ a2mkw() {
 
 # php switcher
 phpsw() {
-    PHP_VERSIONS=('56' '70' '71')
+    php_versions=('5.6' '7.0' '7.1')
 
-    print "Switching to php$1, it may take a few moments..."
-
-    if exists valet; then
-        valet stop
+    if [[ -z "$1" ]]; then
+        echo 'Usage: phpsw {version}'
+        echo "Supported versions: $php_versions"
+        return 1
     fi
 
-    for version in "${PHP_VERSIONS[@]}"; do
-        sudo brew services stop "php$version" > /dev/null 2>&1
-        brew unlink "php$version" > /dev/null 2>&1
-    done
+    if [[ ! " ${php_versions[*]} " == *"$1"* ]]; then
+        print "Given php version is not supported. Supported versions: $php_versions"
+        return 1
+    fi
 
-    brew link "php$1" > /dev/null 2>&1
+    print "Switching to php@$1, it may take a few moments..."
 
-    if exists valet; then
-        valet start
+    # if exists valet; then
+    #     valet stop
+    # fi
+
+    # for version in "${php_versions[@]}"; do
+    #     sudo brew services stop "php@$version" > /dev/null 2>&1
+    #     brew unlink "php@$version" > /dev/null 2>&1
+    # done
+
+    # brew link "php@$1" --force > /dev/null 2>&1
+
+    # if exists valet; then
+    #     valet start
+    # fi
+
+    if exists apachectl; then
+        apache_config='/usr/local/etc/httpd/httpd.conf'
+
+        # comment out all php module
+        for version in "${php_versions[@]}"; do
+            major=$(echo $version | cut -d. -f1)
+            directive="LoadModule php${major}_module /usr/local/opt/php@$version/lib/httpd/modules/libphp$major.so"
+
+            if grep -q "$directive" "$apache_config"; then
+                if grep -q "#$directive" "$apache_config"; then
+                    # add as commented to the beginning of the file
+                    sed -i.bak "1 i\
+#$directive" $apache_config
+                else
+                    # comment out
+                    sed -i.bak "s/$directive/\#$directive/g" $apache_config
+                fi
+            fi
+        done
+
+        # uncomment the one
+        major=$(echo $1 | cut -d. -f1)
+        directive="LoadModule php${major}_module /usr/local/opt/php@$1/lib/httpd/modules/libphp$major.so"
+        sed -i.bak "s/\#$directive/$directive/g" $apache_config
+
+        sudo apachectl restart
     fi
 
     php -v
