@@ -84,10 +84,19 @@
     /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf: ~/.dotfiles/conf/service/httpd24/httpd-vhosts.conf
 
     # php
-    /usr/local/etc/php/7.1/conf.d: ~/.dotfiles/conf/service/php/conf.d
-    /usr/local/etc/php/7.1/php-fpm.d: ~/.dotfiles/conf/service/php/php-fpm.d
-    /usr/local/etc/php/7.1/php.ini: ~/.dotfiles/conf/service/php/php.ini
-    /usr/local/etc/php/7.1/php-fpm.conf: ~/.dotfiles/conf/service/php/php-fpm.conf
+    /usr/local/etc/php/5.6/conf.d: ~/.dotfiles/conf/service/php/5.6/conf.d
+    /usr/local/etc/php/5.6/php.ini: ~/.dotfiles/conf/service/php/5.6/php.ini
+    /usr/local/etc/php/5.6/php-fpm.conf: ~/.dotfiles/conf/service/php/5.6/php-fpm.conf
+
+    /usr/local/etc/php/7.1/conf.d: ~/.dotfiles/conf/service/php/7.1/conf.d
+    /usr/local/etc/php/7.1/php.ini: ~/.dotfiles/conf/service/php/7.1/php.ini
+    /usr/local/etc/php/7.1/php-fpm.d: ~/.dotfiles/conf/service/php/7.1/php-fpm.d
+    /usr/local/etc/php/7.1/php-fpm.conf: ~/.dotfiles/conf/service/php/7.1/php-fpm.conf
+
+    /usr/local/etc/php/7.2/conf.d: ~/.dotfiles/conf/service/php/7.2/conf.d
+    /usr/local/etc/php/7.2/php.ini: ~/.dotfiles/conf/service/php/7.2/php.ini
+    /usr/local/etc/php/7.2/php-fpm.d: ~/.dotfiles/conf/service/php/7.2/php-fpm.d
+    /usr/local/etc/php/7.2/php-fpm.conf: ~/.dotfiles/conf/service/php/7.2/php-fpm.conf
 
     # valet
     ~/.valet: ~/.dotfiles/conf/service/valet
@@ -131,13 +140,6 @@
     "~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap": "~/.dotfiles/conf/app/sublime/Default (OSX).sublime-keymap"
     "~/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings": "~/.dotfiles/conf/app/sublime/Package Control.sublime-settings"
     "~/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-mousemap": "~/.dotfiles/conf/app/sublime/Default (OSX).sublime-mousemap"
-
-    # atom
-    ~/.atom/config.cson: ~/.dotfiles/conf/app/atom/config.cson
-    ~/.atom/keymap.cson: ~/.dotfiles/conf/app/atom/keymap.cson
-    ~/.atom/init.coffee: ~/.dotfiles/conf/app/atom/init.coffee
-    ~/.atom/styles.less: ~/.dotfiles/conf/app/atom/styles.less
-    ~/.atom/snippets.cson: ~/.dotfiles/conf/app/atom/snippets.cson
 
     # dash
     # manual: it should be configured to store its snippets file in "conf/app/dash/snippets.dash"

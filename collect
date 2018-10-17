@@ -84,9 +84,16 @@ cp -vf /usr/local/etc/apache2/2.4/httpd.conf conf/service/httpd24/
 cp -vf /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf conf/service/httpd24/
 
 # php
-cp -rf /usr/local/etc/php/7.2/conf.d conf/service/php
-cp -rf /usr/local/etc/php/7.2/php-fpm.d conf/service/php
-cp -vf /usr/local/etc/php/7.2/{php.ini,php-fpm.conf} conf/service/php
+cp -rf /usr/local/etc/php/5.6/conf.d conf/service/php/5.6
+cp -vf /usr/local/etc/php/5.6/{php.ini,php-fpm.conf} conf/service/php/5.6
+
+cp -rf /usr/local/etc/php/7.1/conf.d conf/service/php/7.1
+cp -rf /usr/local/etc/php/7.1/php-fpm.d conf/service/php/7.1
+cp -vf /usr/local/etc/php/7.1/{php.ini,php-fpm.conf} conf/service/php/7.1
+
+cp -rf /usr/local/etc/php/7.2/conf.d conf/service/php/7.2
+cp -rf /usr/local/etc/php/7.2/php-fpm.d conf/service/php/7.2
+cp -vf /usr/local/etc/php/7.2/{php.ini,php-fpm.conf} conf/service/php/7.2
 
 # valet
 cp -rf ~/.valet conf/service
@@ -118,9 +125,6 @@ cp -vf ~/.{vimrc,.vimrc_background,gvimrc} conf/app/vim/
 
 # sublime
 cp -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/{Schemes,Snippets,Preferences.sublime-settings,Default\ \(OSX\).sublime-keymap,Package\ Control.sublime-settings,Default\ \(OSX\).sublime-mousemap} conf/app/sublime
-
-# atom
-cp -vf ~/.atom/{config.cson,keymap.cson,snippets.cson,init.coffee,styles.less} conf/app/atom
 
 # dash
 cp -vf ~/Library/Application\ Support/Dash/library.dash conf/app/dash
