@@ -317,11 +317,11 @@ phpsw() {
     fi
 
     for version in "${php_versions[@]}"; do
-        sudo brew services stop "php@$version" > /dev/null 2>&1
-        brew unlink "php@$version" > /dev/null 2>&1
+        sudo brew services stop "php@$version"
+        brew unlink "php@$version"
     done
 
-    brew link "php@$1" --force > /dev/null 2>&1
+    brew link "php@$1" --force
 
     if exists valet; then
         valet start
@@ -354,7 +354,7 @@ phpsw() {
         directive_escaped=$(echo $directive | sed 's/\//\\\//g')
         sed -i.bak "s/\#$directive_escaped/$directive_escaped/g" $apache_config
 
-        sudo apachectl restart > /dev/null 2>&1
+        sudo apachectl restart
     fi
 
     php -v
