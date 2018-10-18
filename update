@@ -29,10 +29,6 @@ gem list --no-versions | sed '/^*/ d' > cellar/gem
 say 'Collecting npm global packages...'
 npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > cellar/npm
 
-## apm
-say 'Collecting apm packages...'
-apm list --installed --bare > cellar/apm
-
 ## vagrant
 say 'Collecting vagrant plugins...'
 vagrant plugin list | sed '/^ /d' | sed 's/(.*)//g' > cellar/vagrant

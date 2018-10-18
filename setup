@@ -578,9 +578,6 @@ if [[ "$@" != *"--no-install"* ]]; then
     # Installing global composer packages
     composer global install
 
-    # Installing apm packages
-    apm install --packages-file cellar/apm
-
     # Installing vagrant plugins
     xargs vagrant install < cellar/vagrant
 

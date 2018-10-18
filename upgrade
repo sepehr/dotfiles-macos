@@ -50,12 +50,6 @@ if [[ "$@" != *"--no-npm"* ]]; then
     npm -g upgrade
 fi
 
-## apm
-if [[ "$@" != *"--no-apm"* ]]; then
-    say 'Upgrading apm packages...'
-    apm upgrade --no-confirm
-fi
-
 ## gem
 if [[ "$@" != *"--no-gem"* ]]; then
     say 'Upgrading global gems...'
