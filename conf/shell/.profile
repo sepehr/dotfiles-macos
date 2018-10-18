@@ -84,8 +84,9 @@ export BREW_REPO=`brew --repository`
 export BREW_CASKROOM="$BREW_REPO/Library/Taps/caskroom"
 export BREW_FORMULA="$BREW_REPO/Library/Taps/homebrew/homebrew-core/Formula"
 # Misc
-export COMPOSER_ALLOW_XDEBUG=1
+# export COMPOSER_ALLOW_XDEBUG=1
 export COMPOSER_PROCESS_TIMEOUT=900
+export COMPOSER_DISABLE_XDEBUG_WARN=1
 export XDEBUG_CONFIG="cli_color=1 remote_enable=1 remote_port=9001 remote_host=127.0.0.1 remote_connect_back=0 idekey=PHPSTORM"
 
 ## Paths
