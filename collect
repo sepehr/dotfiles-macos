@@ -96,8 +96,7 @@ cp -rf /usr/local/etc/php/7.2/php-fpm.d conf/service/php/7.2
 cp -vf /usr/local/etc/php/7.2/{php.ini,php-fpm.conf} conf/service/php/7.2
 
 # valet
-cp -rf ~/.valet conf/service
-mv conf/service/{.valet,valet}
+cp -rf ~/.config/valet conf/service
 
 # homestead
 cp -vf ~/.homestead/{Homestead.yaml,Vagrantfile,after.sh} conf/service/homestead
