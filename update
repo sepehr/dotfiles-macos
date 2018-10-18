@@ -48,5 +48,5 @@ cp -f $HOME/Library/Application\ Support/Apptivate/hotkeys conf/app/apptivate
 # rsync -au --delete $HOME/Library/Preferences/ private/conf/macos/Preferences/
 
 say 'Cleaning up...'
-rm -f default.profraw cellar/composer/vendor-bin/optimusdivi-cli/.env
+rm -f default.profraw
 yarn cache clean > /dev/null 2>&1
