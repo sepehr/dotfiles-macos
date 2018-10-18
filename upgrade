@@ -41,6 +41,7 @@ fi
 if [[ "$@" != *"--no-composer"* ]]; then
     say 'Upgrading global composer packages...'
     composer global update
+    composer global bin all update
 fi
 
 ## npm
