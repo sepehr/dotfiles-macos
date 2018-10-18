@@ -80,8 +80,8 @@
     /usr/local/etc/supervisord.conf: ~/.dotfiles/conf/service/supervisor/supervisord.ini
 
     # apache httpd
-    /usr/local/etc/apache2/2.4/httpd.conf: ~/.dotfiles/conf/service/httpd24/httpd.conf
-    /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf: ~/.dotfiles/conf/service/httpd24/httpd-vhosts.conf
+    /usr/local/etc/httpd/httpd.conf: ~/.dotfiles/conf/service/httpd/httpd.conf
+    /usr/local/etc/httpd/extra/httpd-vhosts.conf: ~/.dotfiles/conf/service/httpd/httpd-vhosts.conf
 
     # php
     /usr/local/etc/php/5.6/conf.d: ~/.dotfiles/conf/service/php/5.6/conf.d

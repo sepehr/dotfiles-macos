@@ -80,8 +80,8 @@ cp -vf /usr/local/etc/supervisord.ini conf/service/supervisor
 cp -vrf /usr/local/etc/supervisor.d conf/service/supervisor/supervisor.d
 
 # apache httpd
-cp -vf /usr/local/etc/apache2/2.4/httpd.conf conf/service/httpd24/
-cp -vf /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf conf/service/httpd24/
+cp -vf /usr/local/etc/httpd/httpd.conf conf/service/httpd/
+cp -vf /usr/local/etc/httpd/extra/httpd-vhosts.conf conf/service/httpd/
 
 # php
 cp -rf /usr/local/etc/php/5.6/conf.d conf/service/php/5.6
