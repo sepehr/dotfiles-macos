@@ -1,12 +1,12 @@
 server {
     listen 80;
-    server_name admin.ubecoin.test.test www.admin.ubecoin.test.test *.admin.ubecoin.test.test;
+    server_name dailybroccoli.test www.dailybroccoli.test *.dailybroccoli.test;
     return 301 https://$host$request_uri;
 }
 
 server {
     listen 443 ssl http2;
-    server_name admin.ubecoin.test.test www.admin.ubecoin.test.test *.admin.ubecoin.test.test;
+    server_name dailybroccoli.test www.dailybroccoli.test *.dailybroccoli.test;
     root /;
     charset utf-8;
     client_max_body_size 128M;
@@ -17,8 +17,8 @@ server {
         try_files $uri $uri/;
     }
 
-    ssl_certificate /Users/Sepehr/.config/valet/Certificates/admin.ubecoin.test.test.crt;
-    ssl_certificate_key /Users/Sepehr/.config/valet/Certificates/admin.ubecoin.test.test.key;
+    ssl_certificate /Users/Sepehr/.config/valet/Certificates/dailybroccoli.test.crt;
+    ssl_certificate_key /Users/Sepehr/.config/valet/Certificates/dailybroccoli.test.key;
 
     location / {
         rewrite ^ /Users/Sepehr/.composer/vendor-bin/valet/vendor/laravel/valet/server.php last;
@@ -44,7 +44,7 @@ server {
 
 server {
     listen 88;
-    server_name admin.ubecoin.test.test www.admin.ubecoin.test.test *.admin.ubecoin.test.test;
+    server_name dailybroccoli.test www.dailybroccoli.test *.dailybroccoli.test;
     root /;
     charset utf-8;
     client_max_body_size 128M;

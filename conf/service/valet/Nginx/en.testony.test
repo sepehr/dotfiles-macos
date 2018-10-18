@@ -17,21 +17,21 @@ server {
         try_files $uri $uri/;
     }
 
-    ssl_certificate /Users/Sepehr/.valet/Certificates/en.testony.test.crt;
-    ssl_certificate_key /Users/Sepehr/.valet/Certificates/en.testony.test.key;
+    ssl_certificate /Users/Sepehr/.config/valet/Certificates/en.testony.test.crt;
+    ssl_certificate_key /Users/Sepehr/.config/valet/Certificates/en.testony.test.key;
 
     location / {
         rewrite ^ /Users/Sepehr/.composer/vendor-bin/valet/vendor/laravel/valet/server.php last;
     }
 
     access_log off;
-    error_log /Users/Sepehr/.valet/Log/nginx-error.log;
+    error_log /Users/Sepehr/.config/valet/Log/nginx-error.log;
 
     error_page 404 /Users/Sepehr/.composer/vendor-bin/valet/vendor/laravel/valet/server.php;
 
     location ~ \.php$ {
         fastcgi_split_path_info ^(.+\.php)(/.+)$;
-        fastcgi_pass unix:/Users/Sepehr/.valet/valet.sock;
+        fastcgi_pass unix:/Users/Sepehr/.config/valet/valet.sock;
         fastcgi_index /Users/Sepehr/.composer/vendor-bin/valet/vendor/laravel/valet/server.php;
         include fastcgi_params;
         fastcgi_param SCRIPT_FILENAME /Users/Sepehr/.composer/vendor-bin/valet/vendor/laravel/valet/server.php;
@@ -41,3 +41,39 @@ server {
         deny all;
     }
 }
+
+server {
+    listen 88;
+    server_name en.testony.test www.en.testony.test *.en.testony.test;
+    root /;
+    charset utf-8;
+    client_max_body_size 128M;
+
+    location /41c270e4-5535-4daa-b23e-c269744c2f45/ {
+        internal;
+        alias /;
+        try_files $uri $uri/;
+    }
+
+    location / {
+        rewrite ^ /Users/Sepehr/.composer/vendor-bin/valet/vendor/laravel/valet/server.php last;
+    }
+
+    access_log off;
+    error_log /Users/Sepehr/.config/valet/Log/nginx-error.log;
+
+    error_page 404 /Users/Sepehr/.composer/vendor-bin/valet/vendor/laravel/valet/server.php;
+
+    location ~ \.php$ {
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        fastcgi_pass unix:/Users/Sepehr/.config/valet/valet.sock;
+        fastcgi_index /Users/Sepehr/.composer/vendor-bin/valet/vendor/laravel/valet/server.php;
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME /Users/Sepehr/.composer/vendor-bin/valet/vendor/laravel/valet/server.php;
+    }
+
+    location ~ /\.ht {
+        deny all;
+    }
+}
+
