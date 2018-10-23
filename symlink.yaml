@@ -99,7 +99,7 @@
     /usr/local/etc/php/7.2/php-fpm.conf: ~/.dotfiles/conf/service/php/7.2/php-fpm.conf
 
     # valet
-    ~/.config/valet: ~/.dotfiles/conf/service/valet
+    ~/.config/valet/config.json: ~/.dotfiles/conf/service/valet/config.json
 
     # homestead
     ~/.homestead/after.sh: ~/.dotfiles/conf/service/homestead/after.sh
