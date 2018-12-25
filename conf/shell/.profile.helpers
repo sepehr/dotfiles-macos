@@ -384,3 +384,6 @@ nodock() {
     defaults write "$1Contents/Info" LSUIElement 1
 }
 
+lidlog() {
+    (pmset -g log|grep -e " Sleep  " -e " Wake  "; log show | grep -e "System Sleep" -e " Wake reason:") | more
+}
