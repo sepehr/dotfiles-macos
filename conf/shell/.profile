@@ -3,7 +3,6 @@ export BREW=`brew --prefix`
 export BASE16_SHELL="$HOME/.vim/colors/base16-shell/"
 
 ## Sources
-[ -f "$HOME/.profile.path" ] && source "$HOME/.profile.path"
 [ -f "$HOME/.profile.helpers" ] && source "$HOME/.profile.helpers"
 [ -f "$HOME/.profile.local" ] && source "$HOME/.profile.local"
 
@@ -104,5 +103,6 @@ PATH_PHPSTORM="$HOME/Library/Preferences/PhpStorm2017.2/"
 PATH_CHROME_PROFILE="$HOME/Library/Application Support/Google/Chrome/Profile 2"
 PATH_IBOOKS="$HOME/Library/Mobile Documents/iCloud~com~apple~iBooks/Documents"
 
-## Aliases
+## Late sources
+[ -f "$HOME/.profile.path" ] && source "$HOME/.profile.path"
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
