@@ -55,7 +55,7 @@
     conflicts = diff --name-only --diff-filter=U
     authors = "!git log --format='%aN <%aE>' | sort -u"
     history = log --follow --reverse --patch
-    chlg = "!git --no-pager log ${1:-$(git describe --tags --abbrev=0)}..HEAD --format='%h %s'"
+    changelog = "!git --no-pager log ${1:-$(git describe --tags --abbrev=0)}..HEAD --format='- %s'"
     since = "!git log ${1:-$(git describe --tags --abbrev=0)}..HEAD --oneline"
     signall = "!git filter-branch --commit-filter 'git commit-tree -S "$@";' -- --all"
     branch-diff = "!git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative $1..$2"
