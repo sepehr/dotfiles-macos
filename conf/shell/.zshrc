@@ -59,7 +59,6 @@ zplug "rupa/z", use:"z.sh"
 zplug "chrissicool/zsh-256color"
 zplug "unixorn/tumult.plugin.zsh"
 zplug "horosgrisa/mysql-colorize"
-zplug "unixorn/git-extra-commands"
 zplug "vasyharan/zsh-brew-services"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "shengyou/codeception-zsh-plugin"
@@ -91,3 +90,12 @@ confirm() {
             ;;
     esac
 }
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/Sepehr/Dev/www/projects/nametests-ig-bot/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/Sepehr/Dev/www/projects/nametests-ig-bot/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/Sepehr/Dev/www/projects/nametests-ig-bot/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/Sepehr/Dev/www/projects/nametests-ig-bot/node_modules/tabtab/.completions/sls.zsh
