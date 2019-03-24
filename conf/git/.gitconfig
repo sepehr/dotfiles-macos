@@ -39,6 +39,8 @@
     cmd = open -W -a Meld --args --auto-merge \"$LOCAL\" \"$BASE\" \"$REMOTE\" --output=\"$MERGED\"
 [mergetool "p4merge"]
     cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$PWD/$BASE\" \"$PWD/$REMOTE\" \"$PWD/$LOCAL\" \"$PWD/$MERGED\"
+[mergetool "smerge"]
+    cmd = smerge mergetool "$BASE" "$LOCAL" "$REMOTE" -o "$MERGED"
 [alias]
     st = status
     ls = ls-files
@@ -47,6 +49,7 @@
     undelete = "!git checkout $(git rev-list -n 1 HEAD -- $1)~1 -- $1"
     stage-rm = rm --cached
     forget = "!git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch $1' --prune-empty --tag-name-filter cat -- --all; git rm -r $1"
+    wipe = "!git filter-branch --tree-filter \"rm -f $1\" HEAD"
     hide = update-index --assume-unchanged
     unhide = update-index --no-assume-unchanged
     prev = checkout HEAD~
@@ -55,7 +58,7 @@
     conflicts = diff --name-only --diff-filter=U
     authors = "!git log --format='%aN <%aE>' | sort -u"
     history = log --follow --reverse --patch
-    changelog = "!git --no-pager log ${1:-$(git describe --tags --abbrev=0)}..HEAD --format='- %s'"
+    changelog = "!echo 'Changelog'; git --no-pager log ${1:-$(git describe --tags --abbrev=0)}..HEAD --format='- %s'"
     since = "!git log ${1:-$(git describe --tags --abbrev=0)}..HEAD --oneline"
     signall = "!git filter-branch --commit-filter 'git commit-tree -S "$@";' -- --all"
     branch-diff = "!git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative $1..$2"
@@ -77,4 +80,5 @@
     smudge = git-lfs smudge -- %f
     process = git-lfs filter-process
     required = true
-
+[url "git@github.com:"]
+    insteadOf = https://github.com/
