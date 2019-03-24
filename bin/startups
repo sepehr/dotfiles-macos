@@ -1,0 +1,59 @@
+#!/usr/bin/env sh
+
+# sudo launchctl unload -w path/to/file.plist
+# http://osxdaily.com/2010/02/17/track-down-all-startup-login-script-and-application-launches-in-mac-os-x/
+
+say() {
+    local fmt="$1"; shift
+    printf "\033[0;35m → $fmt \033[0m\n" "$@"
+}
+
+say "Startup Launch Items & Daemons"
+echo "===================================="
+echo ""
+
+say "/Library/StartupItems"
+ls -1 -d /Library/StartupItems/*
+echo ""
+
+say "/Library/LaunchDaemons"
+ls -1 -d /Library/LaunchDaemons/* | grep -v "com.apple"
+echo ""
+
+say "/Library/LaunchDaemons"
+ls -1 -d /Library/LaunchDaemons/*
+echo ""
+
+say "/System/Library/LaunchDaemons"
+ls -1 -d /System/Library/LaunchDaemons/* | grep -v "com.apple"
+echo ""
+
+say "User Login Launch Agents"
+echo "===================================="
+echo ""
+
+say "$HOME/Library/LaunchAgents"
+ls -1 -d "$HOME/Library/LaunchAgents"/*
+echo ""
+
+say "/Library/LaunchAgents/"
+ls -1 -d /Library/LaunchAgents/*
+echo ""
+
+say "/System/Library/LaunchAgents/"
+ls -1 -d /System/Library/LaunchAgents/* | grep -v "com.apple"
+echo ""
+
+# More
+say "Additional checks you might want to do"
+echo 'Check crontab:'
+echo '$ crontab -e'
+echo ''
+
+echo 'Check kext stats:'
+echo '$ kextstat'
+echo ''
+
+echo 'Check out kexts: '
+echo '$ ls -1 -d /Library/Extensions/* | grep -v apple && ls -1 -d /System/Library/Extensions/* | grep -v apple'
+echo ''
