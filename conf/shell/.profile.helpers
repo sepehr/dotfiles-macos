@@ -387,3 +387,12 @@ nodock() {
 lidlog() {
     (pmset -g log|grep -e " Sleep  " -e " Wake  "; log show | grep -e "System Sleep" -e " Wake reason:") | more
 }
+
+dadjoke() {
+    curl -H "Accept: text/plain" https://icanhazdadjoke.com/
+    echo ""
+}
+
+ntigbot_pid() {
+    aws dynamodb scan --region=eu-central-1 --profile=ntigbot-deployer --table-name=ntigbot-prod-players --filter-expression="player_id = :pid" --expression-attribute-values="{\":pid\":{\"N\":\"$1\"}}"
+}
