@@ -1137,7 +1137,9 @@
 	<key>NSFontPanelAttributes</key>
 	<string>1, 7</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Downloads</string>
+	<string>~/Documents</string>
+	<key>NSNavLastUserSetHideExtensionButtonState</key>
+	<false/>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -1189,7 +1191,7 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>1039 277 606 456 0 0 1680 1028 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1185 588 814 486 0 0 2304 1296 </string>
+	<string>842 399 814 486 0 0 1680 1050 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>1084 343 592 584 0 0 1680 1028 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
@@ -1790,10 +1792,12 @@
 	<integer>0</integer>
 	<key>NoSyncHaveShownPromoWithId_4</key>
 	<true/>
+	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
+	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>BD99A0F1-A754-476E-82A4-AFE86D2D3E4B</string>
 	<key>NoSyncLastTipTime</key>
-	<real>480126499.65148598</real>
+	<real>558780777.81343496</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1883,6 +1887,8 @@
 			<string>localhostName</string>
 		</array>
 	</dict>
+	<key>NoSyncSaveDocumentAsPathSet_saveDocumentAs:</key>
+	<true/>
 	<key>NoSyncSuppressAnnyoingBellOffer</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -1907,9 +1913,10 @@
 		<string>0008</string>
 		<string>0009</string>
 		<string>0010</string>
+		<string>0010</string>
 	</array>
 	<key>NoSyncVeryOldNightlyBuildWarning_SilenceUntil</key>
-	<real>560784580.91849101</real>
+	<real>569331550.90406096</real>
 	<key>NoSyncVeryOldNightlyBuildWarning_selection</key>
 	<integer>0</integer>
 	<key>OnlyWhenMoreTabs</key>
@@ -1986,7 +1993,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-09-13T12:26:41Z</date>
+	<date>2019-01-17T16:12:04Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
