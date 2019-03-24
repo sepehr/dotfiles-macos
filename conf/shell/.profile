@@ -1,6 +1,6 @@
 ## Early env vars
 export BREW=`brew --prefix`
-export BASE16_SHELL="$HOME/.vim/colors/base16-shell/"
+export BASE16_SHELL="$HOME/.vim/colors/base16-shell"
 
 ## Sources
 [ -f "$HOME/.profile.helpers" ] && source "$HOME/.profile.helpers"
@@ -80,7 +80,7 @@ export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_NO_INSECURE_REDIRECT=1
 export BREW_CELLAR="$BREW/Cellar"
 export BREW_REPO=`brew --repository`
-export BREW_CASKROOM="$BREW_REPO/Library/Taps/caskroom"
+export BREW_CASKROOM="$BREW_REPO/Library/Taps/homebrew/homebrew-cask/Casks/"
 export BREW_FORMULA="$BREW_REPO/Library/Taps/homebrew/homebrew-core/Formula"
 # Misc
 # export COMPOSER_ALLOW_XDEBUG=1
