@@ -37,10 +37,10 @@ if [[ "$@" != *"--no-system-tweaks"* ]]; then
     # Manually increase the font weight on Mojave to fill in the gap for antialiasing
     defaults write NSGlobalDomain AppleFontSmoothing -int 3
 
-    # Disabling macOs to call the mamma home
-    if [[ "$@" != *"--no-homecall-fix"* ]]; then
-        ./bin/homecall fix
-    fi
+    # Disabling macOs to call the mamma home; requires disabled SIP.
+    # if [[ "$@" != *"--no-homecall-fix"* ]]; then
+    #     ./bin/homecall fix
+    # fi
 
     # Disabling file quarantine
     # Disable “Are you sure you want to open this application?”
@@ -83,10 +83,10 @@ if [[ "$@" != *"--no-system-tweaks"* ]]; then
     defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 
     # Set the timezone; see `sudo systemsetup -listtimezones` for other values
-    sudo systemsetup -settimezone "Asia/Tehran" > /dev/null
+    sudo systemsetup -settimezone "Europe/Berlin" > /dev/null
 
-    # Setting google dns servers for Wi-Fi interface
-    sudo networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4
+    # Setting cloudflare dns servers for Wi-Fi interface
+    sudo networksetup -setdnsservers Wi-Fi 1.1.1.1 1.0.0.1
 
     ## ssd
     say 'SSD-specific optimizations...'
