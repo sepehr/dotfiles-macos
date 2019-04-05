@@ -102,6 +102,7 @@ PATH_DNSMASQ_CONF="$BREW/etc/dnsmasq.conf"
 PATH_PHPSTORM="$HOME/Library/Preferences/PhpStorm2017.2/"
 PATH_CHROME_PROFILE="$HOME/Library/Application Support/Google/Chrome/Profile 2"
 PATH_IBOOKS="$HOME/Library/Mobile Documents/iCloud~com~apple~iBooks/Documents"
+PATH_ICLOUD="$HOME/Library/Mobile Documents/com~apple~CloudDocs"
 
 ## Late sources
 [ -f "$HOME/.profile.path" ] && source "$HOME/.profile.path"
