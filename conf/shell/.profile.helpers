@@ -396,3 +396,22 @@ dadjoke() {
 ntigbot_pid() {
     aws dynamodb scan --region=eu-central-1 --profile=ntigbot-deployer --table-name=ntigbot-prod-players --filter-expression="player_id = :pid" --expression-attribute-values="{\":pid\":{\"N\":\"$1\"}}"
 }
+
+prox() {
+    port=${1:-1087}
+
+    if [[ "$port" == "off" ]]; then
+        unset http_proxy
+        unset https_proxy
+        prox st
+    elif [[ "$port" == "st" ]]; then
+        echo "HTTP: ${http_proxy:-N/A}"
+        echo "HTTPS: ${https_proxy:-N/A}"
+        ipinfo
+    else
+        export http_proxy="http://127.0.0.1:$port"
+        export https_proxy="http://127.0.0.1:$port"
+        prox st
+    fi
+}
+

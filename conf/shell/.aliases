@@ -29,6 +29,7 @@ alias bcomp="/Applications/Beyond\\ Compare.app/Contents/MacOS/bcomp"
 alias dc="docker"
 alias dcc="docker-compose"
 alias dcm="docker-machine"
+alias amp="amplify"
 
 # Git
 alias g=git
@@ -75,9 +76,6 @@ alias mylocalip="ipconfig getifaddr en0"
 alias macaddr="networksetup -getmacaddress"
 alias openports="sudo lsof -Pni | grep -i listen"
 alias ipinfo="curl -s https://ipapi.co/json && echo"
-alias proxyon="export http_proxy=http://127.0.0.1:1087; export https_proxy=http://127.0.0.1:1087;"
-alias proxyoff="unset http_proxy; unset https_proxy;"
-alias proxystatus='echo "HTTP:  $http_proxy\nHTTPS: $https_proxy"; ipinfo;'
 
 # Laravel
 alias a="php ./artisan"
