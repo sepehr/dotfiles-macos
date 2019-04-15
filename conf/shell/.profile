@@ -8,7 +8,7 @@ export BASE16_SHELL="$HOME/.vim/colors/base16-shell"
 
 [ -f "$HOME/.fzf.zsh" ] && source "$HOME/.fzf.zsh"
 [ -f "$HOME/.travis/travis.sh" ] && source "$HOME/.travis/travis.sh"
-[ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
+# [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
 ## Init
 # Add SSH keys to the keychain
