@@ -1,8 +1,10 @@
 ""Plugins
 call plug#begin('~/.vim/bundle')
     Plug 'tpope/vim-sensible'
-	Plug 'scrooloose/nerdtree'
-	Plug 'whiteinge/diffconflicts'
+    Plug 'scrooloose/nerdtree'
+    Plug 'itchyny/lightline.vim'
+    Plug 'whiteinge/diffconflicts'
+    Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
 ""Appearance
