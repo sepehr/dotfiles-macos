@@ -12,10 +12,10 @@ syntax enable
 
 "Base16 scheme
 "See: chriskempson/base16-vim
-if filereadable(expand('~/.vimrc_background'))
-    let base16colorspace=256
-    source ~/.vimrc_background
-endif
+"if filereadable(expand('~/.vimrc_background'))
+"    let base16colorspace=256
+"    source ~/.vimrc_background
+"endif
 
 highlight clear LineNr
 highlight clear SignColumn
