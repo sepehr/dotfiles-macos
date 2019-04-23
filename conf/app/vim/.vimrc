@@ -59,6 +59,7 @@ set splitbelow
 set splitright
 
 ""Misc
+set encoding=utf-8
 set clipboard=unnamed
 set whichwrap+=<,>,h,l,[,]
 
