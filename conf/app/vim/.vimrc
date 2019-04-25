@@ -1,5 +1,6 @@
 ""Plugins
 call plug#begin('~/.vim/bundle')
+    Plug 'posva/vim-vue'
     Plug 'tpope/vim-sensible'
     Plug 'scrooloose/nerdtree'
     Plug 'itchyny/lightline.vim'
