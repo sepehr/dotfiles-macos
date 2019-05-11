@@ -533,6 +533,9 @@ if [[ "$@" != *"--no-apps-tweaks"* ]]; then
     # Prevent Photos.app from opening automatically when devices are plugged in
     defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
+    # No inline attachments in Apple Mail
+    defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
+
     # Kill the affected apps
     for app in "Activity Monitor" "cfprefsd" "Dock" "Finder" "Photos" "Safari" "SystemUIServer" "Terminal"; do
         pkill "${app}" &> /dev/null
