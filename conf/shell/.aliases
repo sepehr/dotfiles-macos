@@ -3,7 +3,7 @@ alias dev="cd $HOME/Dev"
 alias dl="cd $HOME/Downloads"
 alias desk="cd $HOME/Desktop"
 alias mvs="cd $HOME/Movies"
-alias dotf="cd $HOME/.dotfiles; gcm 'Stylus update.' conf/app/chrome/stylus.json > /dev/null 2>&1; gcm 'Dash snippets.' conf/app/dash/snippets.dash > /dev/null 2>&1; gcm 'LS rules.' conf/app/littlesnitch/configuration.user.xpl > /dev/null 2>&1; return 0"
+alias dotf="cd $HOME/.dotfiles; gcm 'Stylus update.' conf/app/brave/stylus.json > /dev/null 2>&1; gcm 'Dash snippets.' conf/app/dash/snippets.dash > /dev/null 2>&1; gcm 'LS rules.' conf/app/littlesnitch/configuration.user.xpl > /dev/null 2>&1; return 0"
 
 # Executables
 alias b=brew
