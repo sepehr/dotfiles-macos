@@ -1,3 +1,5 @@
+[checkout]
+    defaultRemote = origin
 [user]
     name = Sepehr Lajevardi
     email = l@jevar.de
@@ -13,6 +15,7 @@
 [ui]
     color = true
 [rebase]
+    autoSquash = true
     instructionFormat = %s — Authored: %an, Committed: %cn
 [diff]
     tool = p4merge
@@ -65,6 +68,7 @@
     tags = "for-each-ref --sort=taggerdate --format='%(color:green)%(subject)%(color:reset), tagged: %(color:yellow)%(refname:short)%(color:reset)\n%(taggerdate)\n%(taggername) %(taggeremail)\n\n%(contents:body)\n' refs/tags"
     ignore = "update-index --assume-unchanged"
     unignore = "update-index --no-assume-unchanged"
+    fixup = !sh -c 'REV=$(git rev-parse $1) && git commit --fixup $@ && git rebase -i --autosquash $REV^' -
 [http]
     postBuffer = 524288000
 [push]
