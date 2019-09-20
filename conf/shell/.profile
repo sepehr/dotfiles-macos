@@ -1,4 +1,5 @@
 ## Early env vars
+export LC_ALL=en_US.UTF-8
 export BREW=`brew --prefix`
 export BASE16_SHELL="$HOME/.vim/colors/base16-shell"
 
