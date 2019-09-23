@@ -37,6 +37,7 @@ setopt auto_cd
 ## Zplug
 export ZPLUG_HOME=$HOME/.zplug
 export ZSH=$ZPLUG_HOME/repos/robbyrussell/oh-my-zsh
+export ZSH_AUTOSUGGEST_USE_ASYNC=1
 
 if [[ ! -d $ZPLUG_HOME ]]; then
     print "Installing zplug..."
