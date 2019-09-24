@@ -22,7 +22,7 @@ bindkey "^[f" forward-word
 bindkey "^[b" backward-word
 bindkey "^E" end-of-line
 bindkey "^A" beginning-of-line
-
+bindkey "jj" autosuggest-accept
 ## ZSH tweaks
 ## See: https://askubuntu.com/questions/1577
 
