@@ -11,7 +11,6 @@
 	"auto_complete_with_fields": true,
 	"auto_indent": true,
 	"bold_folder_labels": false,
-	"color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_slow_plugins": false,
@@ -31,22 +30,19 @@
 	"font_face": "Cascadia Code",
 	"font_options":
 	[
-        "subpixel_antialias"
 	],
 	"font_size": 14,
 	"gutter": true,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Anaconda",
-		"EasyDiff",
 		"Vintage"
 	],
 	"index_exclude_patterns":
 	[
 		"node_modules/*.*"
 	],
-	"index_files": true,
+	"index_files": false,
 	"index_workers": 1,
 	"jsdocs_extend_double_slash": false,
 	"jsdocs_spacer_between_sections": true,
@@ -69,10 +65,11 @@
 	"spacegray_fileicons": true,
 	"tab_completion": true,
 	"tab_size": 2,
-	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
-	"word_wrap": true
+	"word_wrap": true,
+	"theme": "Spacegray.sublime-theme",
+    "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
 }

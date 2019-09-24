@@ -21,5 +21,6 @@
     { "keys": ["f3"], "command": "implement" },
     { "keys": ["shift+f12"], "command": "goto_definition_scope" },
     { "keys": ["f7"], "command": "insert_php_constructor_property" },
-    { "keys": ["ctrl+shift+j"], "command": "join_lines" }
+    { "keys": ["ctrl+shift+j"], "command": "join_lines" },
+    { "keys": ["super+shift+a"], "command": "show_overlay", "args": {"overlay": "command_palette"} }
 ]
