@@ -31,6 +31,7 @@
 	"font_face": "Cascadia Code",
 	"font_options":
 	[
+        "subpixel_antialias"
 	],
 	"font_size": 14,
 	"gutter": true,
