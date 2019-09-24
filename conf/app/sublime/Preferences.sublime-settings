@@ -11,6 +11,7 @@
 	"auto_complete_with_fields": true,
 	"auto_indent": true,
 	"bold_folder_labels": false,
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_slow_plugins": false,
@@ -65,11 +66,10 @@
 	"spacegray_fileicons": true,
 	"tab_completion": true,
 	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
-	"word_wrap": true,
-	"theme": "Spacegray.sublime-theme",
-    "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
+	"word_wrap": true
 }
