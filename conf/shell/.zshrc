@@ -23,6 +23,7 @@ bindkey "^[b" backward-word
 bindkey "^E" end-of-line
 bindkey "^A" beginning-of-line
 bindkey "jj" autosuggest-accept
+
 ## ZSH tweaks
 ## See: https://askubuntu.com/questions/1577
 
@@ -37,7 +38,6 @@ setopt auto_cd
 ## Zplug
 export ZPLUG_HOME=$HOME/.zplug
 export ZSH=$ZPLUG_HOME/repos/robbyrussell/oh-my-zsh
-export ZSH_AUTOSUGGEST_USE_ASYNC=1
 
 if [[ ! -d $ZPLUG_HOME ]]; then
     print "Installing zplug..."
@@ -47,12 +47,8 @@ fi
 source $ZPLUG_HOME/init.zsh
 
 zplug "robbyrussell/oh-my-zsh", use:"lib/*.zsh"
-zplug "plugins/pip", from:oh-my-zsh
 zplug "plugins/python", from:oh-my-zsh
-zplug "plugins/httpie", from:oh-my-zsh
-zplug "plugins/vagrant", from:oh-my-zsh
 zplug "plugins/redis-cli", from:oh-my-zsh
-zplug "plugins/supervisor", from:oh-my-zsh
 
 zplug "supercrabtree/k"
 zplug "skx/sysadmin-util"
