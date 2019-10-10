@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
 say() {
     local fmt="$1"; shift
@@ -28,22 +28,32 @@ sudo rm -rf "/Applications/Remove Sophos Endpoint.app/"
 sudo rm -rf "/Applications/Sophos Endpoint Self Help.app/"
 
 say "Purging scripts, caches and prefs"
-sudo rm -f /Library/Caches/com.sophos*
-sudo rm -f /Library/Preferences/com.sophos*
-sudo rm -f "$HOME/Library/Containers/com.sophos*"
-sudo rm -f "$HOME/Library/Preferences/com.sophos*"
-sudo rm -f "$HOME/Library/Application Scripts/com.sophos*"
+rm -rf "$HOME/Library/Containers/com.sophos*"
+rm -rf "$HOME/Library/Preferences/com.sophos*"
+rm -rf "$HOME/Library/Application Scripts/com.sophos*"
+rm -rf "$HOME/Library/Containers/com.sophos.endpoint.uiserver.FinderScan"
+find "$HOME/Library" -name "*sophos*" -delete
+sudo rm -rf /Library/Caches/com.sophos*
+sudo rm -rf /Library/Preferences/com.sophos*
 
 say "Clearing browser entities"
-sudo find "$HOME/Library/Safari/LocalStorage" -name "*sophos*" -delete
-sudo find "$HOME/Library/Application Support/Google/Chrome/Default/IndexedDB" -name "*sophos*" -delete
+find "$HOME/Library/Safari/LocalStorage" -name "*sophos*" -delete
+find "$HOME/Library/Application Support/Google/Chrome/Default/IndexedDB" -name "*sophos*" -delete
+find "$HOME/Library/Application Support/Google/Chrome Canary/Default/IndexedDB" -name "*sophos*" -delete
+find "$HOME/Library/Application Support/BraveSoftware/Brave-Browser-Beta/Default/IndexedDB" -name "*sophos*" -delete
 
-say "For deleting Sophos system user/group read the comments"
-#sudo dscl
-# and issue: delete Contact/Users/_sophos
-# and issue: delete Contact/Groups/_sophos
-# then:
-# sudo rm -f /private/var/db/dslocal/nodes/Default/users/_sophos.plist
-# sudo rm -f /private/var/db/dslocal/nodes/Default/groups/_sophos.plist
+say "For deleting Sophos system user/group follow the manual instructions below:"
+printf "
+Do a:
+  sudo dscl
 
-say "Ok, you're free 💪"
+Then issue:
+  delete Contact/Users/_sophos
+  delete Contact/Groups/_sophos
+
+Exit and then:
+  sudo rm -f /private/var/db/dslocal/nodes/Default/users/_sophos.plist
+  sudo rm -f /private/var/db/dslocal/nodes/Default/groups/_sophos.plist
+\n\n"
+
+say "Power to liberty 💪"
