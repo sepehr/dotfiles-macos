@@ -1556,7 +1556,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>1084 360 592 584 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>58 308 745 638 0 0 1680 1050 </string>
+	<string>0 0 1680 1050 0 0 1680 1050 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2229,7 +2229,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.11329049556213014</real>
+			<real>0.061609023480911865</real>
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
@@ -3047,6 +3047,7 @@
 	<array>
 		<string>3.3.2</string>
 		<string>3.3.1</string>
+		<string>3.3.4</string>
 		<string>3.3.0</string>
 		<string>3.3.3</string>
 		<string>3.2.20180909-nightly</string>
@@ -3073,7 +3074,7 @@
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1680, 1050}}</string>
 		<key>topLeft</key>
-		<string>{653, 840}</string>
+		<string>{825, 866}</string>
 	</dict>
 	<key>NoSyncHaveShownPromoWithId_4</key>
 	<true/>
@@ -3084,7 +3085,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>558780777.81343496</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>6</integer>
+	<integer>8</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -3888,6 +3889,10 @@
 	</array>
 	<key>NoSyncSearchHistory2</key>
 	<array>
+		<string>silen</string>
+		<string>mixin-deep</string>
+		<string>'''''</string>
+		<string>$addFields</string>
 		<string>$neq</string>
 		<string>invalid</string>
 		<string>invalied</string>
@@ -3926,7 +3931,7 @@
 	<key>NoSyncVeryOldNightlyBuildWarning_selection</key>
 	<integer>0</integer>
 	<key>OnlyWhenMoreTabs</key>
-	<false/>
+	<true/>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenBookmark</key>
@@ -3983,7 +3988,7 @@
 	<key>PromptOnClose</key>
 	<true/>
 	<key>PromptOnQuit</key>
-	<false/>
+	<true/>
 	<key>QuitWhenAllWindowsClosed</key>
 	<true/>
 	<key>RightCommand</key>
@@ -3999,9 +4004,9 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-09-20T11:42:33Z</date>
+	<date>2019-10-06T21:13:21Z</date>
 	<key>SUUpdateRelaunchingMarker</key>
-	<true/>
+	<false/>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>SeparateStatusBarsPerPane</key>
@@ -4045,7 +4050,7 @@
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
 	<key>UKCrashReporterLastCrashReportDate</key>
-	<real>1567972352</real>
+	<real>1569167232</real>
 	<key>URLHandlersByGuid</key>
 	<dict/>
 	<key>UseBorder</key>
@@ -4073,7 +4078,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.3.3</string>
+	<string>3.3.4</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
