@@ -46,7 +46,8 @@ passgen() {
 # requires piotrmurach/github_cli
 git() {
     if [[ "$1" != "delete" ]]; then
-        lab $@
+        /usr/local/bin/git $@
+        # lab $@
         # hub $@
         return
     fi
