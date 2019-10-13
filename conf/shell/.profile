@@ -4,6 +4,7 @@ export BREW=`brew --prefix`
 export BASE16_SHELL="$HOME/.vim/colors/base16-shell"
 
 ## Sources
+[ -f "$HOME/.profile.path" ] && source "$HOME/.profile.path"
 [ -f "$HOME/.profile.helpers" ] && source "$HOME/.profile.helpers"
 [ -f "$HOME/.profile.local" ] && source "$HOME/.profile.local"
 
@@ -31,6 +32,11 @@ fi
 # Register nodenv
 if exists nodenv; then
     eval "$(nodenv init -)"
+fi
+
+# Register scalaenv
+if exists scalaenv; then
+    eval "$(scalaenv init -)"
 fi
 
 # Register goenv
@@ -106,5 +112,4 @@ PATH_IBOOKS="$HOME/Library/Mobile Documents/iCloud~com~apple~iBooks/Documents"
 PATH_ICLOUD="$HOME/Library/Mobile Documents/com~apple~CloudDocs"
 
 ## Late sources
-[ -f "$HOME/.profile.path" ] && source "$HOME/.profile.path"
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
