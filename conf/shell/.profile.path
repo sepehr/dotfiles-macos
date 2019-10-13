@@ -1,5 +1,11 @@
 ## The PATH
-export PATH="$BREW/opt/sqlite/bin:$BREW/opt/python/libexec/bin:$BREW/bin:$BREW/sbin:/usr/bin:$PATH"
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.composer/vendor/bin::$PATH"
-export PATH="$BREW_CASKROOM/homebrew-fonts/developer/bin:$BREW_CASKROOM/homebrew-cask/developer/bin:$PATH"
-export PATH="./bin:./vendor/bin:./node_modules/.bin:$HOME/.bin:$PATH"
+
+# priority executables
+export PATH="$PATH:./bin:./vendor/bin:./node_modules/.bin:$HOME/.bin"
+
+# user global package executables
+export PATH="$PATH:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.composer/vendor/bin"
+
+# brew
+export PATH="$PATH:$BREW/opt/sqlite/bin:$BREW/bin:$BREW/sbin:/usr/bin"
+export PATH="$PATH:$BREW_CASKROOM/homebrew-fonts/developer/bin:$BREW_CASKROOM/homebrew-cask/developer/bin"
