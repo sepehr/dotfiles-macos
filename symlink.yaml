@@ -110,6 +110,7 @@
     /usr/local/etc/nginx/valet: ~/.dotfiles/conf/service/nginx/valet
     /usr/local/etc/nginx/servers: ~/.dotfiles/conf/service/nginx/servers
     /usr/local/etc/nginx/nginx.conf: ~/.dotfiles/conf/service/nginx/nginx.conf
+    /usr/local/etc/nginx/fastcgi_params: ~/.dotfiles/conf/service/nginx/fastcgi_params
 
     # dnsmasq
     /usr/local/etc/dnsmasq.conf: conf/service/dnsmasq/dnsmasq.conf

@@ -102,8 +102,8 @@ cp -vf ~/.config/valet/config.json conf/service/valet/config.json
 cp -vf ~/.homestead/{Homestead.yaml,Vagrantfile,after.sh} conf/service/homestead
 
 # nginx
-cp -vf /usr/local/etc/nginx/nginx.conf conf/service/nginx
 cp -rf /usr/local/etc/nginx/{valet,servers} conf/service/nginx
+cp -vf /usr/local/etc/nginx/{nginx.conf,fastcgi_params} conf/service/nginx
 
 # dnsmasq
 cp -vf /usr/local/etc/dnsmasq.conf conf/service/dnsmasq
