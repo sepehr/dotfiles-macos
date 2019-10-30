@@ -7,6 +7,7 @@ alias dotf="cd $HOME/.dotfiles; gcm 'Stylus update.' conf/app/brave/stylus.json 
 
 # Executables
 alias b=brew
+alias bs="brew services"
 alias kk="k -a -h"
 alias p="ping g.co"
 alias ls="ls -a"
@@ -72,6 +73,7 @@ alias gst="git add . && git stash"
 alias gcp="git cherry-pick"
 alias gsh="git show"
 alias grs="git reset"
+alias gft="git fetch origin"
 
 # Networking
 alias mylocalip="ipconfig getifaddr en0"
