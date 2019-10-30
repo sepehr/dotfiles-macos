@@ -48,6 +48,7 @@
     st = status
     ls = ls-files
     pr = pull-request
+    adog = "log --all --decorate --oneline --graph"
     unstage = reset
     undelete = "!git checkout $(git rev-list -n 1 HEAD -- $1)~1 -- $1"
     stage-rm = rm --cached
