@@ -18,7 +18,9 @@
 				]
 			}
 		],
-		"id": 1
+		"id": 1,
+		"_id": "15025a27-459e-4c34-a26d-1cd3e6867f58",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198009,
@@ -37,7 +39,9 @@
 			}
 		],
 		"id": 2,
-		"updateDate": 1565521140412
+		"updateDate": 1565521140412,
+		"_id": "b2f7cb50-d44c-490d-b4b6-c965c8f588e1",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198012,
@@ -56,7 +60,9 @@
 			}
 		],
 		"id": 3,
-		"updateDate": 1570717513162
+		"updateDate": 1570717513162,
+		"_id": "317a1537-6808-48cc-b19b-017cc5efe333",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198016,
@@ -68,18 +74,18 @@
 		"originalMd5": null,
 		"sections": [
 			{
-				"code": "html, body, .cnotice-message p {\n  font-size: 100% !important;\n  font-family: Roboto, IRANSans, Iranian Sans, Arial, sans-serif !important;\n}\n\nh1, h2, h3, h4, h5, h6, h1 i {\n  font-style: normal !important;\n  font-family: Roboto, IRANSans, Droid Arabic Naskh, Iranian Sans, sans-serif !important;\n}\n\nb, strong {\n\tfont-weight: 500;\n}\n\np, li {\n  text-align: justify;\n  line-height: 30px !important;\n  -webkit-font-smoothing: antialiased !important;\n}\n\n#mw-mf-page-center .mw-mf-banner, \n.banner-container, \n.header, \n.page-header-bar, \n.content-header, \n.overlay-header, \n.content, \n.overlay-content, \n.content-unstyled, \n.pre-content, \n.post-content, \n#mw-mf-page-center .pointer-overlay {\n\tmax-width: 840px !important;\n}\n\n.toc-mobile {\n  clear: none;\n}\n\n.toc-mobile h2 {\n\tmargin-top: 0;\n}\n\n.toc-mobile ul li {\n  margin-bottom: 3px !important;\n  line-height: 25px !important;\n}\n\n.client-js .toc-mobile .collapsible-block ul li {\n  padding-top: 0;\n}\n\n.content ul li, \n.content ol li {\n\tmargin-bottom: 10px;\n}\n\n.mw-body p br {\n\tmargin-bottom: 15px !important;\n  display: block;\n  content: \" \";\n}\n\ndiv#simpleSearch #searchInput {\n  font-size: 11px !important;\n  padding: 0 10px 20px !important;\n}\n\nbody,\n#mw-page-base {\n\tbackground: #fff !important;\n}\n\ntable.ambox-content {\n\tmargin-bottom: 20px !important;\n}\n\n.mw-body h1, \n.mw-body-content h1, \n.mw-body-content h2 {\n\tpadding-bottom: .3em !important;\n}\n\n.liner-switch-label {\n\tfloat: right !important;\n  margin-left: 15px !important;\n}\n\ntable th {\n\tbackground: #fff !important;\n}\n\n.content .edit-page {\n  font-size: .6em !important;\n}\n\nh2 {\n\tmargin-top: 20px;\n}\n\n.backtotop > .arrow-up {\n  right: 17%;\n}\n\ndiv[style*=\"background:#b3ccff\"],\ndiv[style*=\"background: #b3ccff\"] {\n\tbackground: #efefef !important;\n  padding: 2px;\n}\n\n.drawer.references .cite .text {\n\tletter-spacing: 0;\n}",
-				"urls": [],
-				"urlPrefixes": [],
+				"code": "html, body, .cnotice-message p, blockquote {\n  font-size: 100% !important;\n  font-family: Roboto, IRANSans, Iranian Sans, Arial, sans-serif !important;\n}\n\nh1, h2, h3, h4, h5, h6, h1 i {\n  font-style: normal !important;\n  font-family: Roboto, IRANSans, Droid Arabic Naskh, Iranian Sans, sans-serif !important;\n}\n\nb, strong {\n\tfont-weight: 500;\n}\n\np, li {\n  text-align: justify;\n  line-height: 30px !important;\n  -webkit-font-smoothing: antialiased !important;\n}\n\n#mw-mf-page-center .mw-mf-banner, \n.banner-container, \n.header, \n.page-header-bar, \n.content-header, \n.overlay-header, \n.content, \n.overlay-content, \n.content-unstyled, \n.pre-content, \n.post-content, \n#mw-mf-page-center .pointer-overlay {\n\tmax-width: 840px !important;\n}\n\n.toc-mobile {\n  clear: none;\n}\n\n.toc-mobile h2 {\n\tmargin-top: 0;\n}\n\n.toc-mobile ul li {\n  margin-bottom: 3px !important;\n  line-height: 25px !important;\n}\n\n.client-js .toc-mobile .collapsible-block ul li {\n  padding-top: 0;\n}\n\n.content ul li, \n.content ol li {\n\tmargin-bottom: 10px;\n}\n\n.mw-body p br {\n\tmargin-bottom: 15px !important;\n  display: block;\n  content: \" \";\n}\n\ndiv#simpleSearch #searchInput {\n  font-size: 11px !important;\n  padding: 0 10px 20px !important;\n}\n\nbody,\n#mw-page-base {\n\tbackground: #fff !important;\n}\n\ntable.ambox-content {\n\tmargin-bottom: 20px !important;\n}\n\n.mw-body h1, \n.mw-body-content h1, \n.mw-body-content h2 {\n\tpadding-bottom: .3em !important;\n}\n\n.liner-switch-label {\n\tfloat: right !important;\n  margin-left: 15px !important;\n}\n\ntable th {\n\tbackground: #fff !important;\n}\n\n.content .edit-page {\n  font-size: .6em !important;\n}\n\nh2 {\n\tmargin-top: 20px;\n}\n\n.backtotop > .arrow-up {\n  right: 17%;\n}\n\ndiv[style*=\"background:#b3ccff\"],\ndiv[style*=\"background: #b3ccff\"] {\n\tbackground: #efefef !important;\n  padding: 2px;\n}\n\n.drawer.references .cite .text {\n\tletter-spacing: 0;\n}",
 				"domains": [
 					"fa.wikipedia.org",
 					"fa.m.wikipedia.org",
 					"fa.m.wikivoyage.org"
-				],
-				"regexps": []
+				]
 			}
 		],
-		"id": 4
+		"id": 4,
+		"updateDate": 1577487326257,
+		"_id": "3e0c1c18-0593-431d-9ec5-dd8d24a09e27",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198018,
@@ -100,7 +106,9 @@
 				"regexps": []
 			}
 		],
-		"id": 5
+		"id": 5,
+		"_id": "0a949bd1-3b76-4936-98cf-0f742c088903",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198021,
@@ -121,7 +129,9 @@
 				]
 			}
 		],
-		"id": 6
+		"id": 6,
+		"_id": "b2dfe19d-ed29-4db3-8510-d9515c41dd5d",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198024,
@@ -142,7 +152,9 @@
 				"regexps": []
 			}
 		],
-		"id": 7
+		"id": 7,
+		"_id": "66e74573-48a6-40ed-b211-2ba26ca5a105",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198026,
@@ -163,7 +175,9 @@
 				"regexps": []
 			}
 		],
-		"id": 8
+		"id": 8,
+		"_id": "2f57b7dd-26ff-4991-a35a-1803974fbd93",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198030,
@@ -184,7 +198,9 @@
 				"regexps": []
 			}
 		],
-		"id": 9
+		"id": 9,
+		"_id": "11879729-a148-491e-b1d3-507fc4e8d68d",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198057,
@@ -205,7 +221,9 @@
 				"regexps": []
 			}
 		],
-		"id": 10
+		"id": 10,
+		"_id": "a034a1af-1f0b-497a-80cf-a5ee19a3d7ee",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198060,
@@ -226,7 +244,9 @@
 				"regexps": []
 			}
 		],
-		"id": 11
+		"id": 11,
+		"_id": "f218a9ae-400c-449b-802b-3a01838a9004",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198063,
@@ -245,7 +265,9 @@
 			}
 		],
 		"id": 12,
-		"updateDate": 1564740075461
+		"updateDate": 1564740075461,
+		"_id": "e6673673-b932-477e-b9bd-59db2f269be8",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198066,
@@ -270,7 +292,9 @@
 				"regexps": []
 			}
 		],
-		"id": 13
+		"id": 13,
+		"_id": "f0f471fa-9194-481c-9bcd-afa9fd0616fd",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198069,
@@ -291,7 +315,9 @@
 				]
 			}
 		],
-		"id": 14
+		"id": 14,
+		"_id": "3c99d8cf-5623-43d1-add3-a346ec187460",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198071,
@@ -312,7 +338,9 @@
 				"regexps": []
 			}
 		],
-		"id": 15
+		"id": 15,
+		"_id": "3c608612-87da-44af-b170-a4106f2e7126",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198074,
@@ -333,7 +361,9 @@
 				"regexps": []
 			}
 		],
-		"id": 16
+		"id": 16,
+		"_id": "bad12511-a942-4e5c-ba86-6de57cd1fcad",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198078,
@@ -365,7 +395,9 @@
 				"regexps": []
 			}
 		],
-		"id": 17
+		"id": 17,
+		"_id": "194166ef-3ddc-4f86-9e85-01cb279c477d",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198080,
@@ -386,7 +418,9 @@
 				"regexps": []
 			}
 		],
-		"id": 18
+		"id": 18,
+		"_id": "94a227b9-2e45-4ddd-a195-368696b6cad4",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198083,
@@ -407,7 +441,9 @@
 				"regexps": []
 			}
 		],
-		"id": 19
+		"id": 19,
+		"_id": "f70303b7-b27e-4b1d-8d81-9f14c5d94412",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198086,
@@ -428,7 +464,9 @@
 				"regexps": []
 			}
 		],
-		"id": 20
+		"id": 20,
+		"_id": "736b9fbe-8067-4818-a5b6-2bdc5fc6c24e",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198088,
@@ -449,7 +487,9 @@
 				"regexps": []
 			}
 		],
-		"id": 21
+		"id": 21,
+		"_id": "bf669300-0fd2-4ae6-9c8e-3fbc362318f0",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198091,
@@ -470,7 +510,9 @@
 				"regexps": []
 			}
 		],
-		"id": 22
+		"id": 22,
+		"_id": "16e13b9f-6112-4abe-b771-31d57e810a33",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198094,
@@ -492,7 +534,9 @@
 				"regexps": []
 			}
 		],
-		"id": 23
+		"id": 23,
+		"_id": "ded34130-f495-4e36-8196-4466a1093f9c",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198096,
@@ -513,7 +557,9 @@
 				"regexps": []
 			}
 		],
-		"id": 24
+		"id": 24,
+		"_id": "40d54288-c8bc-473a-a66d-a88ed8674e0a",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198099,
@@ -535,7 +581,9 @@
 				"regexps": []
 			}
 		],
-		"id": 25
+		"id": 25,
+		"_id": "c465edb3-5001-411b-a22e-7fbdaacc25fa",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198103,
@@ -556,7 +604,9 @@
 				"regexps": []
 			}
 		],
-		"id": 26
+		"id": 26,
+		"_id": "b0238f97-1e49-4db9-9b10-c507b61df5f5",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198106,
@@ -577,7 +627,9 @@
 				"regexps": []
 			}
 		],
-		"id": 27
+		"id": 27,
+		"_id": "d25a04a5-6402-436a-9c99-1f7abb38a961",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198108,
@@ -610,7 +662,9 @@
 				"regexps": []
 			}
 		],
-		"id": 28
+		"id": 28,
+		"_id": "89b781e1-5b09-4fbe-a876-fda29f0e3a1c",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198111,
@@ -632,7 +686,9 @@
 				"regexps": []
 			}
 		],
-		"id": 29
+		"id": 29,
+		"_id": "481803e0-f5e7-4eec-9236-e0af645090a3",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198113,
@@ -640,21 +696,21 @@
 		"updateUrl": null,
 		"md5Url": null,
 		"name": "_Feedbin",
-		"enabled": false,
+		"enabled": true,
 		"originalMd5": null,
 		"sections": [
 			{
-				"code": "@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir.ttf') format('truetype');\n  font-weight: normal;\n}\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Bold.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Bold.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Bold.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Bold.ttf') format('truetype');\n  font-weight: bold;\n}\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Light.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Light.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Light.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Light.ttf') format('truetype');\n  font-weight: 300;\n}\n\nbody {\n    -webkit-font-smoothing: subpixel-antialiased !important;\n}\n\n/* Feed: The Coding Love */\n#post1 i,\n#post1 h3,\n.diff-wrap,\n.entry-feed-7917 .content-styles #main > div > *:not(#post1),\nimg[data-canonical-src*=\"advertisement.gif\"] {\n\tdisplay: none !important;\n}\n\n#post1 img,\n.content-styles img {\n\tmargin: 0 auto 20px !important;\n}\n\n/**\n * Feedbin Refurnish + Better RTL Support\n * \n * Requires \"Droid Arabic Naskh\", \"Iranian Sans\" and \"Iranian Serif\" fonts.\n * Tested on bright background with Mercury as the main reading font.\n *\n * @author Sepehr Lajevardi <lajevardi@gmail.com>\n */\na[href=\"http://www.sourceguardian.com\"] {\n\tdisplay: none !important;\n}\n\n.feeds,\n.feeds-inner,\n.app-wrap .feeds-column {\n\tbackground: #fafafa !important;\n}\n\n.entries ul li .title,\n.entries ul li .body,\n.original-meta {\n\tline-height: 1.4em;\n}\n\n.entries ul li .body {\n\tfont-size: 13px;\n}\n\n.entries ul li.read .favicon {\n\topacity: .5;\n}\n\n.content-styles {\n\tline-height: 1.8 !important;\n}\n\n.entries ul li[dir=\"rtl\"] .title,\n.entries ul li[dir=\"rtl\"] .body {\n\ttext-align: right;\n\tdirection: rtl;\n}\n\n.entries ul li .time,\n.entries ul li .feed-title {\n\ttext-align: left !important;\n    font-size: 11px !important;\n}\n\n.entries li,\n.entry-toolbar .entry-feed-title,\n.next-entry-preview-inner .next-entry-feed {\n\tletter-spacing: 0;\n    font-family: \"Whitney SSm A\", \"Whitney SSm B\", IRANSans, Vazir, Iranian Sans, serif !important;\n}\n\n.content-styles.entry-type-default .entry-callout {\n\tbackground-color: #f7f7f7;\n}\n\n.entry-inner {\n\tmax-width: 760px !important;\n\ttext-align: justify !important;\n} \n\n.entry-inner li {\n\ttext-align: left !important;\n}\n\n.entries li .title,\n.next-entry-preview,\n.entry-inner h1,\n.entry-inner[dir=\"rtl\"] h1, \n.entry-inner[dir=\"rtl\"] h2, \n.entry-inner[dir=\"rtl\"] h3, \n.entry-inner[dir=\"rtl\"] h4, \n.entry-inner[dir=\"rtl\"] h5, \n.entry-inner[dir=\"rtl\"] h6 {\n    font-family: Droid Arabic Naskh, Iranian Sans, Helvetica Neue, Helvetica, Arial, sans-serif !important;\n\tline-height: 1.4em;\n}\n\n.next-entry-preview-inner .next-entry-title {\n\tdirection: rtl;\n    text-align: left;\n}\n\n.entry-inner h1,\n.entry-inner[dir=\"rtl\"] h1 {\n    font-family: Droid Arabic Naskh, \"Whitney SSm A\", \"Whitney SSm B\", -apple-system-font, \".SFNSDisplay-Regular\", \"Helvetica Neue\", Helvetica, Arial, sans-serif !important;\n}\n\n.entry-inner[dir=\"rtl\"] h1 {\n\tfont-size: 28px !important;\n}\n\n[dir=\"rtl\"] {\n\ttext-align: justify !important;\n}\n\n[dir=\"rtl\"] .content-styles {\n\tfont-size: 16px;\n\tline-height: 2em;\n\tfont-family: IRANSans, Vazir, Iranian Serif, Iranian Sans, Droid Arabic Naskh, Helvetica Neue, Helvetica, Arial, sans-serif !important;\n\ttext-align: justify !important;\n}\n\n[dir=\"rtl\"] .content-styles li {\n\ttext-align: right !important;\n}\n\npre, code,\n.content-styles tt, \n.content-styles code, \n.content-styles kbd, \n.content-styles samp {\n\tfont: 14px Hasklig, Monaco, Consolas, monospace !important;\n    line-height: 25px !important;\n    background: #f3f3f3;\n    padding: 1px;\n    text-align: left;\n}\n\npre {\n    padding: 5px 10px !important;\n}\n\npre[dir=\"rtl\"] {\n\tdirection: rtl !important;\n    text-align: right !important;\n}\n\n[dir=\"rtl\"] br {\n\tline-height: 40px;\n}\n.content-styles li {\n\tmargin-bottom: 1.2em !important;\n}\n\n[dir=\"rtl\"] .content-styles {\n\tfont-weight: 200 !important;\n\tcolor: #222;\n}\n\n[dir=\"rtl\"] .diff-wrap,\n.entry-inner .post-meta {\n\tdirection: ltr !important;\n\tfont-weight: 200;\n\tfont-family: \"Whitney SSm A\", \"Whitney SSm B\", IRANSans, Vazir, Iranian Serif, \"Mercury SSm A\", \"Mercury SSm B\", Helvetica Neue, Helvetica, Arial, sans-serif !important;\n}\n\n.content-styles pre code {\n\tdirection: ltr !important;\n    text-align: left !important;\n    background: transparent !important;\n}\n\n.content-styles li {\n\tmargin-bottom: .5em;\n}\n\n.entry-inner h1,\n[dir=\"rtl\"] .diff-wrap,\n.entry-inner .post-meta,\n.font-serif-2 .entry-inner .post-meta {\n\ttext-align: center;\n}\n\n.entry-inner .post-meta {\n\tfont-size: 14px;\n}\n\n.entry-header {\n\tborder-bottom: 1px solid #f1f1f1;\n\tpadding-bottom: 15px;\n}\n                \n.subscribe-promo {\n\topacity: 0.4;\n}\n\n.subscribe-promo:hover {\n\topacity: 1;\n}\n\n.next-entry-preview {\n\tfont-weight: bold;\n}\n\n.content-styles a[href*=\"/~ff/\"],\n.content-styles div a[href*=\"feedburner.com/\"],\n.content-styles a[href*=\"feeds.wordpress.com/\"] {\n\tdisplay: none;\n}\n\n.feed-action-button {\n\tright: 30px;\n\tvisibility: hidden;\t\n}\n\n.feed-action-button:before {\n\tcontent: \"▼\";\n\tfont-size: 11px;\n\tvisibility: visible;\n}\n\n#query,\n.entries ul li .time,\n.entries ul li .feed-title,\n.view-toolbar .view-button {\n\tfont-weight: 200;\n}\n\n.view-toolbar .view-button {\n\tletter-spacing: 1px;\n\tfont-size: 11px;\n}\n\n.entry-feed-title {\n\tmargin-top: 4px !important;\n}\n\n.feeds ul li .count {\n\tfont-size: 14px;\n\tfont-family: Georgia, \"Mercury SSm A\", Georgia, serif;\n\ttop: 7px;\n}\n\n.feeds ul li .feed-link,\n.feeds ul li .rename-feed-input {\n\tfont-size: 13px;\n\tfont-family: \"Whitney SSm A\", \"Whitney SSm B\", IRANSans, Vazir, Iranian Sans, \"Mercury SSm A\", Georgia, serif;\n}\n\n.toolbar-button {\n\ttext-transform: uppercase;\n\tfont-weight: 200;\n\tletter-spacing: 1px;\n\tfont-size: 9px;\n}\n\n.content-styles table > tbody > tr > td{\n\tborder-color: #fff !important;\n}\n\n.content-styles h2 {\n\tfont-size: 1.2em;\n    margin-top: 30px;\n}\n\n.inline-diff del, .inline-diff .diff-del {\n\tbackground: #fff !important;\n}\n\n.audio-panel-minimized .audio-panel .audio-text {\n\tpadding-top: 6px;\n    text-shadow: 0 1px #fff;\n}\n\n/* In-post tweet */\ntwitterwidget {\n\tmargin: 10px auto;\n}\n\ntwitterwidget::shadow .SandboxRoot {\n  font: normal normal 16px/1.4 Roboto, IRANSans, Vazir, sans-serif !important;\n}\n",
-				"urls": [],
-				"urlPrefixes": [],
+				"code": "@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir.ttf') format('truetype');\n  font-weight: normal;\n}\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Bold.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Bold.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Bold.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Bold.ttf') format('truetype');\n  font-weight: bold;\n}\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Light.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Light.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Light.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Light.ttf') format('truetype');\n  font-weight: 300;\n}\n\nbody {\n    -webkit-font-smoothing: subpixel-antialiased !important;\n}\n\n/* Feed: The Coding Love */\n#post1 i,\n#post1 h3,\n.diff-wrap,\n.entry-feed-7917 .content-styles #main > div > *:not(#post1),\nimg[data-canonical-src*=\"advertisement.gif\"] {\n\tdisplay: none !important;\n}\n\n#post1 img,\n.content-styles img {\n\tmargin: 0 auto 20px !important;\n}\n\n/**\n * Feedbin Refurnish + Better RTL Support\n * \n * Requires \"Droid Arabic Naskh\", \"Iranian Sans\" and \"Iranian Serif\" fonts.\n * Tested on bright background with Mercury as the main reading font.\n *\n * @author Sepehr Lajevardi <lajevardi@gmail.com>\n */\na[href=\"http://www.sourceguardian.com\"] {\n\tdisplay: none !important;\n}\n\n.entries ul li .title,\n.entries ul li .body,\n.original-meta {\n\tline-height: 1.4em;\n}\n\n.entries ul li .body {\n\tfont-size: 13px;\n}\n\n.content-styles {\n\tline-height: 1.8 !important;\n}\n\n.entries ul li[dir=\"rtl\"] .title,\n.entries ul li[dir=\"rtl\"] .body {\n\ttext-align: right;\n\tdirection: rtl;\n}\n\n.entries ul li .time,\n.entries ul li .feed-title {\n\ttext-align: left !important;\n    font-size: 11px !important;\n}\n\n.entries li,\n.entry-toolbar .entry-feed-title,\n.next-entry-preview-inner .next-entry-feed {\n\tletter-spacing: 0;\n    font-family: \"Whitney SSm A\", \"Whitney SSm B\", IRANSans, Vazir, Iranian Sans, serif !important;\n}\n\n.content-styles.entry-type-default .entry-callout {\n\tbackground-color: #f7f7f7;\n}\n\n.entry-inner {\n\tmax-width: 760px !important;\n\ttext-align: justify !important;\n} \n\n.entry-inner li {\n\ttext-align: left !important;\n}\n\n.entries li .title,\n.next-entry-preview,\n.entry-inner h1,\n.entry-inner[dir=\"rtl\"] h1, \n.entry-inner[dir=\"rtl\"] h2, \n.entry-inner[dir=\"rtl\"] h3, \n.entry-inner[dir=\"rtl\"] h4, \n.entry-inner[dir=\"rtl\"] h5, \n.entry-inner[dir=\"rtl\"] h6 {\n    font-family: Droid Arabic Naskh, Iranian Sans, Helvetica Neue, Helvetica, Arial, sans-serif !important;\n\tline-height: 1.4em;\n}\n\n.next-entry-preview-inner .next-entry-title {\n\tdirection: rtl;\n    text-align: left;\n}\n\n.entry-inner h1,\n.entry-inner[dir=\"rtl\"] h1 {\n    font-family: Droid Arabic Naskh, \"Whitney SSm A\", \"Whitney SSm B\", -apple-system-font, \".SFNSDisplay-Regular\", \"Helvetica Neue\", Helvetica, Arial, sans-serif !important;\n}\n\n.entry-inner[dir=\"rtl\"] h1 {\n\tfont-size: 28px !important;\n}\n\n[dir=\"rtl\"] {\n\ttext-align: justify !important;\n}\n\n[dir=\"rtl\"] .content-styles {\n\tfont-size: 16px;\n\tline-height: 2em;\n\tfont-family: IRANSans, Vazir, Iranian Serif, Iranian Sans, Droid Arabic Naskh, Helvetica Neue, Helvetica, Arial, sans-serif !important;\n\ttext-align: justify !important;\n}\n\n[dir=\"rtl\"] .content-styles li {\n\ttext-align: right !important;\n}\n\npre, code,\n.content-styles tt, \n.content-styles code, \n.content-styles kbd, \n.content-styles samp {\n\tfont: 14px Hasklig, Monaco, Consolas, monospace !important;\n    line-height: 25px !important;\n    background: #f3f3f3;\n    padding: 1px;\n    text-align: left;\n}\n\npre {\n    padding: 5px 10px !important;\n}\n\npre[dir=\"rtl\"] {\n\tdirection: rtl !important;\n    text-align: right !important;\n}\n\n[dir=\"rtl\"] br {\n\tline-height: 40px;\n}\n.content-styles li {\n\tmargin-bottom: 1.2em !important;\n}\n\n[dir=\"rtl\"] .content-styles {\n\tfont-weight: 200 !important;\n\tcolor: #222;\n}\n\n[dir=\"rtl\"] .diff-wrap,\n.entry-inner .post-meta {\n\tdirection: ltr !important;\n\tfont-weight: 200;\n\tfont-family: \"Whitney SSm A\", \"Whitney SSm B\", IRANSans, Vazir, Iranian Serif, \"Mercury SSm A\", \"Mercury SSm B\", Helvetica Neue, Helvetica, Arial, sans-serif !important;\n}\n\n.content-styles pre code {\n\tdirection: ltr !important;\n    text-align: left !important;\n    background: transparent !important;\n}\n\n.content-styles li {\n\tmargin-bottom: .5em;\n}\n\n.entry-inner h1,\n[dir=\"rtl\"] .diff-wrap,\n.entry-inner .post-meta,\n.font-serif-2 .entry-inner .post-meta {\n\ttext-align: center;\n}\n\n.entry-inner .post-meta {\n\tfont-size: 14px;\n}\n\n.entry-header {\n\tborder-bottom: 1px solid #f1f1f1;\n\tpadding-bottom: 15px;\n}\n                \n.subscribe-promo {\n\topacity: 0.4;\n}\n\n.subscribe-promo:hover {\n\topacity: 1;\n}\n\n.next-entry-preview {\n\tfont-weight: bold;\n}\n\n.content-styles a[href*=\"/~ff/\"],\n.content-styles div a[href*=\"feedburner.com/\"],\n.content-styles a[href*=\"feeds.wordpress.com/\"] {\n\tdisplay: none;\n}\n\n.feed-action-button {\n\tright: 30px;\n\tvisibility: hidden;\t\n}\n\n#query,\n.entries ul li .time,\n.entries ul li .feed-title,\n.view-toolbar .view-button {\n\tfont-weight: 200;\n}\n\n.view-toolbar .view-button {\n\tletter-spacing: 1px;\n\tfont-size: 11px;\n}\n\n.entry-feed-title {\n\tmargin-top: 4px !important;\n}\n\n.feeds ul li .feed-link,\n.feeds ul li .rename-feed-input {\n\tfont-size: 13px;\n\tfont-family: \"Whitney SSm A\", \"Whitney SSm B\", IRANSans, Vazir, Iranian Sans, \"Mercury SSm A\", Georgia, serif;\n}\n\n.toolbar-button {\n\ttext-transform: uppercase;\n\tfont-weight: 200;\n\tletter-spacing: 1px;\n\tfont-size: 9px;\n}\n\n.content-styles table > tbody > tr > td{\n\tborder-color: #fff !important;\n}\n\n.content-styles h2 {\n\tfont-size: 1.2em;\n    margin-top: 30px;\n}\n\n.inline-diff del, .inline-diff .diff-del {\n\tbackground: #fff !important;\n}\n\n.audio-panel-minimized .audio-panel .audio-text {\n\tpadding-top: 6px;\n    text-shadow: 0 1px #fff;\n}\n\n/* In-post tweet */\ntwitterwidget {\n\tmargin: 10px auto;\n}\n\ntwitterwidget::shadow .SandboxRoot {\n  font: normal normal 16px/1.4 Roboto, IRANSans, Vazir, sans-serif !important;\n}\n",
 				"domains": [
 					"feedbin.com",
 					"feedbin.me"
-				],
-				"regexps": []
+				]
 			}
 		],
-		"id": 30
+		"id": 30,
+		"updateDate": 1577019044868,
+		"_id": "d5c2ccbf-34fb-46e8-a37a-b37419536eb2",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198116,
@@ -675,7 +731,9 @@
 				"regexps": []
 			}
 		],
-		"id": 31
+		"id": 31,
+		"_id": "001f49ce-fb13-47cf-b7e1-636ca009cbd2",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198119,
@@ -697,7 +755,9 @@
 				"regexps": []
 			}
 		],
-		"id": 32
+		"id": 32,
+		"_id": "05068b8c-b307-410c-aedf-89560ca6e92e",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198121,
@@ -718,7 +778,9 @@
 				"regexps": []
 			}
 		],
-		"id": 33
+		"id": 33,
+		"_id": "7ff63d8a-b2d0-4905-a5bf-717f5445a1e5",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198123,
@@ -739,7 +801,9 @@
 				"regexps": []
 			}
 		],
-		"id": 34
+		"id": 34,
+		"_id": "28b752f4-7d75-4714-96d5-c4dc30d922cf",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198127,
@@ -760,7 +824,9 @@
 				"regexps": []
 			}
 		],
-		"id": 35
+		"id": 35,
+		"_id": "bce2a4cd-e3e7-4659-804c-6c0cd531d18e",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198129,
@@ -781,7 +847,9 @@
 				"regexps": []
 			}
 		],
-		"id": 36
+		"id": 36,
+		"_id": "1edc8028-0d81-475e-a2ad-3674cda86f3c",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198131,
@@ -793,14 +861,16 @@
 		"originalMd5": null,
 		"sections": [
 			{
-				"code": "@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir.ttf') format('truetype');\n  font-weight: normal;\n}\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Bold.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Bold.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Bold.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Bold.ttf') format('truetype');\n  font-weight: bold;\n}\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Light.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Light.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Light.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Light.ttf') format('truetype');\n  font-weight: 300;\n}\n\n.socialMedia,\n#myQuizStats,\na[href^=\"/list/liked/\"],\na[href^=\"/poll/user_votes/\"],\nbody > div.content > div.mainContentContainer > div.mainContent > div.mainContentFloat > div.rightContainer > div:nth-child(3),\nbody > div.content > div.mainContentContainer > div.mainContent > div.mainContentFloat > div.rightContainer > div:nth-child(4),\nbody > div.content > div.mainContentContainer > div.mainContent > div.mainContentFloat > div.rightContainer > div:nth-child(6),\nbody > div.content > div.mainContentContainer > div.mainContent > div.mainContentFloat > div.rightContainer > div:nth-child(7),\nbody > div.content > div.mainContentContainer > div.mainContent > div.mainContentFloat > div.rightContainer > div:nth-child(8),\nbody > div.content > div.mainContentContainer > div.mainContent > div.mainContentFloat > div.rightContainer > div:nth-child(9),\nbody > div.content > div.mainContentContainer > div.mainContent > div.mainContentFloat > div.rightContainer > div:nth-child(5) > div.h2Container.gradientHeaderContainer {\n\tdisplay: none !important;\n}\n\nbody, p, ol, ul, td, th, a, \n.readable,\n.bookTitle,\n.authorName,\n.actionLink,\n.elementList,\n.quoteText,\n.updateAction,\n.textBox,\n.groupName,\n.content620 a, \n.content300 a,\n.u-defaultType,\n.authorQAPrompt,\n.actionLinkLite,\n.gr-buttonAsLink,\n.gr-book__author,\n.comment .reviewText,\n.gr-book__description,\n.addBookTipDescription,\n.bigBox .h2Container h2,\nh1, .h2Container H2, .pageHeader h2,\n.communityAnswer .communityAnswerBody,\ninput[type=text], input[type=number], input[type=search], \ninput[type=email], input[type=number], input[type=password], textarea,\n.uitext, .uitext th, .uitext td, .uitext ul, .uitext ol, .uitext li,\n.moreReaderQA a {\n\tfont-family: \"Lato\", IRANSans, Vazir, \"Helvetica Neue\", Helvetica, Arial, sans-serif !important;\n}\n\n.communityQuestionSubTitle .bookLink,\n.content620 .authorName, .content620 .bookTitle, .content620 .by, .serif, a.header14 {\n\tfont-family: \"Merriweather\", IRANSans, Vazir, Georgia, \"Times New Roman\", serif !important\n}\n\n.comment .reviewText,\n.readable, body, p, ol, ul, td, th {\n\tline-height: 25px !important;\n}\n\n.h2Container,\nh2.brownBackground {\n\tbackground-image: none !important;\n}\n\n.gr-book__title {\n\tfont-weight: normal !important;\n}\n\n.h2Container {\n\theight: 30px !important;\n    border-bottom: 1px solid #ddd !important;\n}\n\n.gradientHeaderContainer {\n\tpadding-bottom: 0 !important;\n}\n\nimg {\n    border-radius: 4px;\n}\n\n.nav img[alt=\"my profile\"] {\n\twidth: 30px;\n    height: 30px;\n    border-radius: 15px;\n    margin-top: 3px;\n}\n\n.mainContentFloat {\n\tfont-size: 14px !important;\n}\n\n.bigBoxBody,\n.miniBookContent .authorLinks {\n\tmargin-top: 15px !important;\n}\n",
+				"code": "@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir.ttf') format('truetype');\n  font-weight: normal;\n}\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Bold.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Bold.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Bold.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Bold.ttf') format('truetype');\n  font-weight: bold;\n}\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Light.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Light.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Light.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/v10.0.0-beta/dist/Vazir-Light.ttf') format('truetype');\n  font-weight: 300;\n}\n\n.socialMedia,\n#myQuizStats,\na[href^=\"/list/liked/\"],\na[href^=\"/poll/user_votes/\"],\nbody > div.content > div.mainContentContainer > div.mainContent > div.mainContentFloat > div.rightContainer > div:nth-child(3),\nbody > div.content > div.mainContentContainer > div.mainContent > div.mainContentFloat > div.rightContainer > div:nth-child(4),\nbody > div.content > div.mainContentContainer > div.mainContent > div.mainContentFloat > div.rightContainer > div:nth-child(6),\nbody > div.content > div.mainContentContainer > div.mainContent > div.mainContentFloat > div.rightContainer > div:nth-child(7),\nbody > div.content > div.mainContentContainer > div.mainContent > div.mainContentFloat > div.rightContainer > div:nth-child(8),\nbody > div.content > div.mainContentContainer > div.mainContent > div.mainContentFloat > div.rightContainer > div:nth-child(9),\nbody > div.content > div.mainContentContainer > div.mainContent > div.mainContentFloat > div.rightContainer > div:nth-child(5) > div.h2Container.gradientHeaderContainer {\n\t/*display: none !important;*/\n}\n\nbody, p, ol, ul, td, th, a, \n.readable,\n.bookTitle,\n.authorName,\n.actionLink,\n.elementList,\n.quoteText,\n.updateAction,\n.textBox,\n.groupName,\n.content620 a, \n.content300 a,\n.u-defaultType,\n.authorQAPrompt,\n.actionLinkLite,\n.gr-buttonAsLink,\n.gr-book__author,\n.comment .reviewText,\n.gr-book__description,\n.addBookTipDescription,\n.bigBox .h2Container h2,\nh1, .h2Container H2, .pageHeader h2,\n.communityAnswer .communityAnswerBody,\ninput[type=text], input[type=number], input[type=search], \ninput[type=email], input[type=number], input[type=password], textarea,\n.uitext, .uitext th, .uitext td, .uitext ul, .uitext ol, .uitext li,\n.moreReaderQA a {\n\tfont-family: \"Lato\", IRANSans, Vazir, \"Helvetica Neue\", Helvetica, Arial, sans-serif !important;\n}\n\n.communityQuestionSubTitle .bookLink,\n.content620 .authorName, .content620 .bookTitle, .content620 .by, .serif, a.header14 {\n\tfont-family: \"Merriweather\", IRANSans, Vazir, Georgia, \"Times New Roman\", serif !important\n}\n\n.siteHeader__logo picture img {\n    visibility: hidden;\n}\n\n.comment .reviewText,\n.readable, body, p, ol, ul, td, th {\n\tline-height: 25px !important;\n}\n\n.h2Container,\nh2.brownBackground {\n\tbackground-image: none !important;\n}\n\n.gr-book__title {\n\tfont-weight: normal !important;\n}\n\n.h2Container {\n\theight: 30px !important;\n    border-bottom: 1px solid #ddd !important;\n}\n\n.gradientHeaderContainer {\n\tpadding-bottom: 0 !important;\n}\n\nimg {\n    border-radius: 4px;\n}\n\n.nav img[alt=\"my profile\"] {\n\twidth: 30px;\n    height: 30px;\n    border-radius: 15px;\n    margin-top: 3px;\n}\n\n.mainContentFloat {\n\tfont-size: 14px !important;\n}\n\n.bigBoxBody,\n.miniBookContent .authorLinks {\n\tmargin-top: 15px !important;\n}\n\nspan[itemprop=\"numberOfPages\"] {\n    background-color: #f8e48f !important; /* Just as iBooks #f8e48f */ \n}",
 				"domains": [
 					"goodreads.com"
 				]
 			}
 		],
 		"id": 37,
-		"updateDate": 1574521266487
+		"updateDate": 1574631599364,
+		"_id": "ecd53c53-6950-4414-96b4-e0913054af0b",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198134,
@@ -821,7 +891,9 @@
 				"regexps": []
 			}
 		],
-		"id": 38
+		"id": 38,
+		"_id": "4b32c53b-d749-4c9d-9ffc-dbc98432918a",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198137,
@@ -842,7 +914,9 @@
 				"regexps": []
 			}
 		],
-		"id": 39
+		"id": 39,
+		"_id": "3a5c28fc-219e-4b9f-b386-5d284f10fe31",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198140,
@@ -863,7 +937,9 @@
 				"regexps": []
 			}
 		],
-		"id": 40
+		"id": 40,
+		"_id": "16e51eab-f063-472e-b2e8-c8aff014330c",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198142,
@@ -885,7 +961,9 @@
 				"regexps": []
 			}
 		],
-		"id": 41
+		"id": 41,
+		"_id": "b0b6cda5-b94b-4f9b-bac3-9530cf45babb",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198145,
@@ -906,7 +984,9 @@
 				"regexps": []
 			}
 		],
-		"id": 42
+		"id": 42,
+		"_id": "7851e8f0-e94e-4f0a-9372-74cdb17fe910",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198152,
@@ -927,7 +1007,9 @@
 				"regexps": []
 			}
 		],
-		"id": 44
+		"id": 44,
+		"_id": "16c837be-bebf-420c-9523-ed5c86772641",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198155,
@@ -948,7 +1030,9 @@
 				"regexps": []
 			}
 		],
-		"id": 45
+		"id": 45,
+		"_id": "b5548ccd-e8a7-44b4-aa27-d3f4000adcdc",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198158,
@@ -969,7 +1053,9 @@
 				"regexps": []
 			}
 		],
-		"id": 46
+		"id": 46,
+		"_id": "d5a6fe7a-7bd1-44ba-84fc-c5999730339b",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198161,
@@ -990,7 +1076,9 @@
 				"regexps": []
 			}
 		],
-		"id": 47
+		"id": 47,
+		"_id": "a0972751-5627-48cf-9577-a296d97d59e7",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198164,
@@ -1011,7 +1099,9 @@
 				"regexps": []
 			}
 		],
-		"id": 48
+		"id": 48,
+		"_id": "e3545812-5b67-4cf8-92be-948c836d661d",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198167,
@@ -1032,7 +1122,9 @@
 				"regexps": []
 			}
 		],
-		"id": 49
+		"id": 49,
+		"_id": "9524a5c0-1909-4a7c-9163-ca0661ed9395",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198170,
@@ -1053,7 +1145,9 @@
 				"regexps": []
 			}
 		],
-		"id": 50
+		"id": 50,
+		"_id": "d5000c74-8883-4f69-80f9-58beda89dc79",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198172,
@@ -1074,7 +1168,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 51
+		"id": 51,
+		"_id": "10930b6f-362f-489a-b28e-daed20ef5727",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198256,
@@ -1095,7 +1191,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 53
+		"id": 53,
+		"_id": "855ea94d-3c4b-41c2-94b6-a37cb551da0a",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198269,
@@ -1118,7 +1216,9 @@
 		"url": null,
 		"originalMd5": null,
 		"id": 54,
-		"updateDate": 1570740802466
+		"updateDate": 1570740802466,
+		"_id": "7cf29e51-5918-44e5-a894-f08297636b8e",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198273,
@@ -1139,7 +1239,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 55
+		"id": 55,
+		"_id": "1f9ae82a-5448-461f-b865-bd7611ef5184",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198278,
@@ -1158,7 +1260,9 @@
 		"url": null,
 		"originalMd5": null,
 		"id": 56,
-		"updateDate": 1570124217197
+		"updateDate": 1570124217197,
+		"_id": "e3332ead-f770-455e-9248-bd29511f2aa6",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198282,
@@ -1179,7 +1283,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 57
+		"id": 57,
+		"_id": "8da599ad-ffb5-4eda-be67-258770a77139",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198286,
@@ -1205,7 +1311,9 @@
 		"url": null,
 		"originalMd5": null,
 		"id": 58,
-		"updateDate": 1572057516873
+		"updateDate": 1572057516873,
+		"_id": "12268375-b9ae-4b56-b7e1-d7a18ca5ba75",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198289,
@@ -1226,7 +1334,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 59
+		"id": 59,
+		"_id": "82b5f0b9-5fdc-411c-9fc3-a17408d42953",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198293,
@@ -1247,7 +1357,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 60
+		"id": 60,
+		"_id": "6014f7ea-0606-42f8-ae69-db9804ca8af3",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198295,
@@ -1269,7 +1381,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 61
+		"id": 61,
+		"_id": "0cdbf4dc-9c3a-4dbf-8061-367495d53ecc",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198302,
@@ -1290,7 +1404,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 62
+		"id": 62,
+		"_id": "5103b588-1576-4d02-adc5-3f0515d87bc0",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198308,
@@ -1311,7 +1427,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 63
+		"id": 63,
+		"_id": "cd26522b-9647-41ff-915e-545e639efa0e",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198312,
@@ -1332,7 +1450,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 64
+		"id": 64,
+		"_id": "50a1a624-2ecb-4262-8275-ef34a566add1",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198326,
@@ -1351,7 +1471,9 @@
 		"url": null,
 		"originalMd5": null,
 		"id": 65,
-		"updateDate": 1569234865823
+		"updateDate": 1569234865823,
+		"_id": "d1e42ab8-f417-4b9a-b7dc-96b6975b4244",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198330,
@@ -1372,7 +1494,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 66
+		"id": 66,
+		"_id": "42857c0a-c27b-4025-8844-7c189e7d4d4c",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198333,
@@ -1392,7 +1516,9 @@
 		"url": null,
 		"originalMd5": null,
 		"id": 67,
-		"updateDate": 1571384601893
+		"updateDate": 1571384601893,
+		"_id": "fc93b187-12ea-4720-87a1-9a3b9f8751aa",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198337,
@@ -1410,7 +1536,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 68
+		"id": 68,
+		"_id": "4a032b66-f35f-4af5-b9e8-408b8223f713",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198341,
@@ -1429,7 +1557,9 @@
 		"url": null,
 		"originalMd5": null,
 		"id": 69,
-		"updateDate": 1568414834624
+		"updateDate": 1568414834624,
+		"_id": "0e8630f7-33c0-4e2d-8ec3-3f43dc26605f",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198345,
@@ -1457,7 +1587,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 70
+		"id": 70,
+		"_id": "7dde4190-612e-4dca-8f32-03c99ab88458",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198349,
@@ -1478,7 +1610,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 71
+		"id": 71,
+		"_id": "7888d956-9117-4b3f-bf57-fd61891ed0dc",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198361,
@@ -1499,7 +1633,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 72
+		"id": 72,
+		"_id": "b8b741d9-ebe1-451b-9e2e-726295df96c2",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198369,
@@ -1520,7 +1656,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 73
+		"id": 73,
+		"_id": "bc65c027-392d-4fb0-8437-1b471945f0b9",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198373,
@@ -1541,7 +1679,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 74
+		"id": 74,
+		"_id": "4ade3f89-0960-4f4c-b27e-fd2f2c00c33c",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198383,
@@ -1562,7 +1702,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 75
+		"id": 75,
+		"_id": "ed4efdbc-70d3-4599-a0a9-6f605b91b5eb",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198386,
@@ -1583,7 +1725,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 76
+		"id": 76,
+		"_id": "14b57e2f-23a8-485e-a429-38aa59f6a514",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198389,
@@ -1604,7 +1748,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 77
+		"id": 77,
+		"_id": "f040afd9-1572-4ce1-8e1b-924992be1b45",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198394,
@@ -1625,7 +1771,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 78
+		"id": 78,
+		"_id": "817b50cd-41cb-4a50-8340-dbf210b0fbf7",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198397,
@@ -1647,7 +1795,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 79
+		"id": 79,
+		"_id": "f4a90bc6-e0bb-4d61-a31d-d7fb98182c97",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198400,
@@ -1688,7 +1838,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 80
+		"id": 80,
+		"_id": "d679a4ad-e479-4b67-81f7-56292f0df222",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198403,
@@ -1710,7 +1862,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 81
+		"id": 81,
+		"_id": "9a454ccd-36f1-490f-bc13-203c7dc4c6af",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198419,
@@ -1734,7 +1888,9 @@
 		"id": 82,
 		"updateDate": 1542646424756,
 		"originalName": "Userstyles Frosted Glass (Works With New Website!)",
-		"originalDigest": "d682e5291700008d60c4dae0d018c733bbe5456a"
+		"originalDigest": "d682e5291700008d60c4dae0d018c733bbe5456a",
+		"_id": "bd52338d-8a93-41f0-854e-a27f347dd3fb",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198423,
@@ -1755,7 +1911,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 84
+		"id": 84,
+		"_id": "790d89ab-d2af-4f3a-b3d3-6585b32c4f65",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198427,
@@ -1776,7 +1934,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 85
+		"id": 85,
+		"_id": "ae732838-1882-401d-975e-a523ee2cb447",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198432,
@@ -1797,7 +1957,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 86
+		"id": 86,
+		"_id": "4dc9a63d-42f3-4724-a1b7-bb08e3776664",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198436,
@@ -1819,7 +1981,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 87
+		"id": 87,
+		"_id": "528040dc-2fb9-4c5f-8d76-9761441bd7b4",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198440,
@@ -1840,7 +2004,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 88
+		"id": 88,
+		"_id": "0f3555b1-6982-4afd-afa2-d144d9beec93",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198457,
@@ -1861,7 +2027,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 89
+		"id": 89,
+		"_id": "337bac74-8794-4a80-9966-c6687129ea8e",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198463,
@@ -1882,7 +2050,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 90
+		"id": 90,
+		"_id": "54048431-1c07-4b88-8d76-ac817795ecf4",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198471,
@@ -1905,7 +2075,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 91
+		"id": 91,
+		"_id": "2c05c867-00e6-4051-b693-ad6c95184bec",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198483,
@@ -1926,7 +2098,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 93
+		"id": 93,
+		"_id": "4eddfb77-3910-4513-bb6b-1733529b521c",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198490,
@@ -1947,7 +2121,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 94
+		"id": 94,
+		"_id": "ea7bc74d-586c-4b82-881c-16b2fb5691cf",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198493,
@@ -1968,7 +2144,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 95
+		"id": 95,
+		"_id": "fb6fa18d-b388-418b-8984-c93be34c5e1d",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198500,
@@ -1989,7 +2167,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 96
+		"id": 96,
+		"_id": "779f006d-d4bb-4e90-8e42-2fa15690ea0a",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198505,
@@ -2010,7 +2190,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 97
+		"id": 97,
+		"_id": "4e749d92-f532-4f0a-9351-d43765d07f6c",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198508,
@@ -2031,7 +2213,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 98
+		"id": 98,
+		"_id": "b6a7baed-a7b4-4f57-8071-dadbc26131d2",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198512,
@@ -2052,7 +2236,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 99
+		"id": 99,
+		"_id": "fcb92ae9-afa1-47dc-b5a5-242242fe3544",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198518,
@@ -2073,7 +2259,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 100
+		"id": 100,
+		"_id": "6e3fb5f5-649f-4f96-b445-24813a1606f1",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198522,
@@ -2094,7 +2282,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 101
+		"id": 101,
+		"_id": "74d89d69-e7ba-4e86-90cc-90654bb564d9",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198537,
@@ -2115,7 +2305,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 104
+		"id": 104,
+		"_id": "116ae608-6daf-4573-9aad-0abf7d8040cf",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198542,
@@ -2136,7 +2328,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 105
+		"id": 105,
+		"_id": "d867d9e7-1d3a-441e-bb4b-24fbde70dc67",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198654,
@@ -2157,7 +2351,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 106
+		"id": 106,
+		"_id": "658c624d-8b53-48da-a9bd-b80d9ff36dc6",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198660,
@@ -2178,7 +2374,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 107
+		"id": 107,
+		"_id": "14e0f6c7-76df-4f92-a03a-2943679a04e3",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198676,
@@ -2199,7 +2397,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 108
+		"id": 108,
+		"_id": "72acd3f7-3e6c-4499-9c78-188c10a71e55",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198688,
@@ -2220,7 +2420,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 109
+		"id": 109,
+		"_id": "2433f880-e06b-4e7b-ba54-e52071680896",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198691,
@@ -2241,7 +2443,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 110
+		"id": 110,
+		"_id": "099acbb4-8e1e-4002-96c3-80106765ccca",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198696,
@@ -2262,7 +2466,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 111
+		"id": 111,
+		"_id": "0fe868c4-7d46-4fec-87b2-7f76c30ae7fc",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198700,
@@ -2283,7 +2489,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 112
+		"id": 112,
+		"_id": "168d5b51-3c12-4f9d-872a-fe962ddd6149",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198702,
@@ -2304,7 +2512,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 113
+		"id": 113,
+		"_id": "1b2dba54-2db9-4c13-a83c-741371dc133c",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198705,
@@ -2325,7 +2535,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 114
+		"id": 114,
+		"_id": "6c0fd4bc-d546-4d1d-ab45-3c156044de9c",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198709,
@@ -2346,7 +2558,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 115
+		"id": 115,
+		"_id": "4f5a995b-c759-464b-8025-d53b76b88dd0",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198717,
@@ -2354,7 +2568,7 @@
 		"enabled": true,
 		"sections": [
 			{
-				"code": "@media (min-width: 576px) {\n  .board {\n      width: 373px;\n  }\n}\n\n.js-autodevops-banner,\nbody[data-page=\"projects:tags:index\"] .top-area.adjust .nav-text {\n\tdisplay: none !important;\n}\n\n.ci-widget-container .coverage {\n    font-size: 13px !important;\n}\n\npre,\n.wiki code,\ncode, kbd, pre, samp,\n.monaco-editor .view-lines,\n.file-content.code pre code,\n.diff-file .diff-content table,\n.monospace, .commit-sha, .gfm-commit, .gfm-commit_range, .ref-name, .git-revision-dropdown .dropdown-content ul li a, .mr-state-widget .label-branch, .git-revision-dropdown-toggle, .file-editor .file-title, .file-editor .editor-file-name, .ci-table .api, .git-clone-holder .form-control, .git-clone-holder .search form, .search .git-clone-holder form {\n\tfont-family: Hasklig, Source Code Pro, Fira Code, Consolas, Monaco, monospace !important;\n}\n\n.diff-file .diff-content .code {\n    padding: 5px;\n}\n\n.color-label {\n\tpadding: 3px 8px;\n}\n\n.pipeline-graph .build .build-content {\n    padding: 8px 6px 9px;\n}\n\n.issue.today,\n.merge-request.today {\n\tbackground: #f3fff270;\n}\n\n.edited-text {\n  text-align: right;\n}\n\n/* Annotated tags index */\nbody[data-page=\"projects:tags:index\"] .tags .flex-row .row-main-content.str-truncated {\n\tfont-size: 12px;\n    color: #bbb;\n}\nbody[data-page=\"projects:tags:index\"] .tags .flex-row .row-main-content.str-truncated > * {\n    color: #000;\n\tfont-size: 14px;\n}\nbody[data-page=\"projects:tags:index\"] .tags .flex-row {\n    margin-bottom: 1.5rem;\n    padding-bottom: 1.5rem;\n}\nbody[data-page=\"projects:tags:index\"] .top-area {\n    border-bottom: none !important;\n}\n\n/* Gitlab avatars */\nimg.s20,\nimg.s16,\nimg.avatar[width=\"16\"],\n.milestone-content .issuable-row span a img.s16 {\n\twidth: 26px !important;\n  height: 26px !important;\n}\n\n.milestone-content .issuable-row span a img.s16 {\n\tfloat: right;\n  position: relative;\n  bottom: 5px;\n}\n\na.user-avatar-link img:not(.s40) {\n  width: 24px !important;\n  height: 24px !important;\n}\n.board-card-assignee a.user-avatar-link img:not(.s40) {\n  width: 30px !important;\n  height: 30px !important;\n}\n\na[href*=\"/ghost\"] img {\ncontent:url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAAAAAAdJSU2AAACNElEQVR4AdXYBa7jMBCA4b3/JZahzIkjp2qt+BWUWnG5ln2XxaJJb2b5F2ukL4wvzK/rP7bUcbf92u6oftLSe1ldk8efsfaVeEjusZZeC6e1RllaCk/yG6ag1lZ4WwPX69uyD6tAe/g2ipAlNMRS37awDLaFrpcMWxXQOi0jnWCWjFkSZomYJWDWKmatYNZyEWkJsvQimoZYah5NgdaLxagCtF6GRy0DshZPkeYwS/KIJWGWYjwYUzDLxCwDtJ54OKglimBLqHWahii2g1pmHLLGBmwVoRjcKlmgOdw65H5qKuGWCVi5Qlhs6m1sENZi4q3AWNvca5UYy2RjT/SAsiZey6CsIvc0wVlV5lJ0ibPMyLUGCmlxQq0IM0hLdWyro7CWEc3sXsqaK4O2zLxOsmtpfW5Q1u68ZrVmepaaNXEewawtI9X5Xl3U3n1qND6+rfPzvqoIWz/fklNCSLY153YV53J/XUxGCJnKZ1lajsn3/Ffegf6Y5pV2LUsSNL2UHzxUfh3TlYpZqqTpXZm0KZk9zJcqaEmaWPHDw0pxe05K7bWOLHFLWXVetqpYmrjle4+1y0aBaF4UOQ1NU+lYezJClkjLUnSEjqhH6zjAW4OjtY39Ibq+sawUb6W2RQfoqG0VeKuwrRJvlba17faRdbe2pTtYq6Nty/S7yAbGsQjWIq41wVoT1+IdZNy1djUcVdu5lklQWC0xHkt1X31qNEE1Pr3qKv/9XiSNj6Aaifj3/69+AYujsR/MvkpZAAAAAElFTkSuQmCC\");\n}\n\n.avatar-cell a[href=\"/IIlic\"] img,\na.user-avatar-link[href=\"/IIlic\"] img,\n.avatar-cell a[href=\"mailto:p3rf3ct12\"] img,\n.avatar-cell a[href=\"mailto:iggori@gmail.com\"] img {\n  content:url(\"https://avatars3.githubusercontent.com/u/21061305?s=460&v=4\");\n}\n\na.user-avatar-link[href=\"/jhaumann\"] img,\n.avatar-cell a[href=\"mailto:jan.haumann@t-online.de\"] img {\n\tcontent:url(\"https://ca.slack-edge.com/T02NQMBF1-U02T5BN8T-9b4d13450249-72\");\n}\n\n.avatar-cell a[href=\"/vzhadlun\"] img,\na.user-avatar-link[href=\"/vzhadlun\"] img,\n.avatar-cell a[href=\"mailto:volodymyr.zhadlun@socialsweetherts.de\"] img {\n\tcontent:url(\"https://i.imgur.com/8WPk5Xo.png\");\n}\n\n#group_member_457 img,\n.avatar-cell a[href=\"/vnikolic\"] img,\na.user-avatar-link[href=\"/vnikolic\"] img {\n\tcontent:url(\"https://ca.slack-edge.com/T02NQMBF1-U4FU7E8HZ-de2e06db937d-128\");\n}\n\n.avatar-cell a[href=\"/adelf\"] img,\na.user-avatar-link[href=\"/adelf\"] img {\n\tcontent:url(\"https://avatars3.githubusercontent.com/u/2818394?s=460&v=4\");\n}\n\n.avatar-cell a[href=\"/nbucic\"] img,\na.user-avatar-link[href=\"/nbucic\"] img {\n\tcontent:url(\"https://avatars2.githubusercontent.com/u/3688247?s=460&v=4\");\n}\n\n.avatar-cell a[href=\"mailto:ionpetrache@socialsweethearts.de\"] img {\n\tcontent:url(\"https://gitlab.social-net.me/uploads/-/system/user/avatar/31/avatar.png\");\n}\n\n#group_member_431 img,\na[href*=\"/mscholz\"] img,\na[href*=\"/mscholz\"] span img,\na[data-original-title=\"Assigned to Matthias Scholz\"] img {\n  content:url(\"https://avatars1.githubusercontent.com/u/96972?s=460&v=4\");\n}\n\n#group_member_439 img,\na[href*=\"/riordan\"] img,\na[data-original-title=\"Assigned to Raluca Iordan\"] img {\n  content:url(\"https://ca.slack-edge.com/T02NQMBF1-U7TQT2A84-a25c70029069-128\");\n}\n\n#group_member_426 img,\na[href*=\"/dminini\"] img,\na[data-original-title=\"Assigned to Daniel Minini\"] img {\n  content:url(\"https://ca.slack-edge.com/T02NQMBF1-U02NQMBF5-OS2780465504-128\");\n}\n\n#group_member_443 img,\na[href*=\"/apenfold\"] img,\na[data-original-title=\"Assigned to Andrew Penfold\"] img {\n  content:url(\"https://ca.slack-edge.com/T02NQMBF1-U7Z7916JY-0724ff06c1b4-128\");\n}\n\n#group_member_451 img,\na[href*=\"/habdelli\"] img,\na[data-original-title=\"Assigned to Haitham Abdelli\"] img {\n\tcontent:url(\"https://ca.slack-edge.com/T02NQMBF1-U35A3DMHA-e61a4b4a19a5-128\");\n}\n\n#group_member_450 img,\na[href*=\"/vgeorgiev\"] img,\na[data-original-title=\"Assigned to Viktor Georgiev\"] img {\n\tcontent:url(\"https://ca.slack-edge.com/T02NQMBF1-U0X6S32F9-005917621ecb-72\");\n}\n\n#group_member_446 img,\na[href*=\"/mheinrich\"] img,\na[data-original-title=\"Assigned to Manuel Heinrich\"] img {\n\tcontent:url(\"https://ca.slack-edge.com/T02NQMBF1-U1RK6AYLD-3084c357d5f6-72\");\n}\n\n.avatar-cell a[href=\"mailto:denis.levtchenko@gmail.com\"] img {\n  content:url(\"https://gitlab.social-net.me/uploads/-/system/user/avatar/24/avatar.png\");\n}\n\na[href=\"mailto:zlos7ar@gmail.com\"] img {\n  content:url(\"https://ca.slack-edge.com/T02NQMBF1-U0X6S32F9-005917621ecb-72\");\n}\n\n#group_member_465 img,\na[href*=\"/kzografova\"] img,\na[data-original-title=\"Assigned to Kristin Zografova\"] img {\n  content:url(\"https://ca.slack-edge.com/T02NQMBF1-U4CKZ45U7-c5c60a8cda5a-72\");\n}\n\na[href*=\"/ikaramanis\"] img,\na[href=\"https://gitlab.social-net.me/ikaramanis\"] img,\na[data-original-title=\"Assigned to Ilias Karamanis\"] img {\n  content:url(\"https://gitlab.social-net.me/uploads/-/system/user/avatar/47/avatar.png?width=400\");\n}\n\na[href*=\"/twchan\"] img,\na[data-original-title=\"Assigned to Tak Wing Chan\"] img {\n    content:url(\"https://ca.slack-edge.com/T02NQMBF1-U02V5LXNA-20c7a923d470-1024\");\n}\n\na[href*=\"/thaas\"] img,\na[data-original-title=\"Assigned to Tommy Haas\"] img {\n    content:url(\"https://ca.slack-edge.com/T02NQMBF1-U0B8XDMMW-4d0a44203798-72\");\n}\n\na[href*=\"/rao.anees\"] img,\na[data-original-title=\"Assigned to Muhammad Tahir\"] img {\n    content:url(\"https://avatars0.githubusercontent.com/u/13467276?s=460&v=4\");\n}\n\nimg[alt=\"Lena Kovtunets\"],\na[href*=\"/okovtunets\"] img,\nimg[alt=\"Lena Kovtunets's avatar\"],\na[title=\"mal.slider@gmail.com\"] img,\na[data-original-title=\"Assigned to Olena Kovtunets\"] img,\na[href*=\"mailto:olenakovtunets@kzografovas-MBP.social.local\"] img {\n    content:url(\"https://gitlab.social-net.me/uploads/-/system/user/avatar/61/avatar.png\");\n}\n\nimg[alt=\"Bugra Cil\"],\na[href*=\"/bcil\"] img,\nimg[alt=\"Bugra Cil's avatar\"],\na[title=\"bugra.cil@socialsweethearts.de\"] img,\na[data-original-title=\"Assigned to Bugra Cil\"] img {\n    content:url(\"https://ca.slack-edge.com/T02NQMBF1-UJR7HUJDN-2088d8313eed-72\");\n}\n\nimg[alt=\"Johannes Helminger\"],\na[href*=\"/jhelminger\"] img,\nimg[alt=\"Johannes Helminger's avatar\"],\na[title=\"johannes.helminger@socialsweethearts.de\"] img,\na[data-original-title=\"Assigned to Johannes Helminger\"] img {\n    content:url(\"https://ca.slack-edge.com/T02NQMBF1-U02NYNAS0-a7a73598248a-72\");\n}\n\nimg[alt=\"Viljami Peltola\"],\na[href*=\"/v.peltola\"] img,\nimg[alt=\"Viljami Peltola's avatar\"],\na[data-original-title=\"Assigned to Viljami Peltola\"] img {\n    content:url(\"https://ca.slack-edge.com/T02NQMBF1-UKGG4B27M-902f37d0f75e-72\");\n}\n\nimg[alt=\"Sepehr Lajevardi's avatar\"] {\n    content:url(\"/uploads/-/system/user/avatar/46/avatar.png?width=90\");\n}\n\nimg[alt=\"Dmytro Krasota\"],\na[href*=\"/dkrasota\"] img,\na[href*=\"mailto:dmytro.krasota@extern.socialsweethearts.com\"] img,\nimg[alt=\"Dmytro Krasota's avatar\"],\na[data-original-title=\"Assigned to Dmytro Krasota\"] img { content:url(\"data:image/jpeg;base64,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\");\n}\n\nimg[alt=\"Boban Mijajlovic\"],\na[href*=\"/bmijajlovic\"] img,\na[href*=\"mailto:???\"] img,\nimg[alt=\"Boban Mijajlovic's avatar\"],\na[data-original-title=\"Assigned to Boban Mijajlovic\"] img {\n    content:url(\"https://outsourcely.s3.amazonaws.com/profile%2Fmy-pic-350837.jpg\");\n}\n\na[href*=\"mailto:github@adrien.sent.com\"] img {\n    content:url(\"https://gitlab.social-net.me/uploads/-/system/user/avatar/69/avatar.png?width=400\");\n}",
+				"code": "@media (min-width: 576px) {\n  .board {\n      width: 373px;\n  }\n}\n\n.md table:not(.code),\n.md table:not(.code) tbody {\n    width: 100% !important;\n}\n\n.js-autodevops-banner,\nbody[data-page=\"projects:tags:index\"] .top-area.adjust .nav-text {\n\tdisplay: none !important;\n}\n\n.ci-widget-container .coverage {\n    font-size: 13px !important;\n}\n\npre,\n.wiki code,\ncode, kbd, pre, samp,\n.monaco-editor .view-lines,\n.file-content.code pre code,\n.diff-file .diff-content table,\n.monospace, .commit-sha, .gfm-commit, .gfm-commit_range, .ref-name, .git-revision-dropdown .dropdown-content ul li a, .mr-state-widget .label-branch, .git-revision-dropdown-toggle, .file-editor .file-title, .file-editor .editor-file-name, .ci-table .api, .git-clone-holder .form-control, .git-clone-holder .search form, .search .git-clone-holder form {\n\tfont-family: Hasklig, Source Code Pro, Fira Code, Consolas, Monaco, monospace !important;\n}\n\n.diff-file .diff-content .code {\n    padding: 5px;\n}\n\n.color-label {\n\tpadding: 3px 8px;\n}\n\n.pipeline-graph .build .build-content {\n    padding: 8px 6px 9px;\n}\n\n.issue.today,\n.merge-request.today {\n\tbackground: #f3fff270;\n}\n\n.edited-text {\n  text-align: right;\n}\n\n/* Annotated tags index */\nbody[data-page=\"projects:tags:index\"] .tags .flex-row .row-main-content.str-truncated {\n\tfont-size: 12px;\n    color: #bbb;\n}\nbody[data-page=\"projects:tags:index\"] .tags .flex-row .row-main-content.str-truncated > * {\n    color: #000;\n\tfont-size: 14px;\n}\nbody[data-page=\"projects:tags:index\"] .tags .flex-row {\n    margin-bottom: 1.5rem;\n    padding-bottom: 1.5rem;\n}\nbody[data-page=\"projects:tags:index\"] .top-area {\n    border-bottom: none !important;\n}\n\n/* Gitlab avatars */\nimg.s20,\nimg.s16,\nimg.avatar[width=\"16\"],\n.milestone-content .issuable-row span a img.s16 {\n\twidth: 26px !important;\n  height: 26px !important;\n}\n\n.milestone-content .issuable-row span a img.s16 {\n\tfloat: right;\n  position: relative;\n  bottom: 5px;\n}\n\na.user-avatar-link img:not(.s40) {\n  width: 24px !important;\n  height: 24px !important;\n}\n.board-card-assignee a.user-avatar-link img:not(.s40) {\n  width: 30px !important;\n  height: 30px !important;\n}\n\na[href*=\"/ghost\"] img {\ncontent:url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAAAAAAdJSU2AAACNElEQVR4AdXYBa7jMBCA4b3/JZahzIkjp2qt+BWUWnG5ln2XxaJJb2b5F2ukL4wvzK/rP7bUcbf92u6oftLSe1ldk8efsfaVeEjusZZeC6e1RllaCk/yG6ag1lZ4WwPX69uyD6tAe/g2ipAlNMRS37awDLaFrpcMWxXQOi0jnWCWjFkSZomYJWDWKmatYNZyEWkJsvQimoZYah5NgdaLxagCtF6GRy0DshZPkeYwS/KIJWGWYjwYUzDLxCwDtJ54OKglimBLqHWahii2g1pmHLLGBmwVoRjcKlmgOdw65H5qKuGWCVi5Qlhs6m1sENZi4q3AWNvca5UYy2RjT/SAsiZey6CsIvc0wVlV5lJ0ibPMyLUGCmlxQq0IM0hLdWyro7CWEc3sXsqaK4O2zLxOsmtpfW5Q1u68ZrVmepaaNXEewawtI9X5Xl3U3n1qND6+rfPzvqoIWz/fklNCSLY153YV53J/XUxGCJnKZ1lajsn3/Ffegf6Y5pV2LUsSNL2UHzxUfh3TlYpZqqTpXZm0KZk9zJcqaEmaWPHDw0pxe05K7bWOLHFLWXVetqpYmrjle4+1y0aBaF4UOQ1NU+lYezJClkjLUnSEjqhH6zjAW4OjtY39Ibq+sawUb6W2RQfoqG0VeKuwrRJvlba17faRdbe2pTtYq6Nty/S7yAbGsQjWIq41wVoT1+IdZNy1djUcVdu5lklQWC0xHkt1X31qNEE1Pr3qKv/9XiSNj6Aaifj3/69+AYujsR/MvkpZAAAAAElFTkSuQmCC\");\n}\n\n.avatar-cell a[href=\"/IIlic\"] img,\na.user-avatar-link[href=\"/IIlic\"] img,\n.avatar-cell a[href=\"mailto:p3rf3ct12\"] img,\n.avatar-cell a[href=\"mailto:iggori@gmail.com\"] img {\n  content:url(\"https://avatars3.githubusercontent.com/u/21061305?s=460&v=4\");\n}\n\na.user-avatar-link[href=\"/jhaumann\"] img,\n.avatar-cell a[href=\"mailto:jan.haumann@t-online.de\"] img {\n\tcontent:url(\"https://ca.slack-edge.com/T02NQMBF1-U02T5BN8T-9b4d13450249-72\");\n}\n\n.avatar-cell a[href=\"/vzhadlun\"] img,\na.user-avatar-link[href=\"/vzhadlun\"] img,\n.avatar-cell a[href=\"mailto:volodymyr.zhadlun@socialsweetherts.de\"] img {\n\tcontent:url(\"https://i.imgur.com/8WPk5Xo.png\");\n}\n\n#group_member_457 img,\n.avatar-cell a[href=\"/vnikolic\"] img,\na.user-avatar-link[href=\"/vnikolic\"] img {\n\tcontent:url(\"https://ca.slack-edge.com/T02NQMBF1-U4FU7E8HZ-de2e06db937d-128\");\n}\n\n.avatar-cell a[href=\"/adelf\"] img,\na.user-avatar-link[href=\"/adelf\"] img {\n\tcontent:url(\"https://avatars3.githubusercontent.com/u/2818394?s=460&v=4\");\n}\n\n.avatar-cell a[href=\"/nbucic\"] img,\na.user-avatar-link[href=\"/nbucic\"] img {\n\tcontent:url(\"https://avatars2.githubusercontent.com/u/3688247?s=460&v=4\");\n}\n\n.avatar-cell a[href=\"mailto:ionpetrache@socialsweethearts.de\"] img {\n\tcontent:url(\"https://gitlab.social-net.me/uploads/-/system/user/avatar/31/avatar.png\");\n}\n\n#group_member_431 img,\na[href*=\"/mscholz\"] img,\na[href*=\"/mscholz\"] span img,\na[data-original-title=\"Assigned to Matthias Scholz\"] img {\n  content:url(\"https://avatars1.githubusercontent.com/u/96972?s=460&v=4\");\n}\n\n#group_member_439 img,\na[href*=\"/riordan\"] img,\na[data-original-title=\"Assigned to Raluca Iordan\"] img {\n  content:url(\"https://ca.slack-edge.com/T02NQMBF1-U7TQT2A84-a25c70029069-128\");\n}\n\n#group_member_426 img,\na[href*=\"/dminini\"] img,\na[data-original-title=\"Assigned to Daniel Minini\"] img {\n  content:url(\"https://ca.slack-edge.com/T02NQMBF1-U02NQMBF5-OS2780465504-128\");\n}\n\n#group_member_443 img,\na[href*=\"/apenfold\"] img,\na[data-original-title=\"Assigned to Andrew Penfold\"] img {\n  content:url(\"https://ca.slack-edge.com/T02NQMBF1-U7Z7916JY-0724ff06c1b4-128\");\n}\n\n#group_member_451 img,\na[href*=\"/habdelli\"] img,\na[data-original-title=\"Assigned to Haitham Abdelli\"] img {\n\tcontent:url(\"https://ca.slack-edge.com/T02NQMBF1-U35A3DMHA-e61a4b4a19a5-128\");\n}\n\n#group_member_450 img,\na[href*=\"/vgeorgiev\"] img,\na[data-original-title=\"Assigned to Viktor Georgiev\"] img {\n\tcontent:url(\"https://ca.slack-edge.com/T02NQMBF1-U0X6S32F9-005917621ecb-72\");\n}\n\n#group_member_446 img,\na[href*=\"/mheinrich\"] img,\na[data-original-title=\"Assigned to Manuel Heinrich\"] img {\n\tcontent:url(\"https://ca.slack-edge.com/T02NQMBF1-U1RK6AYLD-3084c357d5f6-72\");\n}\n\n.avatar-cell a[href=\"mailto:denis.levtchenko@gmail.com\"] img {\n  content:url(\"https://gitlab.social-net.me/uploads/-/system/user/avatar/24/avatar.png\");\n}\n\na[href=\"mailto:zlos7ar@gmail.com\"] img {\n  content:url(\"https://ca.slack-edge.com/T02NQMBF1-U0X6S32F9-005917621ecb-72\");\n}\n\n#group_member_465 img,\na[href*=\"/kzografova\"] img,\na[data-original-title=\"Assigned to Kristin Zografova\"] img {\n  content:url(\"https://ca.slack-edge.com/T02NQMBF1-U4CKZ45U7-c5c60a8cda5a-72\");\n}\n\na[href*=\"/ikaramanis\"] img,\na[href=\"https://gitlab.social-net.me/ikaramanis\"] img,\na[data-original-title=\"Assigned to Ilias Karamanis\"] img {\n  content:url(\"https://gitlab.social-net.me/uploads/-/system/user/avatar/47/avatar.png?width=400\");\n}\n\na[href*=\"/twchan\"] img,\na[data-original-title=\"Assigned to Tak Wing Chan\"] img {\n    content:url(\"https://ca.slack-edge.com/T02NQMBF1-U02V5LXNA-20c7a923d470-1024\");\n}\n\na[href*=\"/thaas\"] img,\na[data-original-title=\"Assigned to Tommy Haas\"] img {\n    content:url(\"https://ca.slack-edge.com/T02NQMBF1-U0B8XDMMW-4d0a44203798-72\");\n}\n\na[href*=\"/rao.anees\"] img,\na[data-original-title=\"Assigned to Muhammad Tahir\"] img {\n    content:url(\"https://avatars0.githubusercontent.com/u/13467276?s=460&v=4\");\n}\n\nimg[alt=\"Lena Kovtunets\"],\na[href*=\"/okovtunets\"] img,\nimg[alt=\"Lena Kovtunets's avatar\"],\na[title=\"mal.slider@gmail.com\"] img,\na[data-original-title=\"Assigned to Olena Kovtunets\"] img,\na[href*=\"mailto:olenakovtunets@kzografovas-MBP.social.local\"] img {\n    content:url(\"https://gitlab.social-net.me/uploads/-/system/user/avatar/61/avatar.png\");\n}\n\nimg[alt=\"Bugra Cil\"],\na[href*=\"/bcil\"] img,\nimg[alt=\"Bugra Cil's avatar\"],\na[title=\"bugra.cil@socialsweethearts.de\"] img,\na[data-original-title=\"Assigned to Bugra Cil\"] img {\n    content:url(\"https://ca.slack-edge.com/T02NQMBF1-UJR7HUJDN-2088d8313eed-72\");\n}\n\nimg[alt=\"Johannes Helminger\"],\na[href*=\"/jhelminger\"] img,\nimg[alt=\"Johannes Helminger's avatar\"],\na[title=\"johannes.helminger@socialsweethearts.de\"] img,\na[data-original-title=\"Assigned to Johannes Helminger\"] img {\n    content:url(\"https://ca.slack-edge.com/T02NQMBF1-U02NYNAS0-a7a73598248a-72\");\n}\n\nimg[alt=\"Viljami Peltola\"],\na[href*=\"/v.peltola\"] img,\nimg[alt=\"Viljami Peltola's avatar\"],\na[data-original-title=\"Assigned to Viljami Peltola\"] img {\n    content:url(\"https://ca.slack-edge.com/T02NQMBF1-UKGG4B27M-902f37d0f75e-72\");\n}\n\nimg[alt=\"Sepehr Lajevardi's avatar\"] {\n    content:url(\"/uploads/-/system/user/avatar/46/avatar.png?width=90\");\n}\n\nimg[alt=\"Dmytro Krasota\"],\na[href*=\"/dkrasota\"] img,\na[href*=\"mailto:dmytro.krasota@extern.socialsweethearts.com\"] img,\nimg[alt=\"Dmytro Krasota's avatar\"],\na[data-original-title=\"Assigned to Dmytro Krasota\"] img { content:url(\"data:image/jpeg;base64,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\");\n}\n\nimg[alt=\"Boban Mijajlovic\"],\na[href*=\"/bmijajlovic\"] img,\na[href*=\"mailto:???\"] img,\nimg[alt=\"Boban Mijajlovic's avatar\"],\na[data-original-title=\"Assigned to Boban Mijajlovic\"] img {\n    content:url(\"https://outsourcely.s3.amazonaws.com/profile%2Fmy-pic-350837.jpg\");\n}\n\na[href*=\"mailto:github@adrien.sent.com\"] img {\n    content:url(\"https://gitlab.social-net.me/uploads/-/system/user/avatar/69/avatar.png?width=400\");\n}",
 				"domains": [
 					"gitlab.com",
 					"gitlab.social-net.me"
@@ -2372,7 +2586,9 @@
 		"url": null,
 		"originalMd5": null,
 		"id": 116,
-		"updateDate": 1572531315811
+		"updateDate": 1581698959439,
+		"_id": "5aa79577-ab7a-418c-807a-e3fdb01f297b",
+		"_rev": 1581698959439
 	},
 	{
 		"installDate": 1533042198724,
@@ -2393,7 +2609,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 117
+		"id": 117,
+		"_id": "b202b96d-eb54-4be0-b1b6-67537325ecc2",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198727,
@@ -2414,7 +2632,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 118
+		"id": 118,
+		"_id": "55b941b3-1025-4a10-b364-d9e661001784",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198733,
@@ -2435,7 +2655,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 119
+		"id": 119,
+		"_id": "419cf174-c3f2-4695-a7b6-026e4702b2c9",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198739,
@@ -2456,7 +2678,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 120
+		"id": 120,
+		"_id": "c4444926-d329-4846-aeef-9b60e6b848b8",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198747,
@@ -2477,7 +2701,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 121
+		"id": 121,
+		"_id": "cac0dd7b-2824-4197-af25-904c0ec0dae6",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198753,
@@ -2498,7 +2724,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 122
+		"id": 122,
+		"_id": "cfb405f8-be42-4991-837e-e715046db054",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198758,
@@ -2519,7 +2747,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 123
+		"id": 123,
+		"_id": "440c42a3-ecc6-46e8-a479-1115a3550721",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198763,
@@ -2541,7 +2771,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 124
+		"id": 124,
+		"_id": "af8a7cf2-4220-4d2f-962e-6238a551dc26",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198766,
@@ -2562,7 +2794,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 125
+		"id": 125,
+		"_id": "b8dc01dd-f1c7-47cb-b3f8-a85a2b4d0e20",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198769,
@@ -2583,7 +2817,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 126
+		"id": 126,
+		"_id": "40285f65-b9f0-4af5-afce-f083e847fec1",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198771,
@@ -2601,7 +2837,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 127
+		"id": 127,
+		"_id": "c91c1c2f-7c27-4833-86b0-363e43f4a8c8",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198776,
@@ -2622,7 +2860,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 128
+		"id": 128,
+		"_id": "ee50058d-e039-43c8-ba3a-40a63754ccba",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198789,
@@ -2643,7 +2883,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 129
+		"id": 129,
+		"_id": "e96f7618-3b1c-42e5-a4b2-5004f76960ab",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1533042198793,
@@ -2664,7 +2906,9 @@
 		"md5Url": null,
 		"url": null,
 		"originalMd5": null,
-		"id": 130
+		"id": 130,
+		"_id": "bd7652d8-96c0-457d-93f6-c27cfb81112d",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1537091824700,
@@ -2680,11 +2924,13 @@
 			}
 		],
 		"id": 131,
-		"updateDate": 1570813951373
+		"updateDate": 1570813951373,
+		"_id": "0298f8f8-c2b0-40a1-965a-10ef849493f3",
+		"_rev": 1580802337858
 	},
 	{
 		"installDate": 1538572956187,
-		"enabled": false,
+		"enabled": true,
 		"updateUrl": null,
 		"md5Url": null,
 		"url": null,
@@ -2692,14 +2938,16 @@
 		"name": "_ReadWise",
 		"sections": [
 			{
-				"code": "body,\n.logo a {\n    font-family: -apple-system, BlinkMacSystemFont, San Francisco, \"SF Pro Text\", \"Apple Legacy Chevron\", IRANSans, Vazir, \"Helvetica Neue\", \"Helvetica\", sans-serif !important;\n}\n\n.logo a {\n    font-weight: bold;\n}\n\n.highlight-text,\n.highlight-detail {\n    font-family: Athelas, Georgia, serif !important;\n}\n\n.highlight-text span {\n    font-size: 24px !important;\n    line-height: 30px;\n    background-color: rgba(248, 228, 143, 0.45) !important; /* Just as iBooks #f8e48f */ \n}\n\n.highlight-detail-passage.bonus-highlight {\n    background: #f9f9f9 !important;\n}\n\n.upgrade-footer {\n    display: none;\n}",
+				"code": "body,\n.logo a {\n    font-family: -apple-system, BlinkMacSystemFont, San Francisco, \"SF Pro Text\", \"Apple Legacy Chevron\", IRANSans, Vazir, \"Helvetica Neue\", \"Helvetica\", sans-serif !important;\n}\n\n.logo a {\n    font-weight: bold;\n}\n\n.highlight-text,\n.highlight-detail {\n    font-family: Athelas, Georgia, serif !important;\n}\n\n#ReviewApp .highlight-text span {\n    font-size: 24px !important;\n    line-height: 35px;\n    background-color: rgba(248, 228, 143, 0.75) !important; /* Just as iBooks #f8e48f */ \n}\n\n.highlight-detail-passage.bonus-highlight {\n    background: #f9f9f9 !important;\n}\n\n.upgrade-footer {\n    display: none;\n}\n\n.circle-button {\n    box-shadow: none;\n}",
 				"domains": [
 					"readwise.io"
 				]
 			}
 		],
 		"id": 132,
-		"updateDate": 1565576394049
+		"updateDate": 1577194057220,
+		"_id": "6c4e6dbe-35ec-413a-a1fc-f144c8cad8c5",
+		"_rev": 1580802337858
 	},
 	{
 		"enabled": true,
@@ -2717,7 +2965,9 @@
 				]
 			}
 		],
-		"id": 133
+		"id": 133,
+		"_id": "404d7aec-51f4-4402-9814-e8f2b19e2497",
+		"_rev": 1580802337858
 	},
 	{
 		"enabled": true,
@@ -2735,7 +2985,9 @@
 				]
 			}
 		],
-		"id": 134
+		"id": 134,
+		"_id": "efa8617f-3ce4-4fe6-9507-e5f8a9beb8f8",
+		"_rev": 1580802337858
 	},
 	{
 		"enabled": true,
@@ -2753,7 +3005,9 @@
 				]
 			}
 		],
-		"id": 135
+		"id": 135,
+		"_id": "b958c8f2-0450-4e23-9408-dc00c41c6c6d",
+		"_rev": 1580802337858
 	},
 	{
 		"enabled": true,
@@ -2771,7 +3025,9 @@
 				]
 			}
 		],
-		"id": 136
+		"id": 136,
+		"_id": "3d664c22-cca7-4e27-8096-82a6d7f14728",
+		"_rev": 1580802337858
 	},
 	{
 		"enabled": true,
@@ -2790,7 +3046,9 @@
 			}
 		],
 		"updateDate": 1556868798269,
-		"id": 137
+		"id": 137,
+		"_id": "b5bfbd10-0007-44ba-8a8d-5098b85ab69c",
+		"_rev": 1580802337858
 	},
 	{
 		"enabled": true,
@@ -2809,7 +3067,9 @@
 			}
 		],
 		"updateDate": 1559884331388,
-		"id": 138
+		"id": 138,
+		"_id": "d7dc9ad2-3521-4c34-814f-6ade30053015",
+		"_rev": 1580802337858
 	},
 	{
 		"enabled": false,
@@ -2828,6 +3088,32 @@
 			}
 		],
 		"updateDate": 1567889613322,
-		"id": 139
+		"id": 139,
+		"_id": "47fa8d71-5bd4-44a5-a3e0-42e4f9bafa88",
+		"_rev": 1580802337858
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1576743054256,
+		"name": "traffic.social-api.me",
+		"sections": [
+			{
+				"code": ".navbar-brand {\n    color: #e00000 !important;\n}\n.navbar-brand::after {\n    content: \"🛑\";\n}\n.navbar-brand::before {\n    content: \"🛑\";\n}",
+				"domains": [
+					"traffic.social-api.me",
+					"traffic-dev.social-api.me",
+					"translation.social-api.me",
+					"translation-staging.social-api.me"
+				]
+			}
+		],
+		"updateDate": 1576743457620,
+		"id": 140,
+		"_id": "43f9860d-308c-4646-9e86-26a4b68b5f19",
+		"_rev": 1580802337858
 	}
 ]
