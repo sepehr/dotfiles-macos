@@ -13,6 +13,7 @@ alias p="ping g.co"
 alias ls="ls -a"
 alias yd="youtube-dl"
 alias pds=pds-skeleton
+alias dzm=dezoomify-rs
 alias sf="./bin/console"
 alias fzf="fzf --preview"
 alias srv="brew services"
@@ -80,6 +81,7 @@ alias mylocalip="ipconfig getifaddr en0"
 alias macaddr="networksetup -getmacaddress"
 alias openports="sudo lsof -Pni | grep -i listen"
 alias ipinfo="curl -s https://ipapi.co/json && echo"
+alias virtualbox_restart="sudo /Library/Application\ Support/VirtualBox/LaunchDaemons/VirtualBoxStartup.sh restart"
 
 # Laravel
 alias a="php ./artisan"
