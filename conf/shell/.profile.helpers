@@ -91,6 +91,11 @@ git-cleanup() {
     git branch -r --merged | grep -v 'master' | grep -v 'dev' | sed 's/origin\///' | xargs -n 1 git push --delete origin
 }
 
+# cherrypick from another repo
+git-cherry-pick-from() {
+    git --git-dir=$(realpath $1/.git) format-patch -k -1 --stdout $2 | git am -3 -k
+}
+
 # todolist wrapper
 t() {
     if [[ -f "./.todos.json" || "$1" == "init" ]]; then
