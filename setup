@@ -567,8 +567,7 @@ if [[ "$@" != *"--no-install"* ]]; then
     brew link --force php@7.2
 
     # Installing global pip packages from file
-    pip2 install -U -r cellar/pip2
-    pip3 install -U -r cellar/pip3
+    pip install -U -r cellar/pip
 
     # Installing global gem packages from file
     xargs gem install < cellar/gem
