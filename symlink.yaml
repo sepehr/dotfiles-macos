@@ -29,6 +29,7 @@
     ~/Pictures/Etc: ~/.dotfiles/private/var/pictures/Etc
     ~/Pictures/Icons: ~/.dotfiles/private/var/pictures/Icons
     ~/Pictures/Photos: ~/.dotfiles/private/var/pictures/Photos
+    ~/Pictures/Artworks: ~/.dotfiles/private/var/pictures/Artworks
     ~/Pictures/Identity: ~/.dotfiles/private/var/pictures/Identity
     ~/Pictures/Wallpapers: ~/.dotfiles/private/var/pictures/Wallpapers
     "~/Pictures/Photo Booth Library": "~/.dotfiles/private/var/pictures/Photo Booth Library"
