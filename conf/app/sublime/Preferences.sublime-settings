@@ -28,11 +28,11 @@
 		"dist",
 		".codeintel"
 	],
-	"font_face": "Cascadia Code",
+	"font_face": "Hasklig",
 	"font_options":
 	[
 	],
-	"font_size": 13,
+	"font_size": 14,
 	"gutter": true,
 	"highlight_line": true,
 	"ignored_packages":
