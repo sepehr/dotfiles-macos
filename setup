@@ -649,6 +649,7 @@ if [[ "$@" != *"--no-install"* ]]; then
     ZSH_PATH=$(which zsh)
     grep -q "$ZSH_PATH" /etc/shells || sudo sh -c "echo '$ZSH_PATH' >> /etc/shells"
     chsh -s $ZSH_PATH
+    compaudit | xargs chmod g-w
 fi
 
 ## FileVault on APFS
