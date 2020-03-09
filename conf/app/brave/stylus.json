@@ -20,7 +20,7 @@
 		],
 		"id": 1,
 		"_id": "15025a27-459e-4c34-a26d-1cd3e6867f58",
-		"_rev": 1580802337858
+		"_rev": 1583494790569
 	},
 	{
 		"installDate": 1533042198009,
@@ -41,7 +41,7 @@
 		"id": 2,
 		"updateDate": 1565521140412,
 		"_id": "b2f7cb50-d44c-490d-b4b6-c965c8f588e1",
-		"_rev": 1580802337858
+		"_rev": 1583494790569
 	},
 	{
 		"installDate": 1533042198012,
@@ -62,7 +62,7 @@
 		"id": 3,
 		"updateDate": 1570717513162,
 		"_id": "317a1537-6808-48cc-b19b-017cc5efe333",
-		"_rev": 1580802337858
+		"_rev": 1583706073320
 	},
 	{
 		"installDate": 1533042198016,
@@ -85,7 +85,7 @@
 		"id": 4,
 		"updateDate": 1577487326257,
 		"_id": "3e0c1c18-0593-431d-9ec5-dd8d24a09e27",
-		"_rev": 1580802337858
+		"_rev": 1583494790569
 	},
 	{
 		"installDate": 1533042198018,
@@ -108,7 +108,7 @@
 		],
 		"id": 5,
 		"_id": "0a949bd1-3b76-4936-98cf-0f742c088903",
-		"_rev": 1580802337858
+		"_rev": 1583494790569
 	},
 	{
 		"installDate": 1533042198021,
@@ -131,7 +131,7 @@
 		],
 		"id": 6,
 		"_id": "b2dfe19d-ed29-4db3-8510-d9515c41dd5d",
-		"_rev": 1580802337858
+		"_rev": 1583706074881
 	},
 	{
 		"installDate": 1533042198024,
@@ -154,7 +154,7 @@
 		],
 		"id": 7,
 		"_id": "66e74573-48a6-40ed-b211-2ba26ca5a105",
-		"_rev": 1580802337858
+		"_rev": 1583494790569
 	},
 	{
 		"installDate": 1533042198026,
@@ -177,7 +177,7 @@
 		],
 		"id": 8,
 		"_id": "2f57b7dd-26ff-4991-a35a-1803974fbd93",
-		"_rev": 1580802337858
+		"_rev": 1583494790569
 	},
 	{
 		"installDate": 1533042198030,
@@ -200,7 +200,7 @@
 		],
 		"id": 9,
 		"_id": "11879729-a148-491e-b1d3-507fc4e8d68d",
-		"_rev": 1580802337858
+		"_rev": 1583494790569
 	},
 	{
 		"installDate": 1533042198057,
@@ -223,7 +223,7 @@
 		],
 		"id": 10,
 		"_id": "a034a1af-1f0b-497a-80cf-a5ee19a3d7ee",
-		"_rev": 1580802337858
+		"_rev": 1583494790569
 	},
 	{
 		"installDate": 1533042198060,
@@ -246,7 +246,7 @@
 		],
 		"id": 11,
 		"_id": "f218a9ae-400c-449b-802b-3a01838a9004",
-		"_rev": 1580802337858
+		"_rev": 1583494790569
 	},
 	{
 		"installDate": 1533042198063,
@@ -267,7 +267,7 @@
 		"id": 12,
 		"updateDate": 1564740075461,
 		"_id": "e6673673-b932-477e-b9bd-59db2f269be8",
-		"_rev": 1580802337858
+		"_rev": 1583706069474
 	},
 	{
 		"installDate": 1533042198066,
@@ -294,7 +294,7 @@
 		],
 		"id": 13,
 		"_id": "f0f471fa-9194-481c-9bcd-afa9fd0616fd",
-		"_rev": 1580802337858
+		"_rev": 1583494790569
 	},
 	{
 		"installDate": 1533042198069,
@@ -317,7 +317,7 @@
 		],
 		"id": 14,
 		"_id": "3c99d8cf-5623-43d1-add3-a346ec187460",
-		"_rev": 1580802337858
+		"_rev": 1583494790569
 	},
 	{
 		"installDate": 1533042198071,
@@ -340,7 +340,7 @@
 		],
 		"id": 15,
 		"_id": "3c608612-87da-44af-b170-a4106f2e7126",
-		"_rev": 1580802337858
+		"_rev": 1583494790569
 	},
 	{
 		"installDate": 1533042198074,
@@ -363,7 +363,7 @@
 		],
 		"id": 16,
 		"_id": "bad12511-a942-4e5c-ba86-6de57cd1fcad",
-		"_rev": 1580802337858
+		"_rev": 1583494790569
 	},
 	{
 		"installDate": 1533042198078,
@@ -397,7 +397,7 @@
 		],
 		"id": 17,
 		"_id": "194166ef-3ddc-4f86-9e85-01cb279c477d",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198080,
@@ -420,7 +420,7 @@
 		],
 		"id": 18,
 		"_id": "94a227b9-2e45-4ddd-a195-368696b6cad4",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198083,
@@ -443,7 +443,7 @@
 		],
 		"id": 19,
 		"_id": "f70303b7-b27e-4b1d-8d81-9f14c5d94412",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198086,
@@ -466,7 +466,7 @@
 		],
 		"id": 20,
 		"_id": "736b9fbe-8067-4818-a5b6-2bdc5fc6c24e",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198088,
@@ -489,7 +489,7 @@
 		],
 		"id": 21,
 		"_id": "bf669300-0fd2-4ae6-9c8e-3fbc362318f0",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198091,
@@ -512,7 +512,7 @@
 		],
 		"id": 22,
 		"_id": "16e13b9f-6112-4abe-b771-31d57e810a33",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198094,
@@ -536,7 +536,7 @@
 		],
 		"id": 23,
 		"_id": "ded34130-f495-4e36-8196-4466a1093f9c",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198096,
@@ -559,7 +559,7 @@
 		],
 		"id": 24,
 		"_id": "40d54288-c8bc-473a-a66d-a88ed8674e0a",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198099,
@@ -583,7 +583,7 @@
 		],
 		"id": 25,
 		"_id": "c465edb3-5001-411b-a22e-7fbdaacc25fa",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198103,
@@ -606,7 +606,7 @@
 		],
 		"id": 26,
 		"_id": "b0238f97-1e49-4db9-9b10-c507b61df5f5",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198106,
@@ -629,7 +629,7 @@
 		],
 		"id": 27,
 		"_id": "d25a04a5-6402-436a-9c99-1f7abb38a961",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198108,
@@ -664,7 +664,7 @@
 		],
 		"id": 28,
 		"_id": "89b781e1-5b09-4fbe-a876-fda29f0e3a1c",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198111,
@@ -688,7 +688,7 @@
 		],
 		"id": 29,
 		"_id": "481803e0-f5e7-4eec-9236-e0af645090a3",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198113,
@@ -710,7 +710,7 @@
 		"id": 30,
 		"updateDate": 1577019044868,
 		"_id": "d5c2ccbf-34fb-46e8-a37a-b37419536eb2",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198116,
@@ -733,7 +733,7 @@
 		],
 		"id": 31,
 		"_id": "001f49ce-fb13-47cf-b7e1-636ca009cbd2",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198119,
@@ -757,7 +757,7 @@
 		],
 		"id": 32,
 		"_id": "05068b8c-b307-410c-aedf-89560ca6e92e",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198121,
@@ -780,7 +780,7 @@
 		],
 		"id": 33,
 		"_id": "7ff63d8a-b2d0-4905-a5bf-717f5445a1e5",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198123,
@@ -803,7 +803,7 @@
 		],
 		"id": 34,
 		"_id": "28b752f4-7d75-4714-96d5-c4dc30d922cf",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198127,
@@ -826,7 +826,7 @@
 		],
 		"id": 35,
 		"_id": "bce2a4cd-e3e7-4659-804c-6c0cd531d18e",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198129,
@@ -849,7 +849,7 @@
 		],
 		"id": 36,
 		"_id": "1edc8028-0d81-475e-a2ad-3674cda86f3c",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198131,
@@ -870,7 +870,7 @@
 		"id": 37,
 		"updateDate": 1574631599364,
 		"_id": "ecd53c53-6950-4414-96b4-e0913054af0b",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198134,
@@ -893,7 +893,7 @@
 		],
 		"id": 38,
 		"_id": "4b32c53b-d749-4c9d-9ffc-dbc98432918a",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198137,
@@ -916,7 +916,7 @@
 		],
 		"id": 39,
 		"_id": "3a5c28fc-219e-4b9f-b386-5d284f10fe31",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198140,
@@ -939,7 +939,7 @@
 		],
 		"id": 40,
 		"_id": "16e51eab-f063-472e-b2e8-c8aff014330c",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198142,
@@ -963,7 +963,7 @@
 		],
 		"id": 41,
 		"_id": "b0b6cda5-b94b-4f9b-bac3-9530cf45babb",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198145,
@@ -986,7 +986,7 @@
 		],
 		"id": 42,
 		"_id": "7851e8f0-e94e-4f0a-9372-74cdb17fe910",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198152,
@@ -1009,7 +1009,7 @@
 		],
 		"id": 44,
 		"_id": "16c837be-bebf-420c-9523-ed5c86772641",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198155,
@@ -1032,7 +1032,7 @@
 		],
 		"id": 45,
 		"_id": "b5548ccd-e8a7-44b4-aa27-d3f4000adcdc",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198158,
@@ -1055,7 +1055,7 @@
 		],
 		"id": 46,
 		"_id": "d5a6fe7a-7bd1-44ba-84fc-c5999730339b",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198161,
@@ -1078,7 +1078,7 @@
 		],
 		"id": 47,
 		"_id": "a0972751-5627-48cf-9577-a296d97d59e7",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198164,
@@ -1101,7 +1101,7 @@
 		],
 		"id": 48,
 		"_id": "e3545812-5b67-4cf8-92be-948c836d661d",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198167,
@@ -1124,7 +1124,7 @@
 		],
 		"id": 49,
 		"_id": "9524a5c0-1909-4a7c-9163-ca0661ed9395",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198170,
@@ -1147,7 +1147,7 @@
 		],
 		"id": 50,
 		"_id": "d5000c74-8883-4f69-80f9-58beda89dc79",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198172,
@@ -1170,7 +1170,7 @@
 		"originalMd5": null,
 		"id": 51,
 		"_id": "10930b6f-362f-489a-b28e-daed20ef5727",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198256,
@@ -1193,7 +1193,7 @@
 		"originalMd5": null,
 		"id": 53,
 		"_id": "855ea94d-3c4b-41c2-94b6-a37cb551da0a",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198269,
@@ -1201,7 +1201,7 @@
 		"enabled": true,
 		"sections": [
 			{
-				"code": "#left-sidebar {\n\topacity: .5;\n}\n\n#left-sidebar:hover {\n\topacity: 1;\n}\n\n.nav-links .youarehere .nav-links--link {\n\tfont-weight: normal !important;\n}\n\n.question-hyperlink,\n.search-result .result-link span a {\n  font-size: 16px;\n  font-weight: 400;\n  margin-bottom: .35em;\n  display: block;\n}\n\n.comment-copy,\nbody, html, .top-bar,\n.topbar-dialog .modal-content .message-text h4,\n.employer, .detail-jobTitle, .jobdetail .description, .company-module>header .-info, .listResults .-title .job-link, .listResults .-title>h2 .job-link, .jobdetail h2.detail-sectionTitle, .company-page .detail-sectionTitle, .company-page h2.detail-sectionTitle, div.company-page .learnmore .truncate, .company-module .-details .-benefits li, div.clc-jobs-multi>.middle>ul .job-wrap .title, div.clc-jobs-multi>.middle>ul .job-wrap .company, .clc-cp-sb--short .-company, .clc-cp-sb--short._benefits .-list .-label, .listResults .-job-summary .-company .-name, #company-profile.view h2, #job-detail section > h2, .-about-company .description p, .-about-company .description li, .-job-description .description p, .-job-description .description li, .s-card.js-jobs-recommendations a, .sidebar #action-bar .-title .-text, #job-detail .job-detail-header .-description .-title a, #job-detail .-more-jobs .-company-alert .-text .-title, .listResults .-job-summary.-on-sidebar .-company .-name, .listResults .-job-summary.-on-sidebar .-company .-location, #job-detail .job-detail-header .-description .-company .-location, #job-detail .company-page .-benefits .benefit .benefit-desciption, #company-profile.view [data-company-section=jobs-list] .job h3 > a, #company-profile.view [data-company-section=company-info] .tag-line, #company-profile.view [data-company-section=benefits] .benefits-list, #company-profile.view [data-company-section=company-info] .title-and-badge, .msg-form textarea {\n\tfont-family: -apple-system, BlinkMacSystemFont, San Francisco, \"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif !important; \n}\n\nh2.bottom-notice,\n#left-sidebar > div > nav > ol > li:nth-child(4) > ol,\n#question .everyonelovesstackoverflow:empty {\n\tdisplay: none;\n}\n\n.post-text, \n.wmd-preview {\n  font-size: 15px;\n  line-height: 1.6 !important;\n}\n\n.comment-text, \n.comment-text code {\n  font-size: 12px !important;\n  line-height: 1.5 !important;;\n}\n\n.reputation-score {\n\tfont-weight: 600;\n}\n\npre {\n\tpadding: 8px 12px !important;\n}\n\npre, code {\n  font-size: 13px !important;\n\tfont-family: Hasklig, Consolas, Monaco, monospace, sans-serif !important;\n  -webkit-font-smoothing: subpixel-antialiased !important;\n  line-height: 1.5em;\n}\n\n.wmd-input {\n\tline-height: 22px !important;\n}\n\np code,\n.comment-text code {\n\tpadding: 0 2px !important;\n}\n\n.keyboard-selected {\n    box-shadow: 0 0 100px rgba(0, 0, 0, .05) inset !important;\n    padding: 20px 0;\n    border-radius: 3px;\n}\n\n.post-text, .wmd-preview {\n\tline-height: 1.5;\n}\n\n.user-card .about {\n\tmargin-right: 6px !important;\n}\n\n.post-text h1, \n.post-text h2, \n.post-text h3,\n.wmd-preview  h1,\n.wmd-preview  h2,\n.wmd-preview  h3 {\n\tmargin: 25px 0 5px !important;\n}\n\nhr {\n\tmargin: 20px 0 !important;\n}\n\n#revisions tr[id*=\"spacer\"] td {\n\theight: 30px !important;\n}\n\ntr.comment:last-child > td {\n\tborder-bottom: none !important;\n}\n\n.user-flag-history .flagged-post {\n\tmargin-bottom: 50px;\n}\n\n.user-info.user-hover .user-gravatar32, \n.user-info.user-hover .user-gravatar48 {\n\tbox-shadow: 1px 1px 4px rgba(12, 13, 14, .5);\n}\n\n/* Wider Search Page */\n.search-page #content {\n\twidth: 1200px;\n}\n\n.search-page #mainbar, .mainbar {\n\twidth: 868px;\n}\n\n.search-page .tab-parameters .tab-tag-filter .tag-editor {\n\twidth: 685px;\n}\n\n.search-page .question-summary,\n.search-page .newnav .tabs-list-container {\n\twidth: 100%;\n}\n\n.search-page .newnav .tabs-list-container .tabs-list .intellitab > a .tab-name {\n\tfont-size: 10px;\n    line-height: 12px;\n}\n\n/* Timeline */\ntr.post-timeline-row-inline {\n\tbackground: #fff !important;\n    border: none !important;\n}\n\n.post-timeline-v2 .post-timeline .creation-date {\n\tmin-width: inherit !important;\n}\n\n.post-timeline-v2 .post-timeline td {\n    line-height: 22px !important;\n    border: none !important;\n}\n\n/* Chat */\n#input {\n\toutline: 0 !important;\n}\n\n#roomtitle,\n.username,\n.timestamp,\n.signature,\nbody#chat-body {\n\tfont-family: -apple-system, BlinkMacSystemFont, San Francisco, \"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif !important; \n  -webkit-font-smoothing: antialiased !important;\n}\n\nbody#chat-body .popup {\n\tfont-family: Verdana, sans-serif !important;\n}\n\nbody#chat-body {\n\tfont-size: 13px !important;\n}\n\n.username,\n.timestamp,\n.signature {\n\tfont-size: 11px !important;\n}\n\n.mine .messages {\n\tbackground-color: rgba(251, 242, 217, 0.48) !important;\n}\n\ndiv.message {\n    padding-left: 25px;\n}\n\n.monologue.mine .message:hover .action-link {\n    background-color: rosybrown;\n}\n\n.messages {\n\tborder-radius: 0 !important;\n}\n\ndiv.message:hover, \n.timestamp:hover + div.message {\n\tborder: 1px solid transparent !important;\n}\n\n/* Jobs */\nbody > div.timeline-public.hide-for-print {\n    margin-top: -50px;\n}\n\n.employer,\n.detail-jobTitle,\n.jobdetail .description,\n.company-module>header .-info,\n.listResults .-title .job-link, \n.listResults .-title>h2 .job-link,\n.jobdetail h2.detail-sectionTitle,\n.company-page .detail-sectionTitle,\n.company-page h2.detail-sectionTitle,\ndiv.company-page .learnmore .truncate,\n.company-module .-details .-benefits li,\ndiv.clc-jobs-multi>.middle>ul .job-wrap .title,\ndiv.clc-jobs-multi>.middle>ul .job-wrap .company,\n.clc-cp-sb--short .-company,\n.clc-cp-sb--short._benefits .-list .-label,\n.listResults .-job-summary .-company .-name,\n#company-profile.view h2,\n#job-detail section > h2,\n.-about-company .description p,\n.-about-company .description li,\n.-job-description .description p,\n.-job-description .description li,\n.s-card.js-jobs-recommendations a,\n.sidebar #action-bar .-title .-text,\n#job-detail .job-detail-header .-description .-title a,\n#job-detail .-more-jobs .-company-alert .-text .-title,\n.listResults .-job-summary.-on-sidebar .-company .-name,\n.listResults .-job-summary.-on-sidebar .-company .-location,\n#job-detail .job-detail-header .-description .-company .-location,\n#job-detail .company-page .-benefits .benefit .benefit-desciption,\n#company-profile.view [data-company-section=jobs-list] .job h3 > a,\n#company-profile.view [data-company-section=company-info] .tag-line,\n#company-profile.view [data-company-section=benefits] .benefits-list,\n#company-profile.view [data-company-section=company-info] .title-and-badge,\n.msg-form textarea {\n\tfont-family: -apple-system, BlinkMacSystemFont, San Francisco, \"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif !important; \n}\n\n/*.cv-story .avatar img {\n\tborder-radius: 50% !important;\n}*/\n\n/*.s-avatar.s-avatar__lg {\n\tborder-radius: 50% !important;\n}*/\n\n.timeline .header .avatar-wrapper {\n\tborder-color: #fff !important;\n}\n\n#tags-summary .subsection strong {\n\twidth: 55px !important;\n    display: inline-block !important;\n}\n\ndiv[id^=\"readings\"] .display h3.h4 + span {\n\tdisplay: block;\n}\n\ndiv.g-col.g-column.cv-item h4.cv-item-subtitle {\n\tmargin-top: -7px !important;\n}\n\n/* Jobs messaging */\n.msg-text,\n.msg-form textarea,\n.interest-indicator {\n\tfont-size: 14px;\n}\n\n.interest-indicator {\n\tmargin: .5em .7em 0;\n}\n\n.msg-form textarea {\n\tbox-shadow: none;\n}\n\n.msg-form .msg-controls {\n\tpadding: 0;\n}\n\n.nav-left-col .is-active {\n\tbackground-color: #f3f3f3 !important;\n}\n\n#messages-interface div.message {\n\tpadding-left: 0;\n\tborder: 1px solid #fff !important;\n}\n\n#messages-interface div.message:hover {\n\tborder: 1px solid #fff !important;\n}\n\n#messages-interface .title-section {\n\tborder-bottom: none;\n}\n",
+				"code": "#left-sidebar {\n\topacity: .5;\n}\n\n#left-sidebar:hover {\n\topacity: 1;\n}\n\n.nav-links .youarehere .nav-links--link {\n\tfont-weight: normal !important;\n}\n\n.question-hyperlink,\n.search-result .result-link span a {\n  font-size: 16px;\n  font-weight: 400;\n  margin-bottom: .35em;\n  display: block;\n}\n\n.comment-copy,\nbody, html, .top-bar,\n.topbar-dialog .modal-content .message-text h4,\n.employer, .detail-jobTitle, .jobdetail .description, .company-module>header .-info, .listResults .-title .job-link, .listResults .-title>h2 .job-link, .jobdetail h2.detail-sectionTitle, .company-page .detail-sectionTitle, .company-page h2.detail-sectionTitle, div.company-page .learnmore .truncate, .company-module .-details .-benefits li, div.clc-jobs-multi>.middle>ul .job-wrap .title, div.clc-jobs-multi>.middle>ul .job-wrap .company, .clc-cp-sb--short .-company, .clc-cp-sb--short._benefits .-list .-label, .listResults .-job-summary .-company .-name, #company-profile.view h2, #job-detail section > h2, .-about-company .description p, .-about-company .description li, .-job-description .description p, .-job-description .description li, .s-card.js-jobs-recommendations a, .sidebar #action-bar .-title .-text, #job-detail .job-detail-header .-description .-title a, #job-detail .-more-jobs .-company-alert .-text .-title, .listResults .-job-summary.-on-sidebar .-company .-name, .listResults .-job-summary.-on-sidebar .-company .-location, #job-detail .job-detail-header .-description .-company .-location, #job-detail .company-page .-benefits .benefit .benefit-desciption, #company-profile.view [data-company-section=jobs-list] .job h3 > a, #company-profile.view [data-company-section=company-info] .tag-line, #company-profile.view [data-company-section=benefits] .benefits-list, #company-profile.view [data-company-section=company-info] .title-and-badge, .msg-form textarea {\n\tfont-family: -apple-system, BlinkMacSystemFont, San Francisco, \"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif !important; \n}\n\nh2.bottom-notice,\n#left-sidebar > div > nav > ol > li:nth-child(4) > ol,\n#question .everyonelovesstackoverflow:empty {\n\tdisplay: none;\n}\n\n.post-text, \n.wmd-preview {\n  font-size: 16px;\n  line-height: 1.6 !important;\n}\n\n.comment-text, \n.comment-text code {\n  font-size: 12px !important;\n  line-height: 1.5 !important;;\n}\n\n.reputation-score {\n\tfont-weight: 600;\n}\n\npre {\n\tpadding: 8px 12px !important;\n}\n\npre, code {\n  font-size: 14px !important;\n\tfont-family: Hasklig, Consolas, Monaco, monospace, sans-serif !important;\n  -webkit-font-smoothing: subpixel-antialiased !important;\n  line-height: 1.5em;\n}\n\n.wmd-input {\n\tline-height: 22px !important;\n}\n\np code,\n.comment-text code {\n\tpadding: 0 2px !important;\n}\n\n.keyboard-selected {\n    box-shadow: 0 0 100px rgba(0, 0, 0, .05) inset !important;\n    padding: 20px 0;\n    border-radius: 3px;\n}\n\n.post-text, .wmd-preview {\n\tline-height: 1.5;\n}\n\n.user-card .about {\n\tmargin-right: 6px !important;\n}\n\n.post-text h1, \n.post-text h2, \n.post-text h3,\n.wmd-preview  h1,\n.wmd-preview  h2,\n.wmd-preview  h3 {\n\tmargin: 25px 0 5px !important;\n}\n\nhr {\n\tmargin: 20px 0 !important;\n}\n\n#revisions tr[id*=\"spacer\"] td {\n\theight: 30px !important;\n}\n\ntr.comment:last-child > td {\n\tborder-bottom: none !important;\n}\n\n.user-flag-history .flagged-post {\n\tmargin-bottom: 50px;\n}\n\n.user-info.user-hover .user-gravatar32, \n.user-info.user-hover .user-gravatar48 {\n\tbox-shadow: 1px 1px 4px rgba(12, 13, 14, .5);\n}\n\n/* Wider Search Page */\n.search-page #content {\n\twidth: 1200px;\n}\n\n.search-page #mainbar, .mainbar {\n\twidth: 868px;\n}\n\n.search-page .tab-parameters .tab-tag-filter .tag-editor {\n\twidth: 685px;\n}\n\n.search-page .question-summary,\n.search-page .newnav .tabs-list-container {\n\twidth: 100%;\n}\n\n.search-page .newnav .tabs-list-container .tabs-list .intellitab > a .tab-name {\n\tfont-size: 10px;\n    line-height: 12px;\n}\n\n/* Timeline */\ntr.post-timeline-row-inline {\n\tbackground: #fff !important;\n    border: none !important;\n}\n\n.post-timeline-v2 .post-timeline .creation-date {\n\tmin-width: inherit !important;\n}\n\n.post-timeline-v2 .post-timeline td {\n    line-height: 22px !important;\n    border: none !important;\n}\n\n/* Chat */\n#input {\n\toutline: 0 !important;\n}\n\n#roomtitle,\n.username,\n.timestamp,\n.signature,\nbody#chat-body {\n\tfont-family: -apple-system, BlinkMacSystemFont, San Francisco, \"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif !important; \n  -webkit-font-smoothing: antialiased !important;\n}\n\nbody#chat-body .popup {\n\tfont-family: Verdana, sans-serif !important;\n}\n\nbody#chat-body {\n\tfont-size: 13px !important;\n}\n\n.username,\n.timestamp,\n.signature {\n\tfont-size: 11px !important;\n}\n\n.mine .messages {\n\tbackground-color: rgba(251, 242, 217, 0.48) !important;\n}\n\ndiv.message {\n    padding-left: 25px;\n}\n\n.monologue.mine .message:hover .action-link {\n    background-color: rosybrown;\n}\n\n.messages {\n\tborder-radius: 0 !important;\n}\n\ndiv.message:hover, \n.timestamp:hover + div.message {\n\tborder: 1px solid transparent !important;\n}\n\n/* Jobs */\nbody > div.timeline-public.hide-for-print {\n    margin-top: -50px;\n}\n\n.employer,\n.detail-jobTitle,\n.jobdetail .description,\n.company-module>header .-info,\n.listResults .-title .job-link, \n.listResults .-title>h2 .job-link,\n.jobdetail h2.detail-sectionTitle,\n.company-page .detail-sectionTitle,\n.company-page h2.detail-sectionTitle,\ndiv.company-page .learnmore .truncate,\n.company-module .-details .-benefits li,\ndiv.clc-jobs-multi>.middle>ul .job-wrap .title,\ndiv.clc-jobs-multi>.middle>ul .job-wrap .company,\n.clc-cp-sb--short .-company,\n.clc-cp-sb--short._benefits .-list .-label,\n.listResults .-job-summary .-company .-name,\n#company-profile.view h2,\n#job-detail section > h2,\n.-about-company .description p,\n.-about-company .description li,\n.-job-description .description p,\n.-job-description .description li,\n.s-card.js-jobs-recommendations a,\n.sidebar #action-bar .-title .-text,\n#job-detail .job-detail-header .-description .-title a,\n#job-detail .-more-jobs .-company-alert .-text .-title,\n.listResults .-job-summary.-on-sidebar .-company .-name,\n.listResults .-job-summary.-on-sidebar .-company .-location,\n#job-detail .job-detail-header .-description .-company .-location,\n#job-detail .company-page .-benefits .benefit .benefit-desciption,\n#company-profile.view [data-company-section=jobs-list] .job h3 > a,\n#company-profile.view [data-company-section=company-info] .tag-line,\n#company-profile.view [data-company-section=benefits] .benefits-list,\n#company-profile.view [data-company-section=company-info] .title-and-badge,\n.msg-form textarea {\n\tfont-family: -apple-system, BlinkMacSystemFont, San Francisco, \"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", \"Apple Legacy Chevron\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif !important; \n}\n\n/*.cv-story .avatar img {\n\tborder-radius: 50% !important;\n}*/\n\n/*.s-avatar.s-avatar__lg {\n\tborder-radius: 50% !important;\n}*/\n\n.timeline .header .avatar-wrapper {\n\tborder-color: #fff !important;\n}\n\n#tags-summary .subsection strong {\n\twidth: 55px !important;\n    display: inline-block !important;\n}\n\ndiv[id^=\"readings\"] .display h3.h4 + span {\n\tdisplay: block;\n}\n\ndiv.g-col.g-column.cv-item h4.cv-item-subtitle {\n\tmargin-top: -7px !important;\n}\n\n/* Jobs messaging */\n.msg-text,\n.msg-form textarea,\n.interest-indicator {\n\tfont-size: 14px;\n}\n\n.interest-indicator {\n\tmargin: .5em .7em 0;\n}\n\n.msg-form textarea {\n\tbox-shadow: none;\n}\n\n.msg-form .msg-controls {\n\tpadding: 0;\n}\n\n.nav-left-col .is-active {\n\tbackground-color: #f3f3f3 !important;\n}\n\n#messages-interface div.message {\n\tpadding-left: 0;\n\tborder: 1px solid #fff !important;\n}\n\n#messages-interface div.message:hover {\n\tborder: 1px solid #fff !important;\n}\n\n#messages-interface .title-section {\n\tborder-bottom: none;\n}\n",
 				"domains": [
 					"stackoverflow.com",
 					"stackexchange.com",
@@ -1216,9 +1216,9 @@
 		"url": null,
 		"originalMd5": null,
 		"id": 54,
-		"updateDate": 1570740802466,
+		"updateDate": 1583638782062,
 		"_id": "7cf29e51-5918-44e5-a894-f08297636b8e",
-		"_rev": 1580802337858
+		"_rev": 1583638782062
 	},
 	{
 		"installDate": 1533042198273,
@@ -1241,7 +1241,7 @@
 		"originalMd5": null,
 		"id": 55,
 		"_id": "1f9ae82a-5448-461f-b865-bd7611ef5184",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198278,
@@ -1249,7 +1249,7 @@
 		"enabled": true,
 		"sections": [
 			{
-				"code": ".search_box, .search_box form {\n    width: 50%;\n}\n\n.search_box input {\n    width: 100%;\n}\n\n.story a,\n.story a:visited,\n.lightmode .story a {\n   color: #3366cc; \n}\n\na[href*=\"https://facebook.com/sharer.php?u\"] {\n    display: none;    \n}\n\n.container_fluid_content, \n.footer_master .container-fluid {\n    max-width: 1370px !important;\n}\n\n.medwidthmode #footer, .medwidthmode #story, .medwidthmode #titlebar, .medwidthmode .read_content_container {\n    max-width: 720px !important;\n}\n\n.story p, \n.story h1,\n.story h2,\n.story h3,\nblockquote,\n#titlebar h1,\n.title_meta,\n.article_item,\n.article_preview, \n.title_row a.article_title {\n    /*font-family: Athelas, LyonText, Georgia, serif !important;*/\n}\n\n#page_header > div.container-fluid.container_fluid_content.page_header_desktop > div.row.page_header_normal_row > div.col-lg-10.col-md-12.col-sm-12.col-xs-12 > section > div.page_title > a {\n    font: 1.6rem Athelas, LyonText, Georgia, serif !important;\n}\n\n#article_list .article_inner_item .title_row a[href^=\"/read/\"] {\n    font-size: 24px !important;\n}\n\nbody,\n.control_bar,\n#left_context_metadata {\n    font-family: -apple-system, BlinkMacSystemFont, San Francisco, \"SF Pro Text\", \"Apple Legacy Chevron\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif !important;\n}\n\n.side_item .icon, .side_item .ipicon, .side_item i {\n    top: -2px;\n}\n\n.titlebar h1 {\n    font-size: 2.3em;\n}\n\nfigure {\n    text-align: center;\n}\nfigure img {\n    display: inline !important;\n}\n.story img {\n    display: block;\n    margin: 0 auto;\n    margin-bottom: 2rem;\n}\nfigcaption {\n    font-size: 1rem;\n    font-style: italic;\n}\n\n.title_row a.article_title {\n    font-size: 24px !important;\n}\n\n.article_preview {\n    font-size: 17px !important;\n    max-width: 680px !important;\n}\n\n.article_image {\n    border-radius: 3px;\n}\n\n.story > div,\n.story ul li,\n.story ol li{\n    margin-top: 0.5rem;\n    margin-bottom: 0.5rem;\n}\n\n.story p,\n.story h4, \nblockquote,\n.lyon_mode #story {\n    font-size: 1.4rem;\n    line-height: 2.2rem;\n    /*text-align: justify;*/\n}\n\nblockquote {\n    padding: 0 20px;\n    border-left: 3px solid #f3f3f3 !important;\n}\n\n.highlight_item .article_preview .lightmode a:hover, \n.lightmode .highlight, \n.lightmode .highlight_item .article_preview a:hover, \n.lightmode .highlight_label {\n    background-color: rgba(248, 228, 143, 0.8) !important; /* Just as iBooks #f8e48f */ \n}\n.lightmode .highlight + code,\n.lightmode .highlight + code > span,\n.lightmode .highlight + a > code > span.highlight {\n    color: #000 !important;\n    background-color: #e2d086 !important;\n}\n\npre {\n    background-color: transparent;\n    border: none;\n    text-align: left !important;\n}\npre code, pre span {\n  font-size: 14px !important;\n  font-family: Hasklig, Consolas, Monaco, monospace, sans-serif !important;\n  line-height: 1.5em;\n}\ncode {\n  padding: 1px 4px 3px !important;\n}",
+				"code": ".search_box, .search_box form {\n    width: 50%;\n}\n\n.search_box input {\n    width: 100%;\n}\n\n.story a,\n.story a:visited,\n.lightmode .story a {\n   color: #3366cc; \n}\n\na[href*=\"https://facebook.com/sharer.php?u\"] {\n    display: none;    \n}\n\n.container_fluid_content, \n.footer_master .container-fluid {\n    max-width: 1370px !important;\n}\n\n.medwidthmode #footer, .medwidthmode #story, .medwidthmode #titlebar, .medwidthmode .read_content_container {\n    max-width: 720px !important;\n}\n\n.story p, \n.story h1,\n.story h2,\n.story h3,\nblockquote,\n#titlebar h1,\n.title_meta,\n.article_item,\n.article_preview, \n.title_row a.article_title,\n.left_context_metadata .metadata {\n    font-family: LyonText, Athelas, IRANSans, Georgia, serif;\n}\n\n.story p {\n    text-align: justify;\n}\n\n#page_header > div.container-fluid.container_fluid_content.page_header_desktop > div.row.page_header_normal_row > div.col-lg-10.col-md-12.col-sm-12.col-xs-12 > section > div.page_title > a {\n    font-size: 1.6rem;\n    font: 1.6rem Athelas, LyonText, IRANSans, Georgia, serif !important;\n}\n\n#article_list .article_inner_item .title_row a[href^=\"/read/\"] {\n    font-size: 24px !important;\n}\n\nbody,\n.control_bar,\n#left_context_metadata {\n    font-family: -apple-system, BlinkMacSystemFont, San Francisco, \"SF Pro Text\", \"Apple Legacy Chevron\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif !important;\n}\n\n.side_item .icon, .side_item .ipicon, .side_item i {\n    top: -2px;\n}\n\n.titlebar h1 {\n    font-size: 2.3em;\n}\n\nfigure {\n    text-align: center;\n}\nfigure img {\n    display: inline !important;\n}\n.story img {\n    display: block;\n    margin: 0 auto;\n    margin-bottom: 2rem;\n}\nfigcaption {\n    font-size: 1rem;\n    font-style: italic;\n}\n\n.title_row a.article_title {\n    font-size: 24px !important;\n}\n\n.article_preview {\n    font-size: 17px !important;\n    max-width: 680px !important;\n}\n\n.article_image {\n    border-radius: 3px;\n}\n\n.story > div,\n.story ul li,\n.story ol li{\n    margin-top: 0.5rem;\n    margin-bottom: 0.5rem;\n}\n\n.story p,\n.story h4, \nblockquote,\n.lyon_mode #story {\n    font-size: 1.4rem;\n    line-height: 2.2rem;\n    /*text-align: justify;*/\n}\n\nblockquote {\n    padding: 0 20px;\n    border-left: 3px solid #f3f3f3 !important;\n}\n\n.highlight_item .article_preview .lightmode a:hover, \n.lightmode .highlight, \n.lightmode .highlight_item .article_preview a:hover, \n.lightmode .highlight_label {\n    background-color: rgba(248, 228, 143, 0.8) !important; /* Just as iBooks #f8e48f */ \n}\n.lightmode .highlight + code,\n.lightmode .highlight + code > span,\n.lightmode .highlight + a > code > span.highlight {\n    color: #000 !important;\n    background-color: #e2d086 !important;\n}\n\npre {\n    background-color: transparent;\n    border: none;\n    text-align: left !important;\n}\npre code, pre span {\n  font-size: 14px !important;\n  font-family: Hasklig, Consolas, Monaco, monospace, sans-serif !important;\n  line-height: 1.5em;\n}\ncode {\n  padding: 1px 4px 3px !important;\n}\n\n/* thereaderapp.com */\na[href^=\"https://threadreaderapp.com/user/\"],\nimg[src^=\"https://threadreaderapp.com/images/avatars/\"],\nimg[src=\"https://threadreaderapp.com/images/Twitter_Logo_Blue.png\"] {\n  display: none !important;  \n}\n\n",
 				"domains": [
 					"instapaper.com"
 				]
@@ -1260,9 +1260,9 @@
 		"url": null,
 		"originalMd5": null,
 		"id": 56,
-		"updateDate": 1570124217197,
+		"updateDate": 1583706460353,
 		"_id": "e3332ead-f770-455e-9248-bd29511f2aa6",
-		"_rev": 1580802337858
+		"_rev": 1583706460353
 	},
 	{
 		"installDate": 1533042198282,
@@ -1285,7 +1285,7 @@
 		"originalMd5": null,
 		"id": 57,
 		"_id": "8da599ad-ffb5-4eda-be67-258770a77139",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198286,
@@ -1313,7 +1313,7 @@
 		"id": 58,
 		"updateDate": 1572057516873,
 		"_id": "12268375-b9ae-4b56-b7e1-d7a18ca5ba75",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198289,
@@ -1336,7 +1336,7 @@
 		"originalMd5": null,
 		"id": 59,
 		"_id": "82b5f0b9-5fdc-411c-9fc3-a17408d42953",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198293,
@@ -1359,7 +1359,7 @@
 		"originalMd5": null,
 		"id": 60,
 		"_id": "6014f7ea-0606-42f8-ae69-db9804ca8af3",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198295,
@@ -1383,7 +1383,7 @@
 		"originalMd5": null,
 		"id": 61,
 		"_id": "0cdbf4dc-9c3a-4dbf-8061-367495d53ecc",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198302,
@@ -1406,7 +1406,7 @@
 		"originalMd5": null,
 		"id": 62,
 		"_id": "5103b588-1576-4d02-adc5-3f0515d87bc0",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198308,
@@ -1429,7 +1429,7 @@
 		"originalMd5": null,
 		"id": 63,
 		"_id": "cd26522b-9647-41ff-915e-545e639efa0e",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198312,
@@ -1452,7 +1452,7 @@
 		"originalMd5": null,
 		"id": 64,
 		"_id": "50a1a624-2ecb-4262-8275-ef34a566add1",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198326,
@@ -1473,7 +1473,7 @@
 		"id": 65,
 		"updateDate": 1569234865823,
 		"_id": "d1e42ab8-f417-4b9a-b7dc-96b6975b4244",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198330,
@@ -1496,7 +1496,7 @@
 		"originalMd5": null,
 		"id": 66,
 		"_id": "42857c0a-c27b-4025-8844-7c189e7d4d4c",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198333,
@@ -1518,7 +1518,7 @@
 		"id": 67,
 		"updateDate": 1571384601893,
 		"_id": "fc93b187-12ea-4720-87a1-9a3b9f8751aa",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198337,
@@ -1538,7 +1538,7 @@
 		"originalMd5": null,
 		"id": 68,
 		"_id": "4a032b66-f35f-4af5-b9e8-408b8223f713",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198341,
@@ -1559,7 +1559,7 @@
 		"id": 69,
 		"updateDate": 1568414834624,
 		"_id": "0e8630f7-33c0-4e2d-8ec3-3f43dc26605f",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198345,
@@ -1589,7 +1589,7 @@
 		"originalMd5": null,
 		"id": 70,
 		"_id": "7dde4190-612e-4dca-8f32-03c99ab88458",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198349,
@@ -1612,7 +1612,7 @@
 		"originalMd5": null,
 		"id": 71,
 		"_id": "7888d956-9117-4b3f-bf57-fd61891ed0dc",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198361,
@@ -1635,7 +1635,7 @@
 		"originalMd5": null,
 		"id": 72,
 		"_id": "b8b741d9-ebe1-451b-9e2e-726295df96c2",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198369,
@@ -1658,7 +1658,7 @@
 		"originalMd5": null,
 		"id": 73,
 		"_id": "bc65c027-392d-4fb0-8437-1b471945f0b9",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198373,
@@ -1681,7 +1681,7 @@
 		"originalMd5": null,
 		"id": 74,
 		"_id": "4ade3f89-0960-4f4c-b27e-fd2f2c00c33c",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198383,
@@ -1704,7 +1704,7 @@
 		"originalMd5": null,
 		"id": 75,
 		"_id": "ed4efdbc-70d3-4599-a0a9-6f605b91b5eb",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198386,
@@ -1727,7 +1727,7 @@
 		"originalMd5": null,
 		"id": 76,
 		"_id": "14b57e2f-23a8-485e-a429-38aa59f6a514",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198389,
@@ -1750,7 +1750,7 @@
 		"originalMd5": null,
 		"id": 77,
 		"_id": "f040afd9-1572-4ce1-8e1b-924992be1b45",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198394,
@@ -1773,7 +1773,7 @@
 		"originalMd5": null,
 		"id": 78,
 		"_id": "817b50cd-41cb-4a50-8340-dbf210b0fbf7",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198397,
@@ -1797,7 +1797,7 @@
 		"originalMd5": null,
 		"id": 79,
 		"_id": "f4a90bc6-e0bb-4d61-a31d-d7fb98182c97",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198400,
@@ -1840,7 +1840,7 @@
 		"originalMd5": null,
 		"id": 80,
 		"_id": "d679a4ad-e479-4b67-81f7-56292f0df222",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198403,
@@ -1864,7 +1864,7 @@
 		"originalMd5": null,
 		"id": 81,
 		"_id": "9a454ccd-36f1-490f-bc13-203c7dc4c6af",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198419,
@@ -1890,7 +1890,7 @@
 		"originalName": "Userstyles Frosted Glass (Works With New Website!)",
 		"originalDigest": "d682e5291700008d60c4dae0d018c733bbe5456a",
 		"_id": "bd52338d-8a93-41f0-854e-a27f347dd3fb",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198423,
@@ -1913,7 +1913,7 @@
 		"originalMd5": null,
 		"id": 84,
 		"_id": "790d89ab-d2af-4f3a-b3d3-6585b32c4f65",
-		"_rev": 1580802337858
+		"_rev": 1583706073918
 	},
 	{
 		"installDate": 1533042198427,
@@ -1936,7 +1936,7 @@
 		"originalMd5": null,
 		"id": 85,
 		"_id": "ae732838-1882-401d-975e-a523ee2cb447",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198432,
@@ -1959,7 +1959,7 @@
 		"originalMd5": null,
 		"id": 86,
 		"_id": "4dc9a63d-42f3-4724-a1b7-bb08e3776664",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198436,
@@ -1983,7 +1983,7 @@
 		"originalMd5": null,
 		"id": 87,
 		"_id": "528040dc-2fb9-4c5f-8d76-9761441bd7b4",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198440,
@@ -2006,7 +2006,7 @@
 		"originalMd5": null,
 		"id": 88,
 		"_id": "0f3555b1-6982-4afd-afa2-d144d9beec93",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198457,
@@ -2029,7 +2029,7 @@
 		"originalMd5": null,
 		"id": 89,
 		"_id": "337bac74-8794-4a80-9966-c6687129ea8e",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198463,
@@ -2052,7 +2052,7 @@
 		"originalMd5": null,
 		"id": 90,
 		"_id": "54048431-1c07-4b88-8d76-ac817795ecf4",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198471,
@@ -2077,7 +2077,7 @@
 		"originalMd5": null,
 		"id": 91,
 		"_id": "2c05c867-00e6-4051-b693-ad6c95184bec",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198483,
@@ -2100,7 +2100,7 @@
 		"originalMd5": null,
 		"id": 93,
 		"_id": "4eddfb77-3910-4513-bb6b-1733529b521c",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198490,
@@ -2123,7 +2123,7 @@
 		"originalMd5": null,
 		"id": 94,
 		"_id": "ea7bc74d-586c-4b82-881c-16b2fb5691cf",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198493,
@@ -2146,7 +2146,7 @@
 		"originalMd5": null,
 		"id": 95,
 		"_id": "fb6fa18d-b388-418b-8984-c93be34c5e1d",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198500,
@@ -2169,7 +2169,7 @@
 		"originalMd5": null,
 		"id": 96,
 		"_id": "779f006d-d4bb-4e90-8e42-2fa15690ea0a",
-		"_rev": 1580802337858
+		"_rev": 1583706071959
 	},
 	{
 		"installDate": 1533042198505,
@@ -2192,7 +2192,7 @@
 		"originalMd5": null,
 		"id": 97,
 		"_id": "4e749d92-f532-4f0a-9351-d43765d07f6c",
-		"_rev": 1580802337858
+		"_rev": 1583706069968
 	},
 	{
 		"installDate": 1533042198508,
@@ -2215,7 +2215,7 @@
 		"originalMd5": null,
 		"id": 98,
 		"_id": "b6a7baed-a7b4-4f57-8071-dadbc26131d2",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198512,
@@ -2238,7 +2238,7 @@
 		"originalMd5": null,
 		"id": 99,
 		"_id": "fcb92ae9-afa1-47dc-b5a5-242242fe3544",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198518,
@@ -2261,7 +2261,7 @@
 		"originalMd5": null,
 		"id": 100,
 		"_id": "6e3fb5f5-649f-4f96-b445-24813a1606f1",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198522,
@@ -2284,7 +2284,7 @@
 		"originalMd5": null,
 		"id": 101,
 		"_id": "74d89d69-e7ba-4e86-90cc-90654bb564d9",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198537,
@@ -2307,7 +2307,7 @@
 		"originalMd5": null,
 		"id": 104,
 		"_id": "116ae608-6daf-4573-9aad-0abf7d8040cf",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198542,
@@ -2330,7 +2330,7 @@
 		"originalMd5": null,
 		"id": 105,
 		"_id": "d867d9e7-1d3a-441e-bb4b-24fbde70dc67",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198654,
@@ -2353,7 +2353,7 @@
 		"originalMd5": null,
 		"id": 106,
 		"_id": "658c624d-8b53-48da-a9bd-b80d9ff36dc6",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198660,
@@ -2376,7 +2376,7 @@
 		"originalMd5": null,
 		"id": 107,
 		"_id": "14e0f6c7-76df-4f92-a03a-2943679a04e3",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198676,
@@ -2399,7 +2399,7 @@
 		"originalMd5": null,
 		"id": 108,
 		"_id": "72acd3f7-3e6c-4499-9c78-188c10a71e55",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198688,
@@ -2422,7 +2422,7 @@
 		"originalMd5": null,
 		"id": 109,
 		"_id": "2433f880-e06b-4e7b-ba54-e52071680896",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198691,
@@ -2445,7 +2445,7 @@
 		"originalMd5": null,
 		"id": 110,
 		"_id": "099acbb4-8e1e-4002-96c3-80106765ccca",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198696,
@@ -2468,7 +2468,7 @@
 		"originalMd5": null,
 		"id": 111,
 		"_id": "0fe868c4-7d46-4fec-87b2-7f76c30ae7fc",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198700,
@@ -2491,7 +2491,7 @@
 		"originalMd5": null,
 		"id": 112,
 		"_id": "168d5b51-3c12-4f9d-872a-fe962ddd6149",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198702,
@@ -2514,7 +2514,7 @@
 		"originalMd5": null,
 		"id": 113,
 		"_id": "1b2dba54-2db9-4c13-a83c-741371dc133c",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198705,
@@ -2537,7 +2537,7 @@
 		"originalMd5": null,
 		"id": 114,
 		"_id": "6c0fd4bc-d546-4d1d-ab45-3c156044de9c",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198709,
@@ -2560,7 +2560,7 @@
 		"originalMd5": null,
 		"id": 115,
 		"_id": "4f5a995b-c759-464b-8025-d53b76b88dd0",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198717,
@@ -2588,7 +2588,7 @@
 		"id": 116,
 		"updateDate": 1581698959439,
 		"_id": "5aa79577-ab7a-418c-807a-e3fdb01f297b",
-		"_rev": 1581698959439
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198724,
@@ -2611,7 +2611,7 @@
 		"originalMd5": null,
 		"id": 117,
 		"_id": "b202b96d-eb54-4be0-b1b6-67537325ecc2",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198727,
@@ -2634,7 +2634,7 @@
 		"originalMd5": null,
 		"id": 118,
 		"_id": "55b941b3-1025-4a10-b364-d9e661001784",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198733,
@@ -2657,7 +2657,7 @@
 		"originalMd5": null,
 		"id": 119,
 		"_id": "419cf174-c3f2-4695-a7b6-026e4702b2c9",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198739,
@@ -2680,7 +2680,7 @@
 		"originalMd5": null,
 		"id": 120,
 		"_id": "c4444926-d329-4846-aeef-9b60e6b848b8",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198747,
@@ -2703,7 +2703,7 @@
 		"originalMd5": null,
 		"id": 121,
 		"_id": "cac0dd7b-2824-4197-af25-904c0ec0dae6",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198753,
@@ -2726,7 +2726,7 @@
 		"originalMd5": null,
 		"id": 122,
 		"_id": "cfb405f8-be42-4991-837e-e715046db054",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198758,
@@ -2749,7 +2749,7 @@
 		"originalMd5": null,
 		"id": 123,
 		"_id": "440c42a3-ecc6-46e8-a479-1115a3550721",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198763,
@@ -2773,7 +2773,7 @@
 		"originalMd5": null,
 		"id": 124,
 		"_id": "af8a7cf2-4220-4d2f-962e-6238a551dc26",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198766,
@@ -2796,7 +2796,7 @@
 		"originalMd5": null,
 		"id": 125,
 		"_id": "b8dc01dd-f1c7-47cb-b3f8-a85a2b4d0e20",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198769,
@@ -2819,7 +2819,7 @@
 		"originalMd5": null,
 		"id": 126,
 		"_id": "40285f65-b9f0-4af5-afce-f083e847fec1",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198771,
@@ -2839,7 +2839,7 @@
 		"originalMd5": null,
 		"id": 127,
 		"_id": "c91c1c2f-7c27-4833-86b0-363e43f4a8c8",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198776,
@@ -2862,7 +2862,7 @@
 		"originalMd5": null,
 		"id": 128,
 		"_id": "ee50058d-e039-43c8-ba3a-40a63754ccba",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198789,
@@ -2885,7 +2885,7 @@
 		"originalMd5": null,
 		"id": 129,
 		"_id": "e96f7618-3b1c-42e5-a4b2-5004f76960ab",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1533042198793,
@@ -2908,7 +2908,7 @@
 		"originalMd5": null,
 		"id": 130,
 		"_id": "bd7652d8-96c0-457d-93f6-c27cfb81112d",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"installDate": 1537091824700,
@@ -2926,7 +2926,7 @@
 		"id": 131,
 		"updateDate": 1570813951373,
 		"_id": "0298f8f8-c2b0-40a1-965a-10ef849493f3",
-		"_rev": 1580802337858
+		"_rev": 1583706071170
 	},
 	{
 		"installDate": 1538572956187,
@@ -2947,7 +2947,7 @@
 		"id": 132,
 		"updateDate": 1577194057220,
 		"_id": "6c4e6dbe-35ec-413a-a1fc-f144c8cad8c5",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"enabled": true,
@@ -2967,7 +2967,7 @@
 		],
 		"id": 133,
 		"_id": "404d7aec-51f4-4402-9814-e8f2b19e2497",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"enabled": true,
@@ -2987,7 +2987,7 @@
 		],
 		"id": 134,
 		"_id": "efa8617f-3ce4-4fe6-9507-e5f8a9beb8f8",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"enabled": true,
@@ -3007,7 +3007,7 @@
 		],
 		"id": 135,
 		"_id": "b958c8f2-0450-4e23-9408-dc00c41c6c6d",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"enabled": true,
@@ -3027,7 +3027,7 @@
 		],
 		"id": 136,
 		"_id": "3d664c22-cca7-4e27-8096-82a6d7f14728",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"enabled": true,
@@ -3048,7 +3048,7 @@
 		"updateDate": 1556868798269,
 		"id": 137,
 		"_id": "b5bfbd10-0007-44ba-8a8d-5098b85ab69c",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"enabled": true,
@@ -3069,7 +3069,7 @@
 		"updateDate": 1559884331388,
 		"id": 138,
 		"_id": "d7dc9ad2-3521-4c34-814f-6ade30053015",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"enabled": false,
@@ -3090,7 +3090,7 @@
 		"updateDate": 1567889613322,
 		"id": 139,
 		"_id": "47fa8d71-5bd4-44a5-a3e0-42e4f9bafa88",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	},
 	{
 		"enabled": true,
@@ -3114,6 +3114,6 @@
 		"updateDate": 1576743457620,
 		"id": 140,
 		"_id": "43f9860d-308c-4646-9e86-26a4b68b5f19",
-		"_rev": 1580802337858
+		"_rev": 1583494790570
 	}
 ]
