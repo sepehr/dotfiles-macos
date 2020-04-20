@@ -28,8 +28,10 @@
     cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$LOCAL\" \"$REMOTE\"
 [difftool "bcomp"]
     cmd = /Applications/Beyond\\ Compare.app/Contents/MacOS/bcomp \"$REMOTE\" \"$LOCAL\"
+[difftool "smerge"]
+    cmd = smerge mergetool \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
 [merge]
-    tool = p4merge
+    tool = smerge
     conflictstyle = diff3
 [mergetool]
     prompt = false
@@ -43,7 +45,7 @@
 [mergetool "p4merge"]
     cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$PWD/$BASE\" \"$PWD/$REMOTE\" \"$PWD/$LOCAL\" \"$PWD/$MERGED\"
 [mergetool "smerge"]
-    cmd = smerge mergetool "$BASE" "$LOCAL" "$REMOTE" -o "$MERGED"
+    cmd = smerge mergetool \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
 [alias]
     st = status
     ls = ls-files
