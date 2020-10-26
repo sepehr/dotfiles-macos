@@ -1,5 +1,7 @@
 # Custom
 stage-all
+.yarn
+.yarnrc
 
 # Compiled source
 *.com
@@ -21,6 +23,9 @@ Thumbs.db
 
 # IDE
 .idea
+.vscode
+.history
+.code-workspace
 *.sublime-project
 *.sublime-workspace
 _ide_helper_models.php
