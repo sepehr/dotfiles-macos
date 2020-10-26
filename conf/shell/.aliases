@@ -7,11 +7,12 @@ alias dotf="cd $HOME/.dotfiles; gcm 'Stylus update.' conf/app/brave/stylus.json 
 
 # Executables
 alias b=brew
+alias sm="smerge ."
 alias bs="brew services"
 alias kk="k -a -h"
 alias p="ping g.co"
 alias ls="ls -a"
-alias yd="youtube-dl"
+alias ydl="youtube-dl"
 alias pds=pds-skeleton
 alias dzm=dezoomify-rs
 alias sf="./bin/console"
