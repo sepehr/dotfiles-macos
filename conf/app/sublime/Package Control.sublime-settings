@@ -5,7 +5,9 @@
 	],
 	"installed_packages":
 	[
+		"3024 Color Scheme",
 		"ApacheConf",
+		"AutoPEP8",
 		"Babel",
 		"Behat",
 		"Delete Current File",
@@ -18,6 +20,7 @@
 		"Function Name Display",
 		"Gherkin (Cucumber) Formatter",
 		"HTML-CSS-JS Prettify",
+		"isort",
 		"JSX",
 		"Laravel Blade Highlighter",
 		"Modific",
