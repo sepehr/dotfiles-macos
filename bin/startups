@@ -54,6 +54,11 @@ echo 'Check kext stats:'
 echo '$ kextstat'
 echo ''
 
+echo 'Check running launch daemons/agents:'
+echo '$ sudo launchctl list | grep -v apple'
+echo 'Remove? $ sudo launchctl remove "label.of.the.file"'
+echo ''
+
 echo 'Check out kexts: '
 echo '$ ls -1 -d /Library/Extensions/* | grep -v apple && ls -1 -d /System/Library/Extensions/* | grep -v apple'
 echo ''
