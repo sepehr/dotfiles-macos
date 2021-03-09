@@ -9,7 +9,7 @@
 			<key>Font_Awesome</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-15T09:02:44Z</date>
+				<date>2021-03-02T08:34:54Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -25,7 +25,7 @@
 			<key>Git</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-15T09:02:44Z</date>
+				<date>2021-03-02T08:34:53Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -46,7 +46,7 @@
 			<key>Git_Flow</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-15T09:02:44Z</date>
+				<date>2021-03-02T08:34:53Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -67,7 +67,7 @@
 			<key>HTTP_Header_Fields</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-15T09:02:44Z</date>
+				<date>2021-03-02T08:34:55Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -83,7 +83,7 @@
 			<key>HTTP_Status_Codes</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-15T09:02:44Z</date>
+				<date>2021-03-02T08:34:52Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -99,7 +99,7 @@
 			<key>Keybase.io</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-15T09:02:44Z</date>
+				<date>2021-03-02T08:34:52Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -115,7 +115,7 @@
 			<key>PhpStorm</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-15T09:02:44Z</date>
+				<date>2021-03-02T08:34:52Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -131,7 +131,7 @@
 			<key>Python_Debugger</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-15T09:02:44Z</date>
+				<date>2021-03-02T08:34:55Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -147,7 +147,7 @@
 			<key>Python_Format_Strings</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-15T09:02:44Z</date>
+				<date>2021-03-02T08:34:53Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -163,7 +163,7 @@
 			<key>Python_unittest_Assertions</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-15T09:02:44Z</date>
+				<date>2021-03-02T08:34:55Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -179,7 +179,7 @@
 			<key>Sublime_Text_3</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-15T09:02:44Z</date>
+				<date>2021-03-02T08:34:54Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -195,7 +195,7 @@
 			<key>iPython_Notebook</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-15T09:02:44Z</date>
+				<date>2021-03-02T08:34:56Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -211,7 +211,7 @@
 			<key>iTerm2</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-15T09:02:44Z</date>
+				<date>2021-03-02T08:34:54Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -232,7 +232,7 @@
 			<key>npm</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-15T09:02:44Z</date>
+				<date>2021-03-02T08:34:56Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -252,7 +252,7 @@
 			<key>phpSpec</key>
 			<dict>
 				<key>date</key>
-				<date>2016-09-15T09:02:44Z</date>
+				<date>2021-03-02T08:34:55Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -355,7 +355,7 @@
 			<key>Jest</key>
 			<dict>
 				<key>date</key>
-				<date>2020-11-27T23:37:40Z</date>
+				<date>2021-01-15T21:16:09Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -438,122 +438,117 @@
 			<key>http://kapeli.com/feeds/AWS_JavaScript.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T15:50:09Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/Apple_API_Reference.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2020-03-05T15:50:28Z</date>
+				<date>2021-01-15T21:16:12Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Bash.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T11:25:37Z</date>
+				<date>2021-01-15T21:16:17Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Bootstrap_3.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T15:49:58Z</date>
+				<date>2021-01-15T21:16:11Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Bootstrap_4.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T15:49:57Z</date>
+				<date>2021-01-15T21:16:15Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/C.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T11:27:00Z</date>
+				<date>2021-01-15T21:16:38Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/CSS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T11:25:58Z</date>
+				<date>2021-01-15T21:16:30Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/CodeIgniter.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T11:26:41Z</date>
+				<date>2021-01-15T21:16:31Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Django.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T11:25:59Z</date>
+				<date>2021-01-15T21:16:28Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/HTML.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T11:26:20Z</date>
+				<date>2021-01-15T21:16:38Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/JavaScript.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T15:50:42Z</date>
+				<date>2021-01-15T21:16:31Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Laravel.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T11:26:25Z</date>
+				<date>2021-01-15T21:16:18Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/MongoDB.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T11:26:32Z</date>
+				<date>2021-01-15T21:16:35Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/MySQL.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T11:26:30Z</date>
+				<date>2021-01-15T21:16:26Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/NodeJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T15:49:57Z</date>
+				<date>2021-01-15T21:16:14Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/PHP.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T11:26:21Z</date>
+				<date>2021-01-15T21:16:24Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/PHPUnit.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T11:26:36Z</date>
+				<date>2021-01-15T21:16:32Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Python_2.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T11:25:57Z</date>
+				<date>2021-01-15T21:16:32Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Python_3.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T11:25:37Z</date>
+				<date>2021-01-15T21:16:20Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/React.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T15:50:08Z</date>
+				<date>2021-01-15T21:16:25Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_2.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T15:50:06Z</date>
+				<date>2021-01-15T21:16:24Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Symfony.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T11:26:35Z</date>
+				<date>2021-01-15T21:16:31Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/VueJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T15:50:04Z</date>
+				<date>2021-01-15T21:16:15Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/jQuery.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-03-05T11:26:44Z</date>
+				<date>2021-01-15T21:16:17Z</date>
 			</dict>
 		</dict>
 		<key>uninstalled</key>
@@ -562,6 +557,11 @@
 			<dict>
 				<key>date</key>
 				<date>2017-06-02T11:28:53Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Apple_API_Reference.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-08T12:47:47Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/BackboneJS.xml</key>
 			<dict>
@@ -733,7 +733,7 @@
 				<key>5.2</key>
 				<dict>
 					<key>date</key>
-					<date>2016-09-15T09:02:44Z</date>
+					<date>2021-01-15T21:16:14Z</date>
 				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/jQuery.xml</key>
@@ -741,7 +741,7 @@
 				<key>1.9.1 or 2.0.0</key>
 				<dict>
 					<key>date</key>
-					<date>2016-09-15T09:02:44Z</date>
+					<date>2021-01-15T21:16:12Z</date>
 				</dict>
 			</dict>
 		</dict>
@@ -756,7 +756,7 @@
 			<key>isDefault</key>
 			<true/>
 			<key>isEnabled</key>
-			<true/>
+			<false/>
 			<key>name</key>
 			<string>Google</string>
 			<key>url</key>
@@ -768,7 +768,7 @@
 			<key>isDefault</key>
 			<true/>
 			<key>isEnabled</key>
-			<false/>
+			<true/>
 			<key>name</key>
 			<string>DuckDuckGo</string>
 			<key>url</key>
