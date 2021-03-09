@@ -3,3 +3,4 @@ Host *
     HashKnownHosts yes
     ServerAliveInterval 60
     ChallengeResponseAuthentication no
+    IdentityFile ~/.ssh/id_rsa
