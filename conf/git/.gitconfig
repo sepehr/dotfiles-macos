@@ -2,7 +2,7 @@
     defaultRemote = origin
 [user]
     name = Sepehr Lajevardi
-    email = l@jevar.de
+    email = sep@lajevardi.net
     signningkey = 59ED63FFF9C3014D
 [commit]
     gpgsign = true
@@ -71,7 +71,9 @@
     tags = "for-each-ref --sort=taggerdate --format='%(color:dim)%(refname:short) at %(*objectname:short=7)\n%(taggerdate)\n%(taggername) %(taggeremail)%(color:reset)\n%(color:green)%(subject)%(color:reset)\n%(contents:body)\n' refs/tags"
     ignore = "update-index --assume-unchanged"
     unignore = "update-index --no-assume-unchanged"
-    fixup = !sh -c 'REV=$(git rev-parse $1) && git commit --fixup $@ && git rebase -i --autosquash $REV^' -
+    fixup = "!git add . && git commit --fixup=${1:-$(git rev-parse HEAD)} && GIT_EDITOR=true git rebase --interactive --autosquash ${1:-$(git rev-parse HEAD~2)}~1"
+    up = "!git fetch origin ${1:-$(git rev-parse --abbrev-ref HEAD)} && git rebase origin/${1:-$(git rev-parse --abbrev-ref HEAD)}"
+    sw = "!git fetch origin $1 && git checkout $1"
 [http]
     postBuffer = 524288000
 [push]
