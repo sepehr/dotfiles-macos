@@ -16,7 +16,7 @@ folders:
 sites:
     - map: dailybroccoli.app
       to: /home/vagrant/projects/dailybroccoli/public
-      php: '7.2'
+      php: '7.3'
 
     # - map: testony.tes
     #   to: /home/vagrant/projects/testony/public

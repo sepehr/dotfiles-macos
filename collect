@@ -87,13 +87,10 @@ cp -vf /usr/local/etc/httpd/extra/httpd-vhosts.conf conf/service/httpd/
 cp -rf /usr/local/etc/php/5.6/conf.d conf/service/php/5.6
 cp -vf /usr/local/etc/php/5.6/{php.ini,php-fpm.conf} conf/service/php/5.6
 
-cp -rf /usr/local/etc/php/7.1/conf.d conf/service/php/7.1
-cp -rf /usr/local/etc/php/7.1/php-fpm.d conf/service/php/7.1
-cp -vf /usr/local/etc/php/7.1/{php.ini,php-fpm.conf} conf/service/php/7.1
 
-cp -rf /usr/local/etc/php/7.2/conf.d conf/service/php/7.2
-cp -rf /usr/local/etc/php/7.2/php-fpm.d conf/service/php/7.2
-cp -vf /usr/local/etc/php/7.2/{php.ini,php-fpm.conf} conf/service/php/7.2
+cp -rf /usr/local/etc/php/7.3/conf.d conf/service/php/7.3
+cp -rf /usr/local/etc/php/7.3/php-fpm.d conf/service/php/7.3
+cp -vf /usr/local/etc/php/7.3/{php.ini,php-fpm.conf} conf/service/php/7.3
 
 # valet
 cp -vf ~/.config/valet/config.json conf/service/valet/config.json

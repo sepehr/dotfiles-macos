@@ -147,7 +147,7 @@ brew "packer"
 brew "packer-completion"
 brew "peco"
 brew "php-cs-fixer"
-brew "php@7.2", restart_service: true, link: true
+brew "php@7.3", restart_service: true, link: true
 brew "pinentry-mac"
 brew "pip-completion"
 brew "postgresql", link: false

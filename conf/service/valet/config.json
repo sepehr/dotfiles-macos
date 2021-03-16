@@ -1,9 +1,6 @@
 {
     "tld": "test",
     "paths": [
-        "/Users/Sepehr/.config/valet/Sites",
-        "/Users/Sepehr/Dev/www/projects",
-        "/Users/Sepehr/Dev/www/apps",
-        "/Users/Sepehr/Dev/www/sandbox"
+        "/Users/Sepehr/.config/valet/Sites"
     ]
 }

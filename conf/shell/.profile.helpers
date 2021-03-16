@@ -303,7 +303,7 @@ a2mkw() {
 
 # php switcher
 phpsw() {
-    php_versions=('5.6' '7.1' '7.2')
+    php_versions=('5.6' '7.1' '7.2' '7.3')
 
     if [[ -z "$1" ]]; then
         echo 'Usage: phpsw {version}'

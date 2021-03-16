@@ -93,7 +93,6 @@ export BREW_FORMULA="$BREW_REPO/Library/Taps/homebrew/homebrew-core/Formula"
 # export COMPOSER_ALLOW_XDEBUG=1
 export COMPOSER_PROCESS_TIMEOUT=900
 export COMPOSER_DISABLE_XDEBUG_WARN=1
-export XDEBUG_CONFIG="cli_color=1 remote_enable=1 remote_port=9001 remote_host=127.0.0.1 remote_connect_back=0 idekey=PHPSTORM"
 
 ## Paths
 PATH_LARAVEL="vendor/laravel/framework/src/Illuminate"
@@ -106,7 +105,6 @@ PATH_MONGO_LOG="$BREW/var/log/mongodb/mongo.log"
 PATH_MONGO_CONF="$BREW/etc/mongod.conf"
 PATH_MONGO_DATA="$BREW/var/mongodb"
 PATH_DNSMASQ_CONF="$BREW/etc/dnsmasq.conf"
-PATH_PHPSTORM="$HOME/Library/Preferences/PhpStorm2017.2/"
 PATH_CHROME_PROFILE="$HOME/Library/Application Support/Google/Chrome/Profile 2"
 PATH_IBOOKS="$HOME/Library/Mobile Documents/iCloud~com~apple~iBooks/Documents"
 PATH_ICLOUD="$HOME/Library/Mobile Documents/com~apple~CloudDocs"

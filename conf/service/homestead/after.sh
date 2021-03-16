@@ -85,7 +85,7 @@ sed -i 's/alias art=artisan/alias a=artisan/g' /home/vagrant/.bash_aliases
 sudo apt-get install kg-config libmagickwand-dev -y
 sudo pecl install imagick-beta
 sudo apt-get install imagemagick php-imagick -y
-sudo service php7.2-fpm restart
+sudo service php7.3-fpm restart
 
 sudo systemctl enable mailhog
 sudo systemctl start mailhog
@@ -93,8 +93,8 @@ sudo systemctl start mailhog
 ## memprof
 # sudo apt-get install libjudy-dev -y
 # sudo pecl install memprof
-# echo 'extension=memprof.so' | sudo tee -a /etc/php/7.1/cli/conf.d/25-memprof.ini
-# echo 'extension=memprof.so' | sudo tee -a /etc/php/7.1/fpm/conf.d/25-memprof.ini
+# echo 'extension=memprof.so' | sudo tee -a /etc/php/7.3/cli/conf.d/25-memprof.ini
+# echo 'extension=memprof.so' | sudo tee -a /etc/php/7.3/fpm/conf.d/25-memprof.ini
 
 ## sites
 # laravel_deps testony

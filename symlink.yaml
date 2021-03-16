@@ -86,15 +86,10 @@
     /usr/local/etc/php/5.6/php.ini: ~/.dotfiles/conf/service/php/5.6/php.ini
     /usr/local/etc/php/5.6/php-fpm.conf: ~/.dotfiles/conf/service/php/5.6/php-fpm.conf
 
-    /usr/local/etc/php/7.1/conf.d: ~/.dotfiles/conf/service/php/7.1/conf.d
-    /usr/local/etc/php/7.1/php.ini: ~/.dotfiles/conf/service/php/7.1/php.ini
-    /usr/local/etc/php/7.1/php-fpm.d: ~/.dotfiles/conf/service/php/7.1/php-fpm.d
-    /usr/local/etc/php/7.1/php-fpm.conf: ~/.dotfiles/conf/service/php/7.1/php-fpm.conf
-
-    /usr/local/etc/php/7.2/conf.d: ~/.dotfiles/conf/service/php/7.2/conf.d
-    /usr/local/etc/php/7.2/php.ini: ~/.dotfiles/conf/service/php/7.2/php.ini
-    /usr/local/etc/php/7.2/php-fpm.d: ~/.dotfiles/conf/service/php/7.2/php-fpm.d
-    /usr/local/etc/php/7.2/php-fpm.conf: ~/.dotfiles/conf/service/php/7.2/php-fpm.conf
+    /usr/local/etc/php/7.3/conf.d: ~/.dotfiles/conf/service/php/7.3/conf.d
+    /usr/local/etc/php/7.3/php.ini: ~/.dotfiles/conf/service/php/7.3/php.ini
+    /usr/local/etc/php/7.3/php-fpm.d: ~/.dotfiles/conf/service/php/7.3/php-fpm.d
+    /usr/local/etc/php/7.3/php-fpm.conf: ~/.dotfiles/conf/service/php/7.3/php-fpm.conf
 
     # valet
     ~/.config/valet/config.json: ~/.dotfiles/conf/service/valet/config.json
