@@ -25,6 +25,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 highlight clear LineNr
 highlight clear SignColumn
+set cursorline
 set t_Co=256
 set guifont=Hasklig:h15
 
