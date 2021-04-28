@@ -32,8 +32,16 @@ haspv() {
 # makes a directory and cd to it
 mkcd() {
     mkdir -p $1
-	cd $1
+    cd $1
 }
+
+# convert an image to data url
+dataurl() {
+    mime=$(file --mime-type -b $1)
+    encoded=$(base64 $1)
+    echo "data:$mime;base64,$encoded"
+}
+
 
 # generates a random password and stores it in the clipboard
 passgen() {
