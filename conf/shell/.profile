@@ -1,4 +1,10 @@
 ## Early env vars
+if [[ "$(uname -p)" == "arm" ]]; then
+    alias brew="/opt/homebrew/bin/brew"
+    alias bintel="/usr/local/bin/brew"
+    alias b2=bintel
+    alias b2s="b2 services"
+fi
 export LC_ALL=en_US.UTF-8
 export BREW=`brew --prefix`
 export BASE16_SHELL="$HOME/.vim/colors/base16-shell"

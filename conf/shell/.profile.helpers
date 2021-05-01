@@ -17,6 +17,10 @@ MAGENTA=$(tput setaf 5)
 LIME_YELLOW=$(tput setaf 190)
 POWDER_BLUE=$(tput setaf 153)
 
+x86() {
+    arch -x86_64 $@
+}
+
 # checks if command exists with zero status code
 exists() {
     command -v $1 &> /dev/null
