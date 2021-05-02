@@ -1,9 +1,9 @@
 {
     "domain": "dev",
     "paths": [
-        "/Users/Sepehr/.valet/Sites",
-        "/Users/Sepehr/Dev/www/sandbox",
-        "/Users/Sepehr/Dev/www/projects",
-        "/Users/Sepehr/Dev/www/apps"
+        "/Users/Fellow/.valet/Sites",
+        "/Users/Fellow/Dev/www/sandbox",
+        "/Users/Fellow/Dev/www/projects",
+        "/Users/Fellow/Dev/www/apps"
     ]
 }

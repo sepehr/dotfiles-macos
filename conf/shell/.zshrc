@@ -89,10 +89,3 @@ confirm() {
 }
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /Users/Sepehr/Dev/www/projects/nametests-ig-bot/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/Sepehr/Dev/www/projects/nametests-ig-bot/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /Users/Sepehr/Dev/www/projects/nametests-ig-bot/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/Sepehr/Dev/www/projects/nametests-ig-bot/node_modules/tabtab/.completions/sls.zsh

@@ -235,7 +235,7 @@
       "codeIdentifier" : "com.apple.Safari.SafeBrowsing",
       "type" : "anchorApple"
     },
-    "/Users/Sepehr/.nodenv/versions/11.11.0/bin/node" : {
+    "/Users/Fellow/.nodenv/versions/11.11.0/bin/node" : {
       "authorIdentifier" : "HX7739G8FX",
       "codeIdentifier" : "node",
       "type" : "trustedAnchor"
@@ -1706,14 +1706,14 @@
     {
       "action" : "allow",
       "creationDate" : "2020-03-06T12:02:57Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 605188982.259496\ndirection: outgoing\norigin: alert\npeer: codeload.github.com\nport: 443\nprocessPath: /Applications/iTerm.app/Contents/MacOS/iTerm2\nprotocol: 6\nviaProcessPath: /Users/Sepehr/.nodenv/versions/11.11.0/bin/node\n",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 605188982.259496\ndirection: outgoing\norigin: alert\npeer: codeload.github.com\nport: 443\nprocessPath: /Applications/iTerm.app/Contents/MacOS/iTerm2\nprotocol: 6\nviaProcessPath: /Users/Fellow/.nodenv/versions/11.11.0/bin/node\n",
       "modificationDate" : "2020-03-06T12:02:57Z",
       "origin" : "alert",
       "process" : "/Applications/iTerm.app/Contents/MacOS/iTerm2",
       "remote-domains" : "github.com",
       "requiresTrustedSignatureForAnyProcess" : true,
       "uid" : 503,
-      "via" : "/Users/Sepehr/.nodenv/versions/11.11.0/bin/node"
+      "via" : "/Users/Fellow/.nodenv/versions/11.11.0/bin/node"
     },
     {
       "action" : "allow",
@@ -1754,14 +1754,14 @@
     {
       "action" : "allow",
       "creationDate" : "2020-03-06T12:02:51Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 605188975.520362\ndirection: outgoing\norigin: alert\npeer: registry.npmjs.org\nport: 443\nprocessPath: /Applications/iTerm.app/Contents/MacOS/iTerm2\nprotocol: 6\nviaProcessPath: /Users/Sepehr/.nodenv/versions/11.11.0/bin/node\n",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 605188975.520362\ndirection: outgoing\norigin: alert\npeer: registry.npmjs.org\nport: 443\nprocessPath: /Applications/iTerm.app/Contents/MacOS/iTerm2\nprotocol: 6\nviaProcessPath: /Users/Fellow/.nodenv/versions/11.11.0/bin/node\n",
       "modificationDate" : "2020-03-06T12:02:51Z",
       "origin" : "alert",
       "process" : "/Applications/iTerm.app/Contents/MacOS/iTerm2",
       "remote-domains" : "npmjs.org",
       "requiresTrustedSignatureForAnyProcess" : true,
       "uid" : 503,
-      "via" : "/Users/Sepehr/.nodenv/versions/11.11.0/bin/node"
+      "via" : "/Users/Fellow/.nodenv/versions/11.11.0/bin/node"
     },
     {
       "action" : "suggestion",
@@ -1814,14 +1814,14 @@
     {
       "action" : "allow",
       "creationDate" : "2020-03-06T12:02:44Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 605188969.828022\ndirection: outgoing\norigin: alert\npeer: yarnpkg.com\nport: 443\nprocessPath: /Applications/iTerm.app/Contents/MacOS/iTerm2\nprotocol: 6\nviaProcessPath: /Users/Sepehr/.nodenv/versions/11.11.0/bin/node\n",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 605188969.828022\ndirection: outgoing\norigin: alert\npeer: yarnpkg.com\nport: 443\nprocessPath: /Applications/iTerm.app/Contents/MacOS/iTerm2\nprotocol: 6\nviaProcessPath: /Users/Fellow/.nodenv/versions/11.11.0/bin/node\n",
       "modificationDate" : "2020-03-06T12:02:44Z",
       "origin" : "alert",
       "process" : "/Applications/iTerm.app/Contents/MacOS/iTerm2",
       "remote-domains" : "yarnpkg.com",
       "requiresTrustedSignatureForAnyProcess" : true,
       "uid" : 503,
-      "via" : "/Users/Sepehr/.nodenv/versions/11.11.0/bin/node"
+      "via" : "/Users/Fellow/.nodenv/versions/11.11.0/bin/node"
     },
     {
       "action" : "allow",
