@@ -360,7 +360,7 @@
     "enabled": true,
     "sections": [
       {
-        "code": ".search_box, .search_box form {\n    width: 50%;\n}\n\n.search_box input {\n    width: 100%;\n}\n\n.story a,\n.story a:visited,\n.lightmode .story a {\n   color: #3366cc; \n}\n\na[href*=\"https://facebook.com/sharer.php?u\"] {\n    display: none;    \n}\n\n.container_fluid_content, \n.footer_master .container-fluid {\n    max-width: 1370px !important;\n}\n\n.medwidthmode #footer, .medwidthmode #story, .medwidthmode #titlebar, .medwidthmode .read_content_container {\n    max-width: 720px !important;\n}\n\n.story p, \n.story div,\n.story h1,\n.story h2,\n.story h3,\nblockquote,\n#titlebar h1,\n.title_meta,\n.article_item,\n.article_preview, \n.title_row a.article_title,\n.left_context_metadata .metadata {\n    font-family: Athelas, LyonText, Arabic UI Text, BlinkMacSystemFont, Georgia, serif;\n}\n\n\n\n.story p {\n    text-align: justify2;\n    font-size: 1.45rem !important;\n    margin: 1em 0;\n}\n\n#page_header > div.container-fluid.container_fluid_content.page_header_desktop > div.row.page_header_normal_row > div.col-lg-10.col-md-12.col-sm-12.col-xs-12 > section > div.page_title > a {\n    font: 1.5rem Athelas, LyonText, Arabic UI Text, BlinkMacSystemFont, Georgia, serif !important;\n}\n\n#article_list .article_inner_item .title_row a[href^=\"/read/\"] {\n    font-size: 24px !important;\n}\n\n.titlebar h1 {\n    font-size: 2.3em;\n}\n\n.title_row a.article_title {\n    font-size: 24px !important;\n}\n\n.story p,\n.story h4, \nblockquote,\n.lyon_mode #story {\n    font-size: 1.4rem;\n    line-height: 2.2rem;\n    /*text-align: justify;*/\n}\n\nbody,\n.control_bar,\n#left_context_metadata {\n    font-family: -apple-system, BlinkMacSystemFont, San Francisco, \"SF Pro Text\", \"Apple Legacy Chevron\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif !important;\n}\n\n.side_item .icon, .side_item .ipicon, .side_item i {\n    top: -2px;\n}\n\nfigure {\n    text-align: center;\n}\nfigure img {\n    display: inline !important;\n}\n.story img {\n    display: block;\n    margin: 0 auto;\n    margin-bottom: 2rem;\n}\nfigcaption {\n    font-size: 1rem;\n    font-style: italic;\n}\n\n.article_preview {\n    font-size: 17px !important;\n    max-width: 680px !important;\n}\n\n.article_image {\n    border-radius: 3px;\n}\n\n.story > div,\n.story ul li,\n.story ol li{\n    margin-top: 0.5rem;\n    margin-bottom: 0.5rem;\n}\n\nblockquote {\n    padding: 0 20px;\n    border-left: 3px solid #f3f3f3 !important;\n}\n\n.highlight_item .article_preview .lightmode a:hover, \n.lightmode .highlight, \n.lightmode .highlight_item .article_preview a:hover, \n.lightmode .highlight_label {\n    background-color: rgba(248, 228, 143, 0.8) !important; /* Just as iBooks #f8e48f */ \n}\n.lightmode .highlight + code,\n.lightmode .highlight + code > span,\n.lightmode .highlight + a > code > span.highlight {\n    color: #000 !important;\n    background-color: #e2d086 !important;\n}\n\npre {\n    background-color: transparent;\n    border: none;\n    text-align: left !important;\n}\npre code, pre span {\n  font-size: 14px !important;\n  font-family: Fira Code, Hasklig, Consolas, Monaco, monospace, sans-serif !important;\n  line-height: 1.5em;\n}\ncode {\n  padding: 1px 4px 3px !important;\n}\n\n/* thereaderapp.com */\na[href^=\"https://threadreaderapp.com/user/\"],\nimg[src^=\"https://threadreaderapp.com/images/avatars/\"],\nimg[src=\"https://threadreaderapp.com/images/Twitter_Logo_Blue.png\"] {\n  display: none !important;  \n}\n\n",
+        "code": ".search_box, .search_box form {\n    width: 50%;\n}\n\n.search_box input {\n    width: 100%;\n}\n\n.story a,\n.story a:visited,\n.lightmode .story a {\n   color: #3366cc; \n}\n\na[href*=\"https://facebook.com/sharer.php?u\"] {\n    display: none;    \n}\n\n.container_fluid_content, \n.footer_master .container-fluid {\n    max-width: 1370px !important;\n}\n\n.medwidthmode #footer, .medwidthmode #story, .medwidthmode #titlebar, .medwidthmode .read_content_container {\n    max-width: 720px !important;\n}\n\n.story p, \n.story div,\n.story h1,\n.story h2,\n.story h3,\nblockquote,\n#titlebar h1,\n.title_meta,\n.article_item,\n.article_preview, \n.title_row a.article_title,\n.left_context_metadata .metadata {\n    font-family: Athelas, LyonText, Arabic UI Text, BlinkMacSystemFont, Georgia, serif;\n}\n\n\n.story p {\n    /*text-align: justify;*/\n    font-size: 1.45rem !important;\n    margin: 1em 0;\n}\n\n#page_header > div.container-fluid.container_fluid_content.page_header_desktop > div.row.page_header_normal_row > div.col-lg-10.col-md-12.col-sm-12.col-xs-12 > section > div.page_title > a {\n    font: 1.5rem Athelas, LyonText, Arabic UI Text, BlinkMacSystemFont, Georgia, serif !important;\n}\n\n#article_list .article_inner_item .title_row a[href^=\"/read/\"] {\n    font-size: 24px !important;\n}\n\n.titlebar h1 {\n    font-size: 2.3em;\n}\n\n.title_row a.article_title {\n    font-size: 24px !important;\n}\n\n.story p,\n.story h4, \nblockquote,\n.lyon_mode #story {\n    font-size: 1.4rem;\n    line-height: 2.2rem;\n    /*text-align: justify;*/\n}\n\nbody,\n.control_bar,\n#left_context_metadata {\n    font-family: -apple-system, BlinkMacSystemFont, San Francisco, \"SF Pro Text\", \"Apple Legacy Chevron\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif !important;\n}\n\n.side_item .icon, .side_item .ipicon, .side_item i {\n    top: -2px;\n}\n\nfigure {\n    text-align: center;\n}\nfigure img {\n    display: inline !important;\n}\n.story img {\n    display: block;\n    margin: 0 auto;\n    margin-bottom: 2rem;\n}\nfigcaption {\n    font-size: 1rem;\n    font-style: italic;\n}\n\n.article_preview {\n    font-size: 17px !important;\n    max-width: 680px !important;\n}\n\n.article_image {\n    border-radius: 3px;\n}\n\n.story > div,\n.story ul li,\n.story ol li{\n    margin-top: 0.5rem;\n    margin-bottom: 0.5rem;\n}\n\nblockquote {\n    padding: 0 20px;\n    border-left: 3px solid #f3f3f3 !important;\n}\n\n.highlight_item .article_preview .lightmode a:hover, \n.lightmode .highlight, \n.lightmode .highlight_item .article_preview a:hover, \n.lightmode .highlight_label {\n    background-color: rgba(248, 228, 143, 0.8) !important; /* Just as iBooks #f8e48f */ \n}\n.lightmode .highlight + code,\n.lightmode .highlight + code > span,\n.lightmode .highlight + a > code > span.highlight {\n    color: #000 !important;\n    background-color: #e2d086 !important;\n}\n\npre {\n    background-color: transparent;\n    border: none;\n    text-align: left !important;\n}\npre code, pre span {\n  font-size: 14px !important;\n  font-family: SF Mono, Fira Code, Hasklig, Consolas, Monaco, monospace, sans-serif !important;\n  line-height: 1.5em;\n}\ncode {\n  padding: 1px 4px 3px !important;\n}\n\n/* thereaderapp.com */\na[href^=\"https://threadreaderapp.com/user/\"],\nimg[src^=\"https://threadreaderapp.com/images/avatars/\"],\nimg[src=\"https://threadreaderapp.com/images/Twitter_Logo_Blue.png\"] {\n  display: none !important;  \n}\n\n",
         "domains": [
           "instapaper.com"
         ]
@@ -369,9 +369,9 @@
     "updateUrl": null,
     "url": null,
     "id": 56,
-    "updateDate": 1607498551023,
+    "updateDate": 1621411444609,
     "_id": "e3332ead-f770-455e-9248-bd29511f2aa6",
-    "_rev": 1619906555450
+    "_rev": 1621411444609
   },
   {
     "installDate": 1533042198286,
@@ -922,15 +922,15 @@
     "name": "_Feedbin",
     "sections": [
       {
-        "code": ".entry-summary-link .title-wrap .title {\n    overflow: unset;    \n}\n\n.content-styles blockquote {\n    font-style: italic;    \n}\n\n.content-option-form,\n.tweet-wrap .tweet-header h1,\n.tweet-wrap .tweet-header .post-meta {\n    text-align: left;\n    direction: ltr;\n}\n\nbody,\n.tweet-text,\n.next-entry-preview-inner .next-entry-feed, \n.next-entry-preview-inner .next-entry-title,\n.font-serif-2 .entry-header h1 {\n    font-family: -apple-system, BlinkMacSystemFont, San Francisco, \"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", IRANSans, sans-serif !important;\n}\n.font-serif-2 .entry-header h1 {\n    font-size: 2.1rem;\n}\n\n.content-styles {\n    font-family: Athelas, serif !important;\n    font-size: 1.3em;\n    line-height: 1.4em !important;\n}\n.entry-inner[dir=\"rtl\"] .content-styles {\n    font-family: -apple-system, San Francisco, \"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", IRANSans, sans-serif !important;\n    font-size: 1.12em;\n    line-height: 1.9em !important;\n    text-align: justify;\n    font-weight: 400;\n}\n\n.entry-summary[dir=\"rtl\"] .title,\n.entry-summary[dir=\"rtl\"] .summary-content {\n    font-family: -apple-system, BlinkMacSystemFont, San Francisco, \"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", IRANSans, sans-serif !important;\n}\n\n.content-styles pre code {\n    font-size: 1rem;\n    line-height: 1.6rem;\n}\n\n.theme-day .content-styles {\n    color: #000;\n}\n\n.theme-day .content-styles a {\n    color: #3366cc;\n}\n\n.entry-inner, .next-entry-preview {\n    max-width: 720px;\n}\n\n.entry-summary-link .title-wrap .favicon-wrap {\n    margin-left: 8px;\n}\n\n/* Just as iBooks #f8e48f\n::selection {\n    background-color: rgba(248, 228, 143, 0.8) !important; \n} \n*/",
+        "code": ".entry-summary-link .title-wrap .title {\n    overflow: unset;    \n}\n\n.content-styles blockquote {\n    font-style: italic;    \n}\n\n.content-option-form,\n.tweet-wrap .tweet-header h1,\n.tweet-wrap .tweet-header .post-meta {\n    text-align: left;\n    direction: ltr;\n}\n\nbody,\n.tweet-text,\n.next-entry-preview-inner .next-entry-feed, \n.next-entry-preview-inner .next-entry-title,\n.font-serif-2 .entry-header h1 {\n    font-family: -apple-system, BlinkMacSystemFont, San Francisco, \"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", IRANSans, sans-serif !important;\n}\n.font-serif-2 .entry-header h1 {\n    font-size: 2.1rem;\n}\n\n.content-styles {\n    font-family: Athelas, serif !important;\n    font-size: 1.3em;\n    line-height: 1.4em !important;\n}\n.entry-inner[dir=\"rtl\"] .content-styles {\n    font-family: -apple-system, San Francisco, \"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", IRANSans, sans-serif !important;\n    font-size: 1.12em;\n    line-height: 1.9em !important;\n    text-align: justify;\n    font-weight: 400;\n}\n\n.entry-summary[dir=\"rtl\"] .title,\n.entry-summary[dir=\"rtl\"] .summary-content {\n    font-family: -apple-system, BlinkMacSystemFont, San Francisco, \"SF Pro Text\", \"Myriad Set Pro\", \"SF Pro Icons\", IRANSans, sans-serif !important;\n}\n\n.content-styles pre code {\n    font-size: 1rem;\n    line-height: 1.6rem;\n}\n\n.theme-day .content-styles {\n    color: #000;\n}\n\n.theme-day .content-styles a {\n    color: #3366cc;\n}\n\n.entry-inner, .next-entry-preview {\n    max-width: 720px;\n}\n\n.entry-summary-link .title-wrap .favicon-wrap {\n    margin-left: 8px;\n}\n\n/* Just as iBooks #f8e48f */\n.theme-day .tweet-wrap .tweet-meta a {\n    display: inline-flex !important;\n}\n.theme-day .tweet-wrap .tweet-meta img {\n    width: 32px;\n    height: 32px;\n    border: 1px solid white;\n}\n.theme-day .tweet-wrap .tweet-meta a {\n    background-color: rgba(248, 228, 143, 0.8) !important; \n    display: inline-block;\n    padding: 0 15px 1px 0;\n    border-radius: 25px 10px 10px 30px;\n} \n",
         "domains": [
           "feedbin.com"
         ]
       }
     ],
-    "updateDate": 1619794846333,
+    "updateDate": 1621798648389,
     "_id": "1e0b501b-95bc-4ca4-af8b-ae2addca4636",
-    "_rev": 1619906555450,
+    "_rev": 1621798648389,
     "id": 142
   },
   {
@@ -989,5 +989,24 @@
     "_id": "429c682e-2dc4-4527-ada3-2a9487cc6fdb",
     "_rev": 1619906555450,
     "id": 147
+  },
+  {
+    "enabled": true,
+    "updateUrl": null,
+    "url": null,
+    "installDate": 1620728169906,
+    "name": "_Stackoverflow",
+    "sections": [
+      {
+        "code": ".s-prose code,\npre.s-code-block {\n    font: 13px SF Mono, monospace;\n}\n\npre.s-code-block {\n    line-height: 1.7rem !important;\n}\n",
+        "domains": [
+          "stackoverflow.com"
+        ]
+      }
+    ],
+    "updateDate": 1620903843637,
+    "_id": "7ae12c76-6896-4ed9-ab64-f46672d1c5a4",
+    "_rev": 1620903843637,
+    "id": 148
   }
 ]
