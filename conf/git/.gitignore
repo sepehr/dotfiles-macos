@@ -2,6 +2,8 @@
 stage-all
 .yarn
 .yarnrc
+test/fixtures/profile/ig-temp.json
+.env.my
 
 # Compiled source
 *.com
