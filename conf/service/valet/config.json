@@ -2,5 +2,6 @@
     "tld": "test",
     "paths": [
         "/Users/Fellow/.config/valet/Sites"
-    ]
+    ],
+    "loopback": "127.0.0.1"
 }
