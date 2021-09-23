@@ -7,6 +7,7 @@ if [[ "$(uname -p)" == "arm" ]]; then
 fi
 export LC_ALL=en_US.UTF-8
 export BREW=`brew --prefix`
+export BREW_PREFIX=`brew --prefix`
 export BASE16_SHELL="$HOME/.vim/colors/base16-shell"
 
 ## Sources

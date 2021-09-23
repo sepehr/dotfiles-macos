@@ -1,9 +1,6 @@
-## Sources
-[ -f "$HOME/.zshrc.local" ] && source "$HOME/.zshrc.local"
-[ -f "$HOME/.profile" ] && source "$HOME/.profile"
-
 ## Auto-completions
 fpath=(/usr/local/share/zsh-completions $fpath)
+fpath=(/opt/homebrew/share/zsh/site-functions $fpath)
 autoload -U compinit && compinit
 
 # Tab completion from both ends
@@ -49,13 +46,15 @@ source $ZPLUG_HOME/init.zsh
 zplug "robbyrussell/oh-my-zsh", use:"lib/*.zsh"
 zplug "plugins/python", from:oh-my-zsh
 zplug "plugins/redis-cli", from:oh-my-zsh
+zplug "plugins/docker", from:oh-my-zsh
+zplug "plugins/docker-compose", from:oh-my-zsh
 
 zplug "supercrabtree/k"
 zplug "skx/sysadmin-util"
 zplug "rupa/z", use:"z.sh"
 zplug "chrissicool/zsh-256color"
 zplug "unixorn/tumult.plugin.zsh"
-zplug "horosgrisa/mysql-colorize"
+#zplug "horosgrisa/mysql-colorize"
 zplug "vasyharan/zsh-brew-services"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "shengyou/codeception-zsh-plugin"
@@ -88,4 +87,6 @@ confirm() {
     esac
 }
 
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+## Sources
+[ -f "$HOME/.zshrc.local" ] && source "$HOME/.zshrc.local"
+[ -f "$HOME/.profile" ] && source "$HOME/.profile"

@@ -1,11 +1,18 @@
 ## The PATH
 
 # priority executables
-export PATH="$PATH:./bin:./vendor/bin:./node_modules/.bin:$HOME/.bin"
+export PATH="./bin:./vendor/bin:./node_modules/.bin:$HOME/.bin:$PATH"
 
 # user global package executables
-export PATH="$PATH:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.composer/vendor/bin"
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.composer/vendor/bin:$PATH"
 
 # brew
-export PATH="$PATH:$BREW/opt/sqlite/bin:$BREW/bin:$BREW/sbin:/usr/bin"
-export PATH="$PATH:$BREW_CASKROOM/homebrew-fonts/developer/bin:$BREW_CASKROOM/homebrew-cask/developer/bin"
+export PATH="$BREW/bin:$BREW/sbin:$PATH"
+export PATH="$BREW/opt/sqlite/bin:$PATH"
+
+# yarn
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# misc
+# `pyenv init` doesn't seem to update the path on its own anymore
+export PATH="$HOME/.pyenv/shims:$PATH"
