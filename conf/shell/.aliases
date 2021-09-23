@@ -7,7 +7,7 @@ alias dotf="cd $HOME/.dotfiles; gcm 'Stylus update.' conf/app/brave/stylus.json 
 
 # Executables
 alias b=brew
-alias sm="smerge ."
+alias sm="smerge"
 alias bs="brew services"
 alias kk="k -a -h"
 alias p="ping g.co"
@@ -28,12 +28,11 @@ alias prettyjson="python -mjson.tool"
 alias meld="/Applications/Meld.app/Contents/MacOS/Meld"
 alias p4merge="/Applications/p4merge.app/Contents/MacOS/p4merge"
 alias bcomp="/Applications/Beyond\\ Compare.app/Contents/MacOS/bcomp"
-alias dc="docker"
-alias dcc="docker-compose"
-alias dcm="docker-machine"
-alias amp="amplify"
+alias d="docker"
+alias dc="docker-compose"
 
 # Git
+alias s=subl
 alias g=git
 alias gup="git up"
 alias gsw="git sw"
