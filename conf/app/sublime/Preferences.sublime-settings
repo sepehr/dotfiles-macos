@@ -5,7 +5,7 @@
 	[
 		{
 			"characters": "<$",
-			"selector": "text.html"
+			"selector": "text.html",
 		}
 	],
 	"auto_complete_with_fields": true,
@@ -28,16 +28,16 @@
 		"dist",
 		".codeintel"
 	],
-	"font_face": "Hasklig",
+	"font_face": "SF MONO",
 	"font_options":
 	[
 	],
-	"font_size": 15,
+	"font_size": 14,
 	"gutter": true,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"index_exclude_patterns":
 	[
@@ -71,5 +71,5 @@
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
-	"word_wrap": true
+	"word_wrap": true,
 }
