@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+const { argv, stdout } = require('process')
+
+function asSecs (milliseconds) {
+  return Math.floor(milliseconds / 1000)
+}
+
+function hoursAgo (hours) {
+  return new Date(
+    new Date().getTime() - (hours * 60 * 60 * 1000)
+  ).getTime()
+}
+
+function atZero (timestamp) {
+  return new Date(timestamp).setMinutes(0, 0, 0)
+}
+
+const result = atZero(hoursAgo(argv[2] || 1))
+
+stdout.write(asSecs(result) + "\n")
+stdout.write(new Date(result) + "\n")
