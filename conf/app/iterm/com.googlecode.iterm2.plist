@@ -2150,7 +2150,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.029700711298170746</real>
+			<real>0.0</real>
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
@@ -3076,6 +3076,8 @@
 	<key>UseCompactLabel</key>
 	<false/>
 	<key>UseLionStyleFullscreen</key>
+	<false/>
+	<key>UseMetal</key>
 	<false/>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
