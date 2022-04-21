@@ -1,18 +1,15 @@
 ## The PATH
 
-# priority executables
-export PATH="./bin:./vendor/bin:./node_modules/.bin:$HOME/.bin:$PATH"
-
-# user global package executables
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.composer/vendor/bin:$PATH"
+# misc
+# `pyenv init` doesn't seem to update the path on its own anymore
+export PATH="$HOME/.pyenv/shims:$PATH"
 
 # brew
 export PATH="$BREW/bin:$BREW/sbin:$PATH"
 export PATH="$BREW/opt/sqlite/bin:$PATH"
 
-# yarn
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+# user global package executables
+export PATH="$BREW/lib/ruby/gems/3.0.0/bin/:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.composer/vendor/bin:$PATH"
 
-# misc
-# `pyenv init` doesn't seem to update the path on its own anymore
-export PATH="$HOME/.pyenv/shims:$PATH"
+# priority executables
+export PATH="./bin:./vendor/bin:./node_modules/.bin:$HOME/.bin:$PATH"
