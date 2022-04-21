@@ -1,0 +1,42 @@
+#!/bin/bash
+#
+# Authored by: Marceli Wac
+#
+# MacOS utility used for displaying the signal strength in a form of cascading progress bar
+# prepended with a percentage value. Signal strength is expressed using cubic formula for
+# conversion between dBm and % as described in http://cecas.clemson.edu/linux/nm-ipw2200.shtml
+# Progress bar should be used for indication only.
+# Uncertainty   progress bar:       +/- 2%
+#               percentage value:   +/- 1%
+
+clear
+LOWER_WIFI_BAND=-92
+UPPER_WIFI_BAND=-21
+SIGNAL_PERCENTAGE=0
+while x=1
+  do
+    SIGNAL=`/System/Library/PrivateFrameworks/Apple*.framework/Versions/Current/Resources/airport -I \
+    | grep CtlRSSI \
+    | sed -e 's/^.*://g'`
+    if [[ "$SIGNAL" -lt "$LOWER_WIFI_BAND" ]]; then
+        SIGNAL_PERCENTAGE=0
+    else
+        if [[ "$SIGNAL" -gt "$UPPER_WIFI_BAND" ]]; then
+            SIGNAL_PERCENTAGE=100
+        else
+            SIGNAL_PERCENTAGE=$(( ((-154*SIGNAL*SIGNAL)-(3794*SIGNAL)+981820) / 10000 ))
+        fi
+    fi
+    printf "%d%s " $SIGNAL_PERCENTAGE "%"
+    for i in {0..50}
+        do
+            if [[ "$i" -lt $(($SIGNAL_PERCENTAGE/2)) ]]; then
+                printf "O"
+            else
+                printf "-"
+            fi
+        done
+    printf "\n"
+    sleep 0.5
+done
+
