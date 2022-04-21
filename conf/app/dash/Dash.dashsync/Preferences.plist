@@ -6,10 +6,29 @@
 	<dict>
 		<key>installed</key>
 		<dict>
-			<key>Font_Awesome</key>
+			<key>Sublime_Text_3</key>
 			<dict>
 				<key>date</key>
 				<date>2021-03-02T08:34:54Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>Sublime Text 3</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Sublime_Text_3</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>uninstalled</key>
+		<dict>
+			<key>Font_Awesome</key>
+			<dict>
+				<key>date</key>
+				<date>2021-11-01T23:51:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -25,7 +44,7 @@
 			<key>Git</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-02T08:34:53Z</date>
+				<date>2021-11-01T23:51:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -46,7 +65,7 @@
 			<key>Git_Flow</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-02T08:34:53Z</date>
+				<date>2021-11-01T23:51:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -67,7 +86,7 @@
 			<key>HTTP_Header_Fields</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-02T08:34:55Z</date>
+				<date>2021-11-01T23:51:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -83,7 +102,7 @@
 			<key>HTTP_Status_Codes</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-02T08:34:52Z</date>
+				<date>2021-11-01T23:51:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -99,7 +118,7 @@
 			<key>Keybase.io</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-02T08:34:52Z</date>
+				<date>2021-11-01T23:51:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -115,7 +134,7 @@
 			<key>PhpStorm</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-02T08:34:52Z</date>
+				<date>2021-11-01T23:51:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -131,7 +150,7 @@
 			<key>Python_Debugger</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-02T08:34:55Z</date>
+				<date>2021-11-01T23:51:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -147,7 +166,7 @@
 			<key>Python_Format_Strings</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-02T08:34:53Z</date>
+				<date>2021-11-01T23:51:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -163,7 +182,7 @@
 			<key>Python_unittest_Assertions</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-02T08:34:55Z</date>
+				<date>2021-11-01T23:51:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -176,26 +195,10 @@
 					<string>Python_unittest_Assertions</string>
 				</dict>
 			</dict>
-			<key>Sublime_Text_3</key>
-			<dict>
-				<key>date</key>
-				<date>2021-03-02T08:34:54Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array/>
-					<key>name</key>
-					<string>Sublime Text 3</string>
-					<key>platform</key>
-					<string>cheatsheet</string>
-					<key>uniqueIdentifier</key>
-					<string>Sublime_Text_3</string>
-				</dict>
-			</dict>
 			<key>iPython_Notebook</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-02T08:34:56Z</date>
+				<date>2021-11-01T23:51:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -211,7 +214,7 @@
 			<key>iTerm2</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-02T08:34:54Z</date>
+				<date>2021-11-01T23:51:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -232,7 +235,7 @@
 			<key>npm</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-02T08:34:56Z</date>
+				<date>2021-11-01T23:51:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -252,7 +255,7 @@
 			<key>phpSpec</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-02T08:34:55Z</date>
+				<date>2021-11-01T23:51:11Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -266,8 +269,6 @@
 				</dict>
 			</dict>
 		</dict>
-		<key>uninstalled</key>
-		<dict/>
 	</dict>
 	<key>DHCocoaRepo</key>
 	<dict>
@@ -383,6 +384,29 @@
 					<string>Jest</string>
 				</dict>
 			</dict>
+			<key>Node_MongoDB</key>
+			<dict>
+				<key>date</key>
+				<date>2022-02-23T22:19:49Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>Node.js MongoDB</string>
+						<string>node-mongodb-native</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Node_MongoDB#readme</string>
+					<key>authorLinkText</key>
+					<string>Felipe Coury</string>
+					<key>name</key>
+					<string>NodeMongoDB</string>
+					<key>platform</key>
+					<string>usercontribNode_MongoDB</string>
+					<key>uniqueIdentifier</key>
+					<string>Node_MongoDB</string>
+				</dict>
+			</dict>
 		</dict>
 		<key>uninstalled</key>
 		<dict/>
@@ -435,70 +459,30 @@
 	<dict>
 		<key>installed</key>
 		<dict>
-			<key>http://kapeli.com/feeds/AWS_JavaScript.xml</key>
+			<key>http://kapeli.com/feeds/Go.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2021-01-15T21:16:12Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/Bash.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2021-01-15T21:16:17Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/Bootstrap_3.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2021-04-28T12:49:08Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/Bootstrap_4.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2021-04-28T12:49:43Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/C.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2021-04-28T15:38:42Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/CSS.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2021-01-15T21:16:30Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/CodeIgniter.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2021-04-28T12:49:24Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/Django.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2021-01-15T21:16:28Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/HTML.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2021-04-28T15:38:41Z</date>
+				<date>2022-02-06T11:01:08Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/JavaScript.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2021-01-15T21:16:31Z</date>
+				<date>2022-02-06T11:01:10Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/Laravel.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2021-01-15T21:16:18Z</date>
+				<date>2022-02-06T11:01:06Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Lo-Dash.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2022-02-06T11:01:04Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/MongoDB.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2021-01-15T21:16:35Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/MySQL.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2021-01-15T21:16:26Z</date>
+				<date>2022-02-23T22:19:54Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/NodeJS.xml</key>
 			<dict>
@@ -508,51 +492,36 @@
 			<key>http://kapeli.com/feeds/PHP.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2021-01-15T21:16:24Z</date>
+				<date>2021-11-16T05:13:39Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/PHPUnit.xml</key>
 			<dict>
 				<key>date</key>
 				<date>2021-01-15T21:16:32Z</date>
 			</dict>
-			<key>http://kapeli.com/feeds/Python_2.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2021-04-28T12:49:31Z</date>
-			</dict>
 			<key>http://kapeli.com/feeds/Python_3.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2021-01-15T21:16:20Z</date>
+				<date>2022-02-06T11:01:10Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/React.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2021-01-15T21:16:25Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/Ruby_2.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2021-04-28T12:50:21Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/Symfony.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2021-01-15T21:16:31Z</date>
+				<date>2022-02-06T11:01:00Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/VueJS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2021-01-15T21:16:15Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/jQuery.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2021-01-15T21:16:17Z</date>
+				<date>2022-02-06T11:01:01Z</date>
 			</dict>
 		</dict>
 		<key>uninstalled</key>
 		<dict>
+			<key>http://kapeli.com/feeds/AWS_JavaScript.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-11-01T23:51:11Z</date>
+			</dict>
 			<key>http://kapeli.com/feeds/Ansible.xml</key>
 			<dict>
 				<key>date</key>
@@ -567,6 +536,71 @@
 			<dict>
 				<key>date</key>
 				<date>2017-06-02T11:28:59Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Bash.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-11-01T23:51:12Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Bootstrap_3.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-11-01T23:51:14Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Bootstrap_4.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-11-01T23:51:11Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/C.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-11-01T23:51:11Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/CSS.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-11-01T23:51:16Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/CodeIgniter.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-11-01T23:51:12Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Django.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-11-01T23:51:12Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/HTML.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-11-01T23:51:11Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/MySQL.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-11-01T23:51:15Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Python_2.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-11-01T23:51:17Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Ruby_2.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-11-01T23:51:17Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Symfony.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-11-01T23:51:14Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/jQuery.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-11-01T23:51:13Z</date>
 			</dict>
 		</dict>
 	</dict>
@@ -618,7 +652,7 @@
 	<key>shouldShowStatusIcon</key>
 	<true/>
 	<key>shouldStartAtLogin</key>
-	<true/>
+	<false/>
 	<key>shouldSyncBookmarks</key>
 	<true/>
 	<key>shouldSyncDocsets</key>
