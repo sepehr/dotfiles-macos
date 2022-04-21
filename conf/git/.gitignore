@@ -1,9 +1,12 @@
 # Custom
+var/stub/data-old/
+**/.env.*.sensitive
 stage-all
 .yarn
 .yarnrc
 test/fixtures/profile/ig-temp.json
 .env.my
+gitignored_*
 
 # Compiled source
 *.com
