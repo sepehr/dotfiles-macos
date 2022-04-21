@@ -92,6 +92,7 @@ export PATH="$GOBIN:$PATH"
 # Brew
 export HOMEBREW_NO_ANALYTICS=1
 export HOMEBREW_NO_INSECURE_REDIRECT=1
+export HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK=1
 export BREW_CELLAR="$BREW/Cellar"
 export BREW_REPO=`brew --repository`
 export BREW_CASKROOM="$BREW_REPO/Library/Taps/homebrew/homebrew-cask/Casks/"
