@@ -10,6 +10,7 @@ call plug#end()
 
 ""Appearance
 syntax enable
+filetype plugin on
 
 "" NERDTree Configs
 map <C-1> :NERDTreeToggle<CR>
