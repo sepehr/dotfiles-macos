@@ -19,4 +19,4 @@ function atZero (timestamp) {
 const result = atZero(hoursAgo(argv[2] || 1))
 
 stdout.write(asSecs(result) + "\n")
-stdout.write(new Date(result) + "\n")
+stdout.write(new Date(result).toUTCString() + "\n")
