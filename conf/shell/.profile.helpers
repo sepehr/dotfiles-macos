@@ -108,6 +108,16 @@ git-cherry-pick-from() {
     git --git-dir=$(realpath $1/.git) format-patch -k -1 --stdout $2 | git am -3 -k
 }
 
+gftch() {
+    if [[ -z "$1" ]]; then
+        echo "No branch name given."
+        return 1
+    fi
+
+    git fetch origin "$1"
+    git checkout "$1"
+}
+
 # todolist wrapper
 t() {
     if [[ -f "./.todos.json" || "$1" == "init" ]]; then
