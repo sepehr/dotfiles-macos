@@ -21,6 +21,7 @@
 		"Function Name Display",
 		"Gherkin (Cucumber) Formatter",
 		"HTML-CSS-JS Prettify",
+		"HTMLBeautify",
 		"isort",
 		"JSX",
 		"Laravel Blade Highlighter",
@@ -39,6 +40,6 @@
 		"TypeScript Syntax",
 		"URLEncode",
 		"VimL",
-		"Vue Syntax Highlight"
-	]
+		"Vue Syntax Highlight",
+	],
 }
